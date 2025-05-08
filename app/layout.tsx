@@ -10,7 +10,8 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Jasur Tagaev",
-  description: "Skin cancer and melanoma specialist | Teri saratoni va va melanoma mutaxassisi | Специалист по раку кожи и меланоме",
+  description:
+    "Skin cancer and melanoma specialist | Teri saratoni va va melanoma mutaxassisi | Специалист по раку кожи и меланоме",
 };
 
 export default function RootLayout({
@@ -20,11 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${poppins.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <body className={`${poppins.variable} antialiased`}>{children}</body>
     </html>
   );
 }
