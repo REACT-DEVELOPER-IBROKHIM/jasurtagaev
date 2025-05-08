@@ -1,13 +1,14 @@
 @import "tailwindcss";
 
-:root{
+:root {
   --color-primary: #052d4f;
-  --font-primary: 'Poppins', sans-serif;
+  --font-primary: "Poppins", sans-serif;
 }
 
-html, body {
+html,
+body {
   font-family: var(--font-primary);
-} 
+}
 
 @layer utilities {
   .bg-primary {
