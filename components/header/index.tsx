@@ -13,11 +13,19 @@ const Header = () => {
   };
 
   return (
-    <header role="header" aria-label="Header section" className="w-full h-[80px] bg-primary">
+    <header
+      role="header"
+      aria-label="Header section"
+      className="w-full h-[80px] bg-primary"
+    >
       <div className="container h-full w-full mx-auto">
         <div className="h-full w-full flex items-center justify-between relative">
-          <select role="combobox"
-            aria-label="Select Language: Uzbek, Russian, or English" name="language select" className="text-white">
+          <select
+            role="combobox"
+            aria-label="Select Language: Uzbek, Russian, or English"
+            name="language select"
+            className="text-white"
+          >
             <option className="text-black" value="uz">
               Uzbek
             </option>
