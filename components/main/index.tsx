@@ -8,17 +8,16 @@ const Main = () => {
   return (
     <main>
       <Hero />
-      <section role="article" aria-label="Articles" className="w-full h-[600px] py-[50px]">
+      <section
+        role="article"
+        aria-label="Articles"
+        className="w-full h-[600px] py-[50px]"
+      >
         <div className="container h-full mx-auto">
           <div className="flex h-full items-center justify-center gap-[24px]">
-            {
-              ARTICLES_MOCK.map((article: Props) => (
-                <ArticleCard
-                  key={article.id}
-                  article={article}
-                />
-              ))
-            }
+            {ARTICLES_MOCK.map((article: Props) => (
+              <ArticleCard key={article.id} article={article} />
+            ))}
           </div>
         </div>
       </section>

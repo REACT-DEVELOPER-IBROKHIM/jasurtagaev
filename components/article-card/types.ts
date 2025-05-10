@@ -7,4 +7,4 @@ export type Props = {
   date: string;
   linkText: string;
   elements: any[];
-}
+};

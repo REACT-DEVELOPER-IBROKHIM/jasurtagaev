@@ -7,9 +7,7 @@ export const ARTICLES_MOCK = [
     href: "/article-1",
     date: "2023-10-01",
     linkText: "Read more",
-    elements: [
-
-    ]
+    elements: [],
   },
   {
     id: 2,
@@ -19,9 +17,7 @@ export const ARTICLES_MOCK = [
     href: "/article-2",
     date: "2023-10-02",
     linkText: "Read more",
-    elements: [
-
-    ]
+    elements: [],
   },
   {
     id: 3,
@@ -31,8 +27,6 @@ export const ARTICLES_MOCK = [
     href: "/article-3",
     date: "2023-10-03",
     linkText: "Read more",
-    elements: [
-
-    ] 
-  }
-]
+    elements: [],
+  },
+];
