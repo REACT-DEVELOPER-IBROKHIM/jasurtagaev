@@ -13,10 +13,19 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full h-[80px] bg-primary">
+    <header
+      role="header"
+      aria-label="Header section"
+      className="w-full h-[80px] bg-primary"
+    >
       <div className="container h-full w-full mx-auto">
         <div className="h-full w-full flex items-center justify-between relative">
-          <select name="lang" className="text-white">
+          <select
+            role="combobox"
+            aria-label="Select Language: Uzbek, Russian, or English"
+            name="language select"
+            className="text-white"
+          >
             <option className="text-black" value="uz">
               Uzbek
             </option>
@@ -29,16 +38,19 @@ const Header = () => {
           </select>
           <Link href="/">
             <Image
-              src="/logo.svg"
+              src="/logo.png"
               alt="Logo Jasur Tagaev Portfolio - Oncologist"
               width={200}
               height={60}
+              loading="lazy"
               className="h-[60px]"
             />
           </Link>
           <div>
             <button
               onClick={handleMenuOpen}
+              aria-expanded={menuIsOpen}
+              aria-controls="navigation-menu"
               className="text-white text-2xl cursor-pointer"
             >
               <HiOutlineMenu />
