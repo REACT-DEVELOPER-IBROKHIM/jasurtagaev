@@ -7,7 +7,7 @@ const LinkElement = (
   return (
     <Link
       role="link"
-      className="bg-sky-700 mt-4 px-[30px] py-[10px] cursor-pointer hover:bg-sky-600"
+      className="bg-sky-700 mt-4 inline-block px-[30px] py-[10px] cursor-pointer text-white hover:bg-sky-600"
       {...props}
     >
       {props.children}
