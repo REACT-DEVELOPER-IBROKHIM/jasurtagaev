@@ -1,6 +1,7 @@
 import React from "react";
 import type { Metadata, ResolvingMetadata } from "next";
 import { Props } from "./type";
+import { API_URL } from "@/contants/api";
 
 export async function generateMetadata(
   { params, searchParams }: Props,
@@ -8,7 +9,7 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const slug = (await params).id;
 
-  const post = await fetch(`https://api.vercel.app/blog/${slug}`).then((res) =>
+  const post = await fetch(`${API_URL}/${slug}`).then((res) =>
     res.json(),
   );
 
