@@ -1,10 +1,13 @@
 import React from "react";
 import Hero from "../hero";
-import { ARTICLES_MOCK } from "@/mocks/article";
 import ArticleCard from "../article-card";
 import { Props } from "../article-card/types";
+import { fetchPopularArticles } from "@/helpers/api/articles.request";
+import VideoPlayer from "../video-player";
 
-const Main = () => {
+const Main = async () => {
+  const popularArticles = await fetchPopularArticles();
+
   return (
     <main>
       <Hero />
@@ -15,12 +18,13 @@ const Main = () => {
       >
         <div className="container h-full mx-auto">
           <div className="flex h-full items-center justify-center gap-[24px]">
-            {ARTICLES_MOCK.map((article: Props) => (
+            {popularArticles.map((article: Props) => (
               <ArticleCard key={article.id} article={article} />
             ))}
           </div>
         </div>
       </section>
+      <VideoPlayer />
     </main>
   );
 };
