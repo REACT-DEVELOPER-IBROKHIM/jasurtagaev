@@ -1,5 +1,4 @@
 import React from "react";
-import { Props } from "./types";
 import Image from "next/image";
 import LinkElement from "@/utils/components/link";
 
