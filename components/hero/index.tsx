@@ -1,8 +1,11 @@
 import React from "react";
 import LinkElement from "@/utils/components/link";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 const Hero = () => {
+  const t = useTranslations("home");
+
   return (
     <section
       id="hero"
@@ -21,7 +24,7 @@ const Hero = () => {
         <div className="absolute top-0 left-0 w-full h-full bg-[rgb(5,45,79)] opacity-60"></div>
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-white text-center">
           <h1 className="text-[50px]">Dr. Jasur Tagaev</h1>
-          <h2>Melanoma and Skin Cancer Institute</h2>
+          <h2>{t("hero.content_text")}</h2>
           <LinkElement href="/learn-more">Learn More</LinkElement>
         </div>
       </div>

@@ -1,17 +1,29 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { ChangeEvent } from "react";
 import { HiOutlineMenu } from "react-icons/hi";
 import Nav from "../nav";
+import { useRouter, usePathname } from "next/navigation";
 
 const Header = () => {
+  const router = useRouter();
+  const pathname = usePathname();
   const [menuIsOpen, setMenuOpen] = React.useState(false);
 
   const handleMenuOpen = () => {
     setMenuOpen(true);
   };
 
+  const handleChangeLanguage = (event: ChangeEvent<HTMLSelectElement>) => {
+    const selectedLocale = event.target.value;
+
+    const pathWithoutLocale = pathname.replace(/^\/(uz|ru|en)/, "");
+
+    const newPath = `/${selectedLocale}${pathWithoutLocale}`;
+
+    router.push(newPath);
+  };
   return (
     <header
       role="header"
@@ -21,10 +33,12 @@ const Header = () => {
       <div className="container h-full w-full mx-auto">
         <div className="h-full w-full flex items-center justify-between relative">
           <select
+            onChange={handleChangeLanguage}
             role="combobox"
             aria-label="Select Language: Uzbek, Russian, or English"
             name="language select"
             className="text-white"
+            defaultValue={pathname.split("/")[1] || "en"}
           >
             <option className="text-black" value="uz">
               Uzbek
