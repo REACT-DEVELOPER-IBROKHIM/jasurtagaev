@@ -5,7 +5,7 @@ const VideoPlayer = () => {
     <section
       role="video"
       aria-label="Video Player"
-      className="w-full h-[700px] py-[50px]"
+      className="w-full h-[900px] py-[50px]"
     >
       <div className="container h-full mx-auto">
         <div className="flex h-full items-center justify-center">
