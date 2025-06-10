@@ -1,7 +1,7 @@
-import { fetchPopularArticles } from '@/helpers/api/articles.request';
-import React from 'react'
-import ArticleCard from '../article-card';
-import { IArticle } from '@/types/article';
+import { fetchPopularArticles } from "@/helpers/api/articles.request";
+import React from "react";
+import ArticleCard from "../article-card";
+import { IArticle } from "@/types/article";
 
 const Articles = async () => {
   const popularArticles = await fetchPopularArticles();
@@ -20,7 +20,7 @@ const Articles = async () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Articles
+export default Articles;

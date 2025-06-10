@@ -12,7 +12,7 @@ export async function fetchPopularArticles() {
 export async function fetchArticleById(id: string) {
   const res = await fetch(`${API_URL}/articles/${id}`);
   if (!res.ok) {
-    notFound()
+    notFound();
   }
   return res.json();
 }

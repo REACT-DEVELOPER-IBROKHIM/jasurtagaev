@@ -7,9 +7,9 @@ export type ImageWithTextData = {
   date: string;
   linkText: string;
   elements: any[];
-}
+};
 
 export type Props = {
-  data: ImageWithTextData,
+  data: ImageWithTextData;
   imagePosition?: "left" | "right";
-}
+};

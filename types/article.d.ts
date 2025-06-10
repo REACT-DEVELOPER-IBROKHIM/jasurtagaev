@@ -7,7 +7,7 @@ export interface IArticle {
   date: string;
   linkText: string;
   elements: any[];
-};
+}
 
 export interface IMedia {
   id: number;

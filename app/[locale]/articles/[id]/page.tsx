@@ -3,9 +3,7 @@ import type { Metadata } from "next";
 import { Props } from "./type";
 import { fetchArticleById } from "@/helpers/api/articles.request";
 
-export async function generateMetadata(
-  { params }: Props
-): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = await fetchArticleById((await params).id);
 
   return {
@@ -15,12 +13,9 @@ export async function generateMetadata(
 }
 
 const page = async ({ params }: Props) => {
-
   const post = await fetchArticleById((await params).id);
 
-  return <div>
-
-  </div>;
+  return <div></div>;
 };
 
 export default page;
