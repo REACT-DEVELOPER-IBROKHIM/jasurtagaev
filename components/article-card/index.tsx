@@ -1,9 +1,9 @@
 import React from "react";
-import { Props } from "./types";
 import Image from "next/image";
 import LinkElement from "@/utils/components/link";
+import { IArticle } from "@/types/article";
 
-const ArticleCard = ({ article }: { article: Props }) => {
+const ArticleCard = ({ article }: { article: IArticle }) => {
   const { id, title, description, image, href, linkText } = article;
   return (
     <article className="flex-1 shadow-2xl bg-white">
