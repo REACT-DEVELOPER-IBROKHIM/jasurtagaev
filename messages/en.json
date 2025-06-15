@@ -1,7 +1,11 @@
 {
   "home": {
     "hero": {
+      "title": "Dr. Jasur Tagaev",
       "content_text": "Melanoma and Skin Cancer Institute"
+    },
+    "reusable": {
+      "learn_more": "Learn More"
     }
   }
 }

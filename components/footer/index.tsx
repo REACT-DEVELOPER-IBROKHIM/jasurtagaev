@@ -102,6 +102,8 @@ const Footer = () => {
                     flex: 1,
                   }}
                 ></iframe>
+                <br />
+                <address>Olmazor street, Tashkent, Uzbekistan 100100</address>
               </div>
             </div>
           </div>
@@ -109,7 +111,9 @@ const Footer = () => {
       </footer>
       <div>
         <div className="text-center py-4 border-t border-gray-300 bg-primary text-white">
-          <p className="text-sm">© 2023 Jasur Tagaev. All rights reserved.</p>
+          <p className="text-sm">
+            © {new Date().getFullYear()} Jasur Tagaev. All rights reserved.
+          </p>
         </div>
       </div>
     </>

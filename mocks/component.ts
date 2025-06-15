@@ -6,12 +6,22 @@ export const NAVBAR_LIST_MOCK = [
   },
   {
     id: "2",
-    label: "Services",
+    label: "About Jasur Tagaev",
     url: "/services",
   },
   {
     id: "3",
     label: "Our team",
     url: "/our-team",
+  },
+  {
+    id: "4",
+    label: "Articles",
+    url: "/articles",
+  },
+  {
+    id: "6",
+    label: "Contact us",
+    url: "/contact",
   },
 ];
