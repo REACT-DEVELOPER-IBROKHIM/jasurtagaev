@@ -7,7 +7,7 @@ export const NAVBAR_LIST_MOCK = [
   {
     id: "2",
     label: "About Jasur Tagaev",
-    url: "/services",
+    url: "/about",
   },
   {
     id: "3",

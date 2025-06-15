@@ -28,7 +28,7 @@ const Header = () => {
     <header
       role="header"
       aria-label="Header section"
-      className="w-full h-[80px] bg-primary"
+      className="w-full h-[80px] bg-primary sticky top-0 z-10"
     >
       <div className="container h-full w-full mx-auto">
         <div className="h-full w-full flex items-center justify-between relative">

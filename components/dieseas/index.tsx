@@ -7,7 +7,7 @@ const Diesease = async () => {
   const dieseases = await fetchDiseases();
 
   return (
-    <section className="w-full h-auto py-[50px]">
+    <section className="w-full h-auto mb-[100px]">
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-[50px]">
           {dieseases.map((diesease: IArticle, index: number) => (
