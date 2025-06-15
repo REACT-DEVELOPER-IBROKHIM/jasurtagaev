@@ -11,7 +11,10 @@ const Media = async () => {
       <div className="container mx-auto">
         <div className="flex gap-4 justify-between">
           {mediaData.map((media: IMedia) => (
-            <div className="flex-1 bg-gradient-to-r from-white/60 to-[#082D4F]/70 bg-[#1e73be] text-white text-center">
+            <div
+              key={media.id}
+              className="flex-1 bg-gradient-to-r from-white/60 to-[#082D4F]/70 bg-[#1e73be] text-white text-center"
+            >
               {
                 <iframe
                   width={"100%"}

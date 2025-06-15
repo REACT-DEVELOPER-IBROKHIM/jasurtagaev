@@ -16,3 +16,11 @@ export interface IMedia {
   thumbnail: string;
   link: string;
 }
+
+export interface IBannerProps {
+  image: string;
+  title: string;
+  description?: string;
+  opacity?: number;
+  height?: number;
+}
