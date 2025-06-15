@@ -23,9 +23,11 @@ const Hero = () => {
         />
         <div className="absolute top-0 left-0 w-full h-full bg-[rgb(5,45,79)] opacity-60"></div>
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-white text-center">
-          <h1 className="text-[50px]">Dr. Jasur Tagaev</h1>
+          <h1 className="text-[50px]">{t("hero.title")}</h1>
           <h2>{t("hero.content_text")}</h2>
-          <LinkElement href="/learn-more">Learn More</LinkElement>
+          <LinkElement href="/learn-more">
+            {t("reusable.learn_more")}
+          </LinkElement>
         </div>
       </div>
     </section>

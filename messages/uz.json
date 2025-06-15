@@ -1,7 +1,11 @@
 {
   "home": {
     "hero": {
+      "title": "Doktor Jasur Tagaev",
       "content_text": "Melanoma va Terini Saraton Instituti"
+    },
+    "reusable": {
+      "learn_more": "Batafsil"
     }
   }
 }
