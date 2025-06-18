@@ -22,7 +22,7 @@ const Banner = (props: IBannerProps) => {
           objectFit="cover"
         />
         <div
-          className={`relative z-10 flex flex-col text-center gap-4 p-4 ${props.height && "mb-[-400px]"}`}
+          className={`relative z-3 flex flex-col text-center gap-4 p-4 ${props.height && "mb-[-400px]"}`}
         >
           <h2 className="text-5xl">{props.title}</h2>
           {props.description && <p>{props.description}</p>}

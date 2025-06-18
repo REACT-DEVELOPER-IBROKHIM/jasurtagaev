@@ -5,14 +5,16 @@ import Media from "../media";
 import Articles from "../articles";
 import Diesease from "../dieseas";
 import Banner from "../banner";
+import { fetchMediaData } from "@/helpers/api/media.request";
 
 const Main = async () => {
+  const mediaData = await fetchMediaData();
   return (
     <main>
       <Hero />
       <VideoPlayer />
       <Articles />
-      <Media />
+      <Media mediaData={mediaData} />
       <Banner
         image={"/banner-images/banner-image-home.jpg"}
         title="Compassionate Care"
