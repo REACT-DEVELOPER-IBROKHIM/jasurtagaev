@@ -5,7 +5,6 @@ import { IArticle } from "@/types/article";
 import { translateContent } from "@/helpers/translation/translate-content";
 import { useLocale } from "next-intl";
 
-
 const ArticleCard = ({ article }: { article: IArticle }) => {
   const { id, title, description, image, href, linkText } = article;
   const locale = useLocale();
@@ -21,15 +20,13 @@ const ArticleCard = ({ article }: { article: IArticle }) => {
         loading="lazy"
       />
       <div className="p-[24px] flex flex-col gap-[16px] items-start">
-        <h1 className="text-2xl">{
-          translateContent(title, locale)
-        }</h1>
-        <p className="text-gray-500 text-lg">{
-          translateContent(description, locale)
-        }</p>
-        <LinkElement href={href}>{
-          translateContent(linkText, locale)
-        }</LinkElement>
+        <h1 className="text-2xl">{translateContent(title, locale)}</h1>
+        <p className="text-gray-500 text-lg">
+          {translateContent(description, locale)}
+        </p>
+        <LinkElement href={href}>
+          {translateContent(linkText, locale)}
+        </LinkElement>
       </div>
     </article>
   );

@@ -24,5 +24,3 @@ export const MEDIA_MOCK = [
     isFeatured: false,
   },
 ];
-
-

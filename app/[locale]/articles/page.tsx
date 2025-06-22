@@ -7,7 +7,7 @@ import { fetchArticles } from "@/helpers/api/articles.request";
 import React from "react";
 
 const ArticlesPage = async () => {
-  const articles = await fetchArticles()
+  const articles = await fetchArticles();
   return (
     <>
       <Header />
@@ -19,7 +19,7 @@ const ArticlesPage = async () => {
           description="Explore a collection of articles shared by Jasur Tagaev, covering various topics in technology, programming, and personal insights."
         />
         <section>
-          <h2 className='text-3xl mb-4'>All Articles</h2>
+          <h2 className="text-3xl mb-4">All Articles</h2>
           <Articles articles={articles} />
         </section>
       </main>

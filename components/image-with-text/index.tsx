@@ -16,19 +16,19 @@ const ImageWithText = ({ data, imagePosition }: Props) => {
       <div className="w-1/2">
         <Image
           src={image}
-          alt={
-            translateContent(title, locale) || "Image"
-          }
+          alt={translateContent(title, locale) || "Image"}
           width={500}
           height={500}
           className="w-full h-[500px] object-cover"
         />
       </div>
       <div className="w-1/2">
-        <h1 className="text-2xl font-bold mb-4">{
-          translateContent(title, locale)
-        }</h1>
-        <p className="text-lg leading-10 text-gray-500">{translateContent(description, locale)}</p>
+        <h1 className="text-2xl font-bold mb-4">
+          {translateContent(title, locale)}
+        </h1>
+        <p className="text-lg leading-10 text-gray-500">
+          {translateContent(description, locale)}
+        </p>
         <LinkElement type="primary" href={data.href}>
           {translateContent(linkText, locale)}
         </LinkElement>

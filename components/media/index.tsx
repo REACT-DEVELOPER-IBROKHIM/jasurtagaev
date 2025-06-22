@@ -4,41 +4,50 @@ import MediaCard from "../media-card";
 import { useState } from "react";
 import { FiX } from "react-icons/fi";
 
-const Media = ({ mediaData, isFeatured }: { mediaData: IMedia[]; isFeatured: boolean }) => {
+const Media = ({
+  mediaData,
+  isFeatured,
+}: {
+  mediaData: IMedia[];
+  isFeatured: boolean;
+}) => {
   const [selectedMedia, setSelectedMedia] = useState<IMedia | null>(null);
 
   return (
     <section className="w-full flex my-[50px]">
       <div className="container mx-auto">
         <div className="flex gap-4 justify-between flex-wrap">
-          {mediaData.filter(media => isFeatured ? media.isFeatured === isFeatured : true).map((media: IMedia) => (
-            <MediaCard
-              key={media.id}
-              media={media}
-              setSelectedMedia={
-                setSelectedMedia
-              }
-            />
-          ))}
+          {mediaData
+            .filter((media) =>
+              isFeatured ? media.isFeatured === isFeatured : true,
+            )
+            .map((media: IMedia) => (
+              <MediaCard
+                key={media.id}
+                media={media}
+                setSelectedMedia={setSelectedMedia}
+              />
+            ))}
         </div>
       </div>
 
-      {selectedMedia &&
+      {selectedMedia && (
         <div className="fixed top-0 right-0 w-screen h-screen z-10 bg-[rgba(0,0,0,0.4)] backdrop-blur-sm flex items-center justify-center">
           <div className="bg-white p-8 rounded-lg w-full max-w-[1200px] h-[80%] overflow-y-auto flex flex-col">
             <div className="flex justify-end mb-4">
-              <FiX onClick={() => setSelectedMedia(null)} className="text-2xl cursor-pointer" />
+              <FiX
+                onClick={() => setSelectedMedia(null)}
+                className="text-2xl cursor-pointer"
+              />
             </div>
-            {
-              selectedMedia?.tag && (
-                <p className="text-sm text-gray-600 mb-4">{selectedMedia.tag}</p>
-              )
-            }
-            {
-              selectedMedia?.title && (
-                <h2 className="text-xl font-semibold mb-2">{selectedMedia.title}</h2>
-              )
-            }
+            {selectedMedia?.tag && (
+              <p className="text-sm text-gray-600 mb-4">{selectedMedia.tag}</p>
+            )}
+            {selectedMedia?.title && (
+              <h2 className="text-xl font-semibold mb-2">
+                {selectedMedia.title}
+              </h2>
+            )}
             <iframe
               width={"100%"}
               className="mb-4 flex-1"
@@ -49,7 +58,7 @@ const Media = ({ mediaData, isFeatured }: { mediaData: IMedia[]; isFeatured: boo
             ></iframe>
           </div>
         </div>
-      }
+      )}
     </section>
   );
 };

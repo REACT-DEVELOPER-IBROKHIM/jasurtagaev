@@ -25,9 +25,7 @@ const Hero = () => {
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-white text-center">
           <h1 className="text-[50px]">{t("hero.title")}</h1>
           <h2>{t("hero.content_text")}</h2>
-          <LinkElement href="/about">
-            {t("reusable.learn_more")}
-          </LinkElement>
+          <LinkElement href="/about">{t("reusable.learn_more")}</LinkElement>
         </div>
       </div>
     </section>
