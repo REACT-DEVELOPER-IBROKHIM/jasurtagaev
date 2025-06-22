@@ -5,6 +5,10 @@
   --font-primary: "Poppins", sans-serif;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   font-family: var(--font-primary);

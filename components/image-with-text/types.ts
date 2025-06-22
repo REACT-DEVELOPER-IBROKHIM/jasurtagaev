@@ -1,11 +1,23 @@
 export type ImageWithTextData = {
   id: number;
-  title: string;
-  description: string;
+  title: {
+    uz: string;
+    ru: string;
+    en: string;
+  };
+  description: {
+    uz: string;
+    ru: string;
+    en: string;
+  };
   image: string;
   href: string;
   date: string;
-  linkText: string;
+  linkText: {
+    uz: string;
+    ru: string;
+    en: string;
+  };
   elements: any[];
 };
 

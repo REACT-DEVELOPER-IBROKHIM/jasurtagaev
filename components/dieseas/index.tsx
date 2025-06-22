@@ -1,11 +1,8 @@
-import { fetchDiseases } from "@/helpers/api/articles.request";
 import React from "react";
 import ImageWithText from "../image-with-text";
 import { IArticle } from "@/types/article";
 
-const Diesease = async () => {
-  const dieseases = await fetchDiseases();
-
+const Diesease = ({ dieseases }: { dieseases: IArticle[] }) => {
   return (
     <section className="w-full h-auto mb-[100px]">
       <div className="container mx-auto">

@@ -2,9 +2,12 @@ import React from "react";
 import { Props } from "./types";
 import Image from "next/image";
 import LinkElement from "@/utils/components/link";
+import { useLocale } from "next-intl";
+import { translateContent } from "@/helpers/translation/translate-content";
 
 const ImageWithText = ({ data, imagePosition }: Props) => {
-  const { image, title, description } = data;
+  const { image, title, description, linkText } = data;
+  const locale = useLocale();
 
   return (
     <article
@@ -13,17 +16,21 @@ const ImageWithText = ({ data, imagePosition }: Props) => {
       <div className="w-1/2">
         <Image
           src={image}
-          alt={title}
+          alt={translateContent(title, locale) || "Image"}
           width={500}
           height={500}
           className="w-full h-[500px] object-cover"
         />
       </div>
       <div className="w-1/2">
-        <h1 className="text-2xl font-bold mb-4">{title}</h1>
-        <p className="text-lg leading-10 text-gray-500">{description}</p>
+        <h1 className="text-2xl font-bold mb-4">
+          {translateContent(title, locale)}
+        </h1>
+        <p className="text-lg leading-10 text-gray-500">
+          {translateContent(description, locale)}
+        </p>
         <LinkElement type="primary" href={data.href}>
-          {data.linkText}
+          {translateContent(linkText, locale)}
         </LinkElement>
       </div>
     </article>

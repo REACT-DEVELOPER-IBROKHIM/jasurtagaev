@@ -1,11 +1,23 @@
 export interface IArticle {
   id: number;
-  title: string;
-  description: string;
+  title: {
+    uz: string;
+    ru: string;
+    en: string;
+  };
+  description: {
+    uz: string;
+    ru: string;
+    en: string;
+  };
   image: string;
   href: string;
   date: string;
-  linkText: string;
+  linkText: {
+    uz: string;
+    ru: string;
+    en: string;
+  };
   elements: any[];
 }
 
@@ -14,6 +26,7 @@ export interface IMedia {
   tag: string;
   title: string;
   thumbnail: string;
+  isFeatured: boolean;
   link: string;
 }
 
