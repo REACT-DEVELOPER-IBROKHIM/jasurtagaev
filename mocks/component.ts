@@ -11,17 +11,12 @@ export const NAVBAR_LIST_MOCK = [
   },
   {
     id: "3",
-    label: "Our team",
-    url: "/our-team",
-  },
-  {
-    id: "4",
     label: "Articles",
     url: "/articles",
   },
   {
-    id: "6",
+    id: "4",
     label: "Contact us",
-    url: "/contact",
+    url: "/#footer",
   },
 ];

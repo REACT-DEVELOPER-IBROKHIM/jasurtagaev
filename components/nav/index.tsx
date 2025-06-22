@@ -25,6 +25,7 @@ const Nav = ({ menuIsOpen, setMenuOpen }: Props) => {
             {NAVBAR_LIST_MOCK.map((navitem) => (
               <li
                 key={navitem.id}
+                onClick={() => setMenuOpen(false)}
                 className="text-white text-xl border-b-[1px] border-b-white text-center uppercase"
               >
                 <Link

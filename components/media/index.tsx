@@ -1,18 +1,17 @@
 "use client";
 import { IMedia } from "@/types/article";
-import ExpandLink from "@/utils/components/expand";
 import MediaCard from "../media-card";
 import { useState } from "react";
 import { FiX } from "react-icons/fi";
 
-const Media = ({ mediaData }: { mediaData: IMedia[] }) => {
+const Media = ({ mediaData, isFeatured }: { mediaData: IMedia[]; isFeatured: boolean }) => {
   const [selectedMedia, setSelectedMedia] = useState<IMedia | null>(null);
 
   return (
-    <section className="w-full flex my-[100px]">
+    <section className="w-full flex my-[50px]">
       <div className="container mx-auto">
-        <div className="flex gap-4 justify-between">
-          {mediaData.map((media: IMedia) => (
+        <div className="flex gap-4 justify-between flex-wrap">
+          {mediaData.filter(media => isFeatured ? media.isFeatured === isFeatured : true).map((media: IMedia) => (
             <MediaCard
               key={media.id}
               media={media}
@@ -21,11 +20,6 @@ const Media = ({ mediaData }: { mediaData: IMedia[] }) => {
               }
             />
           ))}
-        </div>
-        <div className="flex justify-center">
-          <ExpandLink href="/media">
-            Explore more
-          </ExpandLink>
         </div>
       </div>
 

@@ -9,6 +9,14 @@ export async function fetchPopularArticles() {
   return res.json();
 }
 
+export async function fetchArticles() {
+  const res = await fetch(`${API_URL}/articles`);
+  if (!res.ok) {
+    throw new Error("Failed to fetch data");
+  }
+  return res.json();
+}
+
 export async function fetchArticleById(id: string) {
   const res = await fetch(`${API_URL}/articles/${id}`);
   if (!res.ok) {
