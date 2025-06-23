@@ -18,7 +18,7 @@ const Header = () => {
   const handleChangeLanguage = (event: ChangeEvent<HTMLSelectElement>) => {
     const selectedLocale = event.target.value;
 
-    const pathWithoutLocale = pathname.replace(/^\/(uz|ru|en)/, "");
+    const pathWithoutLocale = pathname.replace(/^\/(uz|ru|en|kr)/, "");
 
     const newPath = `/${selectedLocale}${pathWithoutLocale}`;
 
@@ -41,10 +41,13 @@ const Header = () => {
             defaultValue={pathname.split("/")[1] || "en"}
           >
             <option className="text-black" value="uz">
-              Uzbek
+              O'zbek
+            </option>
+            <option className="text-black" value="kr">
+              Ўзбек
             </option>
             <option className="text-black" value="ru">
-              Russian
+              Русский
             </option>
             <option className="text-black" value="en">
               English
