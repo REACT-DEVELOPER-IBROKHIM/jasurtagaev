@@ -6,7 +6,7 @@ import { useLocale } from "next-intl";
 import { translateContent } from "@/helpers/translation/translate-content";
 
 const ImageWithText = ({ data, imagePosition }: Props) => {
-  const { image, title, description, linkText } = data;
+  const { image, title, description, linkText, href } = data;
   const locale = useLocale();
 
   return (
@@ -29,7 +29,7 @@ const ImageWithText = ({ data, imagePosition }: Props) => {
         <p className="text-lg leading-10 text-gray-500">
           {translateContent(description, locale)}
         </p>
-        <LinkElement type="primary" href={data.href}>
+        <LinkElement type="primary" href={href}>
           {translateContent(linkText, locale)}
         </LinkElement>
       </div>
