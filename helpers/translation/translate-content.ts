@@ -1,6 +1,6 @@
-export const translateContent = (
-  content: { [key: string]: string },
-  locale: string,
-) => {
-  return content[locale] || content["en"] || "";
+export const translateContent = (content: any, locale: string) => {
+  if (content) {
+    return content[locale] || content["en"] || "";
+  }
+  return content["en"] || "";
 };

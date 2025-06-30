@@ -192,5 +192,4 @@ export const DISEASES_MOCK = [
     },
     isPopular: true,
   },
-  {},
 ];
