@@ -26,7 +26,8 @@ export async function fetchArticleById(id: string) {
 }
 
 export async function fetchDiseases() {
-  const res = await fetch(`${API_URL}/diseases`);
+  const res = await fetch(`${API_URL}/article-diseases`);
+  console.log("res", res);
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }

@@ -1,6 +1,7 @@
 "use client";
 import { IMedia } from "@/types/article";
 import Button from "@/utils/components/button";
+import { useLocale, useTranslations } from "next-intl";
 
 const MediaCard = ({
   media,
@@ -9,6 +10,9 @@ const MediaCard = ({
   media: IMedia;
   setSelectedMedia: (media: IMedia) => void;
 }) => {
+  const t = useTranslations("home");
+  type Locale = "uz" | "ru" | "en" | "kr";
+  const locale = useLocale() as Locale;
   return (
     <div
       key={media.id}
@@ -16,15 +20,15 @@ const MediaCard = ({
     >
       {<img width={"100%"} height={"400px"} src={media.thumbnail} alt="" />}
       <div className="p-8">
-        <p className="text-2xl mb-8">{media.tag}</p>
-        <h2 className="text-xl mb-4">{media.title}</h2>
+        <p className="text-2xl mb-8">{media.tag[locale]}</p>
+        <h2 className="text-xl mb-4">{media.title[locale]}</h2>
         <Button
           onClick={() => {
             setSelectedMedia(media);
           }}
           className="bg-blue-800 mt-4 px-[30px] py-[10px] cursor-pointer border-1 border-white rounded-[5px] hover:bg-blue-700"
         >
-          Watch Now
+          {t("reusable.watch")}
         </Button>
       </div>
     </div>

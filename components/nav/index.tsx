@@ -3,8 +3,13 @@ import { Props } from "./props";
 import { HiOutlineX } from "react-icons/hi";
 import { NAVBAR_LIST_MOCK } from "@/mocks/component";
 import Link from "next/link";
+import { useLocale } from "next-intl";
+import { INavigationItem } from "@/types/article";
+
+type Locale = "uz" | "ru" | "en" | "kr";
 
 const Nav = ({ menuIsOpen, setMenuOpen }: Props) => {
+  const locale = useLocale() as Locale;
   return (
     <div>
       <div
@@ -22,7 +27,7 @@ const Nav = ({ menuIsOpen, setMenuOpen }: Props) => {
         </button>
         <nav className="h-full">
           <ul>
-            {NAVBAR_LIST_MOCK.map((navitem) => (
+            {NAVBAR_LIST_MOCK.map((navitem: INavigationItem) => (
               <li
                 key={navitem.id}
                 onClick={() => setMenuOpen(false)}
@@ -32,7 +37,7 @@ const Nav = ({ menuIsOpen, setMenuOpen }: Props) => {
                   href={navitem.url}
                   className="block p-4 hover:bg-primary/50 transition-colors duration-300 ease-in-out"
                 >
-                  {navitem.label}
+                  {navitem.label[locale]}
                 </Link>
               </li>
             ))}

@@ -1,8 +1,13 @@
 import { IBannerProps } from "@/types/article";
+import { useLocale } from "next-intl";
 import Image from "next/image";
 import React from "react";
 
 const Banner = (props: IBannerProps) => {
+  type Locale = "uz" | "ru" | "en" | "kr";
+
+  const locale = useLocale() as Locale;
+
   return (
     <section
       role="banner"
@@ -24,8 +29,8 @@ const Banner = (props: IBannerProps) => {
         <div
           className={`relative z-3 flex flex-col text-center gap-4 p-4 ${props.height && "mb-[-400px]"}`}
         >
-          <h2 className="text-5xl">{props.title}</h2>
-          {props.description && <p>{props.description}</p>}
+          <h2 className="text-5xl">{props.title[locale]}</h2>
+          {props.description && <p>{props.description[locale]}</p>}
         </div>
       </div>
     </section>

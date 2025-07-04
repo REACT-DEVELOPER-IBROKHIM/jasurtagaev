@@ -5,7 +5,36 @@
       "content_text": "Melanoma and Skin Cancer Institute"
     },
     "reusable": {
-      "learn_more": "Learn More"
+      "learn_more": "Learn More",
+      "explore_more": "Explore More",
+      "watch": "Watch Now"
     }
+  },
+  "about": {
+    "person": "Dr. Jasur Tagaev",
+    "title": "Specialist in oncology, skin and soft tissue oncology including oncodermatology, and plastic surgery (reconstructive)",
+    "text1": "Dr. Jasur Abdusamatovich provides effective medical care for patients with diseases of skin cancer and soft tissue oncology, and reconstructive plastic surgery. He also conducts an early detection of skin cancer examinations and analyze subcutaneous benign and malignant formations, diagnoses and screens both altered and unaltered moles, and performs conservative and surgical, offering plastic corrections treatments including MOH’S surgery in accordance with American and European standards.",
+    "text2": "He received his higher education at the Tashkent Pediatric Medical Institute (ToshPMI). He has undergone advanced training at the following international institutions of University of Virginia, University of Illinois in Chicago, University of Southwestern Medical Center  in Dallas in the USA.",
+    "text3": "Additionally, he has completed practical training in the following institutions of Ghent University in Belgium, Institute of Tropical Medicine in Belgium, Belgium Academy of Palliative (Oncology) Medicine, and also Wack post training courses in the Europe. Dr. Tagaev has professional experience at Turkish and Indian’s health providing medical facilities. At the moment Dr. Tagaev consultant and surgeon of oncology clinics, hospitals and trainer of skin and soft tissue oncology and dermatoscopy"
+  },
+  "footer": {
+    "contact": "Phone Numbers",
+    "email": "Email",
+    "socials": "Social Media",
+    "links": "Useful Links",
+    "rights": "All rights reserved.",
+    "address": "Centromed Clinic, Oqtepa street, Tashkent"
+  },
+  "contact": {
+    "contact": "contact",
+    "title": "Do you want to contact with us?"
+  },
+  "media": {
+    "title1": "Media Coverage",
+    "title2": "Results"
+  },
+  "after_before": {
+    "after": "After",
+    "before": "Before"
   }
 }

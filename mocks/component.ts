@@ -1,22 +1,52 @@
 export const NAVBAR_LIST_MOCK = [
   {
     id: 1,
-    label: "Home",
+    label: {
+      uz: "Asosiy",
+      ru: "Главная",
+      en: "Home",
+      kr: "Асосий",
+    },
     url: "/",
   },
   {
     id: "2",
-    label: "About Jasur Tagaev",
+    label: {
+      uz: "Jasur Tagaev haqida",
+      ru: "О Жасуре Тагаеве",
+      en: "About Jasur Tagaev",
+      kr: "Жасур Тагаев ҳақида",
+    },
     url: "/about",
   },
   {
     id: "3",
-    label: "Articles",
-    url: "/articles",
+    label: {
+      uz: "Galereya",
+      ru: "Галерея",
+      en: "Gallery",
+      kr: "Галерея",
+    },
+    url: "/media",
   },
   {
     id: "4",
-    label: "Contact us",
+    label: {
+      uz: "Maqolalar",
+      ru: "Статьи",
+      en: "Articles",
+      kr: "Мақолалар",
+    },
+    url: "/articles",
+  },
+  {
+    id: "5",
+    label: {
+      uz: "Aloqa",
+      ru: "Контакты",
+      en: "Contact",
+      kr: "Алоқа",
+    },
     url: "/#footer",
   },
 ];
