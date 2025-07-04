@@ -68,7 +68,7 @@ export const AFTER_BEFORE_MOCK = [
   },
   {
     id: 3,
-    urls: ["/after-before/3/3.1.jpg", "/after-before/3/3.2.jpg"],
+    urls: ["/after-before/3/3.1.JPG", "/after-before/3/3.2.jpg"],
   },
   {
     id: 4,
