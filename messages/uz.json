@@ -5,7 +5,36 @@
       "content_text": "Melanoma va Terini Saraton Instituti"
     },
     "reusable": {
-      "learn_more": "Batafsil"
+      "learn_more": "Batafsil",
+      "explore_more": "Ko'proq o'rganish",
+      "watch": "Ko'rish"
     }
+  },
+  "about": {
+    "person": "Dr. Jasur Tagaev",
+    "title": "Onkologiya, teri va yumshoq to'qimalar onkologiyasi, shu jumladan onkodermatologiya va plastik jarrohlik (rekonstruktiv) yo’nalishi bo'yicha mutaxassis.",
+    "text1": "Dr. Jasur Abdusamatovich teri saratoni va yumshoq to‘qimalar onkologiyasi, rekonstruktiv plastik jarrohlikka muhtoj bemorlarga samarali tibbiy yordam ko‘rsatib kelmoqda. Shuningdek, u teri va yumshoq to’qima saratonini erta aniqlash, yaxshi va yomon sifatli o’sma shakillarini tahlil qilish, o'zgargan va o'zgarmagan hollarni tashxislash va tekshirishni, shuningdek, konservativ va jarrohlik muolajalarni, shu jumladan MOH’S jarrohlik amalyotini amalga oshiradi. Bundan tashqari o’z amalyotida teri va teri ostidagi hosilalarni tekshirish, olib tashlash va rekonstruksiya qilishda Amerika va Evropa standartlariga muvofiq plastik jarrohligini amalga oshiradi.",
+    "text2": "Oliy maʼlumotni Toshkent pediatriya tibbiyot institutida (ToshPMI) olgan. U Amerika Qo’shma Shtatlaridagi Virjiniya universiteti, Chikagodagi Illinoys universiteti, AQShning Dallas shahridagi Janubi-g‘arbiy tibbiyot markazi universitetlarida to’lliq o’qigan va malaka oshirgan.",
+    "text3": "Bundan tashqari, u Belgiyaning Gent universitetida, Belgiyadagi Tropik tibbiyot institutida, Belgiya Palliativ (onkologiya) tibbiyot akademiyasi, shuningdek, Yevropadagi Wack post malaka oshirish kurslarida amaliy - tibbiy mashg‘ulotlarni tamomlagan. Dr. Tagaev Turkiya va Hindistonning sog'liqni saqlash muassasalarida professional tajribaga ega. Ayni paytda Dr. Tagaev onkologik klinika va shifoxonalarda jarroh va maslahatchi, teri va yumshoq to'qimalarning onkologiyasi va dermatoskopiyasi bo'yicha murabbiy"
+  },
+  "footer": {
+    "contact": "Telefon raqamlar",
+    "email": "Elektron pochta",
+    "socials": "Ijtimoiy tarmoqlar",
+    "links": "Foydali havolalar",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "address": "Centromed klinikasi, Oqtepa ko'chasi, Toshkent"
+  },
+  "contact": {
+    "contact": "Aloqa",
+    "title": "Biz bilan bog'lanmoqchimisiz?"
+  },
+  "media": {
+    "title1": "Ommaviy axborot vositalarida",
+    "title2": "Natijalar"
+  },
+  "after_before": {
+    "after": "Keyin",
+    "before": "Oldin"
   }
 }

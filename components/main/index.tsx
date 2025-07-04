@@ -5,33 +5,37 @@ import Media from "../media";
 import Articles from "../articles";
 import Diesease from "../dieseas";
 import Banner from "../banner";
-import { fetchMediaData } from "@/helpers/api/media.request";
+import {
+  fetchAfterBeforeData,
+  fetchMediaData,
+} from "@/helpers/api/media.request";
 import {
   fetchDiseases,
   fetchPopularArticles,
 } from "@/helpers/api/articles.request";
-import ExpandLink from "@/utils/components/expand";
+import AfterBefore from "../after-before";
 
 const Main = async () => {
   const mediaData = await fetchMediaData();
   const dieseases = await fetchDiseases();
   const popularArticles = await fetchPopularArticles();
+  const afterBefore = await fetchAfterBeforeData();
 
   return (
     <main>
       <Hero />
       <VideoPlayer />
       <Articles articles={popularArticles} />
-      <div className="flex justify-center">
-        <ExpandLink href="/articles">Explore more</ExpandLink>
-      </div>
       <Media mediaData={mediaData} isFeatured={true} />
-      <div className="flex justify-center mb-[50px]">
-        <ExpandLink href="/media">Explore more</ExpandLink>
-      </div>
+      <AfterBefore afterBefore={afterBefore} isFeatured={true} />
       <Banner
         image={"/banner-images/banner-image-home.jpg"}
-        title="Compassionate Care"
+        title={{
+          uz: "Sog'liqni saqlash uchun mehr",
+          ru: "Заботливый уход",
+          en: "Compassionate care",
+          kr: "Соғлиқни сақлаш учун меҳр",
+        }}
         opacity={0.7}
       />
       <Diesease dieseases={dieseases} />

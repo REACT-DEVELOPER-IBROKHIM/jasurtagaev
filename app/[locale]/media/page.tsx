@@ -2,31 +2,39 @@ import Banner from "@/components/banner";
 import Header from "@/components/header";
 import React from "react";
 import Media from "@/components/media";
-import { fetchMediaData } from "@/helpers/api/media.request";
+import {
+  fetchAfterBeforeData,
+  fetchMediaData,
+} from "@/helpers/api/media.request";
 import AfterBefore from "@/components/after-before";
 import Footer from "@/components/footer";
+import { useTranslations } from "next-intl";
+import MediaWrapper from "@/components/media-wrapper";
 
 const MediaPage = async () => {
   const mediaData = await fetchMediaData();
-
+  const afterBefore = await fetchAfterBeforeData();
   return (
     <>
       <Header />
       <main className="container mx-auto py-4">
         <Banner
           image={"/banner-images/banner-image-media.JPG"}
-          title="Media | Results"
+          title={{
+            uz: "Galareya",
+            ru: "Галерея",
+            en: "Gallery",
+            kr: "Галерея",
+          }}
           opacity={0.5}
-          description="Explore media coverage and articles featuring Jasur Tagaev, showcasing insights and contributions in various fields."
+          description={{
+            uz: "Jasur Tagaevnining erishgan natijalari va mediyadagi foydali malumotlarni o'rganing.",
+            ru: "Изучите достижения Жасура Тагаева и полезную информацию в медиа.",
+            en: "Explore the achievements of Jasur Tagaev and useful information in the media.",
+            kr: "Жасур Тагаевнинг эришган натижалари ва медиядаги фойдали маълумотларни ўрганинг.",
+          }}
         />
-        <section>
-          <h2 className="text-3xl mb-4">Media Coverage</h2>
-          <Media mediaData={mediaData} isFeatured={false} />
-        </section>
-        <section>
-          <h2 className="text-3xl mb-4">Results</h2>
-          <AfterBefore />
-        </section>
+        <MediaWrapper mediaData={mediaData} afterBefore={afterBefore} />
       </main>
       <Footer />
     </>

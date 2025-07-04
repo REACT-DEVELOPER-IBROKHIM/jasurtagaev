@@ -1,8 +1,14 @@
+import { NAVBAR_LIST_MOCK } from "@/mocks/component";
+import { INavigationItem } from "@/types/article";
+import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 import React from "react";
 import { FaFacebook, FaInstagram, FaTelegram, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
+  const t = useTranslations("footer");
+  type Locale = "uz" | "ru" | "en" | "kr";
+  const locale = useLocale() as Locale;
   return (
     <>
       <footer id="footer" className="bg-primary text-white py-[40px]">
@@ -10,17 +16,17 @@ const Footer = () => {
           <div className="flex">
             <div className="flex-1">
               <div className="mb-[20px]">
-                <p className="text-xl mb-[20px]">Phone numbers</p>
+                <p className="text-xl mb-[20px]">{t("contact")}</p>
                 <a href="tel:+998991234567">+998991234567</a>
                 <br />
                 <a href="tel:+998991234567">+998991234567</a>
               </div>
               <div>
-                <p className="text-xl mb-[20px]">Email</p>
+                <p className="text-xl mb-[20px]">{t("email")}</p>
                 <a href="mailto:jasurtagaev@gmail.com">jasurtagaev@gmail.com</a>
               </div>
               <div>
-                <p className="text-xl my-[20px]">Social Media</p>
+                <p className="text-xl my-[20px]">{t("socials")}</p>
                 <div className="flex gap-x-[20px]">
                   <a href="https://t.me/jasurtagaev" className="text-2xl">
                     <FaTelegram />
@@ -48,20 +54,13 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex-1">
-              <p className="text-xl  mb-[20px]">Useful links</p>
+              <p className="text-xl  mb-[20px]">{t("links")}</p>
               <ul className="flex flex-col gap-y-[10px]">
-                <li>
-                  <Link href={"/"}>Home</Link>
-                </li>
-                <li>
-                  <Link href={"/about"}>About Jasur Tagaev</Link>
-                </li>
-                <li>
-                  <Link href={"/articles"}>Articles</Link>
-                </li>
-                <li>
-                  <Link href={"/contact"}>Contact</Link>
-                </li>
+                {NAVBAR_LIST_MOCK.map((item: INavigationItem) => (
+                  <li key={item.id}>
+                    <Link href={item.url}>{item.label[locale]}</Link>
+                  </li>
+                ))}
               </ul>
             </div>
             <div className="flex-1">
@@ -80,7 +79,7 @@ const Footer = () => {
                     top: "0px",
                   }}
                 >
-                  Amir Temur Square, Tashkent Uzbekistan
+                  {t("address")}
                 </a>
                 <a
                   href="https://yandex.uz/maps/10335/tashkent/category/garden_center/184106480/?utm_medium=mapframe&utm_source=maps"
@@ -103,7 +102,7 @@ const Footer = () => {
                   }}
                 ></iframe>
                 <br />
-                <address>Olmazor street, Tashkent, Uzbekistan 100100</address>
+                <address>{t("address")}</address>
               </div>
             </div>
           </div>
@@ -112,7 +111,7 @@ const Footer = () => {
       <div>
         <div className="text-center py-4 border-t border-gray-300 bg-primary text-white">
           <p className="text-sm">
-            © {new Date().getFullYear()} Jasur Tagaev. All rights reserved.
+            © {new Date().getFullYear()} jasurtagaev.com. {t("rights")}
           </p>
         </div>
       </div>
