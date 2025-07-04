@@ -627,24 +627,537 @@ export const ARTICLES_MOCK = [
     isPopular: true,
     structure: [
       {
+        elementType: "heading",
+        level: 1,
+        content: {
+          en: "Atheromas",
+          kr: "Атеромалар",
+          uz: "Ateromalar",
+          ru: "Атеромы",
+        },
+      },
+      {
+        elementType: "wrapper",
+        elements: [
+          {
+            elementType: "image",
+            content: "/article-images/ath/image-1.jpg",
+          },
+          {
+            elementType: "image",
+            content: "/article-images/ath/image-2.jpg",
+          },
+        ],
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Atheromas, also known as sebaceous cysts or epidermoid cysts, are benign (non-cancerous) lumps or growths that develop within the skin, typically caused by the accumulation of sebum (an oily substance produced by sebaceous glands). These cysts are generally slow-growing and can be found in various parts of the body, most commonly on the face, neck, and back.",
+          kr: "Атеромалар, шунингдек, ёғ кисталари ёки эпидермоид кисталар деб ҳам аталади, терида ривожланадиган хавфсиз (рак эмас) зичлашмалар ёки неоплазмалардир. Улар одатда тери ёғининг (ёғ безлари ишлаб чиқарадиган ёғ моддаси) тўпланиши натижасида юзага келади. Бу кисталар одатда секин ўсади ва тананинг турли қисмларида, кўпинча юз, бўйин ва орқада учраши мумкин.",
+          uz: "Ateromalar, shuningdek, yog‘ kistalari yoki epidermoid kistalar deb ham ataladi, terida rivojlanadigan xavfsiz (rak emas) zichlashmalar yoki neoplazmalardir. Ular odatda teri yog‘ining (yog‘ bezlari ishlab chiqaradigan yog‘ moddasi) to‘planishi natijasida yuzaga keladi. Bu kistalar odatda sekin o‘sadi va tananing turli qismlarida, ko‘pincha yuz, bo‘yin va orqada uchrashi mumkin.",
+          ru: "Атеромы — это доброкачественные, медленно растущие кисты, вызванные закупоркой сальных желез. Они, как правило, безвредны, но могут воспаляться или увеличиваться в размерах. Методы лечения включают дренаж, хирургическое удаление и антибиотики при инфекции. Поддержание чистоты кожи и лечение акне помогают предотвратить их появление. Если атерома вызывает боль, дискомфорт или эстетическую проблему — стоит обратиться к врачу.",
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Key Features of Atheromas:",
+          kr: "Атеромаларнинг асосий хусусиятлари",
+          uz: "Ateromalar asosiy xususiyatlari",
+          ru: "Ключевые особенности атером",
+        },
+      },
+      {
         elementType: "list",
         content: {
-          en: ["En list item 1", "En list item 2", "En list item 3"],
-          kr: [
-            "Кр рўйхат элемент 1",
-            "Кр рўйхат элемент 2",
-            "Кр рўйхат элемент 3",
-          ],
-          uz: [
-            "Уз рўйхат элемент 1",
-            "Уз рўйхат элемент 2",
-            "Уз рўйхат элемент 3",
+          en: [
+            {
+              text: "Appearance:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Shape: Atheromas are typically round or oval, with a smooth surface.",
+                      "Color: They are usually the same color as the skin or slightly yellowish, due to the sebum inside.",
+                      "Size: They can vary in size, from small (a few millimeters) to large (several centimeters in diameter).",
+                      "Texture: Atheromas are generally firm and movable under the skin, as they are filled with a thick, oily substance.",
+                      "Opening: Some atheromas may have a small opening at the surface of the skin, through which the sebum can occasionally leak out, leading to the formation of a blackhead or an unpleasant odor.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Causes:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Blocked Sebaceous Gland: The primary cause of an atheroma is a blocked sebaceous gland or hair follicle. When the duct that drains sebum becomes blocked, the oil accumulates, creating a cyst.",
+                      "Trauma or Skin Injury: A previous injury or skin trauma, such as a scratch or a puncture, can lead to a cyst developing if the sebaceous gland or follicle becomes damaged.",
+                      "Genetic Factors: In some cases, atheromas may run in families, suggesting a genetic predisposition.",
+                      "Other Skin Conditions: Certain skin conditions, such as acne, can increase the likelihood of developing atheromas due to the involvement of sebaceous glands.",
+                      "Hormonal Changes: Hormonal fluctuations during puberty, pregnancy, or menopause can contribute to the formation of these cysts.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Symptoms:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Painless Lump: Atheromas are often painless and may not cause any symptoms unless they become infected or inflamed.",
+                      "Swelling or Redness: If the cyst becomes infected, it may become red, swollen, and tender to the touch. Infected cysts may also release pus.",
+                      "Discomfort: Atheromas can sometimes cause discomfort if they are located in an area that experiences frequent friction, such as the armpits or back.",
+                      "Unpleasant Odor: If the cyst becomes infected or ruptures, it may release a foul-smelling discharge.",
+                      "Enlargement: Over time, some atheromas may slowly enlarge.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Diagnosis:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Physical Examination: A healthcare provider typically diagnoses atheromas based on their appearance and the patient’s medical history.",
+                      "Ultrasound: If there is any uncertainty about the nature of the cyst, an ultrasound may be used to check for other conditions or complications.",
+                      "Biopsy: In rare cases, if the cyst does not resolve or if it shows signs of being cancerous (though this is extremely rare), a biopsy may be performed to rule out malignancy.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Treatment:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Observation: If an atheroma is not causing symptoms or discomfort, it may not require treatment. In many cases, atheromas remain stable or even shrink over time.",
+                      "Drainage: If the cyst becomes inflamed or infected, it may be drained to relieve the pressure and remove the trapped sebum. This can be done by a healthcare provider.",
+                      "Incision and Drainage: In cases where the cyst is painful or infected, a doctor may perform a small incision to drain the cyst and relieve symptoms.",
+                      "Surgical Removal: The definitive treatment for atheromas is surgical removal, which involves excising the entire cyst and the surrounding tissue. This prevents the cyst from returning. It is usually done under local anesthesia in a clinical setting.",
+                      "Antibiotics: If the atheroma becomes infected, antibiotics may be prescribed to treat the infection before further treatment is performed.",
+                      "Steroid Injections: In some cases, corticosteroid injections may help reduce inflammation, but they do not remove the cyst.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Prevention:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Good Skin Hygiene: Maintaining proper skin hygiene can help prevent blocked pores and reduce the risk of developing atheromas. Regular cleansing of the skin can help prevent the buildup of oils and dead skin cells that can lead to cyst formation.",
+                      "Avoiding Skin Trauma: Avoiding skin injuries or trauma to areas prone to atheromas can help reduce the risk of their formation.",
+                      "Treatment of Acne: Managing acne with appropriate treatments, such as topical medications, can help prevent the development of atheromas in areas affected by acne.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "When to Seek Medical Attention:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Infected or Inflamed Cyst: If the atheroma becomes painful, red, swollen, or starts to drain pus, it may be infected and require medical attention.",
+                      "Rapid Growth: If the cyst grows rapidly or becomes unusually large, it should be evaluated by a doctor to rule out other potential conditions.",
+                      "Recurrent Cysts: If an atheroma reoccurs after treatment or removal, further evaluation and treatment may be necessary.",
+                      "Cosmetic Concerns: If the cyst is in a visible area and is causing cosmetic concerns, a healthcare provider can help with removal options.",
+                    ],
+                  },
+                },
+              ],
+            },
           ],
           ru: [
-            "Ру элемент списка 1",
-            "Ру элемент списка 2",
-            "Ру элемент списка 3",
+            {
+              text: "Внешний вид:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Форма: Обычно округлая или овальная, с гладкой поверхностью.",
+                      "Цвет: Совпадает с цветом кожи или может быть слегка желтоватым (из-за содержащегося сала).",
+                      "Размер: Может варьироваться — от нескольких миллиметров до нескольких сантиметров в диаметре.",
+                      "Консистенция: Плотные на ощупь, подвижны под кожей, так как заполнены густым, жирным веществом.",
+                      "Отверстие: У некоторых атером имеется небольшое отверстие на коже, через которое сало может выходить наружу, иногда вызывая появление черной точки или неприятный запах.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Причины появления:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Закупорка сальной железы: Основная причина атеромы — это закупорка протока сальной железы или волосяного фолликула.",
+                      "Травма кожи: Повреждение кожи (царапина, укол и т.д.) может привести к развитию кисты, если нарушается структура сальной железы.",
+                      "Генетическая предрасположенность: В некоторых случаях атеромы могут быть наследственными.",
+                      "Кожные заболевания: Заболевания кожи, такие как акне, увеличивают риск образования атером.",
+                      "Гормональные изменения: Гормональные всплески в пубертате, при беременности или менопаузе также способствуют их формированию.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Симптомы:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Безболезненное уплотнение: Атеромы часто не вызывают боли и не сопровождаются симптомами, если не инфицированы.",
+                      "Покраснение и отек: При инфицировании киста становится красной, припухлой и болезненной.",
+                      "Неприятный запах: При вскрытии или инфицировании возможны выделения с неприятным запахом.",
+                      "Дискомфорт: Могут вызывать неудобства, особенно если расположены в зонах трения (подмышки, спина).",
+                      "Увеличение в размере: Со временем могут постепенно увеличиваться.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Диагностика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Физикальный осмотр: Врач диагностирует атерому на основании её внешнего вида и истории болезни.",
+                      "УЗИ: При сомнениях проводят ультразвуковое исследование для исключения других патологий.",
+                      "Биопсия: В редких случаях, если киста не проходит или вызывает подозрение на злокачественность (что крайне редко), может быть выполнена биопсия.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Лечение:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Наблюдение: Если киста не вызывает симптомов, лечение может не потребоваться — иногда они остаются стабильными или уменьшаются.",
+                      "Дренирование: При воспалении или инфекции кисту вскрывают и удаляют содержимое.",
+                      "Вскрытие и дренаж: При выраженной боли или инфицировании врач может сделать надрез и освободить кисту от содержимого.",
+                      "Хирургическое удаление: Наиболее эффективное лечение — полное иссечение кисты вместе с капсулой. Проводится под местной анестезией.",
+                      "Антибиотики: При инфекции назначаются антибиотики.",
+                      "Стероидные инъекции: Иногда используются для снятия воспаления, но не устраняют саму кисту.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Профилактика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Гигиена кожи: Регулярное очищение помогает предотвращать закупорку пор и образование атером.",
+                      "Избегание травм кожи: Уменьшает риск повреждения сальных желез.",
+                      "Лечение акне: Своевременное и правильное лечение прыщей снижает риск образования атером.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Когда обратиться к врачу:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Инфицированная киста: Если появляется боль, покраснение, гной — необходим медицинский осмотр.",
+                      "Быстрый рост: Быстро увеличивающиеся кисты требуют дополнительной диагностики.",
+                      "Рецидив: При повторном возникновении — возможно потребуется полное удаление.",
+                      "Эстетические жалобы: Если киста заметна и мешает внешне — врач подберёт метод удаления.",
+                    ],
+                  },
+                },
+              ],
+            },
           ],
+          kr: [
+            {
+              text: "Ташқи кўриниши:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Шакли: Одатда юмалоқ ёки овалсимон, юзаси силлиқ.",
+                      "Ранги: Тери рангига мос келади ёки бироз сарғиш бўлиши мумкин (таркибидаги ёғ туфайли).",
+                      "Ўлчами: Диаметри бир неча миллиметрдан бир неча сантиметргача бўлиши мумкин.",
+                      "Консистенсияси: Ушлаб кўрилганда зич, тери остида ҳаракатчан, чунки улар қуюқ, ёғли модда билан тўлдирилган.",
+                      "Тешик: Баъзи атеромаларнинг терисида кичик тешик бўлиб, у орқали ёғ ташқарига чиқиши мумкин, баъзида бу қора нуқта ёки ёқимсиз ҳид пайдо бўлишига олиб келади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Сабаблари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Ёғ безининг тиқилиб қолиши: Атероманинг асосий сабаби ёғ бези йўли ёки соч халтачасининг тиқилиб қолишидир.",
+                      "Терининг шикастланиши: (Тирналиш, санчиш ва ҳ.к.) ёғ безининг тузилиши бузилганда киста ривожланишига олиб келиши мумкин.",
+                      "Генетик мойиллик: Баъзи ҳолларда атеромалар ирсий бўлиши мумкин.",
+                      "Тери касалликлари: Акне каби тери касалликлари атерома ҳосил бўлиш хавфини оширади.",
+                      "Гормонал ўзгаришлар: Пубертат, ҳомиладорлик ёки менопаузадаги гормонал кўтарилишлар ҳам уларнинг шаклланишига ҳисса қўшади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Белгилари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Оғриқсиз зичлашув: Атеромалар кўпинча оғриқ келтириб чиқармайди ва инфекцияланмаган бўлса, симптомлар билан кечмайди.",
+                      "Инфекция тушганда: Киста қизаради, шишади ва оғриқли бўлади.",
+                      "Ёқимсиз ҳид: Ёриб кўрилганда ёки инфекция юқтирилганда ёқимсиз ҳидли ажралмалар чиқиши мумкин.",
+                      "Ноқулайлик: Айниқса ишқаланиш зоналарида (қўлтиқ ости, орқа) жойлашган бўлса, ноқулайлик туғдириши мумкин.",
+                      "Катталаштириш: Вақт ўтиши билан аста-секин катталашиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Диагностика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Кўздан кечириш: Шифокор атеромани ташқи кўриниши ва касаллик тарихига қараб аниқлайди.",
+                      "Ультратовуш текшируви: Шубҳа туғилганда бошқа патологияларни истисно қилиш учун ультратовуш текшируви ўтказилади.",
+                      "Биопсия: Камдан-кам ҳолларда, агар киста ўтиб кетмаса ёки хавфлилигига шубҳа туғилса (бу жуда кам учрайди), биопсия ўтказилиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Даволаш:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Кузатув: Агар киста симптомларни келтириб чиқармаса, даволаш талаб қилинмаслиги мумкин – баъзида улар барқарор бўлиб қолади ёки камаяди.",
+                      "Яллиғланиш ёки инфекция бўлса: Киста очилади ва ичидаги суюқлик олиб ташланади.",
+                      "Ёриш ва дренаж: Кучли оғриқ ёки инфекция мавжуд бўлганда, шифокор кесма ясаб, кистани ичидагидан бўшатиши мумкин.",
+                      "Жарроҳлик йўли билан олиб ташлаш: Энг самарали даволаш усули кистани капсуласи билан бирга тўлиқ олиб ташлашдир. Маҳаллий оғриқсизлантириш остида ўтказилади.",
+                      "Антибиотиклар: Инфекцияда антибиотиклар буюрилади.",
+                      "Стероид инъекциялари: Баъзан яллиғланишни йўқотиш учун ишлатилади, лекин кистанинг ўзини йўқотмайди.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Профилактика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Тери гигиенаси: Мунтазам тозалаш тешикларнинг тиқилиб қолиши ва атер ҳосил бўлишининг олдини олишга ёрдам беради.",
+                      "Тери шикастланишининг олдини олиш: Ёғ безларининг шикастланиш хавфини камайтиради.",
+                      "Ҳуснбузарларни ўз вақтида ва тўғри даволаш: Атерома ҳосил бўлиш хавфини камайтиради.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Шифокорга қачон мурожаат қилиш керак:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Инфекцияланган киста: Агар оғриқ, қизариш, йиринг пайдо бўлса, тиббий кўрикдан ўтиш керак.",
+                      "Тез ўсиш: Тез катталашаётган кисталар қўшимча ташхис қўйишни талаб қилади.",
+                      "Рецидив: Қайта пайдо бўлганда – тўлиқ олиб ташлаш керак бўлиши мумкин.",
+                      "Эстетик шикоятлар: Агар киста кўзга ташланса ва ташқи томондан халақит берса – шифокор олиб ташлаш усулини танлайди.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          uz: [
+            {
+              text: "Tashqi ko'rinishi:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Shakli: Odatda yumaloq yoki ovalsimon, yuzasi silliq.",
+                      "Rangi: Teri rangi bilan mos keladi yoki biroz sariq bo'lishi mumkin (ichidagi yog' tufayli).",
+                      "O'lchami: Bir necha millimetrdan bir necha santimetrgacha o'zgarishi mumkin.",
+                      "Konsistensiyasi: Zich, teri ostida harakatlanuvchi, chunki ular qattiq, yog'li modda bilan to'ldirilgan.",
+                      "Teshik: Ba'zi ateromalarda terida kichik teshik bo'lib, u orqali yog' tashqariga chiqishi mumkin, ba'zida bu qora nuqta yoki yoqimsiz hid paydo bo'lishiga olib keladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Sabablari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Yog' bezining tiqilib qolishi: Ateromaning asosiy sababi yog' bezining kanali yoki soch folikulining tiqilib qolishidir.",
+                      "Teri shikastlanishi: (tirnalish, sanjish va h.k.) yog' bezining tuzilishi buzilganda kista rivojlanishiga olib kelishi mumkin.",
+                      "Genetik moyillik: Ba'zi hollarda ateromalar irsiy bo'lishi mumkin.",
+                      "Teri kasalliklari: Akne kabi teri kasalliklari ateroma hosil bo'lish xavfini oshiradi.",
+                      "Gormonal o'zgarishlar: Pubertat, homiladorlik yoki menopauzadagi gormonal ko'tarilishlar ham ularning shakllanishiga hissa qo'shadi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Belgilari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Og'riqsiz zichlashuv: Ateromalar ko'pincha og'riq keltirib chiqarmaydi va infektsiyalanmagan bo'lsa, simptomlar bilan kechmaydi.",
+                      "Infektsiya tushganda: Kista qizaradi, shishadi va og'riqli bo'ladi.",
+                      "Yoqimsiz hid: Yorib ko'rilganda yoki infektsiya yuqdirilganda yoqimsiz hidli ajralmalar chiqishi mumkin.",
+                      "Noqulaylik: Ayrim joylarda (qo'ltiq osti, orqa) joylashgan bo'lsa, noqulaylik tug'dirishi mumkin.",
+                      "Kattalashishi: Vaqt o'tishi bilan asta-sekin kattalashishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Diagnostika:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Ko'zdan kechirish: Shifokor ateromani tashqi korinishi va kasallik tarixiga qarab aniqlaydi.",
+                      "Ultratovush tekshiruvi: Shubha tug'ilganda boshqa patologiyalarni istisno qilish uchun ultratovush tekshiruvi o'tkaziladi.",
+                      "Biopsiya: Kamdan-kam hollarda, agar kista o'tib ketmasa yoki xavfli ekanligiga shubha tug'ilsa (bu juda kam uchraydi), biopsiya o'tkazilishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Davolash:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Kuzatuv: Agar kista simptomlarni keltirib chiqarmasa, davolash talab qilinmasligi mumkin – ba'zan ular barqaror bo'lib qoladi yoki kamayadi.",
+                      "Yallig'lanish yoki infektsiya bo'lsa: Kista ochiladi va ichidagi suyuqlik olib tashlanadi.",
+                      "Yorish va drenaj: Kuchli og'riq yoki infektsiya mavjud bo'lsa, shifokor kesma yasab, cystani ichidagi moddasidan bo'shatishi mumkin.",
+                      "Jarrohlik yo'li bilan olib tashlash: Eng samarali davolash usuli cystani kapsulasi bilan birga to'liq olib tashlashdir. Mahalliy og'riqsizlantirish ostida o'tkaziladi.",
+                      "Antibiotiklar: Infektsiyada antibiotiklar buyuriladi.",
+                      "Steroid in'ektsiyalari: Ba'zida yallig'lanishni yo'qotish uchun ishlatiladi, lekin cystaning o'zini yo'qotmaydi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Profilaktika:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Teri gigienasi: Muntazam tozalash teshiklarning tiqilib qolishi va ateroma hosil bo'lishining oldini olishga yordam beradi.",
+                      "Teri shikastlanishining oldini olish: Yog' bezlarining shikastlanish xavfini kamaytiradi.",
+                      "Husnbuzarlarni o'z vaqtida va to'g'ri davolash: Ateroma hosil bo'lish xavfini kamaytiradi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Shifokorga qachon murojaat qilish kerak:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Infektsiyalangan kista: Agar og'riq, qizarish, yiring paydo bo'lsa, tibbiy ko'rikdan o'tish kerak.",
+                      "Tez o'sish: Tez kattalashayotgan cystalar qo'shimcha tashxis qo'yishni talab qiladi.",
+                      "Retsidiv: Qayta paydo bo'lganda – to'liq olib tashlash kerak bo'lishi mumkin.",
+                      "Estetik shikoyatlar: Agar kista ko'zga tashlansa va tashqi tomondan xalokat bersa – shifokor olib tashlash usulini tanlaydi.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Summary:",
+          kr: "Хулоса",
+          uz: "Xulosa:",
+          ru: "Вывод:",
+        },
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Atheromas are benign, slow-growing cysts caused by blocked sebaceous glands. They are usually painless and not dangerous, but they can become infected or enlarged. Treatment options include drainage, surgical removal, and antibiotics if the cyst becomes infected. Good skin hygiene and management of skin conditions like acne can help prevent their formation. If you have an atheroma that becomes painful, infected, or cosmetically concerning, it's best to consult a healthcare provider for advice and treatment.",
+          kr: "Атеромалар ёғ безларининг тиқилиб қолиши натижасида юзага келадиган хавфсиз, секин ўсувчи кисталардир. Улар одатда зарарсиз, аммо яллиғланиши ёки катталашиши мумкин. Даволаш усулларига дренаж, жарроҳлик йўли билан олиб ташлаш ва инфекция учун антибиотиклар киради. Терини тоза сақлаш ва ҳуснбузарларни даволаш уларнинг пайдо бўлишининг олдини олишга ёрдам беради. Агар атерома оғриқ, ноқулайлик ёки эстетик муаммони келтириб чиқарса, шифокорга мурожаат қилиш керак.",
+          uz: "Ateromalar yog‘ bezlarining tiqilib qolishi natijasida yuzaga keladigan xavfsiz, sekin o‘suvchi kistalardir. Ular odatda zararli emas, ammo yallig‘lanishi yoki kattalashishi mumkin. Davolash usullariga drenaj, jarrohlik yo‘li bilan olib tashlash va infektsiya uchun antibiotiklar kiradi. Terini toza saqlash va husnbuzarlarni davolash ularning paydo bo‘lishining oldini olishga yordam beradi. Agar ateroma og‘riq, noqulaylik yoki estetik muammoni keltirib chiqarsa, shifokorga murojaat qilish kerak.",
+          ru: "Атеромы — это доброкачественные, медленно растущие кисты, вызванные закупоркой сальных желез. Они, как правило, безвредны, но могут воспаляться или увеличиваться в размерах. Методы лечения включают дренаж, хирургическое удаление и антибиотики при инфекции. Поддержание чистоты кожи и лечение акне помогают предотвратить их появление. Если атерома вызывает боль, дискомфорт или эстетическую проблему — стоит обратиться к врачу.",
         },
       },
     ],
