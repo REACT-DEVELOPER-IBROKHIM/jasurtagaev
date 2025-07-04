@@ -79,20 +79,19 @@ const Parser = ({ structure }: any) => {
       case "image":
         return (
           <Image
-            className="!max-w-[700px] flex-1 h-auto object-cover"
+            className="!max-w-[700px] flex-1 h-[600px] object-cover"
             width={600}
             height={300}
             key={index}
             src={content}
             alt="Image"
-            style={{ maxWidth: "100%", height: "auto" }}
           />
         );
       case "wrapper":
         return (
           <div
             key={index}
-            className="flex justify-center flex-wrap gap-y-4 py-[50px]"
+            className="flex justify-center flex-wrap gap-4 py-[50px]"
           >
             {item.elements &&
               Array.isArray(item.elements) &&

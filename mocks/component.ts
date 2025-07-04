@@ -22,7 +22,7 @@ export const NAVBAR_LIST_MOCK = [
   {
     id: "3",
     label: {
-      uz: "Galereya",
+      uz: "Galareya",
       ru: "Галерея",
       en: "Gallery",
       kr: "Галерея",
