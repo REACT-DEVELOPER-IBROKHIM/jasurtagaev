@@ -1,14 +1,14 @@
 import React from "react";
 import type { Metadata } from "next";
 import { Props } from "./type";
-import { fetchArticleById } from "@/helpers/api/articles.request";
+import { fetchArticleBySlug } from "@/helpers/api/articles.request";
 import Parser from "@/utils/components/parser";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import ContactCard from "@/components/contact-card";
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const post = await fetchArticleById((await params).id);
+  const post = await fetchArticleBySlug((await params).slug);
 
   return {
     title: post.title,
@@ -17,8 +17,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 const page = async ({ params }: Props) => {
-  const post = await fetchArticleById((await params).id);
-
+  const post = await fetchArticleBySlug((await params).slug);
+  console.log("post", post);
   return (
     <div>
       <Header />

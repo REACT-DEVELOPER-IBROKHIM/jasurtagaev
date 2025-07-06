@@ -6,7 +6,7 @@ import { translateContent } from "@/helpers/translation/translate-content";
 import { useLocale } from "next-intl";
 
 const ArticleCard = ({ article }: { article: IArticle }) => {
-  const { title, description, image, href, linkText } = article;
+  const { title, description, image, slug, linkText } = article;
   const locale = useLocale();
 
   return (
@@ -24,7 +24,7 @@ const ArticleCard = ({ article }: { article: IArticle }) => {
         <p className="text-gray-500 text-lg">
           {translateContent(description, locale)}
         </p>
-        <LinkElement href={href}>
+        <LinkElement href={`/articles/${slug}`}>
           {translateContent(linkText, locale)}
         </LinkElement>
       </div>

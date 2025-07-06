@@ -17,8 +17,8 @@ export async function fetchArticles() {
   return res.json();
 }
 
-export async function fetchArticleById(id: string) {
-  const res = await fetch(`${API_URL}/articles/${id}`);
+export async function fetchArticleBySlug(slug: string) {
+  const res = await fetch(`${API_URL}/articles/${slug}`);
   if (!res.ok) {
     notFound();
   }

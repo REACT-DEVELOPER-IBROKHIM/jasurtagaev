@@ -1,8 +1,7 @@
-import { text } from "stream/consumers";
-
 export const ARTICLES_MOCK = [
   {
     id: 1,
+    slug: "actinic-keratosis-aktinik-keratoz-актинический-кератоз-актиник-кератоз",
     title: {
       kr: "Актиник кератоз (АК)",
       uz: "Aktinik keratoz (AK)",
@@ -16,7 +15,6 @@ export const ARTICLES_MOCK = [
       ru: "Актинический кератоз (АК), также известный как солнечный кератоз или сенильный кератоз, — это предраковое состояние, возникающее при повреждении клеток кожи ультрафиолетовым (УФ) излучением от солнца или соляриев. Оно в первую очередь затрагивает внешний слой кожи (эпидермис) и может привести к развитию плоскоклеточного рака кожи (ПКР), если не лечить. АК является одним из наиболее распространённых предвестников рака кожи. Хотя оно, как правило, доброкачественное, требует внимательного наблюдения и лечения.",
     },
     image: "/article-images/ak/image-1.jpg",
-    href: "/articles/1",
     date: "2025-06-18",
     linkText: {
       uz: "Ko'proq o'qish",
@@ -30,10 +28,10 @@ export const ARTICLES_MOCK = [
         elementType: "heading",
         level: 1,
         content: {
-          en: "Actinic Keratosis Overview",
-          kr: "Актиник кератоз умумий кўриниши",
-          uz: "Aktinik keratoz umumiy ko'rinishi",
-          ru: "Обзор актинического кератоза",
+          en: "Actinic Keratosis",
+          kr: "Актиник кератоз",
+          uz: "Aktinik keratoz",
+          ru: "Актинический кератоз",
         },
       },
       {
@@ -603,6 +601,7 @@ export const ARTICLES_MOCK = [
   },
   {
     id: 2,
+    slug: "atheromas-ateromalar-атеромы-атеромалар",
     title: {
       kr: "Атеромалар",
       uz: "Ateromalar",
@@ -616,7 +615,6 @@ export const ARTICLES_MOCK = [
       ru: "Атеромы, также известные как сальные кисты или эпидермоидные кисты, — это доброкачественные (не раковые) уплотнения или новообразования, которые развиваются в коже. Они обычно возникают в результате накопления кожного сала (жирного вещества, вырабатываемого сальными железами). Эти кисты, как правило, растут медленно и могут встречаться в различных частях тела, чаще всего на лице, шее и спине.",
     },
     image: "/article-images/ath/image-1.jpg",
-    href: "/articles/2",
     date: "2025-06-22",
     linkText: {
       uz: "Ko'proq o'qish",
@@ -1165,6 +1163,7 @@ export const ARTICLES_MOCK = [
   },
   {
     id: 3,
+    slug: "basal-cell-carcinoma-bazilioma-базалиома-базалиома",
     title: {
       kr: "Базалиома",
       uz: "Bazalioma",
@@ -1178,7 +1177,6 @@ export const ARTICLES_MOCK = [
       ru: "Базально-клеточный рак кожи (БКРК) — это самая распространённая форма рака кожи. Он возникает из базальных клеток, расположенных в нижнем слое эпидермиса (самого внешнего слоя кожи). Обычно БКРК медленно растёт, локально инвазивен и редко метастазирует (распространяется на другие части тела), но при отсутствии лечения может вызывать значительное местное разрушение тканей. Хотя он в целом не считается опасным для жизни, ранняя диагностика и лечение имеют решающее значение для предотвращения осложнений.",
     },
     image: "/article-images/bcc/image-1.jpg",
-    href: "/articles/3",
     date: "2025-06-25",
     linkText: {
       uz: "Ko'proq o'qish",
@@ -1189,24 +1187,720 @@ export const ARTICLES_MOCK = [
     isPopular: true,
     structure: [
       {
+        elementType: "heading",
+        level: 1,
+        content: {
+          en: "Basal Cell Carcinoma (BCC)",
+          kr: "Базал ҳужайрали тери саратони",
+          uz: "Bazal hujayrali teri saratoni",
+          ru: "Базалиома",
+        },
+      },
+      {
+        elementType: "wrapper",
+        elements: [
+          {
+            elementType: "image",
+            content: "/article-images/bcc/image-1.jpg",
+          },
+          {
+            elementType: "image",
+            content: "/article-images/bcc/image-2.jpg",
+          },
+        ],
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Basal Cell Carcinoma (BCC) is the most common form of skin cancer. It originates in the basal cells, which are located in the lowest layer of the epidermis (the outermost layer of the skin). BCC is typically slow-growing, locally invasive, and rarely metastasizes (spreads to other parts of the body), but it can cause significant local damage if left untreated. While it is generally not considered life-threatening, early detection and treatment are crucial to prevent complications.",
+          kr: "Базал ҳужайрали тери саратониБазал ҳужайрали тери саратони (БҲС) тери саратонининг энг кенг тарқалган шаклидир. У эпидермиснинг пастки қаватида (терининг энг ташқи қаватида) жойлашган базал ҳужайралардан ҳосил бўлади. Одатда, Базал ҳужайрали тери саратони (БҲС) секин ўсади, маҳаллий инвазив ва камдан-кам ҳолларда метастаз беради (тананинг бошқа қисмларига тарқалади), аммо даволанмаса, тўқималарнинг сезиларли маҳаллий бузилишига олиб келиши мумкин. Умуман олганда, у ҳаёт учун хавфли ҳисобланмаса-да, асоратларнинг олдини олиш учун эрта ташхис қўйиш ва даволаш муҳим аҳамиятга эга.",
+          uz: "Bazal hujayrali teri saratoni - Bazal hujayrali teri saratoni (BHS) teri saratonining eng keng tarqalgan shaklidir. U epidermisning pastki qavatida (terining eng tashqi qavatida) joylashgan bazal hujayralardan hosil bo‘ladi. Odatda, Bazal hujayrali teri saratoni (BHS) sekin o‘sadi, mahalliy invaziv va kamdan-kam hollarda metastaz beradi (tananing boshqa qismlariga tarqaladi), ammo davolanmasa, to‘qimalarning sezilarli mahalliy buzilishiga olib kelishi mumkin. Umuman olganda, u hayot uchun xavfli hisoblanmasa-da, asoratlarning oldini olish uchun erta tashxis qo‘yish va davolash muhim ahamiyatga ega.",
+          ru: "Базально-клеточный рак кожи (БКРК) — это самая распространённая форма рака кожи. Он возникает из базальных клеток, расположенных в нижнем слое эпидермиса  (самого внешнего слоя кожи). Обычно БКРК медленно растёт, локально инвазивен и редко метастазирует (распространяется на другие части тела), но при отсутствии лечения может вызывать значительное местное разрушение тканей. Хотя он в целом не считается опасным для жизни, ранняя диагностика и лечение имеют решающее значение для предотвращения осложнений.",
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Key Features of Basal Cell Carcinoma (BCC):",
+          kr: "Базал ҳужайрали тери саратонининг асосий хусусиятлари",
+          uz: "Bazal hujayrali teri saratonining asosiy xususiyatlari",
+          ru: "Основные характеристики базалиомы",
+        },
+      },
+      {
         elementType: "list",
         content: {
-          en: ["En list item 1", "En list item 2", "En list item 3"],
-          kr: [
-            "Кр рўйхат элемент 1",
-            "Кр рўйхат элемент 2",
-            "Кр рўйхат элемент 3",
-          ],
-          uz: [
-            "Уз рўйхат элемент 1",
-            "Уз рўйхат элемент 2",
-            "Уз рўйхат элемент 3",
+          en: [
+            {
+              text: "Appearance:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      {
+                        text: "Lesion Characteristics: BCC lesions are often painless and can vary in appearance. They may present as:",
+                        elements: [
+                          {
+                            elementType: "list",
+                            content: {
+                              en: [
+                                "Pearly or waxy bump: This is the most typical appearance, often translucent or shiny in color.",
+                                "Flat, scaly patch: Some BCCs appear as a flat, red or brown patch with a scaly texture.",
+                                "Ulcerated or bleeding lesion: In some cases, the tumor can develop into an open sore or ulcer, which may bleed or crust over.",
+                                "Raised edges: Many BCCs have a characteristic rolled, raised edge with a central ulcer or crater.",
+                              ],
+                            },
+                          },
+                        ],
+                      },
+                      "Color: The lesion can be flesh-colored, pink, red, or brown, depending on the type and location. Pigmented BCCs may also appear brown or black.",
+                      "Size: BCC lesions can range in size from small (a few millimeters) to several centimeters. The growth is typically slow, but in some cases, they can grow over time and invade surrounding tissues.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Common Locations:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "BCC most often occurs on sun-exposed areas of the body, such as the face, ears, scalp, neck, shoulders, back, upper chest, arms, and hands. It can also appear on mucosal surfaces such as the mouth, but this is less common",
+                      "It is particularly prevalent on the face, including areas around the nose, eyes, and ears.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Risk Factors:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "UV Exposure: The most significant risk factor for developing BCC is exposure to ultraviolet (UV) radiation from the sun or tanning beds. Long-term, cumulative UV exposure increases the likelihood of developing BCC.",
+                      "Fair Skin: People with fair skin, blond or red hair, and blue or green eyes are at greater risk, as their skin is more sensitive to UV radiation.",
+                      "Age: BCC is more common in older individuals, especially those over 50 years old, due to the cumulative effect of sun exposure over a lifetime.",
+                      "History of Sunburns: Individuals who have had frequent or severe sunburns during childhood or adolescence are at a higher risk.",
+                      "Family History: A family history of skin cancer, including BCC, increases the likelihood of developing BCC.",
+                      "Immunosuppression: People with weakened immune systems, such as organ transplant recipients or those with HIV/AIDS, are more likely to develop BCC.",
+                      "Previous Skin Cancer: A history of other types of skin cancer, such as squamous cell carcinoma (SCC) or BCC, increases the risk of developing additional BCC lesions.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Symptoms:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Painless Growth: Most BCCs are asymptomatic (painless), but as they grow, they may become itchy or tender in some cases.",
+                      "Bleeding or Crusting: The lesion may bleed or form a crust if it becomes ulcerated or irritated.",
+                      "Slow Growth: BCCs typically grow slowly over time, often taking months or years to become noticeable.",
+                      "Cosmetic Concerns: As BCCs can occur on the face and other visible areas, they can be a cosmetic concern, especially if they grow larger.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Diagnosis:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Clinical Examination: A healthcare provider, typically an oncodermatologist, will examine the lesion and consider the patient's risk factors and history of sun exposure. A suspicious lesion may be biopsied for confirmation.",
+                      "Skin Biopsy: A skin biopsy is usually performed to diagnose BCC. A small sample of the lesion is taken and examined under a microscope to confirm the diagnosis.",
+                      "Histopathology: In the biopsy sample, BCC cells are seen to grow in an uncontrolled manner, often forming islands of cells that extend into the dermis layer of the skin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Types of Basal Cell Carcinoma:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Nodular BCC: The most common type of BCC, typically appearing as a raised, pearly bump with a central ulcer.",
+                      "Superficial BCC: Appears as a flat, scaly patch with a slightly raised, red border. It is often mistaken for eczema or psoriasis.",
+                      "Morpheaform (Sclerosing) BCC: A scar-like appearance with an irregular shape and often involves deep skin structures. It can be more difficult to detect due to its flat nature and may appear less obvious at first.",
+                      "Pigmented BCC: Contains brown or black pigment, similar to a mole or melanoma, and can be mistaken for other pigmented skin lesions.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Treatment: Treatment for BCC depends on the size, location, and type of lesion, as well as the patient's overall health.",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Surgical Excision: The most common treatment for BCC involves surgical removal of the tumor. A surgeon will remove the tumor along with a small margin of healthy tissue to ensure all cancerous cells are removed.",
+                      "Mohs Micrographic Surgery: This specialized technique is used for BCCs in cosmetically sensitive areas (such as the face) or larger, more aggressive lesions. The tumor is removed layer by layer while being examined under a microscope to ensure all cancerous tissue is excised, reducing the chance of recurrence.",
+                      "Curettage and Electrodessication: This method involves scraping the lesion (curettage) and then using an electric needle to destroy any remaining cancer cells (electrodessication). It is commonly used for smaller, superficial BCCs.",
+                      "Cryotherapy (Freezing): Cryotherapy involves freezing the tumor with liquid nitrogen to destroy the abnormal cells. It is typically used for smaller, superficial BCCs.",
+                      "Radiation Therapy: Radiation is sometimes used for larger or inoperable BCCs or for patients who are unable to undergo surgery. It may also be used for tumors in difficult-to-reach areas.",
+                      "Topical Treatments: For superficial BCCs, topical treatments such as 5-fluorouracil (5-FU) or imiquimod may be used to destroy cancerous cells.",
+                      "Photodynamic Therapy (PDT): PDT involves applying a photosensitizing agent to the lesion and exposing it to light to destroy the abnormal cells. It is generally used for superficial BCCs.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Prevention:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Sun Protection: Preventing BCC involves minimizing exposure to UV radiation. This includes wearing sunscreen with an SPF of 30 or higher, wearing protective clothing, and seeking shade when possible.",
+                      "Avoid Tanning Beds: Tanning beds should be avoided, as they emit harmful UV radiation that can increase the risk of BCC and other skin cancers.",
+                      "Regular Skin Checks: Regular skin self-exams and professional skin checks by an oncodermatologist are important, especially for people who have had BCC or other skin cancers.",
+                      "Protective Clothing: Wearing wide-brimmed hats, sunglasses, and UV-protective clothing can help protect the skin from sun exposure, especially on the face, ears, and neck.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Prognosis:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Excellent Prognosis: For most people, the prognosis for BCC is excellent. BCCs are slow-growing and are rarely metastatic. When detected and treated early, the cure rate is high.",
+                      "Recurrence: BCCs can recur if not completely removed. The risk of recurrence is higher for aggressive or incomplete excisions, and follow-up visits with an oncodermatologist are essential to monitor for any new lesions or recurrences.",
+                      "Advanced Cases: In rare cases where BCC grows extensively or involves deep structures, it can cause significant disfigurement or tissue damage, but metastasis (spread to other organs) is exceedingly rare.",
+                    ],
+                  },
+                },
+              ],
+            },
           ],
           ru: [
-            "Ру элемент списка 1",
-            "Ру элемент списка 2",
-            "Ру элемент списка 3",
+            {
+              text: "Внешний вид:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      {
+                        text: "Характеристика очага: Очаги Базально-клеточный рак кожи (БКРК) часто безболезненны и могут выглядеть по-разному:",
+                        elements: [
+                          {
+                            elementType: "list",
+                            content: {
+                              ru: [
+                                "Перламутровый или восковидный бугорок: Самая типичная форма, часто прозрачная или блестящая.",
+                                "Плоское, шелушащееся пятно: Может быть красного или коричневого цвета с сухой, чешуйчатой текстурой.",
+                                "Изъязвление или кровоточивость: Иногда опухоль может развиться в открытую язву, которая кровоточит или покрыта коркой.",
+                                "Приподнятые края: Часто имеет характерный валик по краю с центральной язвой или углублением.",
+                              ],
+                            },
+                          },
+                        ],
+                      },
+                      "Цвет: Может быть телесного, розового, красного или коричневого цвета. Пигментированный Базально-клеточный рак кожи (БКРК) может быть тёмно-коричневым или чёрным.",
+                      "Размер: Размер очага может варьироваться от нескольких миллиметров до нескольких сантиметров. Опухоль обычно растёт медленно, но может увеличиваться и внедряться в окружающие ткани.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Типичные локализации:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Базально-клеточный рак кожи (БКРК) чаще всего возникает на участках кожи, подверженных солнечному воздействию — лицо, уши, кожа головы, шея, плечи, спина, грудь, руки. Реже встречается на слизистых оболочках, например, в полости рта.",
+                      "Особенно часто локализуется в области носа, глаз и ушей.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Факторы риска:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "УФ-облучение: Наиболее значимый фактор риска — ультрафиолетовое излучение от солнца или солярия. Длительное и накопительное воздействие повышает вероятность развития Базально-клеточный рак кожи (БКРК).",
+                      "Светлая кожа: Люди с белой кожей, светлыми волосами и голубыми или зелёными глазами подвержены большему риску.",
+                      "Возраст: Чаще развивается у людей старше 50 лет.",
+                      "Солнечные ожоги: Частые или сильные ожоги в детстве или юности увеличивают риск.",
+                      "Наследственность: Наличие рака кожи в семейном анамнезе увеличивает вероятность заболевания.",
+                      "Иммуносупрессия: Люди с ослабленным иммунитетом (например, после трансплантации или с ВИЧ/СПИДом) имеют повышенный риск.",
+                      "Предшествующий рак кожи: Наличие в анамнезе Базально-клеточный рак кожи (БКРК) или плоскоклеточного рака увеличивает риск развития новых опухолей.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Симптомы:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Безболезненный рост: Большинство опухолей безболезненны, но могут вызывать зуд или дискомфорт.",
+                      "Кровоточивость или корка: Очаг может кровоточить или покрываться коркой, особенно если изъязвляется.",
+                      "Медленный рост: Развивается постепенно — месяцы или даже годы.",
+                      "Косметические проблемы: При локализации на лице может вызывать эстетический дискомфорт.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Диагностика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Клинический осмотр: Врач (обычно онкодерматолог) осматривает очаг и собирает анамнез, включая сведения о воздействии солнца.",
+                      "Биопсия кожи: Наиболее распространённый метод подтверждения диагноза. Образец ткани исследуется под микроскопом.",
+                      "Гистопатология: Клетки Базально-клеточный рак кожи (БКРК) разрастаются неконтролируемо, часто образуют «островки» клеток, проникающие в дерму.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Типы базально-клеточного рака:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Нодулярный Базально-клеточный рак кожи (БКРК): Самый частый тип, выглядит как перламутровый узел с центральным изъязвлением.",
+                      "Поверхностный Базально-клеточный рак кожи (БКРК): Плоское пятно с шелушением и покраснением, может быть ошибочно принято за экзему или псориаз.",
+                      "Морфеаподобный (склерозирующий) Базально-клеточный рак кожи (БКРК): Плотное, рубцоподобное образование, трудно диагностируется из-за плоской формы.",
+                      "Пигментированный Базально-клеточный рак кожи (БКРК): Содержит тёмный пигмент, напоминает родинку или меланому.",
+                      "Кистозный Базально-клеточный рак кожи (БКРК): Имеет вид заполненной жидкостью кисты, напоминает сальную кисту.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Лечение: Выбор метода лечения зависит от размера, локализации, типа опухоли и общего состояния пациента.",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Хирургическое иссечение: Наиболее часто применяемый метод — удаление опухоли с захватом небольшого количества здоровой ткани.",
+                      "Микрографическая хирургия по Мосу: Проводится на косметически значимых участках (например, лицо). Опухоль удаляется слоями с немедленным микроскопическим контролем.",
+                      "Кюретаж и электродеструкция: Соскоб опухоли и прижигание оставшихся клеток током. Эффективно при поверхностных формах.",
+                      "Криотерапия: Замораживание опухоли жидким азотом. Используется при небольших поверхностных очагах.",
+                      "Лучевая терапия: Применяется при крупных или неоперабельных опухолях, а также у пациентов, которым противопоказана операция.",
+                      "Местные препараты: Для поверхностного Базально-клеточный рак кожи (БКРК) используются кремы (например, 5-фторурацил или имиквимод).",
+                      "Фотодинамическая терапия (ФДТ): Нанесение фотосенсибилизирующего вещества и последующее освещение специальным светом.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Профилактика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Защита от солнца: Использование солнцезащитного крема (SPF 30+), защитной одежды, избегание солнца в часы пик.",
+                      "Отказ от соляриев: Искусственное УФ-облучение также повышает риск рака кожи.",
+                      "Регулярные осмотры кожи: Самоосмотр и визиты к дерматологу особенно важны для людей с историей рака кожи.",
+                      "Защитная одежда: Шляпы с широкими полями, очки, одежда с УФ-защитой.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Прогноз:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Отличный прогноз: Базально-клеточный рак кожи (БКРК) медленно прогрессирует и крайне редко метастазирует. При раннем выявлении уровень излечения высок.",
+                      "Рецидив: Возможен, особенно при неполном удалении опухоли. Важно проходить регулярные контрольные осмотры.",
+                      "Запущенные случаи: В редких случаях может привести к обезображиванию или разрушению тканей, но распространение на внутренние органы крайне редко.",
+                    ],
+                  },
+                },
+              ],
+            },
           ],
+          kr: [
+            {
+              text: "Ташқи кўриниши:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      {
+                        text: "Ўчоқнинг хусусиятлари: Базал ҳужайрали тери саратони (БҲС) ўчоқлари кўпинча оғриқсиз бўлиб, турли кўринишларда намоён бўлиши мумкин:",
+                        elements: [
+                          {
+                            elementType: "list",
+                            content: {
+                              kr: [
+                                "Садафсимон ёки мумсифат бўртма: Энг кенг тарқалган шакли бўлиб, кўпинча шаффоф ёки ялтироқ кўринишга эга.",
+                                "Текис, қипиқланувчи доғ: Қизил ёки жигарранг тусда бўлиб, қуруқ, тангачасимон тузилишга эга бўлиши мумкин.",
+                                "Яраланиш ёки қон кетиши: Баъзида ўсма қонаётган ёки қобиқ билан қопланган очиқ ярага айланиши мумкин.",
+                                "Кўтарилган чеккалар: Кўпинча марказида яраси ёки чуқурчаси бўлган ўзига хос қиррали чегарага эга.",
+                              ],
+                            },
+                          },
+                        ],
+                      },
+                      "Ранги: Тери ранги, пушти, қизил ёки жигарранг бўлиши мумкин. Пигментли Базал ҳужайрали тери саратони (БҲС) тўқ жигарранг ёки қора рангда бўлиши мумкин.",
+                      "Ўлчами: Ўчоқнинг катталиги бир неча миллиметрдан бир неча сантиметргача бўлиши мумкин. Ўсма одатда секин ўсади, аммо катталашиши ва атрофдаги тўқималарга кириб бориши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Одатий жойлашувлар:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Базал ҳужайрали тери саратони (БҲС) кўпинча терининг қуёш таъсирига учраган қисмларида - юз, қулоқ, бош териси, бўйин, елка, орқа, кўкрак, қўлларда пайдо бўлади. Шиллиқ пардаларда, масалан, оғиз бўшлиғида камроқ учрайди.",
+                      "Айниқса, бурун, кўз ва қулоқ соҳаларида кўп учрайди.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Хавф омиллари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Энг муҳим хавф омили қуёш ёки солярийнинг ультрабинафша нурланишидир. Узоқ муддатли ва тўпланган таъсир Базал ҳужайрали тери саратони (БҲС) ривожланиш эҳтимолини оширади.",
+                      "Оч рангли тери: Оқ танли, сариқ сочли ва кўк ёки яшил кўзли одамлар кўпроқ хавф остида бўлади.",
+                      "Ёши: Кўпинча 50 ёшдан ошган одамларда ривожланади.",
+                      "Қуёшдан куйиш: Болалик ёки ўсмирлик даврида тез-тез ёки кучли куйиш хавфни оширади.",
+                      "Ирсият: Оилавий анамнезда тери саратони мавжудлиги касаллик эҳтимолини оширади.",
+                      "Иммуносупрессия: Иммунитети заиф бўлган одамлар (масалан, трансплантациядан кейин ёки ОИВ/ОИТС билан касалланганлар) юқори хавф остида бўлади.",
+                      "Олдинги тери саратони: Анамнезда базал ҳужайрали тери саратони (БҲТС) ёки ясси ҳужайрали саратон бўлганлиги янги ўсмалар ривожланиш хавфини оширади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Белгилари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Оғриқсиз ўсиш: Аксарият ўсмалар оғриқсиз бўлади, бироқ қичишиш ёки ноқулайлик келтириб чиқариши мумкин.",
+                      "Қонаш ёки қатқалоқ ҳосил бўлиши: Ўчоқ қонаши ёки қатқалоқ билан қопланиши мумкин, айниқса яра пайдо бўлганда.",
+                      "Секин ривожланиш: Аста-секин - ойлар ёки ҳатто йиллар давомида шаклланади.",
+                      "Косметик муаммолар: Юзда жойлашганда ташқи кўринишга салбий таъсир кўрсатиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Ташхислаш:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Клиник кўрик: Шифокор (одатда онкодерматолог) ўчоқни текширади ва анамнезни, шу жумладан қуёш таъсири ҳақидаги маълумотларни тўплайди.",
+                      "Тери биопсияси: Ташхисни тасдиқлашнинг энг кенг тарқалган усули. Тўқима намунаси микроскоп остида ўрганилади.",
+                      'Гистопатологияси: Базал ҳужайрали тери саратони (БҲС) назоратдан ташқари кўпаяди, кўпинча дермага кириб борувчи ҳужайра "оролчалари"ни ҳосил қилади.',
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Базал ҳужайрали саратон турлари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Нодуляр Базал ҳужайрали тери саратони (БҲС): Энг кўп учрайдиган тури, марказий яраси бўлган садаф тугун кўринишида бўлади.",
+                      "Юзаки Базал ҳужайрали тери саратони (БҲС): Пўст ташлаш ва қизариш билан текис доғ, нотўғри экзема ёки псориаз деб қабул қилиниши мумкин.",
+                      "Морфеасимон (склерозланувчи) Базал ҳужайрали тери саратони (БҲС): Зич, чандиқсимон ҳосила, ясси шакли туфайли ташхис қўйиш қийин.",
+                      "Пигментли Базал ҳужайрали тери саратони (БҲС): Қора пигмент сақлайди, хол ёки меланомага ўхшайди.",
+                      "Кистоз Базал ҳужайрали тери саратони (БҲС): Суюқлик билан тўлган киста кўринишида бўлиб, ёғли кистага ўхшайди.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Даволаш: Даволаш усулини танлаш ўсманинг катталиги, жойлашиши, тури ва беморнинг умумий аҳволига боғлиқ.",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Жарроҳлик йўли билан кесиш: Энг кўп қўлланиладиган усул - ўсмани олиб ташлаш ва оз миқдордаги соғлом тўқималарни қамраб олишдир.",
+                      "Мос бўйича микрографик жарроҳлик: Косметик аҳамиятга эга бўлган соҳаларда (масалан, юз) амалга оширилади. Ўсма қаватма-қават олиб ташланиб, дарҳол микроскоп остида текширилади.",
+                      "Кюретаж ва электродеструксия: Ўсмани қириб олиш ва қолган ҳужайраларни ток билан куйдириш. Юзаки шаклларда самарали.",
+                      "Криотерапия: Ўсмани суюқ азот билан музлатиш. Кичик юза ўчоқларда қўлланилади.",
+                      "Нур терапияси: Катта ўлчамли ёки операция қилиб бўлмайдиган ўсмаларда, шунингдек, операция қилиш мумкин бўлмаган беморларда қўлланилади.",
+                      "Маҳаллий препаратлар: юзаки Базал ҳужайрали тери саратони (БҲС) учун кремлар (масалан, 5-фторуратсил ёки имиквимод) ишлатилади.",
+                      "Фотодинамик терапия (ФДТ): Фотосенсибилизатсияловчи моддани қўллаш ва кейинчалик махсус ёруғлик билан ёритиш.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Профилактикаси:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Қуёшдан ҳимояланиш: Қуёшдан ҳимояловчи крем (SPF 30+), ҳимоя кийимларидан фойдаланиш, тиғиз пайтларда қуёшдан сақланиш.",
+                      "Солярийдан воз кечиш: Сунъий ультрабинафша нурланиш ҳам тери саратони хавфини оширади.",
+                      "Мунтазам тери текширувлари: Ўз-ўзини текшириш ва дерматологга ташриф буюриш, айниқса, тери саратони билан оғриган одамлар учун жуда муҳимдир.",
+                      "Ҳимоя кийимлари: кенг ҳошияли шляпалар, кўзойнаклар, ультрабинафша нурларидан ҳимояланган кийимлар.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Прогноз:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Ажойиб прогноз: Базал ҳужайрали тери саратони (БҲС) секин ривожланади ва жуда кам ҳолларда метастаз беради. Эрта аниқланганда тузалиш даражаси юқори бўлади.",
+                      "Қайталаниши мумкин, айниқса ўсма тўлиқ олиб ташланмаганда. Мунтазам назорат текширувларидан ўтиш муҳим.",
+                      "Ўтказиб юборилган ҳолатлар: Камдан-кам ҳолларда тўқималарнинг хунуклашишига ёки емирилишига олиб келиши мумкин, аммо ички аъзоларга тарқалиши жуда кам учрайди.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          uz: [
+            {
+              text: "Ko'rinishi:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      {
+                        text: "Jarohat xususiyatlari: Bazal hujayrali teri saratini jarohatlari ko'pincha og'riqsiz bo'lib, ko'rinishda farq qiladi. Ular quyidagi ko'rinishlarda bo'lishi mumkin:",
+                        elements: [
+                          {
+                            elementType: "list",
+                            content: {
+                              uz: [
+                                "Marvarid yoki mumsiq tosh: Bu eng keng tarqalgan ko'rinish bo'lib, ko'pincha yarim shaffof yoki porloq rangda bo'ladi.",
+                                "Tekis, qobiq tashlagan dog': Ba'zi Bazal hujayrali teri saratinilar tekis, qizil yoki jigarrang dog' ko'rinishida bo'ladi.",
+                                "Yarali yoki qonashli jarohat: Ba'zi hollarda, o'sma ochiq yara yoki yaraga aylanishi mumkin, bu qonashi yoki qobiq bilan qoplanishi mumkin.",
+                                "Ko'tarilgan chekkalar: Ko'p Bazal hujayrali teri saratinilar o'ziga xos qirralangan, ko'tarilgan chekka bilan markaziy yara yoki chuqurchaga ega.",
+                              ],
+                            },
+                          },
+                        ],
+                      },
+                      "Rangi: Jarohat teri rangi, pushti, qizil yoki jigarrang bo'lishi mumkin. Pigmentli Bazal hujayrali teri saratinilar ham jigarrang yoki qora rangda bo'lishi mumkin.",
+                      "O'lchami: Bazal hujayrali teri saratini jarohatlari bir necha millimetrdan bir necha santimetrgacha o'zgarishi mumkin. O'sish odatda sekin, lekin ba'zi hollarda vaqt o'tishi bilan kattalashishi va atrofdagi to'qimalarga kirib borishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Odatiy joylashuvlar:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Bazal hujayrali teri saratini ko'pincha quyoshga ta'sirlangan terining ochiq joylarida - yuz, quloq, bosh terisi, bo'yin, yelka, orqa, ko'krak, qo'llar va qo'llarda paydo bo'ladi. Kamdan-kam hollarda shilliq pardalarda, masalan, og'iz bo'shlig'ida uchraydi.",
+                      "U ayniqsa, burun, ko'z va quloq atrofida keng tarqalgan.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Xavf omillari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Quyosh nurlanishi: Bazal hujayrali teri saratini rivojlanishining eng muhim xavf omili quyosh yoki solyariydan ultrabinafsha (UV) nurlanishidir. Uzoq muddatli va to'plangan UV nurlanishi Bazal hujayrali teri saratini rivojlanish ehtimolini oshiradi.",
+                      "Ochiq rangli teri: Oq teri, sarg'ish sochlar va ko'k yoki yashil ko'zli odamlar ko'proq xavf ostida bo'ladi, chunki ularning terisi UV nurlanishiga sezgir.",
+                      "Yoshi: Bazal hujayrali teri saratini ko'proq 50 yoshdan oshgan odamlarda uchraydi, chunki bu yoshda quyosh nurlanishining to'plangan ta'siri ko'proq.",
+                      "Quyosh kuyish tarixi: Bolalik yoki o'smirlik davrida tez-tez yoki og'ir quyosh kuyishlari bo'lgan odamlar yuqori xavf ostida bo'ladi.",
+                      "Oilaviy tarix: Teri saratoni, jumladan Bazal hujayrali teri saratini, oilaviy tarixda bo'lgan odamlar Bazal hujayrali teri saratini rivojlanish xavfi yuqori.",
+                      "Immunosupressiya: Organ transplantatsiyasi qilingan yoki OIV/OITS bilan kasallangan odamlar immuniteti zaif bo'lganligi sababli Bazal hujayrali teri saratini rivojlanish xavfi yuqori.",
+                      "Oldingi teri saratoni: Boshqa turdagi teri saratoni, masalan, ploksokletli hujayrali saraton (PHS) yoki Bazal hujayrali teri saratini bo'lgan odamlar yangi Bazal hujayrali teri saratini jarohatlari rivojlanish xavfi yuqori.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Belgilari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Og'riqsiz o'sish: Bazal hujayrali teri saratini jarohatlari ko'pincha og'riqsiz bo'ladi, lekin ba'zi hollarda qichishish yoki noqulaylik keltirib chiqarishi mumkin.",
+                      "Qonash yoki qobiq hosil bo'lishi: Agar jarohat yaralansa yoki bezovta qilinsa, u qonashi yoki qobiq bilan qoplanishi mumkin.",
+                      "Sezilarli o'sish: Bazal hujayrali teri saratini jarohatlari odatda sekin o'sadi, ko'pincha oylar yoki hatto yillar davomida sezilarli bo'ladi.",
+                      "Kosmetik muammolar: Bazal hujayrali teri saratini ko'pincha yuz va boshqa ko'rinadigan joylarda paydo bo'ladi, bu esa katta o'sganda kosmetik muammo bo'lishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Tashxis:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Klinik tekshiruv: Sog'liqni saqlash mutaxassisi, odatda onkodermatolog, jarohatni tekshiradi va bemorning xavf omillari va quyosh nurlanishi tarixi haqida ma'lumot to'playdi. Shubhali jarohat biopsiya qilinishi mumkin.",
+                      "Teri biopsiyasi: Bazal hujayrali teri saratini tashxisini tasdiqlash uchun teri biopsiyasi odatda amalga oshiriladi. Jarohatdan kichik namuna olinib, mikroskop ostida tekshiriladi.",
+                      "Gistopatologiya: Biopsiya namunasida Bazal hujayrali teri saratini hujayralari nazoratdan tashqari o'sib borishi va ko'pincha terining dermis qatlamiga kiruvchi hujayra orolchalarini hosil qiladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Bazal hujayrali teri saratini turlari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Nodulyar Bazal hujayrali teri saratini: Eng keng tarqalgan tur bo'lib, odatda markaziy yarasi bo'lgan marvaridli tugun ko'rinishida bo'ladi.",
+                      "Yuza Bazal hujayrali teri saratini: Tekis, qizil yoki jigarrang dog' bo'lib, qobiq tashlash yoki qizish bilan ko'rinishi mumkin. U ko'pincha ekzema yoki psoriaz deb noto'g'ri tushuniladi.",
+                      "Morfeyasimon (sklerozlanuvchi) Bazal hujayrali teri saratini: Qattiq, chandiq ko'rinishida bo'lib, tekis shakli tufayli tashxis qo'yish qiyin.",
+                      "Pigmentli Bazal hujayrali teri saratini: Pigmentli Bazal hujayrali teri saratini qora yoki jigarrang rangda bo'lib, u ko'pincha dog' yoki melanomaga o'xshash ko'rinishda bo'ladi.",
+                      "Kistoz Bazal hujayrali teri saratini: Suyuqlik bilan to'lgan kista ko'rinishida bo'lib, yog'li kista yoki lipoma kabi ko'rinishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Davolash: Davolash usuli o'smaning o'lchami, joylashuvi, turi va bemorning umumiy holatiga bog'liq.",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Jarrohlik yo'li bilan olib tashlash: Eng ko'p qo'llaniladigan usul - o'smani olib tashlash va ozgina sog'lom to'qimalarni qamrab olish.",
+                      "Mohs jarrohligi: Kosmetik jihatdan muhim joylarda (masalan, yuz) amalga oshiriladi. O'sma qatlamma-qatlam olib tashlanib, darhol mikroskop ostida tekshiriladi.",
+                      "Kuretaj va elektrodestuksiya: O'smani qirib olish va qolgan hujayralarni tok bilan kuyish. Yuzaki shakllarda samarali.",
+                      "Krioterapiya: O'smani suyuq azot bilan muzlatish. Kichik yuzaki jarohatlar uchun qo'llaniladi.",
+                      "Nurlanish terapiyasi: Katta yoki operatsiya qilinmaydigan o'smalar uchun, shuningdek operatsiya qilish mumkin bo'lmagan bemorlar uchun qo'llaniladi.",
+                      "Mahalliy preparatlar: Yuzaki Bazal hujayrali teri saratini uchun kremlar (masalan, 5-fluorourasil yoki imiquimod) ishlatiladi.",
+                      "Fotodinamik terapiya (FDT): Fotosenzitizator moddani qo'llash va keyinchalik maxsus yorug'lik bilan yoritish.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Profilaktika:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Quyoshdan himoyalanish: Quyoshdan himoya kremi (SPF 30+) ishlatish, himoya kiyimlarini kiyish, quyoshning eng kuchli vaqtlarida quyoshdan saqlanish.",
+                      "Solariumlardan voz kechish: Sun'iy ultrabinafsha nurlanish ham teri saratoni xavfini oshirishi mumkin.",
+                      "Muntazam teri tekshiruvlari: O'z-ozini tekshirish va dermatologga tashrif buyurish, ayniqsa teri saratoni tarixi bo'lgan odamlar uchun juda muhimdir.",
+                      "Himoya kiyimlari: Keng qirrali shlyapalar, ko'zoynaklar, UV nurlaridan himoyalovchi kiyimlar.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Prognoz:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Ajoyib prognoz: Bazal hujayrali teri saratini sekin rivojlanadi va juda kam hollarda metastaz beradi. Erta aniqlansa, davolanish darajasi yuqori.",
+                      "Qaytalanishi mumkin, ayniqsa o'sma to'liq olib tashlanmasa. Muntazam nazorat tekshiruvlaridan o'tish muhim.",
+                      "O'tkazib yuborilgan holatlar: Kamdan-kam hollarda to'qimalarning deformatsiyasiga yoki yemirilishiga olib kelishi mumkin, ammo ichki a'zolarga tarqalishi juda kam uchraydi.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Summary:",
+          kr: "Хулоса",
+          uz: "Xulosa:",
+          ru: "Вывод:",
+        },
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Basal Cell Carcinoma (BCC) is a common and slow-growing type of skin cancer that primarily occurs due to long-term sun exposure. It is typically painless, appearing as a pearly bump or scaly patch on sun-exposed areas of the skin. While BCC is not usually fatal, early detection and treatment are essential to prevent local tissue damage. Treatment options include surgical excision, Mohs surgery, cryotherapy, and topical treatments. Sun protection is the key to preventing future BCCs, and regular skin checks are important for early detection.",
+          kr: "Базал ҳужайрали тери саратони - ультрабинафша нурланишнинг узоқ муддатли таъсиридан келиб чиққан саратоннинг кенг тарқалган ва секин ривожланадиган шакли. Кўпинча у терининг очиқ жойларида садафсимон дўмбоқча ёки пўст ташлаган доғ кўринишида бўлади. У камдан-кам ҳолларда ҳаёт учун хавф туғдирса-да, уни эрта босқичда аниқлаш муҳимдир. Даволаш усуллари: жарроҳлик йўли билан олиб ташлаш, микрографик жарроҳлик, криотерапия ва маҳаллий дорилар. Профилактика қуёшдан ҳимояланиш ва терини мунтазам текширишга асосланган.",
+          uz: "Bazal hujayrali teri saratoni (Bazal hujayrali teri saratini) - uzoq muddatli quyosh nurlanishi natijasida yuzaga keladigan keng tarqalgan va sekin o'suvchi teri saratonidir. U ko'pincha terining ochiq joylarida perlamutrdan yassilangan tosh yoki qobiq tashlagan dog' ko'rinishida bo'ladi. Bazal hujayrali teri saratini odatda hayot uchun xavf tug'dirmaydi, ammo erta aniqlash va davolash mahalliy to'qimalarning zararlanishini oldini olish uchun muhimdir. Davolash usullariga jarrohlik yo'li bilan olib tashlash, Mohs jarrohligi, krioterapiya va lokal davolashlar kiradi. Kelajakdagi Bazal hujayrali teri saratinining oldini olish uchun quyoshdan himoyalanish va muntazam teri tekshiruvlari muhimdir.",
+          ru: "Базально-клеточный рак кожи — распространённая и медленно развивающаяся форма рака, вызванная длительным воздействием ультрафиолетового излучения. Чаще всего он выглядит как перламутровый бугорок или шелушащееся пятно на открытых участках кожи. Хотя он редко представляет угрозу для жизни, важно выявить его на ранней стадии. Методы лечения включают хирургическое удаление, микрографическую хирургию, криотерапию и местные препараты. Профилактика основана на защите от солнца и регулярных осмотрах кожи.",
         },
       },
     ],

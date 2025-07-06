@@ -11,7 +11,7 @@ export type ImageWithTextData = {
     en: string;
   };
   image: string;
-  href: string;
+  slug: string;
   date: string;
   linkText: {
     uz: string;
