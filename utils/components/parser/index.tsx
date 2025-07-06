@@ -1,3 +1,4 @@
+import { transformTextToStrong } from "@/helpers/transform";
 import { translateContent } from "@/helpers/translation/translate-content";
 import { useLocale } from "next-intl";
 import Image from "next/image";
@@ -12,23 +13,28 @@ const Parser = ({ structure }: any) => {
           <ul key={index} className="py-[50px]  pl-[30px]">
             {content[locale] &&
               Array.isArray(content[locale]) &&
-              content[locale].map((item: any, index: number) => (
-                <li key={index} className="py-[10px] list-decimal">
-                  {item.text || item}
-                  <div className="pl-[30px]">
-                    {item.elements &&
-                      Array.isArray(item.elements) &&
-                      item.elements.map((element: any, idx: number) => {
-                        return renderElement(
-                          element,
-                          element.elementType,
-                          element.content,
-                          idx,
-                        );
-                      })}
-                  </div>
-                </li>
-              ))}
+              content[locale].map((item: any, index: number) => {
+                if (item.debug) {
+                  console.log("List item:", item);
+                }
+                return (
+                  <li key={index} className="py-[10px] list-decimal">
+                    {transformTextToStrong(item.text || item)}
+                    <div className="pl-[30px]">
+                      {item.elements &&
+                        Array.isArray(item.elements) &&
+                        item.elements.map((element: any, idx: number) => {
+                          return renderElement(
+                            element,
+                            element.elementType,
+                            element.content,
+                            idx,
+                          );
+                        })}
+                    </div>
+                  </li>
+                );
+              })}
           </ul>
         );
       case "paragraph":
@@ -42,45 +48,45 @@ const Parser = ({ structure }: any) => {
           case 1:
             return (
               <h1 className="text-4xl font-bold" key={index}>
-                {translateContent(content, locale)}
+                {transformTextToStrong(translateContent(content, locale))}
               </h1>
             );
           case 2:
             return (
               <h2 className="text-3xl font-bold" key={index}>
-                {translateContent(content, locale)}
+                {transformTextToStrong(translateContent(content, locale))}
               </h2>
             );
           case 3:
             return (
               <h3 className="text-2xl font-bold" key={index}>
-                {translateContent(content, locale)}
+                {transformTextToStrong(translateContent(content, locale))}
               </h3>
             );
           case 4:
             return (
               <h4 className="text-xl font-bold" key={index}>
-                {translateContent(content, locale)}
+                {transformTextToStrong(translateContent(content, locale))}
               </h4>
             );
           case 5:
             return (
               <h5 className="text-lg font-bold" key={index}>
-                {translateContent(content, locale)}
+                {transformTextToStrong(translateContent(content, locale))}
               </h5>
             );
           default:
             return (
               <h6 className="text-base font-bold" key={index}>
-                {translateContent(content, locale)}
+                {transformTextToStrong(translateContent(content, locale))}
               </h6>
             );
         }
       case "image":
         return (
           <Image
-            className="!max-w-[700px] flex-1 h-[600px] object-cover"
-            width={600}
+            className="!max-w-[800px] flex-1 h-[600px] object-cover"
+            width={700}
             height={300}
             key={index}
             src={content}

@@ -3,11 +3,11 @@ import { ARTICLES_MOCK } from "@/mocks/article";
 
 export async function GET(
   _: NextRequest,
-  { params }: { params: Promise<{ id: string }> },
+  { params }: { params: Promise<{ slug: string }> },
 ) {
-  const id = (await params).id;
+  const slug = (await params).slug;
 
-  const article = ARTICLES_MOCK.find((article) => article.id === Number(id));
+  const article = ARTICLES_MOCK.find((article) => article.slug === slug);
 
   if (!article) {
     return new Response("Article not found", { status: 404 });
