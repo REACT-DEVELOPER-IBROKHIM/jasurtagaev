@@ -5168,7 +5168,7 @@ export const ARTICLES_MOCK = [
       uz: "Dermatofibrosarkoma protuberans (DFSP) kam uchraydigan, sekin o‘suvchi, ammo mahalliy agressiv yumshoq to‘qimalar sarkomasi bo‘lib, derma (terining o‘rta qatlami)dan rivojlanadi. Odatda terida, ko‘pincha tanada, qo‘l-oyoqlarda yoki bosh va bo‘yinda bo‘rtib chiqqan, zich tugun yoki o‘sma paydo bo‘lishi bilan tavsiflanadi. DFSP kamdan-kam hollarda uzoq organlarga metastazlar bersa-da, u mahalliy to‘qimalarga, jumladan mushaklar, yog‘ va suyaklarga kirishga moyil.",
       ru: "Дерматофибросаркома протуберанс (ДФСП) — редкая, медленно растущая, но локально агрессивная саркома мягких тканей, которая развивается из дермы (среднего слоя кожи). Обычно она характеризуется появлением выступающего, плотного узла или образования на коже, часто на туловище, верхних конечностях или голове и шее. Хотя ДФСП редко дает метастазы в отдалённые органы, она склонна проникать в местные ткани, включая мышцы, жир и кости.",
     },
-    image: "/article-images/df/image-1.jpg",
+    image: "/article-images/dfsp/image-2.jpeg",
     date: "2025-06-22",
     linkText: {
       uz: "Ko'proq o'qish",
@@ -5193,11 +5193,11 @@ export const ARTICLES_MOCK = [
         elements: [
           {
             elementType: "image",
-            content: "/article-images/df/image-1.jpg",
+            content: "/article-images/dfsp/image-1.jpg",
           },
           {
             elementType: "image",
-            content: "/article-images/df/image-2.jpg",
+            content: "/article-images/dfsp/image-2.jpeg",
           },
         ],
       },
@@ -5726,6 +5726,2206 @@ export const ARTICLES_MOCK = [
           kr: "Дерматофибросаркома протуберанси — кам учрайдиган, секин ўсувчи, аммо тажовузкор тери ўсмаси бўлиб, кенг жарроҳлик йўли билан олиб ташлашни талаб қилади. Баъзи ҳолларда микрографик жарроҳлик ва мақсадли терапия қўлланилади. Кам учрайдиган метастазларга қарамай, қайталанишларни аниқлаш учун мунтазам мониторинг ўтказиш муҳим.",
           uz: "Dermatofibrosarkoma protuberans — kam uchraydigan, sekin o‘suvchi, ammo tajovuzkor teri o‘smalari bo‘lib, keng jarrohlik yo‘li bilan olib tashlashni talab qiladi. Ba’zi hollarda mikrografik jarrohlik va maqsadli terapiya qo‘llaniladi. Kam uchraydigan metastazlarga qaramay, qaytalanishlarni aniqlash uchun muntazam monitoring o‘tkazish muhim.",
           ru: "Дерматофибросаркома протуберанс — редкая, медленнорастущая, но агрессивная опухоль кожи, требующая широкого хирургического удаления. В некоторых случаях применяются микрографическая хирургия и таргетная терапия. Несмотря на редкие метастазы, важен регулярный мониторинг для выявления рецидивов.",
+        },
+      },
+    ],
+    type: "disease",
+  },
+  {
+    id: 10,
+    slug: "skin-fibromas-dermatofibromas-teri-fibromalari-кожные-фибромы-тери-фибромалари",
+    title: {
+      kr: "Тери фибромалари (дерматофибромалар)",
+      uz: "Teri fibromalari (dermatofibromalar)",
+      en: "Skin Fibromas (Dermatofibromas)",
+      ru: "Кожные фибромы (дерматофибромы)",
+    },
+    description: {
+      en: "Skin fibromas, also known as dermatofibromas, are common benign (non-cancerous) growths that form on the skin. These growths are made up of fibrous tissue and are typically small, firm, and raised. They are often harmless and do not require treatment unless they cause discomfort or cosmetic concerns.",
+      kr: "Тери фибромалари, шунингдек, дерматофибромалар деб ҳам аталади, терида шаклланадиган кенг тарқалган хавфсиз (хавфсиз) тузилмалардир. Бу тузилмалар толали тўқимадан иборат бўлиб, одатда кичик, зич ва кўтарилган бўлади. Улар кўпинча зарарсиз бўлиб, агар ноқулайлик ёки косметик муаммоларни келтириб чиқармаса, даволанишни талаб қилмайди.",
+      uz: "Teri fibromalari, shuningdek, dermatofibromalar deb ham ataladi, terida shakllanadigan keng tarqalgan xavfsiz (xavfsiz) tuzilmalar. Bu tuzilmalar tolali to‘qimadan iborat bo‘lib, odatda kichik, zich va ko‘tarilgan bo‘ladi. Ular ko‘pincha zararsiz bo‘lib, agar noqulaylik yoki kosmetik muammolarni keltirib chiqarmasa, davolanishni talab qilmaydi.",
+      ru: "Кожные фибромы, также известные как дерматофибромы, — это распространённые доброкачественные (незлокачественные) образования, которые формируются на коже. Эти образования состоят из волокнистой ткани и обычно небольшие, плотные и приподнятые. Они часто безвредны и не требуют лечения, если не вызывают дискомфорта или косметических проблем.",
+    },
+    image: "/article-images/df/image-1.jpg",
+    date: "2025-06-23",
+    linkText: {
+      uz: "Ko'proq o'qish",
+      en: "Read more",
+      ru: "Читать далее",
+      kr: "Кўпроқ ўқиш",
+    },
+    isPopular: false,
+    structure: [
+      {
+        elementType: "heading",
+        level: 1,
+        content: {
+          en: "Skin Fibromas (Dermatofibromas)",
+          kr: "Тери фибромалари (дерматофибромалар)",
+          uz: "Teri fibromalari (dermatofibromalar)",
+          ru: "Кожные фибромы (дерматофибромы)",
+        },
+      },
+      {
+        elementType: "wrapper",
+        elements: [
+          {
+            elementType: "image",
+            content: "/article-images/df/image-1.jpg",
+          },
+          {
+            elementType: "image",
+            content: "/article-images/df/image-2.jpg",
+          },
+        ],
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Skin fibromas, also known as dermatofibromas, are common benign (non-cancerous) growths that form on the skin. These growths are made up of fibrous tissue and are typically small, firm, and raised. They are often harmless and do not require treatment unless they cause discomfort or cosmetic concerns.",
+          kr: "Тери фибромалари, шунингдек, дерматофибромалар деб ҳам аталади, терида шаклланадиган кенг тарқалган хавфсиз (хавфсиз) тузилмалардир. Бу тузилмалар толали тўқимадан иборат бўлиб, одатда кичик, зич ва кўтарилган бўлади. Улар кўпинча зарарсиз бўлиб, агар ноқулайлик ёки косметик муаммоларни келтириб чиқармаса, даволанишни талаб қилмайди.",
+          uz: "Teri fibromalari, shuningdek, dermatofibromalar deb ham ataladi, terida shakllanadigan keng tarqalgan xavfsiz (xavfsiz) tuzilmalar. Bu tuzilmalar tolali to‘qimadan iborat bo‘lib, odatda kichik, zich va ko‘tarilgan bo‘ladi. Ular ko‘pincha zararsiz bo‘lib, agar noqulaylik yoki kosmetik muammolarni keltirib chiqarmasa, davolanishni talab qilmaydi.",
+          ru: "Кожные фибромы, также известные как дерматофибромы, — это распространённые доброкачественные (незлокачественные) образования, которые формируются на коже. Эти образования состоят из волокнистой ткани и обычно небольшие, плотные и приподнятые. Они часто безвредны и не требуют лечения, если не вызывают дискомфорта или косметических проблем.",
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Key Features of Skin Fibromas (Dermatofibromas):",
+          kr: "Тери фибромаси (дерматофибромаси)нинг асосий хусусиятлари:",
+          uz: "Teri fibromasi (dermatofibromasi)ning asosiy xususiyatlari:",
+          ru: "Основные характеристики кожных фибром (дерматофибром):",
+        },
+      },
+      {
+        elementType: "list",
+        content: {
+          en: [
+            {
+              text: "Appearance:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Size: Skin fibromas are usually small, ranging from a few millimeters to about 2-3 centimeters in diameter.",
+                      "Shape: They are typically round or oval, with a smooth or slightly irregular surface.",
+                      "Color: The color of a dermatofibroma can range from brown to red, purple, or pink, depending on the blood vessels and the type of tissue in the growth.",
+                      "Texture: They are usually firm to the touch and may feel like a small, raised bump on the skin.",
+                      "Central Depression: Some dermatofibromas have a characteristic dimpled or puckered center that appears when the skin is pinched.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Location:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Skin fibromas are most commonly found on the arms, legs, back, or chest. However, they can develop on any part of the body, except for the palms of the hands and soles of the feet.",
+                      "They are usually solitary, but it is possible to develop multiple dermatofibromas over time.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Symptoms:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Painless: Most skin fibromas are painless and do not cause discomfort.",
+                      "Irritation or Tenderness: In some cases, they may become irritated or tender, especially if they are rubbed by clothing or come into contact with something.",
+                      "Cosmetic Concerns: If the fibroma is in a visible area, it may cause cosmetic concerns, though this is more of an aesthetic issue rather than a medical one.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Causes:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "The exact cause of dermatofibromas is not fully understood, but they are thought to develop due to an overgrowth of fibrous tissue following skin trauma or injury.",
+                      "Insect bites, cuts, or scrapes can be triggers, although dermatofibromas can appear without any apparent cause.",
+                      "Genetics: There may also be a hereditary component, as some individuals are more prone to developing them.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Treatment:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Observation: In most cases, skin fibromas do not require any treatment unless they cause pain, irritation, or cosmetic concerns.",
+                      "Surgical Removal: If the dermatofibroma is painful, bothersome, or in an inconvenient location, it can be removed surgically. Removal is typically a minor procedure performed under local anesthesia.",
+                      "Cryotherapy or Laser Therapy: These are less common methods used for removal, depending on the location and size of the fibroma.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "When to Seek Medical Attention:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "The lesion changes in size, shape, or color.",
+                      "It becomes painful or starts to bleed.",
+                      "It appears to be growing rapidly or becomes inflamed.",
+                      "Although rare, any change in the appearance of a skin growth should be checked by a doctor to rule out more serious conditions like skin cancer.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          ru: [
+            {
+              text: "Внешний вид:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Размер: Обычно кожные фибромы небольшие — от нескольких миллиметров до примерно 2–3 сантиметров в диаметре.",
+                      "Форма: Чаще всего круглые или овальные, с гладкой или слегка неровной поверхностью.",
+                      "Цвет: Может варьироваться от коричневого до красного, пурпурного или розового, в зависимости от сосудов и типа ткани в образовании.",
+                      "Текстура: Обычно плотные на ощупь, могут ощущаться как небольшой приподнятый бугорок на коже.",
+                      "Центральная вмятина: Некоторые дерматофибромы имеют характерную вдавленность или сморщенность в центре, которая становится заметна при защипывании кожи.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Расположение:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Кожные фибромы чаще всего встречаются на руках, ногах, спине или груди. Однако они могут появляться на любой части тела, кроме ладоней и подошв.",
+                      "Обычно возникают одиночно, но с течением времени возможно появление нескольких дерматофибром.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Симптомы:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Безболезненные: Большинство кожных фибром не вызывают боли и не доставляют дискомфорта.",
+                      "Раздражение или болезненность: Иногда могут становиться раздражёнными или болезненными, особенно при трении одеждой или контакте с чем-либо.",
+                      "Косметические проблемы: Если фиброма находится на видном месте, может вызывать косметические неудобства, хотя это больше эстетическая, а не медицинская проблема.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Причины:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Точная причина дерматофибром неизвестна, но считается, что они развиваются из-за избыточного разрастания волокнистой ткани после травмы или повреждения кожи.",
+                      "Укусы насекомых, порезы или ссадины могут служить триггерами, хотя дерматофибромы могут появляться и без видимых причин.",
+                      "Генетика: Возможно наследственное предрасположение к их развитию.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Лечение:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Наблюдение: В большинстве случаев кожные фибромы не требуют лечения, если не вызывают боли, раздражения или косметических проблем.",
+                      "Хирургическое удаление: Если дерматофиброма вызывает боль, беспокойство или находится в неудобном месте, её можно удалить хирургическим путём. Обычно это небольшая процедура под местной анестезией.",
+                      "Криотерапия или лазерная терапия: Менее распространённые методы удаления, применяемые в зависимости от размера и локализации.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Когда обращаться к врачу:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Образование меняет размер, форму или цвет.",
+                      "Появляется боль или кровотечение.",
+                      "Быстро растёт или воспаляется.",
+                      "Несмотря на то, что дерматофибромы обычно безвредны, любое изменение на коже следует показать врачу для исключения серьёзных заболеваний, таких как рак кожи.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          kr: [
+            {
+              text: "Ташқи кўриниши:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Ўлчами: Одатда тери фибромалари кичик бўлади — диаметри бир неча миллиметрдан тахминан 2–3 сантиметргача.",
+                      "Шакли: Кўпинча юмалоқ ёки овалсимон, юзаси силлиқ ёки бироз нотекис.",
+                      "Ранги: Томирлар ва ҳосил бўлган тўқима турига қараб жигаррангдан қизил, бинафша ёки пушти ранггача ўзгариши мумкин.",
+                      "Текстура: Одатда қўл билан ушлаб кўрилганда зич бўлиб, терида кичик кўтарилган дўмбоқча сифатида сезилиши мумкин.",
+                      "Марказий ботиқлик: Баъзи дерматофибромаларнинг марказида ўзига хос ботиқлик ёки буришганлик бўлиб, улар терини пайпаслаганда сезилади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Жойлашув:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Тери фибромаси кўпинча қўл, оёқ, орқа ёки кўкракда учрайди. Аммо улар тананинг қўл ва оёқ кафтидан ташқари ҳар қандай қисмида пайдо бўлиши мумкин.",
+                      "Одатда якка-якка пайдо бўлади, лекин вақт ўтиши билан бир нечта дерматофибромалар пайдо бўлиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Белгилари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Оғриқсиз: Аксарият тери фибромалари оғриқ ва ноқулайлик туғдирмайди.",
+                      "Таъсирланиш ёки оғриқ: Баъзида, айниқса кийимга ишқаланганда ёки бирор нарсага текканда, таъсирланиш ёки оғриқ пайдо бўлиши мумкин.",
+                      "Косметик муаммолар: Фиброма кўзга кўринадиган жойда бўлса, косметик ноқулайликларни келтириб чиқариши мумкин, гарчи бу тиббий эмас, балки кўпроқ эстетик муаммо бўлса ҳам.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Сабаблари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Дерматофибромаларнинг аниқ сабаби номаълум, аммо улар жароҳат ёки тери шикастланишидан кейин толали тўқималарнинг ҳаддан ташқари ўсиши натижасида ривожланади деб ҳисобланади.",
+                      "Ҳашаротлар чақиши, кесилишлар ёки шилинишлар қўзғатувчи бўлиб хизмат қилиши мумкин, аммо дерматофибромалар ҳеч қандай сабабсиз пайдо бўлиши мумкин.",
+                      "Генетика: Улар ривожланишига ирсий мойиллик бўлиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Даволаш:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Кузатув: Аксарият ҳолларда, агар оғриқ, таъсирланиш ёки косметик муаммоларни келтириб чиқармаса, тери фибромаларини даволаш талаб этилмайди.",
+                      "Жарроҳлик йўли билан олиб ташлаш: Агар дерматофиброма оғриқ, безовталик ёки ноқулай жойда бўлса, уни жарроҳлик йўли билан олиб ташлаш мумкин. Одатда бу маҳаллий оғриқсизлантириш остида кичик процедура.",
+                      "Криотерапия ёки лазер терапияси: Ўлчами ва жойлашувига қараб қўлланиладиган камроқ тарқалган олиб ташлаш усуллари.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Шифокорга қачон мурожаат қилиш керак:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Ҳосила ҳажми, шакли ёки рангини ўзгартиради.",
+                      "Оғриқ ёки қон кетиш пайдо бўлади.",
+                      "Тез ўсади ёки яллиғланади.",
+                      "Дерматофибромалар одатда зарарсиз бўлишига қарамай, тери саратони каби жиддий касалликларни истисно қилиш учун теридаги ҳар қандай ўзгаришни шифокорга кўрсатиш керак.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          uz: [
+            {
+              text: "Tashqi ko‘rinishi:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "O‘lchami: Odatda teri fibromalari kichik bo‘ladi — diametri bir necha millimetrdan taxminan 2–3 santimetrgacha.",
+                      "Shakli: Ko‘pincha yumaloq yoki ovalsimon, yuzasi silliq yoki biroz notekis.",
+                      "Rangi: Tomirlar va hosil bo‘lgan to‘qima turiga qarab jigarrangdan qizil, binafsha yoki pushti ranggacha o‘zgarishi mumkin.",
+                      "Tuzilishi: Odatda qo‘l bilan ushlab ko‘rilganda zich bo‘lib, terida kichik ko‘tarilgan do‘mbog‘cha sifatida sezilishi mumkin.",
+                      "Markaziy botiklik: Ba’zi dermatofibromalarning markazida o‘ziga xos botiklik yoki burishganlik bo‘lib, ular terini paypaslaganda seziladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Joylashuvi:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Teri fibromasi ko‘pincha qo‘l, oyoq, orqa yoki ko‘krakda uchraydi. Ammo ular tananing qo‘l va oyoq kaftidan tashqari har qanday qismida paydo bo‘lishi mumkin.",
+                      "Odatda yakka-yakka paydo bo‘ladi, lekin vaqt o‘tishi bilan bir nechta dermatofibromalar paydo bo‘lishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Belgilar:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Og‘riqsiz: Aksariyat teri fibromalari og‘riq va noqulaylik tug‘dirmaydi.",
+                      "Ta’sirlanish yoki og‘riq: Ba’zida, ayniqsa kiyimga ishqalanganda yoki biror narsaga tekkanda, ta’sirlanish yoki og‘riq paydo bo‘lishi mumkin.",
+                      "Kosmetik muammolar: Fibroma ko‘zga ko‘rinadigan joyda bo‘lsa, kosmetik noqulayliklarni keltirib chiqarishi mumkin, garchi bu tibbiy emas, balki ko‘proq estetik muammo bo‘lsa ham.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Sabablari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Dermatofibromalarning aniq sababi noma’lum, ammo ular jarohat yoki teri shikastlanishidan keyin tolali to‘qimalarning haddan tashqari o‘sishi natijasida rivojlanadi deb hisoblanadi.",
+                      "Hasharotlar chaqishi, kesilishlar yoki shilinishlar qo‘zg‘atuvchi bo‘lib xizmat qilishi mumkin, ammo dermatofibromalar hech qanday sababsiz paydo bo‘lishi mumkin.",
+                      "Genetika: Ularning rivojlanishiga irsiy moyillik bo‘lishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Davolash:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Kuzatish: Aksariyat hollarda, agar og‘riq, ta’sirlanish yoki kosmetik muammolarni keltirib chiqarmasa, teri fibromalarini davolash talab etilmaydi.",
+                      "Jarrohlik yo‘li bilan olib tashlash: Agar dermatofibroma og‘riq, bezovtalik yoki noqulay joyda bo‘lsa, uni jarrohlik yo‘li bilan olib tashlash mumkin. Odatda bu mahalliy og‘riqsizlantirish ostida kichik protsedura.",
+                      "Krioterapiya yoki lazer terapiyasi: O‘lchami va joylashuviga qarab qo‘llaniladigan kamroq tarqalgan olib tashlash usullari.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Shifokorga qachon murojaat qilish kerak:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Hosila hajmi, shakli yoki rangini o‘zgartiradi.",
+                      "Og‘riq yoki qon ketish paydo bo‘ladi.",
+                      "Tez o‘sadi yoki yallig‘lanadi.",
+                      "Dermatofibromalar odatda zararsiz bo‘lishiga qaramay, teri saratoni kabi jiddiy kasalliklarni istisno qilish uchun teridagi har qanday o‘zgarishni shifokorga ko‘rsatish kerak.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Summary:",
+          kr: "Хулоса",
+          uz: "Xulosa:",
+          ru: "Вывод:",
+        },
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Skin fibromas (dermatofibromas) are generally harmless, non-cancerous growths that are typically small, firm, and raised. They often appear after skin trauma and are usually painless. While treatment is not necessary in most cases, surgical removal can be performed if the fibroma is bothersome. If you notice any changes in the appearance of a skin fibroma or experience discomfort, it’s a good idea to consult with a healthcare professional for evaluation.",
+          kr: "Тери фибромалари (дерматофибромалар) одатда зарарсиз, хавфсиз, катта бўлмаган, зич ва кўтарилган ўсмалардир. Кўпинча тери шикастланишидан кейин пайдо бўлади ва одатда оғриқ келтириб чиқармайди. Кўп ҳолларда даволаниш талаб қилинмайди, аммо зарурат туғилганда жарроҳлик йўли билан олиб ташлаш мумкин. Агар сиз фибромада ўзгаришларни сезсангиз ёки ноқулайлик ҳис қилсангиз, шифокор билан маслаҳатлашиш тавсия этилади.",
+          uz: "Teri fibromalari (dermatofibromalar) odatda zararsiz, xavfsiz, katta bo‘lmagan, zich va ko‘tarilgan o‘smalardir. Ko‘pincha teri shikastlanishidan keyin paydo bo‘ladi va odatda og‘riq keltirib chiqarmaydi. Ko‘p hollarda davolanish talab qilinmaydi, ammo zarurat tug‘ilganda jarrohlik yo‘li bilan olib tashlash mumkin. Agar siz fibromada o‘zgarishlarni sezsangiz yoki noqulaylik his qilsangiz, shifokor bilan maslahatlashish tavsiya etiladi.",
+          ru: "Кожные фибромы (дерматофибромы) — это обычно безвредные, доброкачественные образования, небольшие, плотные и приподнятые. Часто появляются после травмы кожи и обычно не вызывают боли. Лечение не требуется в большинстве случаев, но при необходимости возможно хирургическое удаление. Если вы заметили изменения в фиброме или испытываете дискомфорт, рекомендуется проконсультироваться с врачом.",
+        },
+      },
+    ],
+    type: "disease",
+  },
+  {
+    id: 11,
+    slug: "hemangiomas-gemangiomalar-гемангиомы-гемангиомалар",
+    title: {
+      kr: "Гемангиомалар",
+      uz: "Gemangiomalar",
+      en: "Hemangiomas",
+      ru: "Гемангиомы",
+    },
+    description: {
+      en: "A hemangioma is a benign (non-cancerous) tumor made up of blood vessels. It is one of the most common types of vascular birthmarks and can occur anywhere on the body. While hemangiomas are typically harmless, they may need medical attention if they grow rapidly, interfere with function, or cause cosmetic concerns.",
+      kr: "Гемангиома қон томирларидан ташкил топган хавфсиз (ўсмасимон) ўсма. Бу қон томир туғма доғларининг энг кенг тарқалган турларидан бири бўлиб, тананинг ҳар қандай қисмида пайдо бўлиши мумкин. Гемангиомалар одатда зарарсиз бўлса-да, улар тез ўсса, тана фаолиятига халақит берса ёки косметик муаммоларни келтириб чиқарса, тиббий ёрдамга муҳтож бўлиши мумкин.",
+      uz: "Gemangioma qon tomirlaridan tashkil topgan xavfsiz (o‘smaga o‘xshash) o‘sma. Bu qon tomir tug‘ma dog‘larining eng keng tarqalgan turlaridan biri bo‘lib, tananing har qanday qismida paydo bo‘lishi mumkin. Gemangiomalar odatda zararsiz bo‘lsa-da, ular tez o‘ssa, tana faoliyatiga xalal bersa yoki kosmetik muammolarni keltirib chiqarsa, tibbiy yordamga muhtoj bo‘lishi mumkin.",
+      ru: "Гемангиома — это доброкачественная (неопухолевая) опухоль, состоящая из кровеносных сосудов. Это один из самых распространённых типов сосудистых родимых пятен и может возникать в любой части тела. Хотя гемангиомы обычно безвредны, им может потребоваться медицинское внимание, если они быстро растут, мешают функциям организма или вызывают косметические проблемы.",
+    },
+    image: "/article-images/ha/image-1.jpg",
+    date: "2025-06-24",
+    linkText: {
+      uz: "Ko'proq o'qish",
+      en: "Read more",
+      ru: "Читать далее",
+      kr: "Кўпроқ ўқиш",
+    },
+    isPopular: true,
+    structure: [
+      {
+        elementType: "heading",
+        level: 1,
+        content: {
+          en: "Hemangiomas",
+          kr: "Гемангиомалар",
+          uz: "Gemangiomalar",
+          ru: "Гемангиомы",
+        },
+      },
+      {
+        elementType: "wrapper",
+        elements: [
+          {
+            elementType: "image",
+            content: "/article-images/ha/image-1.jpg",
+          },
+          {
+            elementType: "image",
+            content: "/article-images/ha/image-2.jpg",
+          },
+        ],
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "A hemangioma is a benign (non-cancerous) tumor made up of blood vessels. It is one of the most common types of vascular birthmarks and can occur anywhere on the body. While hemangiomas are typically harmless, they may need medical attention if they grow rapidly, interfere with function, or cause cosmetic concerns.",
+          kr: "Гемангиома қон томирларидан ташкил топган хавфсиз (ўсмасимон) ўсма. Бу қон томир туғма доғларининг энг кенг тарқалган турларидан бири бўлиб, тананинг ҳар қандай қисмида пайдо бўлиши мумкин. Гемангиомалар одатда зарарсиз бўлса-да, улар тез ўсса, тана фаолиятига халақит берса ёки косметик муаммоларни келтириб чиқарса, тиббий ёрдамга муҳтож бўлиши мумкин.",
+          uz: "Gemangioma qon tomirlaridan tashkil topgan xavfsiz (o‘smaga o‘xshash) o‘sma. Bu qon tomir tug‘ma dog‘larining eng keng tarqalgan turlaridan biri bo‘lib, tananing har qanday qismida paydo bo‘lishi mumkin. Gemangiomalar odatda zararsiz bo‘lsa-da, ular tez o‘ssa, tana faoliyatiga xalal bersa yoki kosmetik muammolarni keltirib chiqarsa, tibbiy yordamga muhtoj bo‘lishi mumkin.",
+          ru: "Гемангиома — это доброкачественная (неопухолевая) опухоль, состоящая из кровеносных сосудов. Это один из самых распространённых типов сосудистых родимых пятен и может возникать в любой части тела. Хотя гемангиомы обычно безвредны, им может потребоваться медицинское внимание, если они быстро растут, мешают функциям организма или вызывают косметические проблемы.",
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Key Features of Hemangiomas:",
+          kr: "Гемангиомаларнинг асосий хусусиятлари:",
+          uz: "Gemangiomalarning asosiy xususiyatlari:",
+          ru: "Основные характеристики гемангиом:",
+        },
+      },
+      {
+        elementType: "list",
+        content: {
+          en: [
+            {
+              text: "Key Features of Hemangiomas:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Hemangiomas are often red or purple in color due to the large number of blood vessels.",
+                      "They usually appear as raised, lumpy growths on the skin, and can vary in size from small spots to larger masses.",
+                      "The surface of a hemangioma can be smooth or bumpy, and it may change in appearance over time.",
+                      "Superficial hemangiomas (also known as 'strawberry marks') are often bright red and are located on the surface of the skin.",
+                      "Deep hemangiomas (also called cavernous hemangiomas) tend to be blue or purple and are located deeper in the skin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Location:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Common areas include the face, scalp, chest, and back.",
+                      "They can develop anywhere on the body but are more commonly seen in infants, particularly on the head or neck.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Types of Hemangiomas:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Superficial Hemangiomas: These are bright red and often develop on the skin's surface. They tend to grow rapidly in the first few months of life but can shrink and fade over time.",
+                      "Cavernous Hemangiomas: These are deeper, softer, and often appear as blue or purple masses under the skin. They may not shrink as easily as superficial hemangiomas.",
+                      "Mixed Hemangiomas: These contain both superficial and deep components.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Symptoms:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Usually asymptomatic (no pain or discomfort).",
+                      "Rarely, if the hemangioma interferes with vital structures (such as the eyes, mouth, or airway), it can cause functional issues.",
+                      "Hemangiomas often shrink and disappear on their own, especially in infants.",
+                      "If a hemangioma causes ulceration (painful sores), bleeding, or infection, medical attention may be necessary.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Causes:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "The exact cause of hemangiomas is not fully understood, but they are believed to form during fetal development.",
+                      "Hemangiomas are more common in female infants, premature babies, and babies with low birth weight.",
+                      "There is also a genetic component, as hemangiomas may be more common in families with a history of them.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Treatment Options:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Observation: In most cases, particularly with small or non-problematic hemangiomas, doctors may choose to monitor the growth without immediate treatment.",
+                      "Oral Medications: Beta-blockers (such as propranolol) are commonly used to shrink hemangiomas, especially if they are growing rapidly or causing problems.",
+                      "Topical Medications: In some cases, topical treatments (like timolol) may be used to treat superficial hemangiomas.",
+                      "Laser Therapy: This can help reduce the redness or size of the hemangioma, particularly for superficial ones.",
+                      "Surgical Removal: This is typically reserved for larger hemangiomas that do not shrink on their own or those that cause functional issues.",
+                      "Steroid Injections: These may be used to reduce inflammation and shrink the hemangioma, though this is less common today with the use of beta-blockers.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "When to Seek Medical Attention:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "If the hemangioma is growing rapidly or causing functional issues, like interfering with vision or breathing.",
+                      "If the hemangioma becomes painful, ulcerated, or bleeding.",
+                      "If you notice any changes in the size, shape, or appearance of the hemangioma that concern you.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Prognosis:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Most hemangiomas shrink and fade over time, particularly in children. Some may disappear completely by the age of 10.",
+                      "While they are generally benign and not cancerous, hemangiomas that do not shrink on their own or that cause complications may require ongoing management.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          ru: [
+            {
+              text: "Основные характеристики гемангиом:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Гемангиомы часто имеют красный или пурпурный цвет из-за большого количества кровеносных сосудов.",
+                      "Обычно они представляют собой приподнятые, бугристые образования на коже и могут варьироваться в размере от небольших пятен до крупных опухолей.",
+                      "Поверхность гемангиомы может быть гладкой или неровной и со временем изменяться.",
+                      "Поверхностные гемангиомы (также называемые «клубничными пятнами») обычно ярко-красные и расположены на поверхности кожи.",
+                      "Глубокие гемангиомы (кавернозные гемангиомы) имеют синий или пурпурный цвет и расположены глубже в коже.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Расположение:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Чаще всего встречаются на лице, голове, груди и спине.",
+                      "Могут развиваться в любой части тела, но чаще наблюдаются у младенцев, особенно на голове или шее.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Типы гемангиом:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Поверхностные гемангиомы: Ярко-красные, развиваются на поверхности кожи, быстро растут в первые месяцы жизни, но могут со временем уменьшаться и исчезать.",
+                      "Кавернозные гемангиомы: Расположены глубже, мягкие, имеют синий или пурпурный цвет, могут не уменьшаться так легко, как поверхностные.",
+                      "Смешанные гемангиомы: Содержат как поверхностные, так и глубокие компоненты.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Симптомы:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Обычно безболезненны и не вызывают дискомфорта.",
+                      "В редких случаях, если гемангиома мешает жизненно важным структурам (глазам, рту, дыхательным путям), может вызывать функциональные проблемы.",
+                      "Часто гемангиомы самостоятельно уменьшаются и исчезают, особенно у младенцев.",
+                      "Если гемангиома вызывает изъязвления (болезненные язвы), кровотечения или инфекции, может потребоваться медицинская помощь.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Причины:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Точная причина возникновения гемангиом полностью не изучена, предполагается, что они формируются во время внутриутробного развития.",
+                      "Гемангиомы чаще встречаются у девочек, недоношенных детей и детей с низкой массой тела при рождении.",
+                      "Также возможна наследственная предрасположенность.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Варианты лечения:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Наблюдение: В большинстве случаев, особенно при небольших и не вызывающих проблем гемангиомах, врачи выбирают наблюдение без немедленного лечения.",
+                      "Пероральные препараты: Бета-блокаторы (например, пропранолол) часто используются для уменьшения гемангиом, особенно если они быстро растут или вызывают проблемы.",
+                      "Местные препараты: В некоторых случаях применяются местные средства (например, тимолол) для лечения поверхностных гемангиом.",
+                      "Лазерная терапия: Помогает уменьшить покраснение или размер гемангиомы, особенно поверхностных.",
+                      "Хирургическое удаление: Обычно применяется для крупных гемангиом, которые не уменьшаются самостоятельно или вызывают функциональные нарушения.",
+                      "Инъекции стероидов: Используются для уменьшения воспаления и сокращения гемангиомы, хотя сегодня применяются реже из-за эффективности бета-блокаторов.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Когда следует обратиться к врачу:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Если гемангиома быстро растет или вызывает проблемы с функцией (например, мешает зрению или дыханию).",
+                      "Если гемангиома становится болезненной, изъязвленной или кровоточит.",
+                      "При любых изменениях размера, формы или внешнего вида, вызывающих беспокойство.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Прогноз:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Большинство гемангиом уменьшается и исчезает со временем, особенно у детей. Некоторые полностью исчезают к 10 годам.",
+                      "Хотя они обычно доброкачественные, гемангиомы, которые не уменьшаются самостоятельно или вызывают осложнения, требуют постоянного наблюдения и лечения.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          kr: [
+            {
+              text: "Гемангиомаларнинг асосий хусусиятлари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Гемангиомалар кўпинча қизил ёки бинафша рангда бўлади, чунки қон томирлари кўп бўлади.",
+                      "Одатда, улар терида кўтарилган, ғадир-будур ўсмалар кўринишида бўлиб, катталиги кичик доғлардан йирик ўсмаларгача бўлиши мумкин.",
+                      "Гемангиома юзаси силлиқ ёки нотекис бўлиши ва вақт ўтиши билан ўзгариши мумкин.",
+                      "Юза гемангиомалар ('қулупнай доғлари' деб ҳам аталади) одатда ёрқин қизил рангда бўлиб, тери юзасида жойлашган.",
+                      "Чуқур гемангиомалар (каверноз гемангиомалар) кўк ёки бинафша рангда бўлиб, терида чуқурроқ жойлашади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Жойлашув:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Кўпинча юз, бош, кўкрак ва орқада учрайди.",
+                      "Тананинг ҳар қандай қисмида ривожланиши мумкин, лекин кўпинча чақалоқларда, айниқса бош ёки бўйин қисмида кузатилади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Гемангиома турлари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Юзаки гемангиомалар: Қип-қизил, тери юзасида ривожланади, ҳаётининг дастлабки ойларида тез ўсади, аммо вақт ўтиши билан кичрайиши ва йўқолиши мумкин.",
+                      "Каверноз гемангиомалар: Чуқурроқ жойлашган, юмшоқ, кўк ёки бинафша рангга эга, юзаки гемангиомалар каби осонликча кичраймаслиги мумкин.",
+                      "Аралаш гемангиомалар: Юзаки ва чуқур компонентларни ўз ичига олади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Белгилари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Одатда оғриқсиз ва ноқулайлик туғдирмайди.",
+                      "Камдан-кам ҳолларда гемангиома ҳаётий муҳим тузилмаларга (кўз, оғиз, нафас йўллари) халақит берса, функционал муаммоларни келтириб чиқариши мумкин.",
+                      "Кўпинча гемангиомалар ўз-ўзидан кичрайиб, йўқолиб кетади, айниқса чақалоқларда.",
+                      "Агар гемангиома яралар (оғриқли яралар), қон кетиши ёки инфекцияларни келтириб чиқарса, тиббий ёрдам керак бўлиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Сабаблари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Гемангиомалар пайдо бўлишининг аниқ сабаби тўлиқ ўрганилмаган, улар ҳомила даврида шаклланади, деб тахмин қилинади.",
+                      "Гемангиомалар кўпинча қиз болаларда, чала туғилган ва кам вазнли болаларда учрайди.",
+                      "Ирсий мойиллик ҳам бўлиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Даволаш усуллари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Кузатув: Аксарият ҳолларда, айниқса кичик ва муаммо туғдирмайдиган гемангиомаларда шифокорлар зудлик билан даволанмасдан кузатувни танлайдилар.",
+                      "Оғиз орқали қабул қилинадиган дорилар: Бета-блокаторлар (масалан, пропранолол) кўпинча гемангиомаларни камайтириш учун ишлатилади, айниқса улар тез ўсса ёки муаммо туғдирса.",
+                      "Маҳаллий дорилар: Баъзи ҳолларда юзаки гемангиомаларни даволаш учун маҳаллий воситалар (масалан, тимолол) қўлланилади.",
+                      "Лазер терапияси: Гемангиоманинг, айниқса юзаки гемангиоманинг қизариши ёки ўлчамини камайтиришга ёрдам беради.",
+                      "Жарроҳлик йўли билан олиб ташлаш: Одатда ўз-ўзидан кичраймайдиган ёки функционал бузилишларга олиб келадиган катта гемангиомаларда қўлланилади.",
+                      "Стероидлар инъекцияси: Яллиғланишни камайтириш ва гемангиомани қисқартириш учун ишлатилади, гарчи бета-блокаторларнинг самарадорлиги туфайли бугунги кунда камроқ қўлланилади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Шифокорга қачон мурожаат қилиш керак:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Гемангиома тез ўсса ёки функцияси билан боғлиқ муаммоларни келтириб чиқарса (масалан, кўриш ёки нафас олишга халақит берса).",
+                      "Агар гемангиома оғриқли, ярали ёки қон кетадиган бўлса.",
+                      "Безовта қилувчи ўлчам, шакл ёки кўринишдаги ҳар қандай ўзгаришларда.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Прогноз:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Аксарият гемангиомалар вақт ўтиши билан кичрайиб, йўқолиб кетади, айниқса болаларда. Айримлари 10 ёшда бутунлай йўқолиб кетади.",
+                      "Улар одатда хавфсиз бўлса-да, ўз-ўзидан кичраймайдиган ёки асоратлар келтириб чиқарадиган гемангиомалар доимий кузатув ва даволашни талаб қилади.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          uz: [
+            {
+              text: "Gemangiomalarning asosiy xususiyatlari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Gemangiomalar ko‘pincha qizil yoki binafsha rangda bo‘ladi, chunki qon tomirlari ko‘p bo‘ladi.",
+                      "Odatda, ular terida ko‘tarilgan, g‘adir-budur o‘smalar ko‘rinishida bo‘lib, kattaligi kichik dog‘lardan yirik o‘smalargacha bo‘lishi mumkin.",
+                      "Gemangioma yuzasi silliq yoki notekis bo‘lishi va vaqt o‘tishi bilan o‘zgarishi mumkin.",
+                      "Yuza gemangiomalar ('qulupnay dog‘lari' deb ham ataladi) odatda yorqin qizil rangda bo‘lib, teri yuzasida joylashgan.",
+                      "Chuquroq gemangiomalar (kavernoz gemangiomalar) ko‘k yoki binafsha rangda bo‘lib, terida chuqurroq joylashadi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Joylashuv:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Ko‘pincha yuz, bosh, ko‘krak va orqada uchraydi.",
+                      "Tananing har qanday qismida rivojlanishi mumkin, lekin ko‘pincha chaqaloqlarda, ayniqsa bosh yoki bo‘yin qismida kuzatiladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Gemangioma turlari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Yuzaki gemangiomalar: Qip-qizil, teri yuzasida rivojlanadi, hayotining dastlabki oylarida tez o‘sadi, ammo vaqt o‘tishi bilan kichrayishi va yo‘qolishi mumkin.",
+                      "Kavernoz gemangiomalar: Chuqurroq joylashgan, yumshoq, ko‘k yoki binafsha rangga ega, yuzaki gemangiomalar kabi osonlikcha kichraymasligi mumkin.",
+                      "Aralash gemangiomalar: Yuzaki va chuqur komponentlarni o‘z ichiga oladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Belgilar:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Odatda og‘riqsiz va noqulaylik tug‘dirmaydi.",
+                      "Kamdan-kam hollarda gemangioma hayotiy muhim tuzilmalarga (ko‘z, og‘iz, nafas yo‘llari) xalaqit bersa, funksional muammolarni keltirib chiqarishi mumkin.",
+                      "Ko‘pincha gemangiomalar o‘z-o‘zidan kichrayib, yo‘qolib ketadi, ayniqsa chaqaloqlarda.",
+                      "Agar gemangioma yaralar (og‘riqli yaralar), qon ketishi yoki infeksiyalarni keltirib chiqarsa, tibbiy yordam kerak bo‘lishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Sabablari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Gemangiomalar paydo bo‘lishining aniq sababi to‘liq o‘rganilmagan, ular homila davrida shakllanadi, deb taxmin qilinadi.",
+                      "Gemangiomalar ko‘pincha qiz bolalarda, chala tug‘ilgan va kam vaznli bolalarda uchraydi.",
+                      "Irsiy moyillik ham bo‘lishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Davolash usullari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Kuzatish: Aksariyat hollarda, ayniqsa kichik va muammo tug‘dirmaydigan gemangiomalarda shifokorlar zudlik bilan davolanmasdan kuzatishni tanlaydilar.",
+                      "Og‘iz orqali qabul qilinadigan dorilar: Beta-blokatorlar (masalan, propranolol) ko‘pincha gemangiomalarni kamaytirish uchun ishlatiladi, ayniqsa ular tez o‘ssa yoki muammo tug‘dirsa.",
+                      "Mahalliy dorilar: Ba’zi hollarda yuzaki gemangiomalarni davolash uchun mahalliy vositalar (masalan, timolol) qo‘llaniladi.",
+                      "Lazer terapiyasi: Gemangiomaning, ayniqsa yuzaki gemangiomaning qizarishi yoki o‘lchamini kamaytirishga yordam beradi.",
+                      "Jarrohlik yo‘li bilan olib tashlash: Odatda o‘z-o‘zidan kichraymaydigan yoki funksional buzilishlarga olib keladigan katta gemangiomalarda qo‘llaniladi.",
+                      "Steroidlar inyektsiyasi: Yallig‘lanishni kamaytirish va gemangiomani qisqartirish uchun ishlatiladi, garchi beta-blokatorlarning samaradorligi tufayli bugungi kunda kamroq qo‘llaniladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Shifokorga qachon murojaat qilish kerak:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Gemangioma tez o‘ssa yoki funksiyasi bilan bog‘liq muammolarni keltirib chiqarsa (masalan, ko‘rish yoki nafas olishga xalaqit bersa).",
+                      "Agar gemangioma og‘riqli, yarali yoki qon ketadigan bo‘lsa.",
+                      "Bezovta qiluvchi o‘lcham, shakl yoki ko‘rinishdagi har qanday o‘zgarishlarda.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Prognoz:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Aksariyat gemangiomalar vaqt o‘tishi bilan kichrayib, yo‘qolib ketadi, ayniqsa bolalarda. Ayrimlari 10 yoshda butunlay yo‘qolib ketadi.",
+                      "Ular odatda xavfsiz bo‘lsa-da, o‘z-o‘zidan kichraymaydigan yoki asoratlar keltirib chiqaradigan gemangiomalar doimiy kuzatuv va davolashni talab qiladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Summary:",
+          kr: "Хулоса",
+          uz: "Xulosa:",
+          ru: "Вывод:",
+        },
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Hemangiomas are benign, vascular tumors that are most common in infants, particularly in the first few months of life. They typically do not require treatment unless they cause complications like bleeding, ulceration, or functional issues. In many cases, hemangiomas will shrink and disappear on their own as the child grows. However, if you have concerns or if a hemangioma is causing problems, it's always a good idea to consult a healthcare provider for advice on appropriate treatment options.",
+          kr: "Гемангиомалар хавфсиз қон томир ўсмалари бўлиб, чақалоқларда ҳаётининг дастлабки ойларида энг кўп учрайди. Одатда, улар қон кетиши, яралар ёки функционал бузилишлар каби асоратларни келтириб чиқармаса, даволанишни талаб қилмайди. Кўп ҳолларда гемангиомалар кичрайиб, бола ўсиши билан ўз-ўзидан йўқолиб кетади. Бироқ, безовталик ёки муаммолар бўлса, тегишли даволаш усулини танлаш учун шифокор билан маслаҳатлашиш тавсия этилади.",
+          uz: "Gemangiomalar xavfsiz qon tomir o‘smalari bo‘lib, chaqaloqlarda hayotining dastlabki oylarida eng ko‘p uchraydi. Odatda, ular qon ketishi, yaralar yoki funksional buzilishlar kabi asoratlarni keltirib chiqarmasa, davolanishni talab qilmaydi. Ko‘p hollarda gemangiomalar kichrayib, bola o‘sishi bilan o‘z-o‘zidan yo‘qolib ketadi. Biroq, bezovtalik yoki muammolar bo‘lsa, tegishli davolash usulini tanlash uchun shifokor bilan maslahatlashish tavsiya etiladi.",
+          ru: "Гемангиомы — это доброкачественные сосудистые опухоли, наиболее часто встречающиеся у младенцев в первые месяцы жизни. Обычно они не требуют лечения, если не вызывают осложнений, таких как кровотечение, изъязвления или функциональные нарушения. Во многих случаях гемангиомы уменьшаются и исчезают самостоятельно с ростом ребёнка. Однако при беспокойствах или проблемах рекомендуется проконсультироваться с врачом для выбора подходящего лечения.",
+        },
+      },
+    ],
+    type: "disease",
+  },
+  {
+    id: 12,
+    slug: "lipomas-липомы-lipomalar-липомалар",
+    title: {
+      kr: "Липомалар",
+      uz: "Lipomalar",
+      en: "Lipomas",
+      ru: "Липомы",
+    },
+    description: {
+      en: "Lipomas are benign (non-cancerous) growths made up of soft, fatty tissue. They are the most common type of soft tissue tumor in adults. Lipomas generally grow slowly and are usually harmless, but they can cause discomfort if they press on nerves or other structures.",
+      kr: "Липомалар юмшоқ ёғ тўқимасидан ташкил топган хавфсиз тузилмалардир. Улар катталарда юмшоқ тўқималарнинг энг кенг тарқалган ўсмалари ҳисобланади. Липомалар одатда секин ўсади ва одатда хавф туғдирмайди, аммо агар нервлар ёки бошқа тузилмалар сиқилса, ноқулайлик юзага келиши мумкин.",
+      uz: "Lipomalar yumshoq yog‘ to‘qimasidan tashkil topgan xavfsiz tuzilmalar. Ular kattalarda yumshoq to‘qimalarning eng keng tarqalgan o‘smalari hisoblanadi. Lipomalar odatda sekin o‘sadi va odatda xavf tug‘dirmaydi, ammo agar nervlar yoki boshqa tuzilmalar siqilsa, noqulaylik yuzaga kelishi mumkin.",
+      ru: "Липомы — это доброкачественные (незлокачественные) образования, состоящие из мягкой жировой ткани. Они являются самым распространённым типом опухолей мягких тканей у взрослых. Липомы обычно растут медленно и обычно не представляют опасности, но могут вызывать дискомфорт, если сдавливают нервы или другие структуры.",
+    },
+    image: "/article-images/la/image-1.jpg",
+    date: "2025-06-25",
+    linkText: {
+      uz: "Ko'proq o'qish",
+      en: "Read more",
+      ru: "Читать далее",
+      kr: "Кўпроқ ўқиш",
+    },
+    isPopular: false,
+    structure: [
+      {
+        elementType: "heading",
+        level: 1,
+        content: {
+          en: "Lipomas",
+          kr: "Липомалар",
+          uz: "Lipomalar",
+          ru: "Липомы",
+        },
+      },
+      {
+        elementType: "wrapper",
+        elements: [
+          {
+            elementType: "image",
+            content: "/article-images/la/image-1.jpg",
+          },
+          {
+            elementType: "image",
+            content: "/article-images/la/image-2.jpeg",
+          },
+        ],
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Lipomas are benign (non-cancerous) growths made up of soft, fatty tissue. They are the most common type of soft tissue tumor in adults. Lipomas generally grow slowly and are usually harmless, but they can cause discomfort if they press on nerves or other structures.",
+          kr: "Липомалар юмшоқ ёғ тўқимасидан ташкил топган хавфсиз тузилмалардир. Улар катталарда юмшоқ тўқималарнинг энг кенг тарқалган ўсмалари ҳисобланади. Липомалар одатда секин ўсади ва одатда хавф туғдирмайди, аммо агар нервлар ёки бошқа тузилмалар сиқилса, ноқулайлик юзага келиши мумкин.",
+          uz: "Lipomalar yumshoq yog‘ to‘qimasidan tashkil topgan xavfsiz tuzilmalar. Ular kattalarda yumshoq to‘qimalarning eng keng tarqalgan o‘smalari hisoblanadi. Lipomalar odatda sekin o‘sadi va odatda xavf tug‘dirmaydi, ammo agar nervlar yoki boshqa tuzilmalar siqilsa, noqulaylik yuzaga kelishi mumkin.",
+          ru: "Липомы — это доброкачественные (незлокачественные) образования, состоящие из мягкой жировой ткани. Они являются самым распространённым типом опухолей мягких тканей у взрослых. Липомы обычно растут медленно и обычно не представляют опасности, но могут вызывать дискомфорт, если сдавливают нервы или другие структуры.",
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Key Features of Lipomas:",
+          kr: "Липомаларнинг асосий хусусиятлари:",
+          uz: "Lipomalarning asosiy xususiyatlari:",
+          ru: "Основные характеристики липом:",
+        },
+      },
+      {
+        elementType: "list",
+        content: {
+          en: [
+            {
+              text: "Key Features of Lipomas:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Shape: Lipomas are typically round or oval in shape and have a smooth, rubbery texture.",
+                      "Size: They can vary in size, ranging from small (a few centimeters) to large (more than 10 centimeters in diameter). However, most lipomas are around 2 to 5 centimeters in size.",
+                      "Color: Lipomas are usually the same color as the surrounding skin, though they may appear slightly yellowish due to their fatty tissue content.",
+                      "Consistency: Lipomas feel soft and doughy when touched and are usually movable under the skin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Location:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Lipomas can develop anywhere on the body but are most commonly found on the arms, shoulders, upper back, thighs, and buttocks.",
+                      "They are typically located just under the skin (subcutaneous lipomas) but can also grow deeper in tissues (intramuscular lipomas).",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Symptoms:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Painless: Most lipomas are painless and do not cause any discomfort. However, they may cause pain or tenderness if they press on nerves or other structures.",
+                      "Slow Growth: Lipomas grow slowly over time. They may remain the same size for years or gradually increase in size.",
+                      "Movement: Lipomas are typically movable under the skin, meaning they can be gently shifted with light pressure.",
+                      "Cosmetic Concerns: If located in visible areas, lipomas may cause cosmetic concerns due to their appearance, although they are not harmful.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Causes:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Genetics: The exact cause of lipomas is not fully understood, but they tend to run in families. There is often a hereditary component, meaning people with a family history of lipomas are more likely to develop them.",
+                      "Injury or Trauma: While lipomas may form without any obvious reason, some people develop them after trauma or injury to the skin, although this is not always the case.",
+                      "Genetic Disorders: Certain conditions, such as Gardner’s syndrome and familial multiple lipomatosis, can lead to the development of multiple lipomas.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Diagnosis:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Physical Examination: Lipomas are usually diagnosed based on a physical examination of the lump, which is typically soft, movable, and painless.",
+                      "Imaging: If necessary, imaging techniques such as ultrasound, CT scans, or MRI may be used to determine the depth and size of a lipoma, especially if it’s located deeper in the body.",
+                      "Biopsy: In rare cases, a biopsy may be performed to rule out other conditions, especially if the lipoma is unusually large or has atypical characteristics.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Treatment:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Observation: If the lipoma is small, painless, and not causing any other problems, it may not need treatment. Regular monitoring may be all that’s needed.",
+                      "Surgical Removal: If the lipoma becomes large, painful, or bothersome, it can be removed surgically. This is the most common treatment method and is typically performed under local anesthesia in a minor procedure.",
+                      "Liposuction: For smaller lipomas, liposuction can sometimes be used to remove the fatty tissue, although this method may not always remove the entire lipoma, leading to potential recurrence.",
+                      "Steroid Injections: In some cases, steroids may be injected into the lipoma to shrink it, but this treatment is not as effective as surgery.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "When to Seek Medical Attention:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Rapid Growth: If the lipoma grows rapidly or changes in appearance, it should be evaluated by a healthcare provider to rule out other conditions.",
+                      "Pain: If a lipoma becomes painful or tender, it may indicate that it’s pressing on nerves or blood vessels, and medical attention may be needed.",
+                      "Multiple Lipomas: If multiple lipomas develop, or if there’s a family history of lipomas, it’s a good idea to consult a healthcare provider for further evaluation.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          ru: [
+            {
+              text: "Основные характеристики липом:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Форма: Липомы обычно имеют круглую или овальную форму и гладкую, упругую текстуру.",
+                      "Размер: Они могут варьироваться от небольших (несколько сантиметров) до больших (более 10 сантиметров в диаметре). Однако большинство липом имеют размер около 2–5 сантиметров.",
+                      "Цвет: Обычно липомы имеют тот же цвет, что и окружающая кожа, хотя из-за жировой ткани могут иметь слегка желтоватый оттенок.",
+                      "Консистенция: При пальпации липомы ощущаются мягкими и тестообразными, обычно подвижны под кожей.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Локализация:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Липомы могут развиваться в любой части тела, но чаще всего встречаются на руках, плечах, верхней части спины, бедрах и ягодицах.",
+                      "Обычно они расположены непосредственно под кожей (подкожные липомы), но могут расти глубже в тканях (внутримышечные липомы).",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Симптомы:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Безболезненность: Большинство липом безболезненны и не вызывают дискомфорта. Тем не менее, боль или чувствительность могут возникать при сдавливании нервов или других структур.",
+                      "Медленный рост: Липомы растут медленно с течением времени. Они могут оставаться одного размера в течение многих лет или постепенно увеличиваться.",
+                      "Подвижность: Липомы обычно подвижны под кожей, их можно слегка сдвинуть при лёгком нажатии.",
+                      "Косметические проблемы: При расположении на видимых участках тела липомы могут вызывать косметические неудобства, хотя и не являются вредоносными.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Причины:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Генетика: Точная причина появления липом до конца не изучена, но они часто встречаются в семьях. Часто существует наследственный фактор, то есть у людей с семейным анамнезом липом выше вероятность их развития.",
+                      "Травма: Липомы могут появляться без очевидных причин, но у некоторых людей они развиваются после травм или повреждений кожи, хотя это не всегда так.",
+                      "Генетические заболевания: Некоторые состояния, такие как синдром Гарднера и семейная множественная липоматоз, могут приводить к развитию множества липом.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Диагностика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Физикальное обследование: Липомы обычно диагностируются на основе осмотра уплотнения, которое мягкое, подвижное и безболезненное.",
+                      "Визуализационные методы: При необходимости могут использоваться ультразвуковое исследование, компьютерная томография (КТ) или магнитно-резонансная томография (МРТ) для определения глубины и размера липомы, особенно если она находится глубже в тканях.",
+                      "Биопсия: В редких случаях проводится биопсия для исключения других заболеваний, особенно если липома необычно большая или имеет атипичные характеристики.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Лечение:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Наблюдение: Если липома небольшая, безболезненная и не вызывает проблем, лечение может не требоваться — достаточно регулярного контроля.",
+                      "Хирургическое удаление: При больших, болезненных или вызывающих неудобства липомах их удаляют хирургически. Это наиболее распространённый метод лечения, обычно проводится под местной анестезией как небольшая процедура.",
+                      "Липосакция: Для удаления жировой ткани в небольших липомах иногда используется липосакция, однако этот метод не всегда удаляет липому полностью, что может привести к рецидиву.",
+                      "Инъекции стероидов: В некоторых случаях в липому вводят стероиды для её уменьшения, но этот метод менее эффективен, чем хирургия.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Когда обращаться к врачу:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Быстрый рост: Если липома быстро растёт или меняет внешний вид, необходимо обратиться к врачу для исключения других заболеваний.",
+                      "Боль: Если липома становится болезненной или чувствительной, возможно, она сдавливает нервы или сосуды, и требуется медицинская помощь.",
+                      "Множественные липомы: При появлении множества липом или наличии семейного анамнеза липоматоза рекомендуется консультация специалиста.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          kr: [
+            {
+              text: "Липомаларнинг асосий хусусиятлари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Шакли: Липомалар одатда юмалоқ ёки овал шаклга эга, силлиқ ва эластик тузилишга эга.",
+                      "Ўлчами: Улар бир неча сантиметрдан 10 сантиметрдан ортиқкача бўлиши мумкин. Кўпчилик липомалар 2–5 сантиметр атрофида бўлади.",
+                      "Ранги: Оддий ҳолда липомалар тери билан бир хил рангда бўлади, лекин ёғ тўқимаси туфайли озгина сарғиш тусга эга бўлиши мумкин.",
+                      "Консистенцияси: Пайпаслаб кўрилганда липомалар юмшоқ ва хамирсимон бўлиб, одатда тери остида ҳаракатчан бўлади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Жойлашуви:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Липомалар тананинг ҳар қандай қисмида пайдо бўлиши мумкин, лекин кўпинча қўллар, елкалар, орқанинг юқори қисми, сонлар ва думбаларда учрайди.",
+                      "Кўпинча тери остида жойлашади (тери ости липомалари), аммо баъзан чуқурроқ мушак ичида ҳам бўлиши мумкин (мушак ичи липомалари).",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Белгилари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Одатда оғриқсиз ва ноқулайлик туғдирмайди. Аммо, агар нервлар ёки бошқа тузилмалар сиқилса, оғриқ ёки сезувчанлик пайдо бўлиши мумкин.",
+                      "Секин ўсиш: Липомалар вақт ўтиши билан секин ўсади. Улар кўп йиллар бир хил ўлчамда қолиши ёки аста-секин катталашиши мумкин.",
+                      "Ҳаракатчанлик: Липомалар одатда тери остида ҳаракатчан бўлиб, енгил босганда силжитилади.",
+                      "Косметик муаммолар: Агар кўринадиган жойларда бўлса, липомалар ташқи кўриниш сабабли косметик муаммоларни келтириши мумкин, гарчи улар зарарли бўлмаса ҳам.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Сабаблари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Генетика: Липомаларнинг аниқ сабаби номаълум, лекин улар кўпинча оилавий бўлади. Оилавий анамнезда липомалар бўлса, уларнинг ривожланиш эҳтимоли юқори.",
+                      "Травма: Липомалар аниқ сабабсиз пайдо бўлиши мумкин, аммо баъзи одамларда улар жароҳат ёки терининг шикастланишидан кейин ривожланади.",
+                      "Генетик касалликлар: Гарднер синдроми ва оилавий липоматоз каби баъзи ҳолатлар кўплаб липомаларнинг ривожланишига олиб келиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Ташхис:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Жисмоний текширув: Липомалар одатда юмшоқ, ҳаракатчан ва оғриқсиз бўлган шаклга асосланиб ташхис қилинади.",
+                      "Тасвирлаш усуллари: Керак бўлса, ультратовуш, КТ ёки МРТ липоманинг чуқурлиги ва ҳажмини аниқлаш учун қўлланилади, айниқса у тўқималарда чуқур жойлашган бўлса.",
+                      "Биопсия: Камдан-кам ҳолларда, айниқса липома ғайриоддий катта ёки атипик хусусиятларга эга бўлса, биопсия ўтказилади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Даволаш:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Кузатув: Агар липома кичик, оғриқсиз ва бошқа муаммоларни келтирмаса, даволаш талаб этилмаслиги мумкин. Фақат мунтазам кузатув керак бўлади.",
+                      "Жарроҳлик йўли билан олиб ташлаш: Агар липома катта, оғриқли ёки ноқулай бўлса, уни жарроҳлик йўли билан олиб ташлаш мумкин. Бу энг кенг тарқалган даволаш усули бўлиб, одатда маҳаллий оғриқсизлантириш остида кичик процедура сифатида ўтказилади.",
+                      "Липосаксия: Кичик липомалар учун баъзан липосаксия қўлланилиши мумкин, лекин бу усул липомани тўлиқ олиб ташламаслиги мумкин, бу эса қайта пайдо бўлиш хавфини келтириб чиқаради.",
+                      "Стероид инъекциялари: Баъзи ҳолларда липомани кичрайтириш учун стероидлар қўлланилади, лекин бу даволаш жарроҳликка қараганда камроқ самарали.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Шифокорга қачон мурожаат қилиш керак:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Тез ўсиш: Агар липома тез ўсса ёки ташқи кўринишини ўзгартирса, бошқа касалликларни истисно қилиш учун шифокорга мурожаат қилиш керак.",
+                      "Оғриқ: Агар липома оғриқли ёки сезгир бўлса, бу нервлар ёки қон томирларига босим ўтказаётганини кўрсатиши мумкин ва тиббий ёрдам талаб этилади.",
+                      "Кўп сонли липомалар: Агар кўплаб липомалар пайдо бўлса ёки оилавий анамнезда липоматоз мавжуд бўлса, мутахассис билан маслаҳатлашиш тавсия этилади.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          uz: [
+            {
+              text: "Lipomalarning asosiy xususiyatlari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Shakli: Lipomalar odatda yumaloq yoki ovalsimon shaklga ega, silliq va elastik tuzilishga ega.",
+                      "O‘lchami: Ular bir necha santimetrdan 10 santimetrdan ortiqgacha bo‘lishi mumkin. Ko‘pchilik lipomalar 2–5 santimetr atrofida bo‘ladi.",
+                      "Rangi: Odatda lipomalar teri bilan bir xil rangda bo‘ladi, lekin yog‘ to‘qimasi tufayli ozgina sarg‘ish tusga ega bo‘lishi mumkin.",
+                      "Konsistensiyasi: Paypaslab ko‘rilganda lipomalar yumshoq va xamirsimon bo‘lib, odatda teri ostida harakatlanadi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Joylashuvi:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Lipomalar tananing har qanday qismida paydo bo‘lishi mumkin, lekin ko‘pincha qo‘llar, yelkalar, orqaning yuqori qismi, sonlar va dumg‘azada uchraydi.",
+                      "Ko‘pincha teri ostida joylashadi (teri osti lipomalari), ammo ba’zan chuqurroq mushak ichida ham bo‘lishi mumkin (mushak ichki lipomalari).",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Belgilar:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Og‘riqsiz: Odatda lipomalar og‘riqsiz va noqulaylik tug‘dirmaydi. Ammo, agar nervlar yoki boshqa tuzilmalarga bosim o‘tkazsa, og‘riq yoki sezuvchanlik paydo bo‘lishi mumkin.",
+                      "Sekin o‘sish: Lipomalar vaqt o‘tishi bilan sekin o‘sadi. Ular ko‘p yillar bir xil o‘lchamda qolishi yoki asta-sekin kattalashishi mumkin.",
+                      "Harakatchanlik: Lipomalar odatda teri ostida harakatlanadi va yengil bosilganda siljiydi.",
+                      "Kosmetik muammolar: Agar ko‘rinadigan joylarda bo‘lsa, lipomalar tashqi ko‘rinish sababli kosmetik muammolarni keltirishi mumkin, garchi ular zararli bo‘lmasa ham.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Sabablari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Genetika: Lipomalarning aniq sababi noma’lum, lekin ular ko‘pincha oilaviy bo‘ladi. Oilaviy anamnezda lipomalar bo‘lsa, ularning rivojlanish ehtimoli yuqori.",
+                      "Jarohat: Lipomalar aniq sababsiz paydo bo‘lishi mumkin, ammo ba’zi odamlarda ular jarohat yoki terining shikastlanishidan keyin rivojlanadi.",
+                      "Genetik kasalliklar: Gardner sindromi va oilaviy lipomatoz kabi ba’zi holatlar ko‘plab lipomalarning rivojlanishiga olib kelishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Tashxis:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Jismoniy tekshiruv: Lipomalar odatda yumshoq, harakatlanadigan va og‘riqsiz bo‘lgan shaklga asoslanib tashxis qilinadi.",
+                      "Tasvirlash usullari: Kerak bo‘lsa, ultratovush, KT yoki MRT lipomaning chuqurligi va hajmini aniqlash uchun qo‘llaniladi, ayniqsa u to‘qimalarda chuqur joylashgan bo‘lsa.",
+                      "Biopsiya: Kamdan-kam hollarda, ayniqsa lipoma g‘ayrioddiy katta yoki atipik xususiyatlarga ega bo‘lsa, biopsiya o‘tkaziladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Davolash:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Kuzatish: Agar lipoma kichik, og‘riqsiz va boshqa muammolarni keltirmasa, davolash talab etilmasligi mumkin. Faqat muntazam kuzatish kerak bo‘ladi.",
+                      "Jarrohlik yo‘li bilan olib tashlash: Agar lipoma katta, og‘riqli yoki noqulay bo‘lsa, uni jarrohlik yo‘li bilan olib tashlash mumkin. Bu eng keng tarqalgan davolash usuli bo‘lib, odatda mahalliy og‘riqsizlantirish ostida kichik protsedura sifatida o‘tkaziladi.",
+                      "Liposaksiya: Kichik lipomalar uchun ba’zan liposaksiya qo‘llanilishi mumkin, lekin bu usul lipomani to‘liq olib tashlamasligi mumkin, bu esa qayta paydo bo‘lish xavfini keltirib chiqaradi.",
+                      "Steroid inyektsiyalari: Ba’zi hollarda lipomani kichraytirish uchun steroidlar qo‘llaniladi, lekin bu davolash jarrohlikka qaraganda kamroq samarali.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Shifokorga qachon murojaat qilish kerak:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Tez o‘sish: Agar lipoma tez o‘ssa yoki tashqi ko‘rinishini o‘zgartirsa, boshqa kasalliklarni istisno qilish uchun shifokorga murojaat qilish kerak.",
+                      "Og‘riq: Agar lipoma og‘riqli yoki sezgir bo‘lsa, bu nervlar yoki qon tomirlariga bosim o‘tkazayotganini ko‘rsatishi mumkin va tibbiy yordam talab etiladi.",
+                      "Ko‘p sonli lipomalar: Agar ko‘plab lipomalar paydo bo‘lsa yoki oilaviy anamnezda lipomatoz mavjud bo‘lsa, mutaxassis bilan maslahatlashish tavsiya etiladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Summary:",
+          kr: "Хулоса",
+          uz: "Xulosa:",
+          ru: "Вывод:",
+        },
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Lipomas are benign, slow-growing fatty lumps that are generally painless and harmless. They are most often located just under the skin and can be removed if they become painful, grow large, or cause cosmetic concerns. While they are usually not a cause for alarm, any rapid changes in size, pain, or the development of multiple lipomas should be evaluated by a healthcare provider to ensure proper diagnosis and treatment.",
+          kr: "Липомалар хавфсиз, секин ўсувчи ёғли ҳосилалар бўлиб, одатда оғриқсиз ва хавфсиз ҳисобланади. Кўпинча улар тери остида жойлашади ва агар оғриқ келтирса, катталашса ёки косметик муаммолар бўлса, олиб ташланиши мумкин. Ҳар қандай тез ўлчам ўзгариши, оғриқ пайдо бўлиши ёки кўплаб ҳосилалар пайдо бўлса, шифокорга мурожаат этиш тавсия қилинади.",
+          uz: "Lipomalar xavfsiz, sekin o‘suvchi yog‘li hosilalar bo‘lib, odatda og‘riqsiz va xavfsiz hisoblanadi. Ko‘pincha ular teri ostida joylashadi va agar og‘riq keltirsa, kattalashsa yoki kosmetik muammolar bo‘lsa, olib tashlanishi mumkin. Har qanday tez o‘lcham o‘zgarishi, og‘riq paydo bo‘lishi yoki ko‘plab hosilalar paydo bo‘lsa, shifokorga murojaat etish tavsiya qilinadi.",
+          ru: "Липомы — это доброкачественные, медленнорастущие жировые образования, обычно безболезненные и безопасные. Чаще всего они располагаются под кожей и могут быть удалены, если вызывают боль, увеличиваются в размере или создают косметические проблемы. Несмотря на то, что липомы обычно не представляют опасности, любые быстрые изменения размера, появление боли или множественные образования требуют медицинской оценки для постановки правильного диагноза и выбора лечения.",
+        },
+      },
+    ],
+    type: "disease",
+  },
+  {
+    id: 13,
+    slug: "moles-nevi-collar-родинки-холлар",
+    title: {
+      kr: "Холлар (невуслар)",
+      uz: "Xollar (nevuslar)",
+      en: "Moles (Nevi)",
+      ru: "Родинки (невусы)",
+    },
+    description: {
+      en: "Moles (also known as nevi) are common, benign (non-cancerous) growths on the skin that are typically brown or black. They form when skin cells called melanocytes (which produce pigment) grow in clusters instead of being spread out throughout the skin. Most moles are harmless, but some can change in appearance over time, and in rare cases, they can develop into skin cancer (melanoma).",
+      kr: "Холлар (шунингдек, невуслар деб ҳам аталади) — теридаги кенг тарқалган хавфсиз (хавфсиз) ўсмалар бўлиб, одатда жигарранг ёки қора рангга эга. Улар тери ҳужайралари — меланотситлар (пигмент ишлаб чиқарувчи ҳужайралар) тери бўйлаб бир текис тақсимланмай, тўп-тўп бўлиб ўсганда ҳосил бўлади. Холларнинг кўпчилиги зарарсиз, аммо баъзилари вақт ўтиши билан ўз кўринишини ўзгартириши, камдан-кам ҳолларда тери саратонига (меланома) айланиши мумкин.",
+      uz: "Xollar (shuningdek, nevuslar deb ham ataladi) — teridagi keng tarqalgan xavfsiz (xavfsiz) o‘smalar bo‘lib, odatda jigarrang yoki qora rangga ega. Ular teri hujayralari — melanotsitlar (pigment ishlab chiqaruvchi hujayralar) teri bo‘ylab bir tekis taqsimlanmay, to‘p-to‘p bo‘lib o‘sganda hosil bo‘ladi. Xollarning ko‘pchiligi zararsiz, ammo ba’zilari vaqt o‘tishi bilan o‘z ko‘rinishini o‘zgartirishi, kamdan-kam hollarda teri saratoniga (melanoma) aylanishi mumkin.",
+      ru: "Родинки (также известные как невусы) — это распространённые доброкачественные (незлокачественные) образования на коже, которые обычно имеют коричневый или чёрный цвет. Они образуются, когда клетки кожи — меланоциты (которые производят пигмент) — растут группами, а не равномерно распределяются по коже. Большинство родинок безвредны, но некоторые могут со временем изменять свой внешний вид, а в редких случаях превращаться в рак кожи (меланому).",
+    },
+    image: "/article-images/ml/image-1.jpeg",
+    date: "2025-06-26",
+    linkText: {
+      uz: "Ko'proq o'qish",
+      en: "Read more",
+      ru: "Читать далее",
+      kr: "Кўпроқ ўқиш",
+    },
+    isPopular: true,
+    structure: [
+      {
+        elementType: "heading",
+        level: 1,
+        content: {
+          en: "Moles (Nevi)",
+          kr: "Холлар (невуслар)",
+          uz: "Xollar (nevuslar)",
+          ru: "Родинки (невусы)",
+        },
+      },
+      {
+        elementType: "wrapper",
+        elements: [
+          {
+            elementType: "image",
+            content: "/article-images/ml/image-1.jpeg",
+          },
+          {
+            elementType: "image",
+            content: "/article-images/ml/image-2.JPG",
+          },
+        ],
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Moles (also known as nevi) are common, benign (non-cancerous) growths on the skin that are typically brown or black. They form when skin cells called melanocytes (which produce pigment) grow in clusters instead of being spread out throughout the skin. Most moles are harmless, but some can change in appearance over time, and in rare cases, they can develop into skin cancer (melanoma).",
+          kr: "Холлар (шунингдек, невуслар деб ҳам аталади) — теридаги кенг тарқалган хавфсиз (хавфсиз) ўсмалар бўлиб, одатда жигарранг ёки қора рангга эга. Улар тери ҳужайралари — меланотситлар (пигмент ишлаб чиқарувчи ҳужайралар) тери бўйлаб бир текис тақсимланмай, тўп-тўп бўлиб ўсганда ҳосил бўлади. Холларнинг кўпчилиги зарарсиз, аммо баъзилари вақт ўтиши билан ўз кўринишини ўзгартириши, камдан-кам ҳолларда тери саратонига (меланома) айланиши мумкин.",
+          uz: "Xollar (shuningdek, nevuslar deb ham ataladi) — teridagi keng tarqalgan xavfsiz (xavfsiz) o‘smalar bo‘lib, odatda jigarrang yoki qora rangga ega. Ular teri hujayralari — melanotsitlar (pigment ishlab chiqaruvchi hujayralar) teri bo‘ylab bir tekis taqsimlanmay, to‘p-to‘p bo‘lib o‘sganda hosil bo‘ladi. Xollarning ko‘pchiligi zararsiz, ammo ba’zilari vaqt o‘tishi bilan o‘z ko‘rinishini o‘zgartirishi, kamdan-kam hollarda teri saratoniga (melanoma) aylanishi mumkin.",
+          ru: "Родинки (также известные как невусы) — это распространённые доброкачественные (незлокачественные) образования на коже, которые обычно имеют коричневый или чёрный цвет. Они образуются, когда клетки кожи — меланоциты (которые производят пигмент) — растут группами, а не равномерно распределяются по коже. Большинство родинок безвредны, но некоторые могут со временем изменять свой внешний вид, а в редких случаях превращаться в рак кожи (меланому).",
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Key Features of Moles:",
+          kr: "Холларнинг асосий хусусиятлари:",
+          uz: "Xollarning asosiy xususiyatlari:",
+          ru: "Основные характеристики родинок:",
+        },
+      },
+      {
+        elementType: "list",
+        content: {
+          en: [
+            {
+              text: "Key Features of Moles:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Color: Moles can range in color from light brown to dark brown or black. Some may even be flesh-colored or pinkish.",
+                      "Shape: Moles are usually round or oval, with a smooth, well-defined edge. Some moles can be slightly raised, while others are flat.",
+                      "Size: Most moles are smaller than 6 millimeters in diameter (about the size of a pencil eraser), although larger moles can also occur.",
+                      "Texture: Moles can be smooth or have a slightly rough texture, depending on the type.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Location:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Moles can develop anywhere on the skin, including on the face, arms, legs, back, and even the scalp.",
+                      "Some people may develop moles in areas that are frequently exposed to the sun, such as the face or hands.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Types of Moles:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Congenital Moles: These are moles present at birth. They are typically darker and may be larger in size.",
+                      "Acquired Moles: These moles appear after birth, usually during childhood or adolescence. They can develop over time and may change in shape, color, or size.",
+                      "Atypical Moles (Dysplastic Nevi): These moles are larger, have irregular borders, and often vary in color. They may be a sign of an increased risk of developing melanoma.",
+                      "Junctional Moles: These are typically flat, dark moles that form at the junction between the epidermis and dermis (the outer and inner layers of skin).",
+                      "Compound Moles: These are raised moles that may have a mix of both flat and raised characteristics.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Symptoms:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Most moles are painless and non-itchy.",
+                      "They may be symptomatic only if they are irritated or injured, such as from shaving, scratching, or sun exposure.",
+                      "Changes in a mole, such as bleeding, crusting, or itching, should be evaluated by a doctor, as these can be signs of melanoma or other skin conditions.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Causes:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Genetics: Some people may inherit a tendency to develop more moles, particularly if they have a family history of moles or melanoma.",
+                      "Sun Exposure: Ultraviolet (UV) radiation from the sun or tanning beds can stimulate the production of melanin, leading to the formation of moles. This is why moles often appear in sun-exposed areas of the skin.",
+                      "Hormonal Changes: Hormonal fluctuations, such as during pregnancy or puberty, can lead to the development of new moles.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "When to Be Concerned:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Asymmetry: One half of the mole looks different from the other half.",
+                      "Irregular Borders: The edges of the mole are jagged, not smooth.",
+                      "Multiple Colors: The mole has a mix of colors, such as brown, black, red, or blue.",
+                      "Large Size: The mole is larger than 6 millimeters in diameter.",
+                      "Itching, Bleeding, or Crusting: The mole becomes itchy, painful, or starts to bleed or crust.",
+                      "Changes Over Time: If the mole changes in size, shape, or color, it’s important to have it checked by a healthcare professional.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Treatment:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Observation: Most moles don’t require treatment unless they are causing discomfort or concern.",
+                      "Removal: If a mole is suspicious or problematic, it may be removed by a oncodermatologist through a simple surgical procedure. The removed tissue is usually sent for biopsy to check for any signs of skin cancer.",
+                      "Laser Removal: In some cases, especially for cosmetic reasons, moles can be removed with a laser treatment, but this method is typically reserved for non-suspicious, small moles.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Prevention and Monitoring:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Sun Protection: To prevent the formation of new moles or changes to existing ones, it’s important to protect the skin from excessive sun exposure. This can be done by wearing sunscreen (SPF 30 or higher), avoiding tanning beds, and wearing protective clothing.",
+                      "Self-Examination: Regularly check your skin for new moles or changes to existing ones, especially after sun exposure.",
+                      "Oncodermatologist Visits: If you notice any changes in your moles or if you develop a new mole that concerns you, consult a oncodermatologist for a thorough examination.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          ru: [
+            {
+              text: "Основные характеристики родинок:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Цвет: Родинки могут быть от светло-коричневого до тёмно-коричневого или чёрного цвета. Некоторые могут быть телесного или розоватого оттенка.",
+                      "Форма: Обычно родинки круглые или овальные с ровным и чётким краем. Некоторые родинки могут быть слегка приподнятыми, другие — плоскими.",
+                      "Размер: Большинство родинок имеют диаметр менее 6 миллиметров (примерно размер ластика карандаша), хотя встречаются и большие родинки.",
+                      "Текстура: Родинки могут быть гладкими или слегка шероховатыми, в зависимости от типа.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Расположение:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Родинки могут появляться на любой части кожи — на лице, руках, ногах, спине и даже на коже головы.",
+                      "Некоторые люди имеют родинки в местах, часто подвергающихся воздействию солнца, например, на лице или руках.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Виды родинок:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Врожденные родинки: Присутствуют с рождения, обычно более тёмные и могут быть крупнее по размеру.",
+                      "Приобретённые родинки: Появляются после рождения, чаще всего в детстве или подростковом возрасте. Могут меняться со временем.",
+                      "Атипичные родинки (диспластические невусы): Крупнее обычных, с неправильными краями и неоднородным цветом. Могут указывать на повышенный риск развития меланомы.",
+                      "Юкционные родинки: Обычно плоские, тёмные родинки, образующиеся на границе эпидермиса и дермы (внешний и внутренний слой кожи).",
+                      "Составные родинки: Приподнятые родинки с признаками как плоских, так и приподнятых образований.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Симптомы:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Большинство родинок не вызывают боли и зуда.",
+                      "Родинки могут стать симптоматичными, если раздражаются или травмируются, например, при бритье, расчесывании или воздействии солнца.",
+                      "Изменения родинки — кровотечение, образование корок, зуд — требуют консультации врача, так как это может быть признаком меланомы или других заболеваний кожи.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Причины:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Генетика: Склонность к появлению большого количества родинок может наследоваться, особенно при наличии семейной истории родинок или меланомы.",
+                      "Воздействие солнца: Ультрафиолетовое (УФ) излучение от солнца или соляриев стимулирует выработку меланина, что приводит к появлению родинок. Поэтому родинки часто появляются на участках, подверженных солнечному свету.",
+                      "Гормональные изменения: Гормональные колебания, например во время беременности или полового созревания, могут способствовать появлению новых родинок.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Когда следует насторожиться:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Асимметрия: Одна половина родинки отличается от другой.",
+                      "Неровные края: Края родинки зубчатые или неровные.",
+                      "Многоцветность: Родинка имеет смешанные цвета — коричневый, чёрный, красный, синий и т. д.",
+                      "Большой размер: Родинка больше 6 миллиметров в диаметре.",
+                      "Зуд, кровотечение или корочки: Родинка чешется, болит, кровоточит или покрывается коркой.",
+                      "Изменения со временем: Родинка меняет размер, форму или цвет.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Лечение:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Наблюдение: Большинство родинок не требуют лечения, если они не вызывают дискомфорт или опасений.",
+                      "Удаление: Если родинка вызывает подозрение или неудобства, её могут удалить онкодерматологи хирургическим методом. Удалённый материал обычно отправляют на биопсию для проверки на наличие раковых клеток.",
+                      "Удаление лазером: Иногда, особенно по косметическим причинам, родинки удаляют лазером, но этот метод чаще применяют для небольших и не подозрительных образований.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Профилактика и контроль:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Защита от солнца: Чтобы предотвратить появление новых родинок или изменения существующих, важно защищать кожу от избыточного солнечного излучения — использовать солнцезащитные кремы с SPF 30 и выше, избегать соляриев, носить защитную одежду.",
+                      "Самоосмотр: Регулярно осматривайте кожу на наличие новых родинок и изменений в уже существующих, особенно после пребывания на солнце.",
+                      "Консультации у онкодерматолога: При появлении подозрительных изменений или новых родинок обращайтесь к специалисту для тщательного обследования.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          kr: [
+            {
+              text: "Холларнинг асосий хусусиятлари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Ранги: Холлар оч жигаррангдан тўқ жигарранггача ёки қора ранггача бўлиши мумкин. Баъзилари танасимон ёки пушти рангда бўлиши мумкин.",
+                      "Шакли: Одатда холлар юмалоқ ёки овал шаклда бўлиб, текис ва аниқ чегарага эга. Баъзи холлар бироз кўтарилган, бошқалари эса ясси бўлиши мумкин.",
+                      "Ўлчами: Кўпчилик холларнинг диаметри 6 миллиметрдан кичик (тахминан қалам ўчирғичининг ўлчамига тенг), аммо катта холлар ҳам учрайди.",
+                      "Тузилиши: Холлар турига қараб силлиқ ёки бироз ғадир-будур бўлиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Жойлашуви:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Холлар терининг ҳар қандай қисмида — юз, қўллар, оёқлар, орқа ва ҳатто бош терисида пайдо бўлиши мумкин.",
+                      "Баъзи одамларнинг юзи ёки қўллари каби қуёш тез-тез таъсир қиладиган жойларида хол бор.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Хол турлари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Туғма хол: Туғилгандан бошлаб мавжуд бўлиб, одатда қорароқ ва каттароқ бўлиши мумкин.",
+                      "Орттирилган хол: Туғилгандан кейин, кўпинча болалик ёки ўсмирлик даврида пайдо бўлади. Вақт ўтиши билан ўзгариши мумкин.",
+                      "Атипик хол (диспластик невуслар): Одатдагидан каттароқ, четлари нотўғри, ранги бир хил эмас. Меланома ривожланиш хавфи юқорилигини кўрсатиши мумкин.",
+                      "Юксион хол: Одатда эпидермис ва дерма (терининг ташқи ва ички қавати) чегарасида ҳосил бўладиган ясси, қорамтир хол.",
+                      "Мураккаб хол: Ҳам ясси, ҳам кўтарилган ҳосилалар белгиларига эга бўлган кўтарилган хол.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Белгилари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Кўпчилик холлар оғриқ ва қичишишни келтириб чиқармайди.",
+                      "Холлар таъсирланганда ёки шикастланганда, масалан, соқол олиш, тараш ёки қуёш таъсирида симптоматик бўлиши мумкин.",
+                      "Холдаги ўзгаришлар — қон кетиши, қатқалоқ пайдо бўлиши, қичишиш — шифокор маслаҳатини талаб қилади, чунки бу меланома ёки бошқа тери касалликларининг белгиси бўлиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Сабаблари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Генетика: Кўп сонли холлар пайдо бўлишига мойиллик, айниқса оилавий холлар тарихи ёки меланома мавжуд бўлса, наслдан-наслга ўтиши мумкин.",
+                      "Қуёшнинг таъсири: Қуёш ёки солярийлардан келадиган ультрабинафша (УБ) нурланиш меланин ишлаб чиқаришни рағбатлантиради, бу эса холларнинг пайдо бўлишига олиб келади. Шунинг учун хол кўпинча қуёш нури тушадиган жойларда пайдо бўлади.",
+                      "Гормонал ўзгаришлар: Гормонал ўзгаришлар, масалан, ҳомиладорлик ёки балоғатга етиш даврида, янги холларнинг пайдо бўлишига сабаб бўлиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Қачон эҳтиёт бўлиш керак:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Асимметрия: Холнинг бир ярми иккинчисидан фарқ қилади.",
+                      "Нотекис қирралар: Холнинг қирралари тишли ёки нотекис.",
+                      "Кўп ранглилик: Хол аралаш рангларга эга — жигарранг, қора, қизил, кўк ва бошқалар.",
+                      "Катта ўлчам: Холнинг диаметри 6 миллиметрдан катта.",
+                      "Қичишиш, қон кетиш ёки пўстлоқлар: Хол қичишади, оғрийди, қонайди ёки пўстлоқ билан қопланади.",
+                      "Вақт ўтиши билан ўзгариши: Хол ўлчами, шакли ёки ранги ўзгартиради.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Даволаш:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Кузатув: Аксарият холлар, агар улар ноқулайлик ёки хавотир туғдирмаса, даволанишни талаб қилмайди.",
+                      "Олиб ташлаш: Агар хол шубҳа уйғотса ёки ноқулайлик туғдирса, онкодерматологлар уни жарроҳлик йўли билан олиб ташлашлари мумкин. Олиб ташланган материал одатда саратон ҳужайраларини текшириш учун биопсияга юборилади.",
+                      "Лазер ёрдамида олиб ташлаш: Баъзида, айниқса косметик сабабларга кўра, хол лазер ёрдамида олиб ташланади, аммо бу усул кўпинча кичик ва шубҳали бўлмаган ҳосилалар учун қўлланилади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Профилактика ва назорат:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Қуёшдан ҳимояланиш: Янги холларнинг пайдо бўлиши ёки мавжудларининг ўзгаришининг олдини олиш учун терини ортиқча қуёш нурланишидан ҳимоя қилиш муҳим — SPF 30 ва ундан юқори бўлган қуёшдан ҳимояловчи кремлардан фойдаланиш, солярийлардан сақланиш, ҳимоя кийимларини кийиш.",
+                      "Ўз-ўзини текшириш: Айниқса қуёшда тобланганингиздан сўнг, терингизда янги холлар ва мавжуд холларидаги ўзгаришларни мунтазам равишда текшириб туринг.",
+                      "Онкодерматолог маслаҳати: Агар шубҳали ўзгаришлар ёки янги холлар пайдо бўлса, синчковлик билан текшириш учун мутахассисга мурожаат қилинг.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          uz: [
+            {
+              text: "Hollarning asosiy xususiyatlari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Rangi: Hollar och jigarrangdan to‘q jigarranggacha yoki qora ranggacha bo‘lishi mumkin. Ba'zilari tanasimon yoki pushti rangda bo‘lishi mumkin.",
+                      "Shakli: Odatda hollar yumaloq yoki ovalsimon shaklda bo‘lib, tekis va aniq chegaraga ega. Ba'zi hollar bir oz ko‘tarilgan, boshqalari esa tekis bo‘lishi mumkin.",
+                      "O‘lchami: Ko‘pchilik hollarning diametri 6 millimetrdan kichik (taxminan qalam o‘chirg‘ichining o‘lchamiga teng), ammo katta hollar ham uchraydi.",
+                      "Tuzilishi: Hollar turiga qarab silliq yoki bir oz g‘adir-budur bo‘lishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Joylashuvi:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Hollar terining har qanday qismida — yuz, qo‘llar, oyoqlar, orqa va hatto bosh terisida paydo bo‘lishi mumkin.",
+                      "Ba'zi odamlarning yuzi yoki qo‘llari kabi quyosh tez-tez ta'sir qiladigan joylarida hol bo‘lishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Hol turlari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Tug‘ma hol: Tug‘ilgandan boshlab mavjud bo‘lib, odatda qoraroq va kattaroq bo‘lishi mumkin.",
+                      "Orttirilgan hol: Tug‘ilgandan keyin, ko‘pincha bolalik yoki o‘smirlik davrida paydo bo‘ladi. Vaqt o‘tishi bilan o‘zgarishi mumkin.",
+                      "Atypik hol (displastik nevuslar): Odatdagidan kattaroq, chetlari notekis, rangi bir xil emas. Melanoma rivojlanish xavfini ko‘rsatishi mumkin.",
+                      "Yuksion hol: Odatda epidermis va derma (terining tashqi va ichki qavati) chegarasida hosil bo‘ladigan tekis, qoramtir hol.",
+                      "Murakkab hol: Ham tekis, ham ko‘tarilgan hosilalar belgilari mavjud bo‘lgan ko‘tarilgan hol.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Belgilar:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Ko‘pchilik hollar og‘riq va qichishishni keltirib chiqarmaydi.",
+                      "Hollar ta'sirlanganda yoki shikastlanganda, masalan, soqol olish, tarash yoki quyosh ta'sirida simptomatik bo‘lishi mumkin.",
+                      "Holdagi o‘zgarishlar — qon ketishi, qotib qolishi, qichishish — shifokor maslahati talab qiladi, chunki bu melanoma yoki boshqa teri kasalliklarining belgisi bo‘lishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Sabablari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Genetika: Ko‘p sonli hollar paydo bo‘lishiga moyillik, ayniqsa oilaviy hollar tarixi yoki melanoma mavjud bo‘lsa, nasldan-naslga o‘tishi mumkin.",
+                      "Quyoshning ta'siri: Quyosh yoki solyariylardan keladigan ultrabinafsha (UB) nurlanish melanin ishlab chiqarishni rag‘batlantiradi, bu esa hollarning paydo bo‘lishiga olib keladi. Shuning uchun hollar ko‘pincha quyosh nuri tushadigan joylarda paydo bo‘ladi.",
+                      "Gormonal o‘zgarishlar: Gormonal o‘zgarishlar, masalan, homiladorlik yoki balog‘atga yetish davrida, yangi hollarning paydo bo‘lishiga sabab bo‘lishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Qachon ehtiyot bo‘lish kerak:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Asimmetriya: Holning bir yarmi ikkinchisidan farq qiladi.",
+                      "Notekis qirralar: Holning qirralari tishli yoki notekis.",
+                      "Ko‘p ranglilik: Hol aralash ranglarga ega — jigarrang, qora, qizil, ko‘k va boshqalar.",
+                      "Katta o‘lcham: Holning diametri 6 millimetrdan katta.",
+                      "Qichishish, qon ketish yoki qotib qolish: Hol qichishadi, og‘riydi, qonaydi yoki qotib qoladi.",
+                      "Vaqt o‘tishi bilan o‘zgarishi: Hol o‘lchami, shakli yoki rangini o‘zgartiradi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Davolash:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Kuzatish: Ko‘pchilik hollar, agar ular noqulaylik yoki xavotir tug‘dirmasa, davolanishni talab qilmaydi.",
+                      "Olib tashlash: Agar hol shubha uyg‘otsa yoki noqulaylik tug‘dirsa, onkodermatologlar uni jarrohlik yo‘li bilan olib tashlashlari mumkin. Olib tashlangan material odatda saraton hujayralarini tekshirish uchun biopsiyaga yuboriladi.",
+                      "Lazer yordamida olib tashlash: Ba'zida, ayniqsa kosmetik sabablarga ko‘ra, hollar lazer yordamida olib tashlanadi, ammo bu usul ko‘pincha kichik va shubhali bo‘lmagan hosilalar uchun qo‘llaniladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Profilaktika va nazorat:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Quyoshdan himoyalanish: Yangi hollarning paydo bo‘lishi yoki mavjudlarining o‘zgarishining oldini olish uchun terini ortiqcha quyosh nurlanishidan himoya qilish muhim — SPF 30 va undan yuqori bo‘lgan quyoshdan himoyalovchi kremlardan foydalanish, solyariylardan saqlanish, himoya kiyimlarini kiyish.",
+                      "O‘z-o‘zini tekshirish: Ayniqsa quyoshda toblanganingizdan so‘ng, teringizda yangi hollar va mavjud hollaridagi o‘zgarishlarni muntazam ravishda tekshirib turing.",
+                      "Onkodermatolog maslahati: Agar shubhali o‘zgarishlar yoki yangi hollar paydo bo‘lsa, sinchkovlik bilan tekshirish uchun mutaxassisga murojaat qiling.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Summary:",
+          kr: "Хулоса",
+          uz: "Xulosa:",
+          ru: "Вывод:",
+        },
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Moles are common, typically harmless skin growths that vary in appearance. While most are benign, changes in the shape, size, or color of a mole can indicate a risk of skin cancer (melanoma). Regular skin checks and sun protection are important for monitoring moles and protecting your skin health. If any moles become concerning, it’s best to consult with a healthcare professional.",
+          kr: "Хол — бу турли шакл ва рангдаги одатий, одатда зарарсиз тери ҳосилаларидир. Холлар хавфсиз бўлишига қарамай, улардаги ўзгаришлар меланома хавфини кўрсатиши мумкин. Тери саломатлигини сақлаш учун мунтазам равишда терини текшириш ва қуёшдан ҳимояланиш муҳим. Ҳар қандай шубҳали ўзгаришлар бўлса, шифокорга мурожаат қилиш тавсия этилади.",
+          uz: "Xollar — bu turli shakl va rangdagi odatiy, odatda zararsiz teri hosilalaridir. Xollar xavfsiz bo‘lishiga qaramay, ulardagi o‘zgarishlar melanoma xavfini ko‘rsatishi mumkin. Teri salomatligini saqlash uchun muntazam ravishda terini tekshirish va quyoshdan himoyalanish muhim. Har qanday shubhali o‘zgarishlar bo‘lsa, shifokorga murojaat qilish tavsiya etiladi.",
+          ru: "Родинки — это обычные, как правило, безвредные кожные образования различной формы и цвета. Несмотря на их доброкачественный характер, изменения в родинках могут указывать на риск меланомы. Регулярные осмотры кожи и защита от солнца важны для поддержания здоровья кожи. При любых подозрительных изменениях рекомендуется обратиться к врачу.",
         },
       },
     ],
