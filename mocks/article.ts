@@ -3977,4 +3977,1758 @@ export const ARTICLES_MOCK = [
     ],
     type: "disease",
   },
+  {
+    id: 7,
+    slug: "merkel-cell-carcinoma-mcc-меркел-хужайрали-карцинома-merkel-hujayrali-karcinoma-карцинома-меркель-клеток",
+    title: {
+      kr: "Меркел ҳужайрали карцинома (МҲК)",
+      uz: "Merkel hujayrali karcinoma (MHK)",
+      en: "Merkel Cell Carcinoma (MCC)",
+      ru: "Карцинома Меркель-клеток (МКК)",
+    },
+    description: {
+      en: "Merkel Cell Carcinoma (MCC) is a rare, aggressive type of skin cancer that originates from Merkel cells, which are specialized cells found in the skin's epidermis. These cells are thought to play a role in touch sensation, as they are associated with nerve endings in the skin. Merkel cell carcinoma is known for its rapid growth and high potential to spread (metastasize) to other parts of the body.",
+      kr: "Меркел ҳужайрали карцинома (МҲК) камдан-кам учрайдиган ва тажовузкор тери саратони бўлиб, тери эпидермисида жойлашган Меркел ҳужайраларидан келиб чиқади. Бу ҳужайралар терининг нерв охирлари билан боғлиқ бўлгани учун тегинишни сезишда роль ўйнайди, деб ҳисобланади. Меркел ҳужайрали карцинома тез ўсиш қобилияти ва тананинг бошқа қисмларига метастаз бериш (тарқалиш) хавфи юқори эканлиги билан машҳур.",
+      uz: "Merkel hujayrali karcinoma (MHK) kamdan-kam uchraydigan va tajovuzkor teri saratoni bo‘lib, teri epidermisida joylashgan Merkel hujayralaridan kelib chiqadi. Bu hujayralar terining nerv oxirlari bilan bog‘liq bo‘lgani uchun teginishni sezishda rol o‘ynaydi, deb hisoblanadi. Merkel hujayrali karcinoma tez o‘sish qobiliyati va tananing boshqa qismlariga metastaz berish (tarqalish) xavfi yuqori ekanligi bilan mashhur.",
+      ru: "Карцинома Меркель-клеток (МКК) — это редкий и агрессивный тип рака кожи, происходящий из клеток Меркеля — специализированных клеток, расположенных в эпидермисе кожи. Считается, что эти клетки играют роль в восприятии прикосновения, поскольку они связаны с нервными окончаниями кожи. Карцинома Меркель-клеток известна своей способностью к быстрому росту и высоким риском метастазирования (распространения) в другие части тела.",
+    },
+    image: "/article-images/mcc/image-1.jpg",
+    date: "2025-06-20",
+    linkText: {
+      uz: "Ko'proq o'qish",
+      en: "Read more",
+      ru: "Читать далее",
+      kr: "Кўпроқ ўқиш",
+    },
+    isPopular: true,
+    structure: [
+      {
+        elementType: "heading",
+        level: 1,
+        content: {
+          en: "Merkel Cell Carcinoma",
+          kr: "Меркел ҳужайрали карцинома",
+          uz: "Merkel hujayrali karcinoma",
+          ru: "Карцинома Меркель-клеток",
+        },
+      },
+      {
+        elementType: "wrapper",
+        elements: [
+          {
+            elementType: "image",
+            content: "/article-images/mcc/image-1.jpg",
+          },
+          {
+            elementType: "image",
+            content: "/article-images/mcc/image-2.jpg",
+          },
+        ],
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Merkel Cell Carcinoma (MCC) is a rare, aggressive type of skin cancer that originates from Merkel cells, which are specialized cells found in the skin's epidermis. These cells are thought to play a role in touch sensation, as they are associated with nerve endings in the skin. Merkel cell carcinoma is known for its rapid growth and high potential to spread (metastasize) to other parts of the body.",
+          kr: "Меркел ҳужайрали карцинома (МҲК) камдан-кам учрайдиган ва тажовузкор тери саратони бўлиб, тери эпидермисида жойлашган Меркел ҳужайраларидан келиб чиқади. Бу ҳужайралар терининг нерв охирлари билан боғлиқ бўлгани учун тегинишни сезишда роль ўйнайди, деб ҳисобланади. Меркел ҳужайрали карцинома тез ўсиш қобилияти ва тананинг бошқа қисмларига метастаз бериш (тарқалиш) хавфи юқори эканлиги билан машҳур.",
+          uz: "Merkel hujayrali karcinoma (MHK) kamdan-kam uchraydigan va tajovuzkor teri saratoni bo‘lib, teri epidermisida joylashgan Merkel hujayralaridan kelib chiqadi. Bu hujayralar terining nerv oxirlari bilan bog‘liq bo‘lgani uchun teginishni sezishda rol o‘ynaydi, deb hisoblanadi. Merkel hujayrali karcinoma tez o‘sish qobiliyati va tananing boshqa qismlariga metastaz berish (tarqalish) xavfi yuqori ekanligi bilan mashhur.",
+          ru: "Карцинома Меркель-клеток (МКК) — это редкий и агрессивный тип рака кожи, происходящий из клеток Меркеля — специализированных клеток, расположенных в эпидермисе кожи. Считается, что эти клетки играют роль в восприятии прикосновения, поскольку они связаны с нервными окончаниями кожи. Карцинома Меркель-клеток известна своей способностью к быстрому росту и высоким риском метастазирования (распространения) в другие части тела.",
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Key Features of Merkel Cell Carcinoma (MCC):",
+          kr: "Меркел ҳужайрали карцинома (МҲК)нинг асосий хусусиятлари:",
+          uz: "Merkel hujayrali karcinoma (MHK)ning asosiy xususiyatlari:",
+          ru: "Ключевые особенности карциномы Меркель-клеток (МКК):",
+        },
+      },
+      {
+        elementType: "list",
+        content: {
+          en: [
+            {
+              text: "Appearance:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Lesion Characteristics: MCC typically presents as a painless, firm, and raised nodule or tumor on the skin. The lesion is usually smooth or shiny and may appear red, blue, or purple in color.",
+                      "Size: It can range in size from small (1–2 cm) to larger tumors, but rapid growth is common.",
+                      "Common Locations: Most commonly found on sun-exposed areas of the body, such as the head, neck, face, arms, and legs. However, it can occur anywhere on the body, even on non-sun-exposed areas.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Risk Factors:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Sun Exposure: Similar to other skin cancers, chronic sun exposure is a major risk factor for Merkel cell carcinoma, especially in fair-skinned individuals.",
+                      "Age: It is most commonly diagnosed in people aged 50 years or older.",
+                      "Immune Suppression: Individuals with weakened immune systems, such as those undergoing organ transplants, HIV/AIDS, or chemotherapy, are at higher risk.",
+                      "Merkel Cell Polyomavirus (MCV): A significant proportion of MCCs are associated with infection by Merkel cell polyomavirus (MCV), a virus that may contribute to the development of MCC. While not all cases are MCV-related, the virus is often found in the tumor cells of affected individuals.",
+                      "Previous Skin Cancer: Individuals who have had other types of skin cancer, such as basal cell carcinoma or squamous cell carcinoma, may be at increased risk for MCC.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Symptoms:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Painless Lump: The primary symptom is a painless, firm, and rapidly growing bump or nodule on the skin.",
+                      "Redness and Swelling: The tumor may appear red, purple, or bluish and is often shiny.",
+                      "Location-Specific Symptoms: In some cases, MCC can cause swelling in nearby lymph nodes, particularly if it has spread (metastasized).",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Diagnosis:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Clinical Examination: An oncodermatologist or physician typically examines the lesion and may suspect MCC based on its appearance and rapid growth.",
+                      "Skin Biopsy: A biopsy of the lesion is necessary to confirm the diagnosis. The tumor cells are usually small and round, with dense cytoplasm and high mitotic activity. Immunohistochemical staining often shows positive staining for cytokeratin 20 (CK20), a characteristic marker for MCC.",
+                      "Imaging: If there is concern that the tumor has spread, imaging tests like CT scans, MRI, or PET scans may be used to assess the extent of disease spread to lymph nodes or other organs.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Staging:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "The stage of MCC is determined based on the size of the tumor, whether it has spread to nearby lymph nodes, and whether it has metastasized to distant organs (like the liver, lungs, or bones).",
+                      "The AJCC staging system (American Joint Committee on Cancer) is used to assess the extent of the disease.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Treatment:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Surgical Excision: The primary treatment for localized MCC is wide local excision, where the tumor and a margin of healthy tissue are surgically removed to ensure clear margins and reduce the risk of recurrence. If the tumor involves nearby lymph nodes, lymph node dissection may be performed to remove any potentially affected lymph nodes.",
+                      "Radiation Therapy: Radiation therapy is often used after surgical excision to target any remaining cancer cells that may not have been removed, particularly if the tumor is large or has spread to the lymph nodes. Radiation can help reduce the risk of recurrence. It may also be used as the primary treatment for patients who are not candidates for surgery.",
+                      "Chemotherapy: For advanced or metastatic MCC, chemotherapy may be used. However, chemotherapy is generally not as effective for MCC as other treatments, and its use is typically reserved for more advanced stages or when other treatments fail.",
+                      "Immunotherapy: Immunotherapy has become a key treatment option for advanced MCC. Drugs such as checkpoint inhibitors (nivolumab or pembrolizumab) have shown promise in treating metastatic MCC by blocking the cancer cells' ability to evade the immune system. Monoclonal antibody treatments and targeted therapies are also being explored in clinical trials.",
+                      "Targeted Therapy: Targeted therapies may be considered for patients with advanced MCC, particularly if there are known genetic mutations or markers associated with the tumor's growth.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Prognosis:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "The prognosis for MCC depends on several factors, including tumor size and location, whether it has spread to lymph nodes or distant organs, and the patient’s age and immune status.",
+                      "If detected early and treated appropriately, the prognosis for MCC can be favorable, with local excision and radiation often leading to remission.",
+                      "Recurrence: MCC has a high potential for recurrence, even after successful initial treatment. Close monitoring is necessary to detect any signs of recurrence or metastasis.",
+                      "Metastasis: The 5-year survival rate for Merkel cell carcinoma varies widely, but for those with localized disease, it is generally high. However, for individuals with metastatic MCC, the survival rate drops significantly.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Prevention:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Sun Protection: Since sun exposure is a significant risk factor for Merkel cell carcinoma, it's essential to practice sun safety by using sunscreen, wearing protective clothing, and avoiding direct sun exposure during peak hours (10 a.m. to 4 p.m.).",
+                      "Immunosuppression Management: For individuals with immunosuppressive conditions, such as organ transplant recipients, managing immune function can reduce the risk of developing MCC and other cancers.",
+                      "Early Detection: Regular skin checks, especially for individuals with increased risk factors (e.g., fair-skinned individuals, those with a history of skin cancer, and people with weakened immune systems), can help detect MCC early, when treatment is most effective.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          ru: [
+            {
+              text: "Внешний вид:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Характеристики новообразования: МКК обычно проявляется в виде безболезненного, плотного и приподнятого узелка или опухоли на коже. Поверхность гладкая или блестящая, цвет — красный, синий или фиолетовый.",
+                      "Размер: Может варьироваться от небольшого (1–2 см) до крупных образований, при этом часто наблюдается быстрый рост.",
+                      "Типичные локализации: Чаще всего возникает на участках кожи, подверженных солнечному воздействию — голова, шея, лицо, руки и ноги. Однако может появиться и на участках, не подвергавшихся воздействию солнца.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Факторы риска:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Воздействие солнца: Как и при других типах рака кожи, хроническое воздействие солнечного света — основной фактор риска, особенно у людей со светлой кожей.",
+                      "Возраст: Чаще всего диагностируется у людей старше 50 лет.",
+                      "Иммуносупрессия: Повышенный риск у лиц с ослабленным иммунитетом (например, после трансплантации органов, при ВИЧ/СПИДе или химиотерапии).",
+                      "Полиомавирус Меркель (МКВ): Значительная часть случаев МКК связана с инфекцией полиомавирусом Меркель, который может способствовать развитию опухоли. Хотя не все случаи связаны с вирусом, его часто находят в опухолевых клетках.",
+                      "Предшествующий рак кожи: У пациентов, перенесших другие типы рака кожи (например, базальноклеточную или плоскоклеточную карциному), риск МКК выше.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Симптомы:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Безболезненный узелок: Главный симптом — быстро растущий, плотный и безболезненный узелок на коже.",
+                      "Покраснение и отек: Опухоль может иметь красный, синеватый или фиолетовый оттенок, часто с блестящей поверхностью.",
+                      "Локальные симптомы: В некоторых случаях возможен отек лимфатических узлов поблизости, особенно при метастазировании.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Диагностика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Клинический осмотр: Дерматоонколог может заподозрить МКК по внешнему виду и характеру роста новообразования.",
+                      "Биопсия кожи: Необходима для подтверждения диагноза. Опухолевые клетки обычно мелкие, круглые, с плотной цитоплазмой и высокой митотической активностью. Иммуногистохимическое окрашивание часто показывает положительную реакцию на цитокератин 20 (CK20), что является характерным маркером для МКК.",
+                      "Визуализация: При подозрении на метастазы применяются КТ, МРТ или ПЭТ для оценки распространения заболевания на лимфатические узлы и другие органы.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Стадирование:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Стадия заболевания определяется по размеру опухоли, вовлечению лимфатических узлов и наличию отдалённых метастазов (например, в печени, лёгких или костях).",
+                      "Применяется система стадирования AJCC (Американский комитет по изучению рака).",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Лечение:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Хирургическое удаление: Основной метод лечения локализованной формы — широкое иссечение опухоли с захватом здоровых тканей для предотвращения рецидива. При вовлечении лимфатических узлов проводится лимфодиссекция. Биопсия сторожевого лимфатического узла может быть выполнена для оценки распространения.",
+                      "Лучевая терапия: Часто применяется после операции для уничтожения оставшихся опухолевых клеток, особенно при крупных опухолях или поражении лимфоузлов. Может использоваться как основное лечение при невозможности проведения операции.",
+                      "Химиотерапия: Применяется при запущенных или метастатических формах, однако менее эффективна по сравнению с другими методами и используется в случае неэффективности других видов терапии.",
+                      "Иммунотерапия: Один из ключевых подходов при лечении продвинутой МКК. Ингибиторы контрольных точек (например, ниволумаб, пембролизумаб) помогают активировать иммунную систему против опухоли. Также изучаются моноклональные антитела и таргетные препараты в рамках клинических исследований.",
+                      "Таргетная терапия: Может применяться при наличии известных мутаций или молекулярных маркеров, способствующих росту опухоли.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Прогноз:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Прогноз зависит от размера и локализации опухоли, наличия метастазов в лимфоузлы или отдалённые органы, возраста пациента и состояния иммунной системы.",
+                      "При раннем выявлении и надлежащем лечении прогноз благоприятный — широкое иссечение и лучевая терапия могут привести к ремиссии.",
+                      "Рецидив: Высокий риск повторного появления заболевания даже после успешного лечения, поэтому необходим регулярный контроль.",
+                      "Метастазы: При локализованной форме 5-летняя выживаемость высокая, но при метастатической форме значительно снижается.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Профилактика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Защита от солнца: Использование солнцезащитных кремов, защитной одежды, избегание пребывания на солнце с 10:00 до 16:00.",
+                      "Контроль иммуносупрессии: У людей с ослабленным иммунитетом (например, после трансплантации) важно регулировать иммунный статус для снижения риска развития МКК и других видов рака.",
+                      "Раннее выявление: Регулярные осмотры кожи, особенно у людей из группы риска (светлая кожа, история рака кожи, ослабленный иммунитет), помогают выявить МКК на ранней стадии.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          kr: [
+            {
+              text: "Ташқи кўриниши:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Ўсма хусусиятлари: МҲК одатда терида оғриқсиз, зич ва кўтарилган тугун ёки ўсма кўринишида намоён бўлади. Сирти силлиқ ёки ялтироқ, ранги қизил, кўк ёки бинафша.",
+                      "Ўлчами: Кичик (1–2 см) дан йирик ҳосилаларгача бўлиши мумкин, бунда кўпинча тез ўсиш кузатилади.",
+                      "Типик локализациялар: Кўпинча терининг қуёш таъсирига моил бўлган қисмларида — бош, бўйин, юз, қўл ва оёқларда пайдо бўлади. Лекин қуёш нури тушмаган жойларда ҳам пайдо бўлиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Хавф омиллари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Қуёшдан таъсирланиш: Тери саратонининг бошқа турларида бўлгани каби, сурункали қуёш нури таъсири, айниқса, оқ танли одамларда асосий хавф омилидир.",
+                      "Ёши: Кўпинча 50 ёшдан ошган одамларда ташхис қўйилади.",
+                      "Иммуносупрессия: Иммунитети заиф бўлган одамларда юқори хавф (масалан, орган трансплантациясидан кейин, ОИВ/ОИТС ёки кимётерапияда).",
+                      "Меркел полиовируси (МКВ): МКВ ҳолатларининг катта қисми ўсма ривожланишига ҳисса қўшиши мумкин бўлган Меркел полиовирус инфекцияси билан боғлиқ. Барча ҳолатлар вирус билан боғлиқ бўлмаса-да, у кўпинча ўсимта ҳужайраларида топилади.",
+                      "Аввалги тери саратони: Тери саратонининг бошқа турларини бошдан кечирган беморларда (масалан, базал ҳужайрали ёки ясси ҳужайрали карцинома) МҲК хавфи юқори бўлади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Белгилари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Оғриқсиз тугун: Асосий белги — терида тез ўсувчи, зич ва оғриқсиз тугун.",
+                      "Қизариш ва шиш: Ўсма қизил, кўкимтир ёки бинафша рангда бўлиши мумкин, кўпинча юзаси ялтироқ бўлади.",
+                      "Маҳаллий белгилар: Баъзи ҳолларда яқин атрофдаги лимфа тугунларининг шишиши мумкин, айниқса метастаз берганда.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Диагностика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Клиник кўрик: Дерматоонколог ўсимтанинг ташқи кўриниши ва ўсиш хусусиятига қараб МҲК га шубҳа қилиши мумкин.",
+                      "Тери биопсияси: Ташхисни тасдиқлаш учун зарур. Ўсма ҳужайралари одатда майда, думалоқ, цитоплазмаси зич, митотик фаоллиги юқори бўлади. Иммуногистокимёвий бўяш кўпинча ситокератин 20 (CK20) га ижобий реакцияни кўрсатади, бу МҲК учун характерли маркер ҳисобланади.",
+                      "Тасвирлаш: Метастазларга шубҳа қилинганда, касалликнинг лимфа тугунлари ва бошқа органларга тарқалишини баҳолаш учун КТ, МРТ ёки ПЕТ қўлланилади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Босқичларга ажратиш:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Касалликнинг босқичи ўсманинг катталиги, лимфа тугунларининг зарарланиши ва узоқ метастазларнинг мавжудлиги (масалан, жигар, ўпка ёки суякларда) билан белгиланади.",
+                      "AJCC (American Cancer Committee) босқичлаш тизими қўлланилади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Даволаш:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Жарроҳлик йўли билан олиб ташлаш: Маҳаллий шаклни даволашнинг асосий усули — қайталанишнинг олдини олиш учун соғлом тўқималарни қамраб олган ҳолда ўсмани кенг кесишдир. Лимфа тугунлари зарарланганда лимфодиссексия ўтказилади. Қўриқчи лимфа тугунининг биопсияси унинг тарқалишини баҳолаш учун ўтказилиши мумкин.",
+                      "Нур терапияси: Кўпинча операциядан кейин қолган ўсма ҳужайраларини йўқ қилиш учун қўлланилади, айниқса йирик ўсмалар ёки лимфа тугунлари шикастланганда. Операция қилишнинг иложи бўлмаганда асосий даволаш усули сифатида қўлланилиши мумкин.",
+                      "Кимётерапия: Ўтиб кетган ёки метастатик шаклларда қўлланилади, аммо бошқа усулларга нисбатан самарасизроқ ва бошқа даволаш усуллари самарасиз бўлганда қўлланилади.",
+                      "Иммунотерапия: Мукаммал МҲК ни даволашда асосий ёндашувлардан бири. Назорат нуқталари ингибиторлари (масалан, ниволумаб, пембролизумаб) ўсимтага қарши иммунитет тизимини фаоллаштиришга ёрдам беради. Клиник тадқиқотлар доирасида моноклонал антитаналар ва мақсадли дорилар ҳам ўрганилмоқда.",
+                      "Мақсадли даволаш: Ўсма ўсишига ёрдам берадиган маълум мутациялар ёки молекуляр маркерлар мавжуд бўлганда қўлланилади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Прогноз:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Ўсманинг ўлчами ва жойлашуви.",
+                      "Лимфа тугунлари ёки узоқдаги аъзоларга метастазлар мавжудлиги.",
+                      "Беморнинг ёши ва иммун тизимининг ҳолати.",
+                      "Касаллик эрта аниқланса ва тўғри даволанса, оқибати яхши бўлади — кенг кесиш ва нур терапияси ремиссияга олиб келиши мумкин.",
+                      "Рецидив: Муваффақиятли даволанишдан кейин ҳам касалликнинг қайта пайдо бўлиш хавфи юқори, шунинг учун мунтазам назорат зарур.",
+                      "Метастазлар: Чегараланган шаклида 5 йиллик яшовчанлик юқори, метастатик шаклида эса сезиларли даражада пасаяди.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Профилактика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Қуёшдан ҳимояланиш: Қуёшдан ҳимояловчи кремлар, ҳимоя кийимларидан фойдаланиш, соат 10:00 дан 16:00 гача қуёшда қолишдан сақланиш.",
+                      "Иммуносупрессияни назорат қилиш: Иммунитети заиф бўлган одамларда (масалан, трансплантациядан кейин) МҲК ва бошқа саратон турларининг ривожланиш хавфини камайтириш учун иммунитет ҳолатини тартибга солиш муҳимдир.",
+                      "Эрта аниқлаш: Терини мунтазам равишда текшириш, айниқса хавф гуруҳидаги одамларда (оқиш тери, тери саратони тарихи, заиф иммунитет) МҲК ни эрта босқичда аниқлашга ёрдам беради.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          uz: [
+            {
+              text: "Tashqi ko‘rinishi:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "O‘sma xususiyatlari: MHK odatda terida og‘riqsiz, zich va ko‘tarilgan tugun yoki o‘sma ko‘rinishida namoyon bo‘ladi. Sirtini silliq yoki yaltiroq, rangi qizil, ko‘k yoki binafsha bo‘lishi mumkin.",
+                      "O‘lchami: Kichik (1–2 sm) dan yirik hosilalargacha bo‘lishi mumkin, bunda ko‘pincha tez o‘sish kuzatiladi.",
+                      "Tipik joylashuvlar: Ko‘pincha terining quyosh ta’siriga moyil bo‘lgan qismlarida — bosh, bo‘yin, yuz, qo‘l va oyoqlarda paydo bo‘ladi. Lekin quyosh nuri tushmagan joylarda ham paydo bo‘lishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Xavf omillari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Quyoshdan ta’sirlanish: Teri saratonining boshqa turlarida bo‘lgani kabi, surunkali quyosh nuri ta’siri, ayniqsa, oq tanli odamlarda asosiy xavf omilidir.",
+                      "Yoshi: Ko‘pincha 50 yoshdan oshgan odamlarda tashxis qo‘yiladi.",
+                      "Immunosupressiya: Immuniteti zaif bo‘lgan odamlarda yuqori xavf (masalan, organ transplantatsiyasidan keyin, OIV/OITS yoki kimyoterapiyada).",
+                      "Merkel poliovirus (MKV): MKV holatlarining katta qismi o‘sma rivojlanishiga hissa qo‘shishi mumkin bo‘lgan Merkel poliovirus infeksiyasi bilan bog‘liq. Barcha holatlar virus bilan bog‘liq bo‘lmasa-da, u ko‘pincha o‘simta hujayralarida topiladi.",
+                      "Avvalgi teri saratoni: Teri saratonining boshqa turlarini boshdan kechirgan bemorlarda (masalan, bazal hujayrali yoki yassi hujayrali karsinoma) MHK xavfi yuqori bo‘ladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Belgilar:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Og‘riqsiz tugun: Asosiy belgi — terida tez o‘suvchi, zich va og‘riqsiz tugun.",
+                      "Qizarish va shish: O‘sma qizil, ko‘kimtir yoki binafsha rangda bo‘lishi mumkin, ko‘pincha yuzasi yaltiroq bo‘ladi.",
+                      "Mahalliy belgilar: Ba’zi hollarda yaqin atrofdagi limfa tugunlarining shishishi mumkin, ayniqsa metastaz berganda.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Diagnostika:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Klinik ko‘rik: Dermatoonkolog o‘simtaning tashqi ko‘rinishi va o‘sish xususiyatiga qarab MHK ga shubha qilishi mumkin.",
+                      "Teri biopsiyasi: Tashxisni tasdiqlash uchun zarur. O‘sma hujayralari odatda mayda, dumaloq, sitoplazmasi zich, mitotik faolligi yuqori bo‘ladi. Immunogistokimyoviy bo‘yash ko‘pincha sitokeratin 20 (CK20) ga ijobiy reaksiyani ko‘rsatadi, bu MHK uchun xarakterli marker hisoblanadi.",
+                      "Tasvirlash: Metastazlarga shubha qilinganda, kasallikning limfa tugunlari va boshqa organlarga tarqalishini baholash uchun KT, MRT yoki PET qo‘llaniladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Bosqichlarga ajratish:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Kasallikning bosqichi o‘smaning kattaligi, limfa tugunlarining zararlanishi va uzoq metastazlarning mavjudligi (masalan, jigar, o‘pka yoki suyaklarda) bilan belgilanadi.",
+                      "AJCC (American Cancer Committee) bosqichlash tizimi qo‘llaniladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Davolash:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Jarrohlik yo‘li bilan olib tashlash: Mahalliy shaklni davolashning asosiy usuli — qaytalanishning oldini olish uchun sog‘lom to‘qimalarni qamrab olgan holda o‘simtani keng kesishdir. Limfa tugunlari zararlanganda limfodisseksiya o‘tkaziladi. Qo‘riqchi limfa tugunining biopsiyasi uning tarqalishini baholash uchun o‘tkazilishi mumkin.",
+                      "Nurlanish terapiyasi: Ko‘pincha operatsiyadan keyin qolgan o‘sma hujayralarini yo‘q qilish uchun qo‘llaniladi, ayniqsa yirik o‘smalar yoki limfa tugunlari shikastlanganda. Operatsiya qilishning imkoni bo‘lmaganda asosiy davolash usuli sifatida qo‘llanilishi mumkin.",
+                      "Kimyoterapiya: O‘tib ketgan yoki metastatik shakllarda qo‘llaniladi, ammo boshqa usullarga nisbatan samarasizroq va boshqa davolash usullari samarasiz bo‘lganda qo‘llaniladi.",
+                      "Immunoterapiya: Mukammal MHK ni davolashda asosiy yondashuvlardan biri. Nazorat nuqtalari ingibitorlari (masalan, nivolumab, pembrolizumab) o‘simtaga qarshi immunitet tizimini faollashtirishga yordam beradi. Klinik tadqiqotlar doirasida monoklonal antitanalar va maqsadli dorilar ham o‘rganilmoqda.",
+                      "Maqsadli davolash: O‘sma o‘sishiga yordam beradigan ma’lum mutatsiyalar yoki molekulyar markerlar mavjud bo‘lganda qo‘llaniladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Prognoz:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "O‘smaning o‘lchami va joylashuvi.",
+                      "Limfa tugunlari yoki uzoqdagi a’zolarga metastazlar mavjudligi.",
+                      "Bemorning yoshi va immun tizimining holati.",
+                      "Kasallik erta aniqlansa va to‘g‘ri davolansa, oqibati yaxshi bo‘ladi — keng kesish va nurlanish terapiyasi remissiyaga olib kelishi mumkin.",
+                      "Qaytalanish: Muvaffaqiyatli davolashdan keyin ham kasallikning qayta paydo bo‘lish xavfi yuqori, shuning uchun muntazam nazorat zarur.",
+                      "Metastazlar: Chegaralangan shaklida 5 yillik yashovchanlik yuqori, metastatik shaklida esa sezilarli darajada pasayadi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Profilaktika:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Quyoshdan himoyalanish: Quyoshdan himoyalovchi kremlar, himoya kiyimlaridan foydalanish, soat 10:00 dan 16:00 gacha quyoshda qolishdan saqlanish.",
+                      "Immunosupressiyani nazorat qilish: Immuniteti zaif bo‘lgan odamlarda (masalan, transplantatsiyadan keyin) MHK va boshqa saraton turlarining rivojlanish xavfini kamaytirish uchun immunitet holatini tartibga solish muhimdir.",
+                      "Erta aniqlash: Terini muntazam ravishda tekshirish, ayniqsa xavf guruhidagi odamlarda (oqish teri, teri saratoni tarixi, zaif immunitet) MHK ni erta bosqichda aniqlashga yordam beradi.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Summary:",
+          kr: "Хулоса",
+          uz: "Xulosa:",
+          ru: "Вывод:",
+        },
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Merkel Cell Carcinoma (MCC) is a rare but aggressive skin cancer that typically appears as a painless, rapidly growing nodule on sun-exposed areas of the skin. Risk factors include sun exposure, age, immune suppression, and infection with Merkel cell polyomavirus (MCV). Early detection is crucial, and treatment typically involves surgical excision, radiation therapy, and possibly chemotherapy or immunotherapy for advanced cases. Prognosis varies depending on the stage of the disease, with a better outcome for localized tumors and a more guarded prognosis for metastatic disease.",
+          kr: "Меркел ҳужайрали карцинома — кам учрайдиган, аммо тажовузкор тери саратони бўлиб, одатда қуёш нурлари таъсир қиладиган жойларда оғриқсиз, тез ўсувчи тугунча шаклида намоён бўлади. Асосий хавф омилларига ультрабинафша нурлари таъсири, кексалик, иммунитет танқислиги ва Меркел полиовирусини юқтириш киради. Эрта аниқлаш муҳим аҳамиятга эга. Даволаш касалликнинг босқичига боғлиқ бўлиб, жарроҳлик аралашуви, нур терапияси, кимё ёки иммунотерапияни ўз ичига олиши мумкин. Прогноз эрта аниқланганда яхшироқ, метастазлар мавжуд бўлганда эса ёмонроқ бўлади.",
+          uz: "Merkel hujayrali karcinoma — kam uchraydigan, ammo tajovuzkor teri saratoni bo‘lib, odatda quyosh nurlari ta’sir qiladigan joylarda og‘riqsiz, tez o‘suvchi tuguncha shaklida namoyon bo‘ladi. Asosiy xavf omillariga ultrabinafsha nurlari ta’siri, keksalik, immunitet tanqisligi va Merkel poliovirusini yuqtirish kiradi. Erta aniqlash muhim ahamiyatga ega. Davolash kasallikning bosqichiga bog‘liq bo‘lib, jarrohlik aralashuvi, nur terapiyasi, kimyo yoki immunoterapiyani o‘z ichiga olishi mumkin. Prognoz erta aniqlanganda yaxshiroq, metastazlar mavjud bo‘lganda esa yomonroq bo‘ladi.",
+          ru: "Карцинома Меркель-клеток — редкий, но агрессивный рак кожи, обычно проявляющийся в виде безболезненного, быстрорастущего узелка на участках, подверженных солнцу. Основные факторы риска включают воздействие ультрафиолета, пожилой возраст, иммунодефицит и инфицирование полиомавирусом Меркель. Раннее выявление имеет решающее значение. Лечение зависит от стадии заболевания и может включать хирургическое вмешательство, лучевую терапию, химио- или иммунотерапию. Прогноз лучше при раннем выявлении и хуже при наличии метастазов.",
+        },
+      },
+    ],
+    type: "disease",
+  },
+  {
+    id: 8,
+    slug: "cutaneous-horn-кожный-рог-тери-шохи",
+    title: {
+      kr: "Тери шохи",
+      uz: "Teri shoxi",
+      en: "Cutaneous Horn",
+      ru: "Кожный рог",
+    },
+    description: {
+      en: "A cutaneous horn is a type of skin growth that appears as a hard, conical or horn-like projection above the surface of the skin. It is composed of keratin, the same protein found in hair, nails, and the outer layer of the skin. The name 'cutaneous horn' comes from its appearance, which resembles an animal horn, although it is not related to any actual horn structure.",
+      kr: "Тери шохи — тери ўсимтасининг бир тури бўлиб, у тери юзасидан чиқиб турадиган қаттиқ, конуссимон ёки шохсимон тузилма кўринишида бўлади. У соч, тирноқ ва терининг ташқи қатламида мавжуд бўлган оқсил — кератиндан иборат. 'Чарм шох' номи унинг ҳайвон шохига ўхшаш ташқи кўриниши билан боғлиқ, аслида эса унинг ҳеч қандай шох тузилмаларига алоқаси йўқ.",
+      uz: "Teri shoxi — teri o‘simtasining bir turi bo‘lib, u teri yuzasidan chiqib turadigan qattiq, konussimon yoki shoxsimon tuzilma ko‘rinishida bo‘ladi. U soch, tirnoq va terining tashqi qatlamida mavjud bo‘lgan oqsil — keratindan iborat. 'Charm shox' nomi uning hayvon shoxiga o‘xshash tashqi ko‘rinishi bilan bog‘liq, aslida esa uning hech qanday shox tuzilmalariga aloqasi yo‘q.",
+      ru: "Кожный рог — это тип кожного нароста, который выглядит как твёрдое, коническое или рогоподобное образование, выступающее над поверхностью кожи. Он состоит из кератина — того же белка, что содержится в волосах, ногтях и наружном слое кожи. Название 'кожный рог' связано с его внешним видом, напоминающим животный рог, хотя на самом деле он не имеет отношения к каким-либо роговым структурам.",
+    },
+    image: "/article-images/ch/image-2.jpg",
+    date: "2025-06-21",
+    linkText: {
+      uz: "Ko'proq o'qish",
+      en: "Read more",
+      ru: "Читать далее",
+      kr: "Кўпроқ ўқиш",
+    },
+    isPopular: false,
+    structure: [
+      {
+        elementType: "heading",
+        level: 1,
+        content: {
+          en: "Cutaneous Horn",
+          kr: "Тери шохи",
+          uz: "Teri shoxi",
+          ru: "Кожный рог",
+        },
+      },
+      {
+        elementType: "wrapper",
+        elements: [
+          {
+            elementType: "image",
+            content: "/article-images/ch/image-1.jpg",
+          },
+          {
+            elementType: "image",
+            content: "/article-images/ch/image-2.jpg",
+          },
+        ],
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "A cutaneous horn is a type of skin growth that appears as a hard, conical or horn-like projection above the surface of the skin. It is composed of keratin, the same protein found in hair, nails, and the outer layer of the skin. The name 'cutaneous horn' comes from its appearance, which resembles an animal horn, although it is not related to any actual horn structure.",
+          kr: "Тери шохи — тери ўсимтасининг бир тури бўлиб, у тери юзасидан чиқиб турадиган қаттиқ, конуссимон ёки шохсимон тузилма кўринишида бўлади. У соч, тирноқ ва терининг ташқи қатламида мавжуд бўлган оқсил — кератиндан иборат. 'Чарм шох' номи унинг ҳайвон шохига ўхшаш ташқи кўриниши билан боғлиқ, аслида эса унинг ҳеч қандай шох тузилмаларига алоқаси йўқ.",
+          uz: "Teri shoxi — teri o‘simtasining bir turi bo‘lib, u teri yuzasidan chiqib turadigan qattiq, konussimon yoki shoxsimon tuzilma ko‘rinishida bo‘ladi. U soch, tirnoq va terining tashqi qatlamida mavjud bo‘lgan oqsil — keratindan iborat. 'Charm shox' nomi uning hayvon shoxiga o‘xshash tashqi ko‘rinishi bilan bog‘liq, aslida esa uning hech qanday shox tuzilmalariga aloqasi yo‘q.",
+          ru: "Кожный рог — это тип кожного нароста, который выглядит как твёрдое, коническое или рогоподобное образование, выступающее над поверхностью кожи. Он состоит из кератина — того же белка, что содержится в волосах, ногтях и наружном слое кожи. Название 'кожный рог' связано с его внешним видом, напоминающим животный рог, хотя на самом деле он не имеет отношения к каким-либо роговым структурам.",
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Key Features of a Cutaneous Horn:",
+          kr: "Тери шохининг асосий хусусиятлари:",
+          uz: "Teri shoxining asosiy xususiyatlari:",
+          ru: "Основные характеристики кожного рога:",
+        },
+      },
+      {
+        elementType: "list",
+        content: {
+          en: [
+            {
+              text: "Appearance:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Shape: A cutaneous horn typically appears as a hard, raised, conical, or cylindrical projection, sometimes resembling a miniature animal horn. The size can vary, but they are often about 1 to 3 centimeters in length, though some may be larger.",
+                      "Surface: The surface of the horn is typically smooth, though it may have scaly or crusted areas at the base. The skin underneath the horn is often thickened, rough, or slightly red.",
+                      "Color: The color of a cutaneous horn can vary, but they are often flesh-colored, yellowish, brown, or gray. The base may have a darker pigmentation or be more inflamed, depending on the underlying skin condition.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Location:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Common Areas: Cutaneous horns most commonly appear on sun-exposed areas of the skin, such as the face, ears, neck, scalp, back of the hands, and forearms. They are particularly common in older individuals or those with chronic sun exposure.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Causes:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Actinic Keratosis (AK): A precancerous skin condition caused by UV radiation exposure. AKs often develop into cutaneous horns when there is significant keratin buildup.",
+                      "Seborrheic Keratosis: A benign, non-cancerous skin tumor that can result in thickening of the skin and the formation of a cutaneous horn.",
+                      "Warts (Viral Papillomas): Some warts, especially those caused by the human papillomavirus (HPV), can develop into cutaneous horns.",
+                      "Basal Cell Carcinoma: In rare cases, cutaneous horns can form on top of basal cell carcinoma, a common type of skin cancer.",
+                      "Squamous Cell Carcinoma: Similarly, cutaneous horns may also form on squamous cell carcinoma, a more aggressive form of skin cancer.",
+                      "Benign Tumors: Certain benign tumors or growths on the skin can also lead to the development of a cutaneous horn.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Symptoms:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Physical Sensation: A cutaneous horn itself is typically painless and non-itchy. However, the underlying skin condition (such as actinic keratosis or a tumor) may cause discomfort, tenderness, or irritation.",
+                      "Appearance of Horn: As the horn grows, it may become more noticeable and appear as a prominent, raised structure on the skin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Diagnosis:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Visual Examination: An oncodermatologist can usually diagnose a cutaneous horn through a visual examination of the lesion.",
+                      "Skin Biopsy: To determine whether the underlying cause of the cutaneous horn is benign or malignant, a biopsy of the base of the horn is often performed. This helps to rule out the presence of skin cancer, particularly basal or squamous cell carcinoma, which can sometimes be associated with cutaneous horns.",
+                      "Histological Examination: The biopsy sample is examined under a microscope to identify the type of cells present and determine whether they are benign or malignant.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Treatment:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Surgical Removal: The most common treatment is the surgical excision of the cutaneous horn. This involves removing the entire horn along with the underlying tissue to prevent recurrence.",
+                      "Cryotherapy: In some cases, cryotherapy (freezing) may be used to remove the horn, especially if it is associated with actinic keratosis.",
+                      "Topical Treatments: If the underlying condition is actinic keratosis or seborrheic keratosis, topical treatments like 5-fluorouracil (5-FU) or imiquimod may be prescribed to reduce the lesion before removal.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Complications:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Malignant Transformation: If the cutaneous horn is associated with a precancerous or cancerous lesion, there is a potential for the underlying skin condition to become malignant. This is why a biopsy is essential for accurate diagnosis.",
+                      "Recurrence: Even after removal, there is a chance that the condition causing the cutaneous horn (like actinic keratosis) can recur, leading to the formation of new growths or lesions.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Prevention:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Sun Protection: Since sun exposure is a significant risk factor for conditions like actinic keratosis, which can lead to the formation of cutaneous horns, it’s important to practice good sun protection. This includes wearing sunscreen, protective clothing, and avoiding excessive sun exposure, particularly between 10 a.m. and 4 p.m.",
+                      "Regular Skin Checks: Regular self-exams and visits to an oncodermatologist can help identify and address skin conditions early, preventing complications such as the development of a cutaneous horn.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          ru: [
+            {
+              text: "Внешний вид:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Форма: Кожный рог обычно представляет собой твёрдое, приподнятое, коническое или цилиндрическое образование, иногда напоминающее маленький животный рог. Размер может варьироваться, но чаще всего длина составляет от 1 до 3 сантиметров, хотя встречаются и большие образования.",
+                      "Поверхность: Поверхность рога обычно гладкая, но у основания могут быть чешуйчатые или корковые участки. Кожа под рогом часто утолщена, шероховата или слегка покрасневшая.",
+                      "Цвет: Цвет кожного рога может быть различным, часто он телесного цвета, желтоватый, коричневый или серый. У основания может быть более тёмная пигментация или выраженное воспаление, в зависимости от состояния кожи.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Расположение:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Частые места: Кожные рога чаще всего появляются на участках кожи, подвергающихся воздействию солнца, таких как лицо, уши, шея, кожа головы, тыльная сторона рук и предплечья. Особенно часто они встречаются у пожилых людей или тех, кто долго находится на солнце.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Причины:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Актинический кератоз (АК): Предраковое состояние кожи, вызванное воздействием ультрафиолетового излучения. АК часто перерастает в кожные рога при значительном накоплении кератина.",
+                      "Себорейный кератоз: Доброкачественная опухоль кожи, которая может приводить к утолщению кожи и образованию кожного рога.",
+                      "Бородавки (вирусные папилломы): Некоторые бородавки, особенно вызванные вирусом папилломы человека (ВПЧ), могут развиваться в кожные рога.",
+                      "Базальноклеточный рак: В редких случаях кожные рога могут формироваться на фоне базальноклеточного рака — распространённого типа рака кожи.",
+                      "Плоскоклеточный рак: Также кожные рога могут образовываться при плоскоклеточном раке — более агрессивной форме рака кожи.",
+                      "Доброкачественные опухоли: Некоторые доброкачественные новообразования или разрастания кожи также могут приводить к развитию кожного рога.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Симптомы:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Физические ощущения: Сам кожный рог обычно безболезненный и не вызывает зуда. Однако состояние кожи под ним (например, актинический кератоз или опухоль) может вызывать дискомфорт, болезненность или раздражение.",
+                      "Внешний вид рога: По мере роста рог становится более заметным и выступающим образованием на коже.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Диагностика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Визуальный осмотр: Онкодерматолог обычно ставит диагноз кожного рога по внешнему виду образования.",
+                      "Биопсия кожи: Для определения доброкачественности или злокачественности причины кожного рога часто проводят биопсию основания образования. Это помогает исключить рак кожи, особенно базальноклеточный или плоскоклеточный рак, которые иногда связаны с кожными рогами.",
+                      "Гистологическое исследование: Образец ткани исследуют под микроскопом для определения типа клеток и оценки их характера.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Лечение:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Хирургическое удаление: Самый распространённый метод — иссечение кожного рога вместе с основанием и окружающей тканью для предотвращения рецидивов.",
+                      "Криотерапия: В некоторых случаях для удаления рога применяют замораживание (криотерапию), особенно если он связан с актиническим кератозом.",
+                      "Местное лечение: При актиническом или себорейном кератозе могут назначаться местные препараты, такие как 5-фторурацил или имиквимод, для уменьшения поражения перед удалением.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Осложнения:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Злокачественное перерождение: Если кожный рог связан с предраковым или раковым процессом, есть риск малигнизации основного кожного поражения, поэтому биопсия обязательна для точной диагностики.",
+                      "Рецидив: После удаления существует риск повторного появления заболевания (например, актинического кератоза), что может привести к новым кожным наростам.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Профилактика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Защита от солнца: Поскольку воздействие солнца — основной фактор риска для развития актинического кератоза и кожных рогов, важно использовать солнцезащитные кремы, носить защитную одежду и избегать длительного пребывания на солнце, особенно с 10 утра до 4 вечера.",
+                      "Регулярные осмотры кожи: Самостоятельный осмотр кожи и регулярные визиты к онкодерматологу помогают своевременно выявлять и лечить кожные заболевания, предотвращая осложнения.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          kr: [
+            {
+              text: "Ташқи кўриниши:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Шакли: Тери шохи одатда қаттиқ, кўтарилган, конуссимон ёки цилиндрсимон шаклда бўлиб, баъзан кичик ҳайвон шохига ўхшайди. Ўлчами ҳар хил бўлиши мумкин, лекин кўпинча узунлиги 1 дан 3 сантиметргача бўлади, аммо катта шаклланишлар ҳам учрайди.",
+                      "Юзаси: Юзаси одатда силлиқ бўлади, аммо асосида тангачали ёки пўстлоқли қисмлар бўлиши мумкин. Шох остидаги тери кўпинча қалинлашган, ғадир-будур ёки бироз қизарган бўлади.",
+                      "Ранги: Ранги ҳар хил бўлиши мумкин: кўпинча тана рангида, сарғиш, жигарранг ёки кулранг бўлади. Асосида терининг ҳолатига қараб тўқроқ пигментация ёки кучли яллиғланиш бўлиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Жойлашуви:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Кўп учрайдиган жойлар: Тери шохлари кўпинча қуёш нурлари тушадиган жойларда пайдо бўлади: юз, қулоқ, бўйин, бош териси, қўлнинг орқа томони ва билакда. Айниқса, улар кексаларда ёки қуёшда узоқ вақт бўлган одамларда тез-тез учрайди.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Сабаблари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Актиник кератоз (АК): Ультрабинафша нурлар таъсирида терининг рак олди ҳолати. АК кўпинча кератин кўп тўпланганда тери шохларига айланади.",
+                      "Себореяли кератоз: Терининг қалинлашишига ва тери шохининг шаклланишига олиб келиши мумкин бўлган яхши сифатли тери ўсмаси.",
+                      "Сўғаллар (вирусли папилломалар): Айниқса одам папиллома вируси (ОПВ) келтириб чиқарганлари тери шохларига айланиши мумкин.",
+                      "Базал ҳужайрали саратон: Камдан-кам ҳолларда тери шохлари бу тери саратони фонида шаклланиши мумкин.",
+                      "Ясси ҳужайрали саратон: Тери шохлари шунингдек, тери саратонининг янада тажовузкор шаклида ҳам пайдо бўлиши мумкин.",
+                      "Хавфсиз ўсмалар: Баъзи хавфсиз ўсмалар ёки терининг ўсиши ҳам тери шохининг ривожланишига олиб келиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Белгилари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Жисмоний сезгилар: Тери шохининг ўзи одатда оғриқсиз ва қичишишни келтириб чиқармайди. Лекин унинг остидаги тери ҳолати (масалан, актиник кератоз ёки ўсма) ноқулайлик, оғриқ ёки таъсирланишни келтириши мумкин.",
+                      "Шохнинг ташқи кўриниши: Ўсган сари шох кўзга ташланадиган, бўртиб турадиган ҳосилага айланади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Диагностика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Визуал текширув: Онкодерматолог одатда тери шохи ташхисини ташқи кўринишга қараб қўяди.",
+                      "Тери биопсияси: Тери шохининг хавфсиз ёки хавфлилигини аниқлаш учун кўпинча шох асосининг биопсияси ўтказилади. Бу, айниқса, базал ёки ясси ҳужайрали саратонни истисно қилишда муҳим.",
+                      "Гистологик текширув: Тўқима намунаси микроскоп остида ҳужайра турини аниқлаш ва уларнинг табиатини баҳолаш учун текширилади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Даволаш:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Жарроҳлик йўли билан олиб ташлаш: Энг кенг тарқалган усул — тери шохини асоси ва атрофидаги тўқималар билан бирга кесиш.",
+                      "Криотерапия: Айрим ҳолларда шохни музлатиш (криотерапия) орқали олиб ташлаш мумкин, айниқса у актиник кератоз билан боғлиқ бўлса.",
+                      "Маҳаллий даволаш: Актиник ёки себореяли кератозда 5-фторуратсил ёки имиквимод каби маҳаллий дорилар билан зарарланишни камайтириш мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Асоратлар:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Малигнизатсия: Агар тери шохи саратон олди ёки саратон жараёни билан боғлиқ бўлса, асосий тери шикастланишининг малигнизатсия хавфи мавжуд. Шунинг учун биопсия ўтказиш шарт.",
+                      "Рецидив: Олиб ташлангандан сўнг ҳам касаллик қайта пайдо бўлиши мумкин (масалан, актиник кератоз), бу эса янги тери ўсмаларига олиб келиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Профилактика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Қуёшдан ҳимояланиш: Қуёш таъсири актиник кератоз ва тери шохлари ривожланишининг асосий хавф омили. Шунинг учун қуёшдан ҳимояловчи кремлардан фойдаланиш, ҳимоя кийимлари кийиш ва қуёшда (эрталаб 10 дан кечки 4 гача) узоқ вақт қолмаслик муҳим.",
+                      "Мунтазам тери текширувлари: Терини мустақил равишда текшириш ва онкодерматологга мунтазам ташриф буюриш тери касалликларини ўз вақтида аниқлаш ва даволашга ёрдам беради.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          uz: [
+            {
+              text: "Tashqi ko‘rinishi:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Shakli: Teri shoxi odatda qattiq, ko‘tarilgan, konussimon yoki silindrsimon shaklda bo‘lib, ba’zan kichik hayvon shoxiga o‘xshaydi. O‘lchami har xil bo‘lishi mumkin, lekin ko‘pincha uzunligi 1 dan 3 santimetrgacha bo‘ladi, ammo katta shakllanishlar ham uchraydi.",
+                      "Yuzasi: Yuzasi odatda silliq bo‘ladi, ammo asosida tangachasimon yoki po‘stloqli qismlar bo‘lishi mumkin. Shox ostidagi teri ko‘pincha qalinlashgan, g‘adir-budur yoki biroz qizargan bo‘ladi.",
+                      "Rangi: Rangi har xil bo‘lishi mumkin: ko‘pincha tana rangida, sarg‘ish, jigarrang yoki kulrang bo‘ladi. Asosida terining holatiga qarab to‘qroq pigmentatsiya yoki kuchli yallig‘lanish bo‘lishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Joylashuvi:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Ko‘p uchraydigan joylar: Teri shoxlari ko‘pincha quyosh nurlari tushadigan joylarda paydo bo‘ladi: yuz, quloq, bo‘yin, bosh terisi, qo‘lning orqa tomoni va bilakda. Ayniqsa, ular keksalarda yoki quyoshda uzoq vaqt bo‘lgan odamlarda tez-tez uchraydi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Sabablari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Aktiinik keratoz (AK): Ultrabinafsha nurlar ta’sirida terining saraton oldi holati. AK ko‘pincha keratin ko‘p to‘planganda teri shoxlariga aylanadi.",
+                      "Seboreyali keratoz: Terining qalinlashishiga va teri shoxining shakllanishiga olib kelishi mumkin bo‘lgan yaxshi sifatli teri o‘smalari.",
+                      "So‘gallar (virusli papillomalar): Ayniqsa odam papilloma virusi (OPV) keltirib chiqarganlari teri shoxlariga aylanishi mumkin.",
+                      "Bazal hujayrali saraton: Kamdan-kam hollarda teri shoxlari bu teri saratoni fonida shakllanishi mumkin.",
+                      "Yassi hujayrali saraton: Teri shoxlari shuningdek, teri saratonining yanada tajovuzkor shaklida ham paydo bo‘lishi mumkin.",
+                      "Xavfsiz o‘smalar: Ba’zi xavfsiz o‘smalar yoki terining o‘sishi ham teri shoxining rivojlanishiga olib kelishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Belgilar:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Jismoniy sezgilar: Teri shoxining o‘zi odatda og‘riqsiz va qichishishni keltirib chiqarmaydi. Lekin uning ostidagi teri holati (masalan, aktiinik keratoz yoki o‘sma) noqulaylik, og‘riq yoki ta’sirlanishni keltirishi mumkin.",
+                      "Shoxning tashqi ko‘rinishi: Osgan sari shox ko‘zga tashlanadigan, bo‘rtib turadigan hosilaga aylanadi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Diagnostika:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Vizual tekshiruv: Onkodermatolog odatda teri shoxi tashxisini tashqi ko‘rinishga qarab qo‘yadi.",
+                      "Teri biopsiyasi: Teri shoxining xavfsiz yoki xavfli ekanligini aniqlash uchun ko‘pincha shox asosining biopsiyasi o‘tkaziladi. Bu, ayniqsa, bazal yoki yassi hujayrali saratonni istisno qilishda muhim.",
+                      "Gistologik tekshiruv: To‘qima namunasini mikroskop ostida hujayra turini aniqlash va ularning tabiatini baholash uchun tekshiriladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Davolash:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Jarrohlik yo‘li bilan olib tashlash: Eng keng tarqalgan usul — teri shoxini asosi va atrofidagi to‘qimalar bilan birga kesish.",
+                      "Krioterapiya: Ayrim hollarda shoxni muzlatish (krioterapiya) orqali olib tashlash mumkin, ayniqsa u aktiinik keratoz bilan bog‘liq bo‘lsa.",
+                      "Mahalliy davolash: Aktiinik yoki seboreyali keratozda 5-fluoruratsil yoki imikvimod kabi mahalliy dorilar bilan zararlanishni kamaytirish mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Asoratlar:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Malignizatsiya: Agar teri shoxi saraton oldi yoki saraton jarayoni bilan bog‘liq bo‘lsa, asosiy teri shikastlanishining malignizatsiya xavfi mavjud. Shuning uchun biopsiya o‘tkazish shart.",
+                      "Qaytalanish: Olib tashlangandan so‘ng ham kasallik qayta paydo bo‘lishi mumkin (masalan, aktiinik keratoz), bu esa yangi teri o‘smalariga olib kelishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Profilaktika:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Quyoshdan himoyalanish: Quyosh ta’siri aktiinik keratoz va teri shoxlari rivojlanishining asosiy xavf omili. Shuning uchun quyoshdan himoyalovchi kremlardan foydalanish, himoya kiyimlari kiyish va quyoshda (ertalab 10 dan kechki 4 gacha) uzoq vaqt qolmaslik muhim.",
+                      "Muntazam teri tekshiruvlari: Terini mustaqil ravishda tekshirish va onkodermatologga muntazam tashrif buyurish teri kasalliklarini o‘z vaqtida aniqlash va davolashga yordam beradi.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Summary:",
+          kr: "Хулоса",
+          uz: "Xulosa:",
+          ru: "Вывод:",
+        },
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "A cutaneous horn is a raised, cone-shaped growth made of keratin that forms on the skin, often due to underlying conditions such as actinic keratosis, seborrheic keratosis, or in some cases, skin cancers like basal cell carcinoma or squamous cell carcinoma. Treatment typically involves removing the horn and addressing the underlying skin condition. Regular skin checks and sun protection can help prevent the formation of cutaneous horns and associated skin issues.",
+          kr: "Тери шохи — теридаги кератиндан иборат кўтарилган конуссимон ўсимта бўлиб, кўпинча актиник кератоз, себореяли кератоз ёки баъзи ҳолларда тери саратони (базал ёки ясси ҳужайрали) каби касалликлар фонида юзага келади. Даволаш одатда шохни олиб ташлаш ва асосий касалликни даволашни ўз ичига олади. Мунтазам равишда терини кўздан кечириш ва қуёшдан ҳимояланиш тери шохлари ва улар билан боғлиқ муаммоларнинг олдини олишга ёрдам беради.",
+          uz: "Teri shoxi — teridagi keratindan iborat ko‘tarilgan konussimon o‘simta bo‘lib, ko‘pincha aktinik keratoz, seboreyali keratoz yoki ba’zi hollarda teri saratoni (bazal yoki yassi hujayrali) kabi kasalliklar fonida yuzaga keladi. Davolash odatda shoxni olib tashlash va asosiy kasallikni davolashni o‘z ichiga oladi. Muntazam ravishda terini ko‘zdan kechirish va quyoshdan himoyalanish teri shoxlari va ular bilan bog‘liq muammolarning oldini olishga yordam beradi.",
+          ru: "Кожный рог — это приподнятый конический нарост из кератина на коже, часто возникающий на фоне таких заболеваний, как актинический кератоз, себорейный кератоз, а также в некоторых случаях — рака кожи (базальноклеточного или плоскоклеточного). Лечение обычно включает удаление рога и терапию основного заболевания. Регулярные осмотры кожи и защита от солнца помогают предотвратить образование кожных рогов и связанных с ними проблем.",
+        },
+      },
+    ],
+    type: "disease",
+  },
+  {
+    id: 9,
+    slug: "dermatofibrosarcoma-protuberans-dermatofibrosarkoma-protuberans-dfsp-дерматофибросаркома-протуберанс-дфсп",
+    title: {
+      kr: "Дерматофибросаркома протуберанс (ДФСП)",
+      uz: "Dermatofibrosarkoma protuberans (DFSP)",
+      en: "Dermatofibrosarcoma Protuberans (DFSP)",
+      ru: "Дерматофибросаркома протуберанс (ДФСП)",
+    },
+    description: {
+      en: "Dermatofibrosarcoma Protuberans (DFSP) is a rare, slow-growing but locally aggressive soft tissue sarcoma that arises from the dermis (the middle layer of skin). It is typically characterized by the presence of a protuberant, firm nodule or mass on the skin, often in the trunk, upper limbs, or head and neck. Although DFSP rarely metastasizes to distant organs, it has a tendency to invade local tissues, including muscle, fat, and bone.",
+      kr: "Дерматофибросаркома протуберанс (ДФСП) — кам учрайдиган, секин ўсувчи, аммо маҳаллий агрессив юмшоқ тўқималар саркомаси бўлиб, дерма (терининг ўрта қатлами)дан ривожланади. Одатда терида, кўпинча танада, қўл-оёқларда ёки бош ва бўйинда бўртиб чиққан, зич тугун ёки ўсма пайдо бўлиши билан тавсифланади. ДФСП камдан-кам ҳолларда узоқ органларга метастазлар берса-да, у маҳаллий тўқималарга, жумладан мушаклар, ёғ ва суякларга киришга моил.",
+      uz: "Dermatofibrosarkoma protuberans (DFSP) kam uchraydigan, sekin o‘suvchi, ammo mahalliy agressiv yumshoq to‘qimalar sarkomasi bo‘lib, derma (terining o‘rta qatlami)dan rivojlanadi. Odatda terida, ko‘pincha tanada, qo‘l-oyoqlarda yoki bosh va bo‘yinda bo‘rtib chiqqan, zich tugun yoki o‘sma paydo bo‘lishi bilan tavsiflanadi. DFSP kamdan-kam hollarda uzoq organlarga metastazlar bersa-da, u mahalliy to‘qimalarga, jumladan mushaklar, yog‘ va suyaklarga kirishga moyil.",
+      ru: "Дерматофибросаркома протуберанс (ДФСП) — редкая, медленно растущая, но локально агрессивная саркома мягких тканей, которая развивается из дермы (среднего слоя кожи). Обычно она характеризуется появлением выступающего, плотного узла или образования на коже, часто на туловище, верхних конечностях или голове и шее. Хотя ДФСП редко дает метастазы в отдалённые органы, она склонна проникать в местные ткани, включая мышцы, жир и кости.",
+    },
+    image: "/article-images/df/image-1.jpg",
+    date: "2025-06-22",
+    linkText: {
+      uz: "Ko'proq o'qish",
+      en: "Read more",
+      ru: "Читать далее",
+      kr: "Кўпроқ ўқиш",
+    },
+    isPopular: false,
+    structure: [
+      {
+        elementType: "heading",
+        level: 1,
+        content: {
+          en: "Dermatofibrosarcoma Protuberans",
+          kr: "Дерматофибросаркома протуберанс",
+          uz: "Dermatofibrosarkoma protuberans",
+          ru: "Дерматофибросаркома протуберанс",
+        },
+      },
+      {
+        elementType: "wrapper",
+        elements: [
+          {
+            elementType: "image",
+            content: "/article-images/df/image-1.jpg",
+          },
+          {
+            elementType: "image",
+            content: "/article-images/df/image-2.jpg",
+          },
+        ],
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Dermatofibrosarcoma Protuberans (DFSP) is a rare, slow-growing but locally aggressive soft tissue sarcoma that arises from the dermis (the middle layer of skin). It is typically characterized by the presence of a protuberant, firm nodule or mass on the skin, often in the trunk, upper limbs, or head and neck. Although DFSP rarely metastasizes to distant organs, it has a tendency to invade local tissues, including muscle, fat, and bone.",
+          kr: "Дерматофибросаркома протуберанс (ДФСП) — кам учрайдиган, секин ўсувчи, аммо маҳаллий агрессив юмшоқ тўқималар саркомаси бўлиб, дерма (терининг ўрта қатлами)дан ривожланади. Одатда терида, кўпинча танада, қўл-оёқларда ёки бош ва бўйинда бўртиб чиққан, зич тугун ёки ўсма пайдо бўлиши билан тавсифланади. ДФСП камдан-кам ҳолларда узоқ органларга метастазлар берса-да, у маҳаллий тўқималарга, жумладан мушаклар, ёғ ва суякларга киришга моил.",
+          uz: "Dermatofibrosarkoma protuberans (DFSP) kam uchraydigan, sekin o‘suvchi, ammo mahalliy agressiv yumshoq to‘qimalar sarkomasi bo‘lib, derma (terining o‘rta qatlami)dan rivojlanadi. Odatda terida, ko‘pincha tanada, qo‘l-oyoqlarda yoki bosh va bo‘yinda bo‘rtib chiqqan, zich tugun yoki o‘sma paydo bo‘lishi bilan tavsiflanadi. DFSP kamdan-kam hollarda uzoq organlarga metastazlar bersa-da, u mahalliy to‘qimalarga, jumladan mushaklar, yog‘ va suyaklarga kirishga moyil.",
+          ru: "Дерматофибросаркома протуберанс (ДФСП) — редкая, медленно растущая, но локально агрессивная саркома мягких тканей, которая развивается из дермы (среднего слоя кожи). Обычно она характеризуется появлением выступающего, плотного узла или образования на коже, часто на туловище, верхних конечностях или голове и шее. Хотя ДФСП редко дает метастазы в отдалённые органы, она склонна проникать в местные ткани, включая мышцы, жир и кости.",
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Key Features of DFSP:",
+          kr: "Дерматофибросаркома протуберанс (ДФСП)нинг асосий хусусиятлари:",
+          uz: "Dermatofibrosarkoma protuberans (DFSP)ning asosiy xususiyatlari:",
+          ru: "Основные характеристики Дерматофибросаркома протуберанс (ДФСП):",
+        },
+      },
+      {
+        elementType: "list",
+        content: {
+          en: [
+            {
+              text: "Appearance:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Initial Presentation: DFSP usually starts as a small, flat, red or purple patch on the skin that slowly thickens over time, forming a raised, firm mass.",
+                      "Progression: The mass may become protuberant (hence the name), often having an ulcerated or indurated (hardened) surface.",
+                      "Size: DFSP can vary in size, but it often ranges from 2 to 10 cm when diagnosed.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Common Locations:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Trunk (chest, back, abdomen) is the most common site.",
+                      "It can also appear on the upper limbs, head and neck, or lower extremities.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Symptoms:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "DFSP is often painless, especially in its early stages.",
+                      "However, as it grows, it can become uncomfortable or tender, particularly if it involves deeper structures.",
+                      "Slow Growth: It grows very slowly and may take years to become noticeable.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Causes and Risk Factors:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Genetic Mutation: DFSP is associated with a chromosomal translocation that results in the COL1A1-PDGFB fusion gene, which leads to abnormal growth of fibroblasts.",
+                      "Sun Exposure: While not a direct cause, prolonged UV radiation and sun exposure may contribute to the development of DFSP, especially in fair-skinned individuals.",
+                      "Age: DFSP typically affects adults between 20 and 50 years old, though it can occur at any age.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Diagnosis:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Clinical Examination: A doctor will often suspect DFSP based on the characteristic appearance of the lesion, particularly if it is growing slowly and has a firm texture.",
+                      "Biopsy: A skin biopsy is essential for confirming the diagnosis. Histologically, DFSP shows a storiform pattern (whorled arrangement) of spindle-shaped cells, which are characteristic of this tumor.",
+                      "Immunohistochemistry: Tumor cells often express CD34, a marker that helps differentiate DFSP from other similar conditions.",
+                      "Imaging: MRI or CT scans can be used to assess the extent of local invasion (into muscle, fat, or bone). Ultrasound may also be used in some cases to evaluate deeper layers.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Treatment:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Surgical Excision: The primary treatment for DFSP is wide local excision (WLE). This involves removing the tumor along with a margin of healthy tissue to ensure all cancerous cells are eliminated and to minimize the chance of recurrence. Given the tumor's tendency to spread locally, ensuring clear surgical margins is critical.",
+                      "Mohs Micrographic Surgery: This technique is sometimes preferred, especially in sensitive areas like the face or genital region. It involves removing the tumor in layers while examining each layer under a microscope to ensure the margins are clear. This is a tissue-sparing technique that minimizes the amount of healthy skin removed.",
+                      "Imatinib (Gleevec): For advanced cases of DFSP that are not amenable to surgery (such as those with metastasis or inoperable tumors), targeted therapy with Imatinib may be used. Imatinib is an oral medication that inhibits the abnormal PDGF receptor caused by the COL1A1-PDGFB fusion gene.",
+                      "Radiotherapy: While DFSP rarely metastasizes, radiotherapy may be used in cases where surgical resection isn't possible, or if the margins are positive, meaning some cancerous cells remain after surgery.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Prognosis:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Local Recurrence: The prognosis for DFSP is generally good if it is treated with adequate surgical excision and clear margins. However, recurrence rates are higher (around 20–50%) if the tumor is incompletely removed or if it has invaded surrounding tissues.",
+                      "Metastasis: While rare (less than 5% of cases), DFSP can spread to distant organs, such as the lungs or lymph nodes. The risk of metastasis tends to increase with recurrent or large tumors.",
+                      "Survival: The survival rate for DFSP is typically very high if treated appropriately, even in cases of local recurrence, as long as the tumor is resected again or treated with the appropriate methods.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Follow-up:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Long-term follow-up is important because DFSP can recur years after the initial treatment. Regular check-ups are necessary, especially in the first 5 years after surgery.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          ru: [
+            {
+              text: "Внешний вид:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Начальная стадия: Дерматофибросаркома протуберанс (ДФСП) обычно начинается с маленького плоского красного или пурпурного пятна на коже, которое со временем медленно утолщается, образуя выступающее плотное образование.",
+                      "Прогрессия: Образование может стать выступающим (отсюда и название), часто с изъязвленной или уплотнённой поверхностью.",
+                      "Размер: Размер варьируется, при диагностике чаще от 2 до 10 см.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Частые локализации:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Туловище (грудь, спина, живот) — наиболее частое место.",
+                      "Также может появляться на верхних конечностях, голове и шее, или на нижних конечностях.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Симптомы:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "В ранних стадиях ДФСП часто безболезненна.",
+                      "По мере роста может вызывать дискомфорт или болезненность, особенно если затрагивает более глубокие структуры.",
+                      "Рост очень медленный, может занимать годы до заметного увеличения.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Причины и факторы риска:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Генетическая мутация: ДФСП связана с хромосомной транслокацией, которая приводит к появлению гена слияния COL1A1-PDGFB, вызывающего аномальный рост фибробластов.",
+                      "Воздействие солнца: Хотя не является прямой причиной, длительное воздействие УФ-лучей и солнца может способствовать развитию ДФСП, особенно у светлокожих.",
+                      "Возраст: Чаще поражает взрослых от 20 до 50 лет, но может возникнуть в любом возрасте.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Диагностика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Клинический осмотр: Врач может заподозрить ДФСП по характерному внешнему виду поражения, особенно если оно медленно растёт и имеет плотную структуру.",
+                      "Биопсия: Обязательна для подтверждения диагноза. Гистологически ДФСП характеризуется сторовидным (вихревым) расположением веретенообразных клеток.",
+                      "Иммуногистохимия: Клетки опухоли часто экспрессируют CD34 — маркер, помогающий отличить ДФСП от других состояний.",
+                      "Визуализация: МРТ или КТ используются для оценки степени местного распространения (в мышцы, жир, кости). УЗИ может применяться для оценки более глубоких слоёв.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Лечение:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Хирургическое удаление: Основной метод — широкое местное иссечение (ШМИ). Удаляется опухоль с запасом здоровой ткани, чтобы исключить оставшиеся раковые клетки и минимизировать риск рецидива.",
+                      "Микрографическая хирургия по Моссу: Часто предпочтительна в чувствительных зонах (лицо, гениталии). Опухоль удаляется послойно с микроскопическим контролем краёв, что сохраняет максимум здоровой кожи.",
+                      "Иматиниб (Гливек): Применяется в продвинутых случаях, неподдающихся хирургии (метастазы, неоперабельные опухоли). Это пероральный препарат, ингибирующий аномальный PDGF-рецептор, вызванный геном слияния COL1A1-PDGFB.",
+                      "Лучевая терапия: Используется редко, когда хирургия невозможна или края резекции положительны (остались раковые клетки).",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Прогноз:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Локальный рецидив: Прогноз благоприятный при адекватном хирургическом удалении с чистыми краями. Рецидивы встречаются в 20–50% случаев при неполном удалении или прорастании в окружающие ткани.",
+                      "Метастазы: Редки (<5%), могут поражать лёгкие или лимфоузлы, риск выше при рецидивах или крупных опухолях.",
+                      "Выживаемость: Обычно высокая при своевременном и правильном лечении, даже при рецидивах при повторном удалении.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Длительное наблюдение:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Важно регулярно наблюдаться, так как рецидивы могут возникать спустя годы после лечения. Особенно тщательный контроль в первые 5 лет.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          kr: [
+            {
+              text: "Ташқи кўриниши:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Дастлабки босқич: Дерматофибросаркома протуберанс (ДФСП) одатда терида кичик ясси қизил ёки бинафша рангли доғ билан бошланади, у вақт ўтиши билан аста-секин қалинлашиб, бўртиб чиққан зич тузилма ҳосил қилади.",
+                      "Прогрессия: Ҳосила бўртиб чиққан бўлиши мумкин (номи ҳам шундан келиб чиққан), кўпинча юзаси ярали ёки зичлашган бўлади.",
+                      "Ўлчами: Ўлчами ҳар хил, ташхис қўйилганда кўпинча 2 дан 10 см гача бўлади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Тез-тез жойлашувлар:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Гавда (кўкрак, орқа, қорин) — энг кўп учрайдиган жой.",
+                      "Шунингдек, юқори қўл-оёқларда, бош ва бўйинда ёки пастки қўл-оёқларда пайдо бўлиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Белгилари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Дастлабки босқичларда ДФСП кўпинча оғриқсиз бўлади.",
+                      "Ўсиш пайтида у ноқулайлик ёки оғриқни келтириб чиқариши мумкин, айниқса чуқурроқ тузилмаларга таъсир қилса.",
+                      "Ўсиш жуда секин, сезиларли ўсиш учун йиллар керак бўлиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Сабаблари ва хавф омиллари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Генетик ўзгариш: ДФСП хромосома ўрин алмашиши билан боғлиқ бўлиб, бу фибробластларнинг нотўғри ўсишига сабаб бўлувчи COL1A1-PDGFB қўшилиш генининг пайдо бўлишига олиб келади.",
+                      "Қуёш таъсири: Тўғридан-тўғри сабаб бўлмаса-да, ультрабинафша нурлар ва қуёшнинг узоқ муддатли таъсири, айниқса оқ танли одамларда ДФСП ривожланишига ёрдам бериши мумкин.",
+                      "Ёш: Кўпинча 20 ёшдан 50 ёшгача бўлган катталарда учрайди, аммо ҳар қандай ёшда пайдо бўлиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Ташхис:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Клиник кўрик: Шифокор зарарланишнинг ўзига хос ташқи кўринишига қараб, айниқса у секин ўсиб, зич тузилишга эга бўлса, ДФСП дан гумон қилиши мумкин.",
+                      "Биопсия: Ташхисни тасдиқлаш учун зарур. Гистологик жиҳатдан ДФСП урчуқсимон ҳужайраларнинг гирдоб шаклидаги жойлашуви билан тавсифланади.",
+                      "Иммуногистокимё: Ўсма ҳужайралари кўпинча CD34 деб аталадиган белгиловчини ифодалайди, бу ДФСП ни бошқа ҳолатлардан фарқлашга ёрдам беради.",
+                      "Тасвирлаш: МРТ ёки КТ — маҳаллий тарқалиш даражасини баҳолаш учун ишлатилади (мушаклар, ёғ, суякларга). Ультратовуш текшируви — чуқур қатламларни баҳолаш учун қўлланилиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Даволаш:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Жарроҳлик йўли билан олиб ташлаш: Асосий усул — кенг маҳаллий кесиш (КМТ). Қолган саратон ҳужайраларини йўқ қилиш ва қайталаниш хавфини камайтириш учун соғлом тўқима захираси билан ўсма олиб ташланади.",
+                      "Мосс бўйича микрографик жарроҳлик: Кўпинча сезгир соҳаларда (юз, жинсий аъзолар) афзал кўрилади. Ўсма қаватма-қават олиб ташланади, четлари микроскопик назорат қилинади, бу эса максимал даражада соғлом терини сақлаб қолади.",
+                      "Иматиниб (Гливек): Жарроҳлик амалиёти ўтказилмайдиган ривожланган ҳолатларда (метастазлар, операция қилиб бўлмайдиган ўсмалар) қўлланилади. Бу COL1A1-PDGFB қўшилиш геноми томонидан қўзғатилган аномал ПДГФ ретсепторини ингибирловчи перорал дори воситасидир.",
+                      "Нур билан даволаш: Операция қилишнинг иложи бўлмаганда ёки резекция четлари мусбат бўлганда (саратон ҳужайралари қолган) камдан-кам қўлланилади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Тахмин:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Маҳаллий рецидив: Қирралари тоза бўлган адекват жарроҳлик йўли билан олиб ташланганда прогноз ижобий. Рецидивлар 20–50% ҳолларда тўлиқ олиб ташланмаганда ёки атрофдаги тўқималарга ўсиб кирганда учрайди.",
+                      "Метастазлар: Камдан-кам (<5%), ўпка ёки лимфа тугунларини зарарлаши мумкин, рецидивлар ёки йирик ўсмаларда хавф юқори бўлади.",
+                      "Яшовчанлик: Одатда ўз вақтида ва тўғри даволанганда, ҳатто такрорий олиб ташлашда ҳам юқори бўлади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Узоқ муддатли кузатиш:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Мунтазам равишда кузатиш муҳим, чунки даволанишдан бир неча йил ўтгач, касаллик қайталаниши мумкин. Айниқса, дастлабки 5 йилда синчиклаб назорат қилиш керак.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          uz: [
+            {
+              text: "Tashqi ko‘rinishi:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Dastlabki bosqich: Dermatofibrosarkoma protuberans (DFSP) odatda terida kichik, tekis, qizil yoki binafsha rangli dog‘ bilan boshlanadi, u vaqt o‘tishi bilan asta-sekin qalinlashib, bo‘rtib chiqqan zich tuzilma hosil qiladi.",
+                      "Progressiya: Hosila bo‘rtib chiqqan bo‘lishi mumkin (nomi ham shundan kelib chiqqan), ko‘pincha yuzasi yarali yoki zichlashgan bo‘ladi.",
+                      "O‘lchami: O‘lchami har xil, tashxis qo‘yilganda ko‘pincha 2 dan 10 sm gacha bo‘ladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Tez-tez joylashuvlar:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Tana (ko‘krak, orqa, qorin) — eng ko‘p uchraydigan joy.",
+                      "Shuningdek, yuqori qo‘l-oyoqlarda, bosh va bo‘yinda yoki pastki qo‘l-oyoqlarda paydo bo‘lishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Belgilar:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Dastlabki bosqichlarda DFSP ko‘pincha og‘riqsiz bo‘ladi.",
+                      "O‘sish paytida u noqulaylik yoki og‘riqni keltirib chiqarishi mumkin, ayniqsa chuqurroq tuzilmalarga ta’sir qilsa.",
+                      "O‘sish juda sekin, sezilarli o‘sish uchun yillar kerak bo‘lishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Sabablari va xavf omillari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Genetik o‘zgarish: DFSP xromosoma o‘rin almashishi bilan bog‘liq bo‘lib, bu fibroblastlarning noto‘g‘ri o‘sishiga sabab bo‘luvchi COL1A1-PDGFB qo‘shilish genining paydo bo‘lishiga olib keladi.",
+                      "Quyosh ta’siri: To‘g‘ridan-to‘g‘ri sabab bo‘lmasa-da, ultrabinafsha nurlar va quyoshning uzoq muddatli ta’siri, ayniqsa oq tanli odamlarda DFSP rivojlanishiga yordam berishi mumkin.",
+                      "Yosh: Ko‘pincha 20 yoshdan 50 yoshgacha bo‘lgan kattalarda uchraydi, ammo har qanday yoshda paydo bo‘lishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Tashxis:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Klinik ko‘rik: Shifokor zararlanishning o‘ziga xos tashqi ko‘rinishiga qarab, ayniqsa u sekin o‘sib, zich tuzilishga ega bo‘lsa, DFSP dan gumon qilishi mumkin.",
+                      "Biopsiya: Tashxisni tasdiqlash uchun zarur. Gistologik jihatdan DFSP o‘ram shaklidagi (storiform) hujayralarning girdob shaklidagi joylashuvi bilan tavsiflanadi.",
+                      "Immunogistokimyo: O‘sma hujayralari ko‘pincha CD34 deb ataladigan belgilovchini ifodalaydi, bu DFSP ni boshqa holatlardan farqlashga yordam beradi.",
+                      "Tasvirlash: MRT yoki KT — mahalliy tarqalish darajasini baholash uchun ishlatiladi (mushaklar, yog‘, suyaklarga). Ultrasonografiya — chuqur qatlamlarni baholash uchun qo‘llanilishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Davolash:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Jarrohlik yo‘li bilan olib tashlash: Asosiy usul — keng mahalliy kesish (KMK). Qolgan saraton hujayralarini yo‘q qilish va qaytalanish xavfini kamaytirish uchun sog‘lom to‘qima zaxirasi bilan o‘sma olib tashlanadi.",
+                      "Mohs bo‘yicha mikrografik jarrohlik: Ko‘pincha sezgir sohalarda (yuz, jinsiy a’zolar) afzal ko‘riladi. O‘sma qatlamma-qatlam olib tashlanadi, chetlari mikroskopik nazorat qilinadi, bu esa maksimal darajada sog‘lom terini saqlab qoladi.",
+                      "Imatinib (Gleevec): Jarrohlik amaliyoti o‘tkazilmaydigan rivojlangan holatlarda (metastazlar, operatsiya qilib bo‘lmaydigan o‘smalar) qo‘llaniladi. Bu COL1A1-PDGFB qo‘shilish genomi tomonidan qo‘zg‘atilgan anormal PDGF retseptorini ingibitorlovchi peroral dori vositasidir.",
+                      "Nurlanish bilan davolash: Operatsiya qilishning imkoni bo‘lmaganda yoki rezeksiya chetlari musbat bo‘lganda (saraton hujayralari qolgan) kamdan-kam qo‘llaniladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Taxmin:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Mahalliy qaytalanish: Qirralari toza bo‘lgan adekvat jarrohlik yo‘li bilan olib tashlanganda prognoz ijobiy. Qaytalanishlar 20–50% holatlarda to‘liq olib tashlanmaganda yoki atrofdagi to‘qimalarga o‘sib kirganda uchraydi.",
+                      "Metastazlar: Kamdan-kam (<5%), o‘pka yoki limfa tugunlarini zararlashi mumkin, qaytalanishlar yoki yirik o‘smalarda xavf yuqori bo‘ladi.",
+                      "Yashovchanlik: Odatda o‘z vaqtida va to‘g‘ri davolanganda, hatto takroriy olib tashlashda ham yuqori bo‘ladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Uzoq muddatli kuzatish:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Muntazam ravishda kuzatish muhim, chunki davolanishdan bir necha yil o‘tib, kasallik qaytalanishi mumkin. Ayniqsa, dastlabki 5 yilda sinchkovlik bilan nazorat qilish kerak.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Summary:",
+          kr: "Хулоса",
+          uz: "Xulosa:",
+          ru: "Вывод:",
+        },
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Dermatofibrosarcoma protuberans (DFSP) is a rare, slow-growing but locally aggressive skin cancer. It is most commonly treated with wide local excision, and Mohs surgery or Imatinib can be considered in certain cases. Although metastasis is rare, it’s important to monitor for recurrence through regular follow-up visits.",
+          kr: "Дерматофибросаркома протуберанси — кам учрайдиган, секин ўсувчи, аммо тажовузкор тери ўсмаси бўлиб, кенг жарроҳлик йўли билан олиб ташлашни талаб қилади. Баъзи ҳолларда микрографик жарроҳлик ва мақсадли терапия қўлланилади. Кам учрайдиган метастазларга қарамай, қайталанишларни аниқлаш учун мунтазам мониторинг ўтказиш муҳим.",
+          uz: "Dermatofibrosarkoma protuberans — kam uchraydigan, sekin o‘suvchi, ammo tajovuzkor teri o‘smalari bo‘lib, keng jarrohlik yo‘li bilan olib tashlashni talab qiladi. Ba’zi hollarda mikrografik jarrohlik va maqsadli terapiya qo‘llaniladi. Kam uchraydigan metastazlarga qaramay, qaytalanishlarni aniqlash uchun muntazam monitoring o‘tkazish muhim.",
+          ru: "Дерматофибросаркома протуберанс — редкая, медленнорастущая, но агрессивная опухоль кожи, требующая широкого хирургического удаления. В некоторых случаях применяются микрографическая хирургия и таргетная терапия. Несмотря на редкие метастазы, важен регулярный мониторинг для выявления рецидивов.",
+        },
+      },
+    ],
+    type: "disease",
+  },
 ];
