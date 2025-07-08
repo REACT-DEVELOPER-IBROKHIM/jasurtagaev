@@ -150,12 +150,28 @@ export const ARTICLES_MOCK = [
               ],
             },
             {
-              text: "Treatment: The goal of treatment for AK is to remove or treat the precancerous cells to prevent them from developing into squamous cell carcinoma. Treatment options vary based on the number, location, and size of AK lesions, as well as the patient’s overall health.",
+              text: "Treatment:The goal of treatment for AK is to remove or treat the precancerous cells to prevent them from developing into squamous cell carcinoma. Treatment options vary based on the number, location, and size of AK lesions, as well as the patient’s overall health.",
               elements: [
                 {
                   elementType: "list",
                   content: {
                     en: [
+                      "Cryotherapy (Freezing): Cryotherapy involves freezing the lesion with liquid nitrogen to destroy the abnormal cells. It is a commonly used treatment for isolated AK lesions.",
+                      {
+                        text: "Topical Treatments:",
+                        elements: [
+                          {
+                            elementType: "list",
+                            content: {
+                              en: [
+                                "5-Fluorouracil (5-FU): A topical chemotherapy cream that is applied to the affected area. It works by killing abnormal skin cells, often causing the treated skin to become inflamed and crusty as it heals.",
+                                "Imiquimod: An immune response modifier cream that stimulates the immune system to target and destroy abnormal cells in the affected area.",
+                                "Diclofenac Gel: A nonsteroidal anti-inflammatory drug (NSAID) that can reduce inflammation and help treat precancerous cells.",
+                              ],
+                            },
+                          },
+                        ],
+                      },
                       "Photodynamic Therapy (PDT): This treatment involves applying a photosensitizing agent to the skin and then exposing it to light. The light activates the medication to destroy the abnormal cells.",
                       "Excisional Surgery: In some cases, particularly with large or persistent lesions, a surgical procedure to cut out the AK may be necessary.",
                       "Electrosurgery: This technique uses electric currents to destroy abnormal tissue. It is used for larger or thicker lesions.",
@@ -198,7 +214,7 @@ export const ARTICLES_MOCK = [
           ],
           kr: [
             {
-              text: "Ташқи кўриниши",
+              text: "Ташқи кўриниши:",
               elements: [
                 {
                   elementType: "list",
@@ -214,7 +230,7 @@ export const ARTICLES_MOCK = [
               ],
             },
             {
-              text: "Хавф омиллари",
+              text: "Хавф омиллари:",
               elements: [
                 {
                   elementType: "list",
@@ -247,7 +263,7 @@ export const ARTICLES_MOCK = [
               ],
             },
             {
-              text: "Диагностика",
+              text: "Диагностика:",
               elements: [
                 {
                   elementType: "list",
@@ -261,7 +277,7 @@ export const ARTICLES_MOCK = [
               ],
             },
             {
-              text: "Ривожланиши",
+              text: "Ривожланиши:",
               elements: [
                 {
                   elementType: "list",
@@ -280,9 +296,23 @@ export const ARTICLES_MOCK = [
                 {
                   elementType: "list",
                   content: {
-                    kr: [
+                    en: [
                       "Криотерапия: суюқ азот билан музлатиш",
-                      "Маҳаллий препаратлар",
+                      {
+                        text: "Маҳаллий препаратлар:",
+                        elements: [
+                          {
+                            elementType: "list",
+                            content: {
+                              en: [
+                                "5-Фторуратсил (5-ФУ): кимё терапевтик крем",
+                                "Имиквимод: иммунитетни фаоллаштирувчи крем",
+                                "Диклофенак гели: яллиғланишга қарши восита",
+                              ],
+                            },
+                          },
+                        ],
+                      },
                       "Фотодинамик терапия (ФДТ): фотосенсибилизатор ва ёруғлик таъсири",
                       "Жарроҳлик йўли билан олиб ташлаш: катта/турғун ўчоқларда",
                       "Электрохирургия: электр токи орқали тўқимани йўқ қилиш",
@@ -292,7 +322,7 @@ export const ARTICLES_MOCK = [
               ],
             },
             {
-              text: "Профилактика",
+              text: "Профилактика:",
               elements: [
                 {
                   elementType: "list",
@@ -307,7 +337,7 @@ export const ARTICLES_MOCK = [
               ],
             },
             {
-              text: "Прогноз",
+              text: "Прогноз:",
               elements: [
                 {
                   elementType: "list",
@@ -324,7 +354,7 @@ export const ARTICLES_MOCK = [
           ],
           uz: [
             {
-              text: "Tashqi ko'rinishi",
+              text: "Tashqi ko'rinishi:",
               elements: [
                 {
                   elementType: "list",
@@ -340,7 +370,7 @@ export const ARTICLES_MOCK = [
               ],
             },
             {
-              text: "Xavf omillari",
+              text: "Xavf omillari:",
               elements: [
                 {
                   elementType: "list",
@@ -358,7 +388,7 @@ export const ARTICLES_MOCK = [
               ],
             },
             {
-              text: "Belgilari",
+              text: "Belgilari:",
               elements: [
                 {
                   elementType: "list",
@@ -373,7 +403,7 @@ export const ARTICLES_MOCK = [
               ],
             },
             {
-              text: "Diagnostika",
+              text: "Diagnostika:",
               elements: [
                 {
                   elementType: "list",
@@ -387,7 +417,7 @@ export const ARTICLES_MOCK = [
               ],
             },
             {
-              text: "Rivojlanishi",
+              text: "Rivojlanishi:",
               elements: [
                 {
                   elementType: "list",
@@ -406,9 +436,23 @@ export const ARTICLES_MOCK = [
                 {
                   elementType: "list",
                   content: {
-                    uz: [
+                    en: [
                       "Krioterapiya: suyuq azot bilan muzlatish",
-                      "Mahalliy preparatlar",
+                      {
+                        text: "Mahalliy preparatlar:",
+                        elements: [
+                          {
+                            elementType: "list",
+                            content: {
+                              en: [
+                                "5-Ftoruratcil (5-FU): kimyo terapevtik krem",
+                                "Imikvimod: immunitetni faollashtiruvchi krem",
+                                "Diklofenak geli: yallig'lanishga qarshi vosita",
+                              ],
+                            },
+                          },
+                        ],
+                      },
                       "Fotodinamik terapiya (FDT): fotosensibilizator va yorug'lik ta'siri",
                       "Jarrohlik yo'li bilan olib tashlash: katta/turg'un o'choklarda",
                       "Elektroxirurgiya: elektr toki orqali to'qimani yo'q qilish",
@@ -418,7 +462,7 @@ export const ARTICLES_MOCK = [
               ],
             },
             {
-              text: "Profilaktika",
+              text: "Profilaktika:",
               elements: [
                 {
                   elementType: "list",
@@ -433,7 +477,7 @@ export const ARTICLES_MOCK = [
               ],
             },
             {
-              text: "Prognoz",
+              text: "Prognoz:",
               elements: [
                 {
                   elementType: "list",
@@ -532,9 +576,23 @@ export const ARTICLES_MOCK = [
                 {
                   elementType: "list",
                   content: {
-                    ru: [
+                    en: [
                       "Криотерапия (замораживание): Замораживание поражённых участков жидким азотом — распространённый метод для отдельных очагов.",
-                      "Местные препараты",
+                      {
+                        text: "Местные препараты:",
+                        elements: [
+                          {
+                            elementType: "list",
+                            content: {
+                              en: [
+                                "5-фторурацил (5-ФУ): Химиотерапевтический крем, наносящийся на кожу; вызывает воспаление и отмирание атипичных клеток.",
+                                "Имиквимод: Крем, стимулирующий иммунную систему для уничтожения атипичных клеток.",
+                                "Гель диклофенака: Противовоспалительное средство (НПВП), снижающее воспаление и воздействующее на предраковые клетки.",
+                              ],
+                            },
+                          },
+                        ],
+                      },
                       "Фотодинамическая терапия (ФДТ): На кожу наносят фотосенсибилизатор, затем воздействуют светом, активируя препарат и уничтожая атипичные клетки.",
                       "Хирургическое удаление: Применяется при крупных или устойчивых очагах.",
                       "Электрохирургия: Уничтожение ткани электрическим током — для крупных или плотных поражений.",
