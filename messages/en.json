@@ -23,7 +23,7 @@
     "socials": "Social Media",
     "links": "Useful Links",
     "rights": "All rights reserved.",
-    "address": "Centromed Clinic, Oqtepa street, Tashkent"
+    "address": "49A Ok Tepa Street, Yunusabad District - 18, Tashkent 100000"
   },
   "contact": {
     "contact": "Contact",
@@ -36,5 +36,8 @@
   "after_before": {
     "after": "After",
     "before": "Before"
+  },
+  "articles": {
+    "title": "Articles"
   }
 }

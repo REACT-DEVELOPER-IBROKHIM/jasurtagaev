@@ -23,7 +23,7 @@
     "socials": "Ijtimoiy tarmoqlar",
     "links": "Foydali havolalar",
     "rights": "Barcha huquqlar himoyalangan.",
-    "address": "Centromed klinikasi, Oqtepa ko'chasi, Toshkent"
+    "address": "Oq Tepa ko‘chasi, 49A, Yunusobod tumani - 18, Toshkent 100000"
   },
   "contact": {
     "contact": "Aloqa",
@@ -36,5 +36,8 @@
   "after_before": {
     "after": "Keyin",
     "before": "Oldin"
+  },
+  "articles": {
+    "title": "Maqolalar"
   }
 }

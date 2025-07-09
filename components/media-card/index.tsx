@@ -21,7 +21,7 @@ const MediaCard = ({
       {<img width={"100%"} height={"400px"} src={media.thumbnail} alt="" />}
       <div className="p-8">
         <p className="text-2xl mb-8">{media.tag[locale]}</p>
-        <h2 className="text-xl mb-4">{media.title[locale]}</h2>
+        <h2 className="text-xl mb-4 min-h-[60px]">{media.title[locale]}</h2>
         <Button
           onClick={() => {
             setSelectedMedia(media);

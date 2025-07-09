@@ -6,15 +6,17 @@ import { useTranslations } from "next-intl";
 
 const Articles = ({ articles }: { articles: IArticle[] }) => {
   const t = useTranslations("home");
+  const t2 = useTranslations("articles");
   return (
     <>
+      <h2 className="text-3xl mb-4">{t2("title")}</h2>
       <section
         role="article"
         aria-label="Articles"
         className="w-full py-[50px]"
       >
         <div className="container h-full mx-auto">
-          <div className="flex h-full items-center flex-wrap justify-between gap-[24px]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 h-full items-center gap-[24px]">
             {articles.map((article: IArticle) => (
               <ArticleCard key={article.id} article={article} />
             ))}

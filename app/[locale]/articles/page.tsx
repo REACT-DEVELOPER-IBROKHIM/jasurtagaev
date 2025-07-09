@@ -2,16 +2,27 @@ import Articles from "@/components/articles";
 import Banner from "@/components/banner";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
-import Main from "@/components/main";
 import { fetchArticles } from "@/helpers/api/articles.request";
-import React from "react";
+import useLocalizedMetadata from "@/helpers/generator";
+import { articlePageMetaData } from "@/mocks/metadata";
+import { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const locale = (await params).locale as "en" | "uz" | "ru" | "kr";
+
+  return useLocalizedMetadata(articlePageMetaData, locale);
+}
 
 const ArticlesPage = async () => {
   const articles = await fetchArticles();
   return (
     <>
       <Header />
-      <main className="container mx-auto py-4">
+      <main className="container mx-auto py-4 px-6">
         <Banner
           image={"/banner-images/banner-image-articles.jpg"}
           title={{
@@ -28,10 +39,7 @@ const ArticlesPage = async () => {
             kr: "Жасур Тагаев томонидан бўлишилган мақолалар тўпламини ўрганинг, технология, дастурлаш ва шахсий фикрлар бўйича турли мавзуларни қамраб олади.",
           }}
         />
-        <section>
-          <h2 className="text-3xl mb-4">All Articles</h2>
-          <Articles articles={articles} />
-        </section>
+        <Articles articles={articles} />
       </main>
       <Footer />
     </>

@@ -1,9 +1,11 @@
-import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
-import { NextIntlClientProvider, hasLocale } from "next-intl";
+import { NextIntlClientProvider, hasLocale, useLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import useLocalizedMetadata from "@/helpers/generator";
+import { homePageMetaData } from "@/mocks/metadata";
+import { Metadata } from "next";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -11,11 +13,15 @@ const poppins = Poppins({
   weight: ["400", "500", "600", "700", "900"],
 });
 
-export const metadata: Metadata = {
-  title: "Jasur Tagaev",
-  description:
-    "Skin cancer and melanoma specialist | Teri saratoni va va melanoma mutaxassisi | Специалист по раку кожи и меланоме",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const locale = (await params).locale as "en" | "uz" | "ru" | "kr";
+
+  return useLocalizedMetadata(homePageMetaData, locale);
+}
 
 export default async function RootLayout({
   children,

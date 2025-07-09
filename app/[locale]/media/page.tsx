@@ -1,15 +1,25 @@
 import Banner from "@/components/banner";
 import Header from "@/components/header";
 import React from "react";
-import Media from "@/components/media";
 import {
   fetchAfterBeforeData,
   fetchMediaData,
 } from "@/helpers/api/media.request";
-import AfterBefore from "@/components/after-before";
 import Footer from "@/components/footer";
-import { useTranslations } from "next-intl";
 import MediaWrapper from "@/components/media-wrapper";
+import useLocalizedMetadata from "@/helpers/generator";
+import { Metadata } from "next";
+import { galleryPageMetaData } from "@/mocks/metadata";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const locale = (await params).locale as "en" | "uz" | "ru" | "kr";
+
+  return useLocalizedMetadata(galleryPageMetaData, locale);
+}
 
 const MediaPage = async () => {
   const mediaData = await fetchMediaData();
@@ -17,7 +27,7 @@ const MediaPage = async () => {
   return (
     <>
       <Header />
-      <main className="container mx-auto py-4">
+      <main className="container mx-auto py-4 px-6">
         <Banner
           image={"/banner-images/banner-image-media.JPG"}
           title={{

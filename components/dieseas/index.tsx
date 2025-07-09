@@ -7,13 +7,15 @@ const Diesease = ({ dieseases }: { dieseases: IArticle[] }) => {
     <section className="w-full h-auto mb-[100px]">
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-[50px]">
-          {dieseases.map((diesease: IArticle, index: number) => (
-            <ImageWithText
-              key={diesease.id}
-              imagePosition={index % 2 === 0 ? "left" : "right"}
-              data={diesease}
-            />
-          ))}
+          {dieseases
+            .filter((diesease: IArticle) => diesease.isFeatured)
+            .map((diesease: IArticle, index: number) => (
+              <ImageWithText
+                key={diesease.id}
+                imagePosition={index % 2 === 0 ? "left" : "right"}
+                data={diesease}
+              />
+            ))}
         </div>
       </div>
     </section>
