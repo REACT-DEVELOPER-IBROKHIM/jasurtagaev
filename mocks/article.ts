@@ -3301,17 +3301,17 @@ export const ARTICLES_MOCK = [
   },
   {
     id: 6,
-    slug: "squamous-cell-carcinoma-scc-ясси-хужайрали-карцинома-yassi-hujayrali-karcinoma-плоскоклеточный-рак-кожи",
+    slug: "squamous-cell-carcinoma-scc-ясси-хужайрали-карцинома-yassi-hujayrali-karsinoma-плоскоклеточный-рак-кожи",
     title: {
       kr: "Ясси ҳужайрали карцинома (ЯҲК)",
-      uz: "Yassi hujayrali karcinoma (YHK)",
+      uz: "Yassi hujayrali karsinoma (YHK)",
       en: "Squamous Cell Carcinoma (SCC)",
       ru: "Плоскоклеточный рак кожи (ПКР)",
     },
     description: {
       en: "Squamous Cell Carcinoma (SCC) is a type of skin cancer that begins in the squamous cells, which are the flat, scale-like cells found in the outer layer of the skin (the epidermis). SCC is the second most common type of skin cancer after basal cell carcinoma. While it is generally less aggressive than melanoma, SCC can still be dangerous, particularly if left untreated, as it has the potential to spread (metastasize) to other parts of the body.",
       kr: "Ясси ҳужайрали карцинома (ЯҲК) — тери саратонининг бир тури бўлиб, терининг ташқи қаватида (эпидермисда) жойлашган ясси, тангачасимон ҳужайраларда бошланади. ЯҲК базал ҳужайрали карциномадан кейин иккинчи энг кенг тарқалган тери саратонидир. У одатда меланомага қараганда камроқ тажовузкор бўлса-да, ЯҲК хавфли бўлиши мумкин, айниқса даволанмаса, чунки у тананинг бошқа қисмларига тарқалиши (метастаз бериши) мумкин.",
-      uz: "Yassi hujayrali karcinoma (YHK) — teri saratonining bir turi bo‘lib, terining tashqi qavatida (epidermisda) joylashgan yassi, tangachamsimon hujayralarda boshlanadi. YHK bazal hujayrali karcinomadan keyin ikkinchi eng keng tarqalgan teri saratonidir. U odatda melanomaga qaraganda kamroq tajovuzkor bo‘lsa-da, YHK xavfli bo‘lishi mumkin, ayniqsa davolanmasa, chunki u tananing boshqa qismlariga tarqalishi (metastaz berishi) mumkin.",
+      uz: "Yassi hujayrali karsinoma (YHK) — teri saratonining bir turi bo‘lib, terining tashqi qavatida (epidermisda) joylashgan yassi, tangachamsimon hujayralarda boshlanadi. YHK bazal hujayrali karsinomadan keyin ikkinchi eng keng tarqalgan teri saratonidir. U odatda melanomaga qaraganda kamroq tajovuzkor bo‘lsa-da, YHK xavfli bo‘lishi mumkin, ayniqsa davolanmasa, chunki u tananing boshqa qismlariga tarqalishi (metastaz berishi) mumkin.",
       ru: "Плоскоклеточный рак кожи (ПКР) — это тип рака кожи, который начинается в плоских, чешуйчатых клетках, расположенных во внешнем слое кожи (эпидермисе). ПКР является вторым по распространённости типом рака кожи после базальноклеточной карциномы. Хотя он обычно менее агрессивен, чем меланома, ПКР может быть опасным, особенно при отсутствии лечения, так как способен распространяться (метастазировать) на другие части тела.",
     },
     image: "/article-images/scc/image-1.jpg",
@@ -3330,7 +3330,7 @@ export const ARTICLES_MOCK = [
         content: {
           en: "Squamous Cell Carcinoma",
           kr: "Ясси ҳужайрали карцинома",
-          uz: "Yassi hujayrali karcinoma",
+          uz: "Yassi hujayrali karsinoma",
           ru: "Плоскоклеточный рак кожи",
         },
       },
@@ -3352,7 +3352,7 @@ export const ARTICLES_MOCK = [
         content: {
           en: "Squamous Cell Carcinoma (SCC) is a type of skin cancer that begins in the squamous cells, which are the flat, scale-like cells found in the outer layer of the skin (the epidermis). SCC is the second most common type of skin cancer after basal cell carcinoma. While it is generally less aggressive than melanoma, SCC can still be dangerous, particularly if left untreated, as it has the potential to spread (metastasize) to other parts of the body.",
           kr: "Ясси ҳужайрали карцинома (ЯҲК) — тери саратонининг бир тури бўлиб, терининг ташқи қаватида (эпидермисда) жойлашган ясси, тангачасимон ҳужайраларда бошланади. ЯҲК базал ҳужайрали карциномадан кейин иккинчи энг кенг тарқалган тери саратонидир. У одатда меланомага қараганда камроқ тажовузкор бўлса-да, ЯҲК хавфли бўлиши мумкин, айниқса даволанмаса, чунки у тананинг бошқа қисмларига тарқалиши (метастаз бериши) мумкин.",
-          uz: "Yassi hujayrali karcinoma (YHK) — teri saratonining bir turi bo‘lib, terining tashqi qavatida (epidermisda) joylashgan yassi, tangachamsimon hujayralarda boshlanadi. YHK bazal hujayrali karcinomadan keyin ikkinchi eng keng tarqalgan teri saratonidir. U odatda melanomaga qaraganda kamroq tajovuzkor bo‘lsa-da, YHK xavfli bo‘lishi mumkin, ayniqsa davolanmasa, chunki u tananing boshqa qismlariga tarqalishi (metastaz berishi) mumkin.",
+          uz: "Yassi hujayrali karsinoma (YHK) — teri saratonining bir turi bo‘lib, terining tashqi qavatida (epidermisda) joylashgan yassi, tangachamsimon hujayralarda boshlanadi. YHK bazal hujayrali karsinomadan keyin ikkinchi eng keng tarqalgan teri saratonidir. U odatda melanomaga qaraganda kamroq tajovuzkor bo‘lsa-da, YHK xavfli bo‘lishi mumkin, ayniqsa davolanmasa, chunki u tananing boshqa qismlariga tarqalishi (metastaz berishi) mumkin.",
           ru: "Плоскоклеточный рак кожи (ПКР) — это тип рака кожи, который начинается в плоских, чешуйчатых клетках, расположенных во внешнем слое кожи (эпидермисе). ПКР является вторым по распространённости типом рака кожи после базальноклеточной карциномы. Хотя он обычно менее агрессивен, чем меланома, ПКР может быть опасным, особенно при отсутствии лечения, так как способен распространяться (метастазировать) на другие части тела.",
         },
       },
@@ -3362,7 +3362,7 @@ export const ARTICLES_MOCK = [
         content: {
           en: "Key Features of Squamous Cell Carcinoma (SCC):",
           kr: "Ясси ҳужайрали карцинома (ЯҲК)нинг асосий хусусиятлари:",
-          uz: "Yassi hujayrali karcinoma (YHK)ning asosiy xususiyatlari:",
+          uz: "Yassi hujayrali karsinoma (YHK)ning asosiy xususiyatlari:",
           ru: "Ключевые особенности плоскоклеточного рака кожи (ПКР):",
         },
       },
@@ -3970,7 +3970,7 @@ export const ARTICLES_MOCK = [
         content: {
           en: "Squamous Cell Carcinoma (SCC) is a type of skin cancer that arises from the squamous cells in the skin's epidermis. It's often caused by sun exposure, but other risk factors such as immunosuppression and HPV infection can also contribute. SCC typically appears as a scaly, firm, red nodule or ulcerated lesion and is often found on sun-exposed areas of the skin. Surgical excision is the primary treatment, and radiation and chemotherapy may be used for more advanced cases. Early detection and treatment are key to preventing SCC from spreading and improving outcomes.",
           kr: "Ясси ҳужайрали карцинома — эпидермиснинг ясси ҳужайраларидан келиб чиқадиган хавфли ўсма. Кўпинча қуёш таъсирида юзага келади, лекин иммунитетнинг пасайиши ёки ОПВ инфекцияси ҳам сабаб бўлиши мумкин. Одатда терининг очиқ жойларида зич, тангачали тугун ёки ярали шикастланиш кўринишида намоён бўлади. Асосий даволаш — жарроҳлик йўли билан олиб ташлаш. Эрта ташхис қўйиш ва даволаш прогнозни яхшилайди.",
-          uz: "Yassi hujayrali karcinoma — epidermisning yassi hujayralaridan kelib chiqadigan xavfli o‘sma. Ko‘pincha quyosh ta’sirida yuzaga keladi, lekin immunitetning pasayishi yoki O‘PV infeksiyasi ham sabab bo‘lishi mumkin. Odatda terining ochiq joylarida zich, tangachali tugun yoki yarali shikastlanish ko‘rinishida namoyon bo‘ladi. Asosiy davolash — jarrohlik yo‘li bilan olib tashlash. Erta tashxis qo‘yish va davolash prognozni yaxshilaydi.",
+          uz: "Yassi hujayrali karsinoma — epidermisning yassi hujayralaridan kelib chiqadigan xavfli o‘sma. Ko‘pincha quyosh ta’sirida yuzaga keladi, lekin immunitetning pasayishi yoki O‘PV infeksiyasi ham sabab bo‘lishi mumkin. Odatda terining ochiq joylarida zich, tangachali tugun yoki yarali shikastlanish ko‘rinishida namoyon bo‘ladi. Asosiy davolash — jarrohlik yo‘li bilan olib tashlash. Erta tashxis qo‘yish va davolash prognozni yaxshilaydi.",
           ru: "Плоскоклеточный рак кожи — злокачественное новообразование, возникающее из плоских клеток эпидермиса. Часто обусловлен солнечным облучением, но также может быть вызван ослаблением иммунитета или ВПЧ. Обычно проявляется в виде плотного, чешуйчатого узла или изъязвлённого поражения на открытых участках кожи. Основное лечение — хирургическое удаление. Ранняя диагностика и лечение значительно улучшают прогноз.",
         },
       },
@@ -3979,17 +3979,17 @@ export const ARTICLES_MOCK = [
   },
   {
     id: 7,
-    slug: "merkel-cell-carcinoma-mcc-меркел-хужайрали-карцинома-merkel-hujayrali-karcinoma-карцинома-меркель-клеток",
+    slug: "merkel-cell-carcinoma-mcc-меркел-хужайрали-карцинома-merkel-hujayrali-karsinoma-карцинома-меркель-клеток",
     title: {
       kr: "Меркел ҳужайрали карцинома (МҲК)",
-      uz: "Merkel hujayrali karcinoma (MHK)",
+      uz: "Merkel hujayrali karsinoma (MHK)",
       en: "Merkel Cell Carcinoma (MCC)",
       ru: "Карцинома Меркель-клеток (МКК)",
     },
     description: {
       en: "Merkel Cell Carcinoma (MCC) is a rare, aggressive type of skin cancer that originates from Merkel cells, which are specialized cells found in the skin's epidermis. These cells are thought to play a role in touch sensation, as they are associated with nerve endings in the skin. Merkel cell carcinoma is known for its rapid growth and high potential to spread (metastasize) to other parts of the body.",
       kr: "Меркел ҳужайрали карцинома (МҲК) камдан-кам учрайдиган ва тажовузкор тери саратони бўлиб, тери эпидермисида жойлашган Меркел ҳужайраларидан келиб чиқади. Бу ҳужайралар терининг нерв охирлари билан боғлиқ бўлгани учун тегинишни сезишда роль ўйнайди, деб ҳисобланади. Меркел ҳужайрали карцинома тез ўсиш қобилияти ва тананинг бошқа қисмларига метастаз бериш (тарқалиш) хавфи юқори эканлиги билан машҳур.",
-      uz: "Merkel hujayrali karcinoma (MHK) kamdan-kam uchraydigan va tajovuzkor teri saratoni bo‘lib, teri epidermisida joylashgan Merkel hujayralaridan kelib chiqadi. Bu hujayralar terining nerv oxirlari bilan bog‘liq bo‘lgani uchun teginishni sezishda rol o‘ynaydi, deb hisoblanadi. Merkel hujayrali karcinoma tez o‘sish qobiliyati va tananing boshqa qismlariga metastaz berish (tarqalish) xavfi yuqori ekanligi bilan mashhur.",
+      uz: "Merkel hujayrali karsinoma (MHK) kamdan-kam uchraydigan va tajovuzkor teri saratoni bo‘lib, teri epidermisida joylashgan Merkel hujayralaridan kelib chiqadi. Bu hujayralar terining nerv oxirlari bilan bog‘liq bo‘lgani uchun teginishni sezishda rol o‘ynaydi, deb hisoblanadi. Merkel hujayrali karsinoma tez o‘sish qobiliyati va tananing boshqa qismlariga metastaz berish (tarqalish) xavfi yuqori ekanligi bilan mashhur.",
       ru: "Карцинома Меркель-клеток (МКК) — это редкий и агрессивный тип рака кожи, происходящий из клеток Меркеля — специализированных клеток, расположенных в эпидермисе кожи. Считается, что эти клетки играют роль в восприятии прикосновения, поскольку они связаны с нервными окончаниями кожи. Карцинома Меркель-клеток известна своей способностью к быстрому росту и высоким риском метастазирования (распространения) в другие части тела.",
     },
     image: "/article-images/mcc/image-1.jpg",
@@ -4008,7 +4008,7 @@ export const ARTICLES_MOCK = [
         content: {
           en: "Merkel Cell Carcinoma",
           kr: "Меркел ҳужайрали карцинома",
-          uz: "Merkel hujayrali karcinoma",
+          uz: "Merkel hujayrali karsinoma",
           ru: "Карцинома Меркель-клеток",
         },
       },
@@ -4030,7 +4030,7 @@ export const ARTICLES_MOCK = [
         content: {
           en: "Merkel Cell Carcinoma (MCC) is a rare, aggressive type of skin cancer that originates from Merkel cells, which are specialized cells found in the skin's epidermis. These cells are thought to play a role in touch sensation, as they are associated with nerve endings in the skin. Merkel cell carcinoma is known for its rapid growth and high potential to spread (metastasize) to other parts of the body.",
           kr: "Меркел ҳужайрали карцинома (МҲК) камдан-кам учрайдиган ва тажовузкор тери саратони бўлиб, тери эпидермисида жойлашган Меркел ҳужайраларидан келиб чиқади. Бу ҳужайралар терининг нерв охирлари билан боғлиқ бўлгани учун тегинишни сезишда роль ўйнайди, деб ҳисобланади. Меркел ҳужайрали карцинома тез ўсиш қобилияти ва тананинг бошқа қисмларига метастаз бериш (тарқалиш) хавфи юқори эканлиги билан машҳур.",
-          uz: "Merkel hujayrali karcinoma (MHK) kamdan-kam uchraydigan va tajovuzkor teri saratoni bo‘lib, teri epidermisida joylashgan Merkel hujayralaridan kelib chiqadi. Bu hujayralar terining nerv oxirlari bilan bog‘liq bo‘lgani uchun teginishni sezishda rol o‘ynaydi, deb hisoblanadi. Merkel hujayrali karcinoma tez o‘sish qobiliyati va tananing boshqa qismlariga metastaz berish (tarqalish) xavfi yuqori ekanligi bilan mashhur.",
+          uz: "Merkel hujayrali karsinoma (MHK) kamdan-kam uchraydigan va tajovuzkor teri saratoni bo‘lib, teri epidermisida joylashgan Merkel hujayralaridan kelib chiqadi. Bu hujayralar terining nerv oxirlari bilan bog‘liq bo‘lgani uchun teginishni sezishda rol o‘ynaydi, deb hisoblanadi. Merkel hujayrali karsinoma tez o‘sish qobiliyati va tananing boshqa qismlariga metastaz berish (tarqalish) xavfi yuqori ekanligi bilan mashhur.",
           ru: "Карцинома Меркель-клеток (МКК) — это редкий и агрессивный тип рака кожи, происходящий из клеток Меркеля — специализированных клеток, расположенных в эпидермисе кожи. Считается, что эти клетки играют роль в восприятии прикосновения, поскольку они связаны с нервными окончаниями кожи. Карцинома Меркель-клеток известна своей способностью к быстрому росту и высоким риском метастазирования (распространения) в другие части тела.",
         },
       },
@@ -4040,7 +4040,7 @@ export const ARTICLES_MOCK = [
         content: {
           en: "Key Features of Merkel Cell Carcinoma (MCC):",
           kr: "Меркел ҳужайрали карцинома (МҲК)нинг асосий хусусиятлари:",
-          uz: "Merkel hujayrali karcinoma (MHK)ning asosiy xususiyatlari:",
+          uz: "Merkel hujayrali karsinoma (MHK)ning asosiy xususiyatlari:",
           ru: "Ключевые особенности карциномы Меркель-клеток (МКК):",
         },
       },
@@ -4572,7 +4572,7 @@ export const ARTICLES_MOCK = [
         content: {
           en: "Merkel Cell Carcinoma (MCC) is a rare but aggressive skin cancer that typically appears as a painless, rapidly growing nodule on sun-exposed areas of the skin. Risk factors include sun exposure, age, immune suppression, and infection with Merkel cell polyomavirus (MCV). Early detection is crucial, and treatment typically involves surgical excision, radiation therapy, and possibly chemotherapy or immunotherapy for advanced cases. Prognosis varies depending on the stage of the disease, with a better outcome for localized tumors and a more guarded prognosis for metastatic disease.",
           kr: "Меркел ҳужайрали карцинома — кам учрайдиган, аммо тажовузкор тери саратони бўлиб, одатда қуёш нурлари таъсир қиладиган жойларда оғриқсиз, тез ўсувчи тугунча шаклида намоён бўлади. Асосий хавф омилларига ультрабинафша нурлари таъсири, кексалик, иммунитет танқислиги ва Меркел полиовирусини юқтириш киради. Эрта аниқлаш муҳим аҳамиятга эга. Даволаш касалликнинг босқичига боғлиқ бўлиб, жарроҳлик аралашуви, нур терапияси, кимё ёки иммунотерапияни ўз ичига олиши мумкин. Прогноз эрта аниқланганда яхшироқ, метастазлар мавжуд бўлганда эса ёмонроқ бўлади.",
-          uz: "Merkel hujayrali karcinoma — kam uchraydigan, ammo tajovuzkor teri saratoni bo‘lib, odatda quyosh nurlari ta’sir qiladigan joylarda og‘riqsiz, tez o‘suvchi tuguncha shaklida namoyon bo‘ladi. Asosiy xavf omillariga ultrabinafsha nurlari ta’siri, keksalik, immunitet tanqisligi va Merkel poliovirusini yuqtirish kiradi. Erta aniqlash muhim ahamiyatga ega. Davolash kasallikning bosqichiga bog‘liq bo‘lib, jarrohlik aralashuvi, nur terapiyasi, kimyo yoki immunoterapiyani o‘z ichiga olishi mumkin. Prognoz erta aniqlanganda yaxshiroq, metastazlar mavjud bo‘lganda esa yomonroq bo‘ladi.",
+          uz: "Merkel hujayrali karsinoma — kam uchraydigan, ammo tajovuzkor teri saratoni bo‘lib, odatda quyosh nurlari ta’sir qiladigan joylarda og‘riqsiz, tez o‘suvchi tuguncha shaklida namoyon bo‘ladi. Asosiy xavf omillariga ultrabinafsha nurlari ta’siri, keksalik, immunitet tanqisligi va Merkel poliovirusini yuqtirish kiradi. Erta aniqlash muhim ahamiyatga ega. Davolash kasallikning bosqichiga bog‘liq bo‘lib, jarrohlik aralashuvi, nur terapiyasi, kimyo yoki immunoterapiyani o‘z ichiga olishi mumkin. Prognoz erta aniqlanganda yaxshiroq, metastazlar mavjud bo‘lganda esa yomonroq bo‘ladi.",
           ru: "Карцинома Меркель-клеток — редкий, но агрессивный рак кожи, обычно проявляющийся в виде безболезненного, быстрорастущего узелка на участках, подверженных солнцу. Основные факторы риска включают воздействие ультрафиолета, пожилой возраст, иммунодефицит и инфицирование полиомавирусом Меркель. Раннее выявление имеет решающее значение. Лечение зависит от стадии заболевания и может включать хирургическое вмешательство, лучевую терапию, химио- или иммунотерапию. Прогноз лучше при раннем выявлении и хуже при наличии метастазов.",
         },
       },
@@ -7331,7 +7331,7 @@ export const ARTICLES_MOCK = [
   },
   {
     id: 13,
-    slug: "moles-nevi-collar-родинки-холлар",
+    slug: "moles-nevi-collar-xollar-родинки-холлар",
     title: {
       kr: "Холлар (невуслар)",
       uz: "Xollar (nevuslar)",
@@ -7926,6 +7926,1661 @@ export const ARTICLES_MOCK = [
           kr: "Хол — бу турли шакл ва рангдаги одатий, одатда зарарсиз тери ҳосилаларидир. Холлар хавфсиз бўлишига қарамай, улардаги ўзгаришлар меланома хавфини кўрсатиши мумкин. Тери саломатлигини сақлаш учун мунтазам равишда терини текшириш ва қуёшдан ҳимояланиш муҳим. Ҳар қандай шубҳали ўзгаришлар бўлса, шифокорга мурожаат қилиш тавсия этилади.",
           uz: "Xollar — bu turli shakl va rangdagi odatiy, odatda zararsiz teri hosilalaridir. Xollar xavfsiz bo‘lishiga qaramay, ulardagi o‘zgarishlar melanoma xavfini ko‘rsatishi mumkin. Teri salomatligini saqlash uchun muntazam ravishda terini tekshirish va quyoshdan himoyalanish muhim. Har qanday shubhali o‘zgarishlar bo‘lsa, shifokorga murojaat qilish tavsiya etiladi.",
           ru: "Родинки — это обычные, как правило, безвредные кожные образования различной формы и цвета. Несмотря на их доброкачественный характер, изменения в родинках могут указывать на риск меланомы. Регулярные осмотры кожи и защита от солнца важны для поддержания здоровья кожи. При любых подозрительных изменениях рекомендуется обратиться к врачу.",
+        },
+      },
+    ],
+    type: "disease",
+  },
+  {
+    id: 14,
+    slug: "cherry-angiomas-вишневые-ангиомы-olcha-angilomalari-олча-ангиомалари",
+    title: {
+      kr: "Олча ангиомалари",
+      uz: "Olcha angiomalari",
+      en: "Cherry Angiomas",
+      ru: "Вишнёвые ангиомы",
+    },
+    description: {
+      en: "Cherry angiomas are benign, non-cancerous growths of blood vessels that appear as small, red or purple spots on the skin. They are one of the most common types of vascular lesions in adults and tend to increase in number as people age. Though they are typically harmless, their appearance can sometimes raise cosmetic concerns.",
+      kr: "Олча ангиомалари — бу терида кичик қизил ёки бинафша рангли доғлар кўринишида намоён бўладиган, қон томирларидан ташкил топган хавфсиз (беғубор) ўсмалардир. Улар катталарда қон томирларининг энг кенг тарқалган шикастланишларидан бири ҳисобланади ва одатда ёш ўтиши билан сони ортиб боради. Гарчи улар зарарсиз бўлса-да, ташқи кўриниши косметик ноқулайликларга сабаб бўлиши мумкин.",
+      uz: "Olcha angiomalari — bu terida kichik qizil yoki binafsha rangli dog‘lar ko‘rinishida namoyon bo‘ladigan, qon tomirlaridan tashkil topgan xavfsiz (beg‘ubor) o‘smalardir. Ular kattalarda qon tomirlarining eng keng tarqalgan shikastlanishlaridan biri hisoblanadi va odatda yosh o‘tishi bilan soni ortib boradi. Garchi ular zararsiz bo‘lsa-da, tashqi ko‘rinishi kosmetik noqulayliklarga sabab bo‘lishi mumkin.",
+      ru: "Вишнёвые ангиомы — это доброкачественные (незлокачественные) новообразования, состоящие из кровеносных сосудов, которые проявляются в виде маленьких красных или фиолетовых пятен на коже. Они являются одним из самых распространённых видов сосудистых поражений у взрослых и, как правило, их количество увеличивается с возрастом. Хотя они обычно безвредны, их внешний вид может вызывать косметические неудобства.",
+    },
+    image: "/article-images/chr/image-1.jpg",
+    date: "2025-06-27",
+    linkText: {
+      uz: "Ko'proq o'qish",
+      en: "Read more",
+      ru: "Читать далее",
+      kr: "Кўпроқ ўқиш",
+    },
+    isPopular: false,
+    structure: [
+      {
+        elementType: "heading",
+        level: 1,
+        content: {
+          en: "Cherry Angiomas",
+          kr: "Олча ангиомалари",
+          uz: "Olcha angiomalari",
+          ru: "Вишнёвые ангиомы",
+        },
+      },
+      {
+        elementType: "wrapper",
+        elements: [
+          {
+            elementType: "image",
+            content: "/article-images/chr/image-1.jpg",
+          },
+          {
+            elementType: "image",
+            content: "/article-images/chr/image-2.jpg",
+          },
+        ],
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Cherry angiomas are benign, non-cancerous growths of blood vessels that appear as small, red or purple spots on the skin. They are one of the most common types of vascular lesions in adults and tend to increase in number as people age. Though they are typically harmless, their appearance can sometimes raise cosmetic concerns.",
+          kr: "Олча ангиомалари — бу терида кичик қизил ёки бинафша рангли доғлар кўринишида намоён бўладиган, қон томирларидан ташкил топган хавфсиз (беғубор) ўсмалардир. Улар катталарда қон томирларининг энг кенг тарқалган шикастланишларидан бири ҳисобланади ва одатда ёш ўтиши билан сони ортиб боради. Гарчи улар зарарсиз бўлса-да, ташқи кўриниши косметик ноқулайликларга сабаб бўлиши мумкин.",
+          uz: "Olcha angiomalari — bu terida kichik qizil yoki binafsha rangli dog‘lar ko‘rinishida namoyon bo‘ladigan, qon tomirlaridan tashkil topgan xavfsiz (beg‘ubor) o‘smalardir. Ular kattalarda qon tomirlarining eng keng tarqalgan shikastlanishlaridan biri hisoblanadi va odatda yosh o‘tishi bilan soni ortib boradi. Garchi ular zararsiz bo‘lsa-da, tashqi ko‘rinishi kosmetik noqulayliklarga sabab bo‘lishi mumkin.",
+          ru: "Вишнёвые ангиомы — это доброкачественные (незлокачественные) новообразования, состоящие из кровеносных сосудов, которые проявляются в виде маленьких красных или фиолетовых пятен на коже. Они являются одним из самых распространённых видов сосудистых поражений у взрослых и, как правило, их количество увеличивается с возрастом. Хотя они обычно безвредны, их внешний вид может вызывать косметические неудобства.",
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Key Features of Cherry Angiomas:",
+          kr: "Олча ангиомалари асосий хусусиятлари:",
+          uz: "Olcha angiomalari asosiy xususiyatlari:",
+          ru: "Основные характеристики вишнёвых ангиом:",
+        },
+      },
+      {
+        elementType: "list",
+        content: {
+          en: [
+            {
+              text: "Key Features of Cherry Angiomas:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Color: Cherry angiomas are usually bright red, though they can also appear purple or blue, depending on the depth of the blood vessels.",
+                      "Shape & Texture: They are typically round or oval and can range in size from a tiny dot to larger, raised bumps. The surface is generally smooth, but they can sometimes become slightly bumpy or feel a bit raised.",
+                      "Size: Most cherry angiomas are small, typically between 1-5 millimeters in diameter, though some can grow larger.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Location:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "They can appear anywhere on the body, but they are most commonly found on the torso, arms, and shoulders.",
+                      "They are especially common on the chest and back, but they can also appear on the face or neck in some cases.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Causes:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Genetics: Cherry angiomas can run in families, suggesting a genetic predisposition.",
+                      "Aging: The frequency of cherry angiomas increases with age, especially after the age of 30, and they become more common as people get older.",
+                      "Hormonal Changes: Hormonal changes, such as those occurring during pregnancy or with the use of oral contraceptives, can sometimes cause an increase in cherry angiomas.",
+                      "Environmental Factors: While not fully understood, certain environmental factors might contribute to the formation of cherry angiomas.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Symptoms:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "In most cases, cherry angiomas are asymptomatic, meaning they don't cause pain or discomfort.",
+                      "Occasionally, they might bleed if injured, but this is generally not a major concern.",
+                      "The main concern for people with cherry angiomas is cosmetic, as some may find the appearance of these spots undesirable, particularly if they appear in visible areas.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Diagnosis:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Visual Inspection: Cherry angiomas are usually diagnosed by a healthcare provider through visual examination. Their characteristic red or purple color and round shape are distinctive.",
+                      "Biopsy: In rare cases, a biopsy may be performed to rule out other types of lesions or conditions if there is any concern.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Treatment Options:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Laser Therapy: A common and effective treatment that uses a laser to destroy the blood vessels causing the angioma. It often leaves no scarring.",
+                      "Electrosurgery: Involves using an electric current to remove the angioma.",
+                      "Cryotherapy: Freezing the angioma with liquid nitrogen can also be used to treat it.",
+                      "Shaving or Excision: In some cases, the angioma may be shaved or excised surgically if it's large or bothersome.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Prognosis:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Cherry angiomas are generally harmless and don't pose any health risk. They typically don’t grow into cancerous growths, and most people live with them without issues.",
+                      "Once treated, cherry angiomas typically don't reappear in the same area, though new ones may develop elsewhere on the body over time.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "When to Seek Medical Advice:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Bleeding: If a cherry angioma begins to bleed frequently, it might need medical attention to prevent complications.",
+                      "Sudden Changes: If you notice sudden changes in size, shape, or color, or if the angioma becomes painful, you should consult a healthcare provider to rule out other conditions.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          ru: [
+            {
+              text: "Основные характеристики вишнёвых ангиом:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Цвет: Вишнёвые ангиомы обычно ярко-красные, но могут иметь фиолетовый или синеватый оттенок, в зависимости от глубины расположения сосудов.",
+                      "Форма и текстура: Обычно округлые или овальные, размер варьируется от маленькой точки до более крупных, слегка приподнятых образований. Поверхность чаще всего гладкая, но может быть немного бугристой.",
+                      "Размер: Большинство ангиом имеют размер от 1 до 5 мм в диаметре, хотя могут достигать и больших размеров.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Расположение:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Могут появляться на любой части тела, но чаще всего встречаются на туловище, руках и плечах.",
+                      "Особенно часто наблюдаются на груди и спине, реже — на лице и шее.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Причины:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Генетика: Ангиомы могут передаваться по наследству, что говорит о генетической предрасположенности.",
+                      "Старение: Частота появления ангиом увеличивается с возрастом, особенно после 30 лет.",
+                      "Гормональные изменения: Беременность или приём гормональных контрацептивов могут способствовать появлению новых ангиом.",
+                      "Факторы окружающей среды: Хотя точные причины неизвестны, некоторые внешние факторы могут играть роль в развитии ангиом.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Симптомы:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "В большинстве случаев вишнёвые ангиомы не вызывают никаких ощущений и не причиняют боли.",
+                      "Иногда они могут кровоточить при травмировании, но это редко вызывает серьёзные проблемы.",
+                      "Основное беспокойство обычно связано с косметическим дефектом, особенно если ангиомы расположены на открытых участках тела.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Диагностика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Визуальный осмотр: Врач легко может диагностировать ангиому по её характерному цвету и форме.",
+                      "Биопсия: В редких случаях может быть проведена биопсия, если есть подозрение на другие типы новообразований.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Методы лечения:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Лазерная терапия: Один из самых эффективных методов — разрушение сосудов при помощи лазера, не оставляет шрамов.",
+                      "Электрохирургия: Удаление ангиомы с помощью электрического тока.",
+                      "Криотерапия: Замораживание ангиомы жидким азотом.",
+                      "Хирургическое удаление: В случае крупных или мешающих ангиом возможно хирургическое иссечение или сбривание.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Прогноз:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Вишнёвые ангиомы безопасны и не перерастают в рак.",
+                      "После удаления они, как правило, не возвращаются на том же месте, хотя новые могут со временем появляться в других зонах.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Когда обращаться к врачу:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Кровотечение: Если ангиома часто кровоточит, желательно обратиться к специалисту.",
+                      "Резкие изменения: Изменение размера, формы, цвета или появление боли требует медицинской оценки.",
+                      "Множественные новые образования: При появлении большого количества новых ангиом желательно проконсультироваться с онкодерматологом.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          kr: [
+            {
+              text: "Олча ангиомаларининг асосий хусусиятлари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Ранги: Оддий ҳолда ёрқин қизил, аммо қон томирларнинг терида қанчалик чуқур жойлашганига қараб улар бинафша ёки кўкимтир тусда бўлиши мумкин.",
+                      "Шакли ва тузилиши: Оддий ҳолда юмалоқ ёки овал шаклда бўлиб, ўлчами кичик нуқтадан тортиб, бироз кўтарилган йирикроқ тузилмаларгача бўлиши мумкин. Юзаси кўпинча силлиқ, аммо баъзан бироз ғадир-будур бўлиши мумкин.",
+                      "Ўлчами: Аксарият ангиомаларнинг диаметри 1–5 мм оралиғида бўлади, лекин каттароқ ҳажмга етиши ҳам мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Жойлашуви:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Тананинг исталган қисмида пайдо бўлиши мумкин, аммо кўпинча тана, қўллар ва елкаларда учрайди.",
+                      "Айниқса кўкрак ва орқада кўп учрайди, камроқ ҳолларда — юз ва бўйинда кузатилади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Сабаблари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Генетик омиллар: Ангиомалар ирсий тарзда ўтиши мумкин, бу эса генетик мойилликни англатади.",
+                      "Қариш: 30 ёшдан кейин ангиомаларнинг пайдо бўлиш частотаси ортиб боради.",
+                      "Гормонал ўзгаришлар: Ҳомиладорлик ёки гормонал контрацептивларни қабул қилиш янги ангиомаларнинг пайдо бўлишига олиб келиши мумкин.",
+                      "Атроф-муҳит омиллари: Аниқ сабаблар номаълум, аммо баъзи ташқи омиллар уларнинг ривожланишига таъсир қилиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Белгилари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Аксарият ҳолларда олча ангиомалари ҳеч қандай ноқулайлик ёки оғриқ келтирмайди.",
+                      "Баъзан шикастланганда қон кетиши мумкин, аммо бу ҳолат камдан-кам ҳолларда жиддий муаммоларга олиб келади.",
+                      "Асосий ташвиш одатда косметик нуқсонлар билан боғлиқ бўлади, айниқса, улар очиқ жойларда жойлашган бўлса.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Диагностика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Визуал кўрик: Шифокор ангиомани унинг ўзига хос ранги ва шакли асосида осон аниқлайди.",
+                      "Биопсия: Кам ҳолларда, агар бошқа ўсмаларга шубҳа бўлса, биопсия ўтказилиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Даволаш усуллари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Лазер терапияси: Қон томирларини лазер ёрдамида йўқ қилиш. Из қолдирмайди.",
+                      "Электрожарроҳлик: Электр токи орқали ангиомани олиб ташлаш.",
+                      "Криотерапия: Суюқ азот билан музлатиш орқали ангиомани йўқ қилиш.",
+                      "Жарроҳлик: Катта ёки халақит берувчи ангиомаларни жарроҳлик йўли билан олиб ташлаш ёки қириш.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Прогноз:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Олча ангиомалари хавфсиздир ва саратонга айланмайди.",
+                      "Олиб ташланганидан сўнг, одатда, қайта ўша жойда пайдо бўлмайди, аммо вақт ўтиши билан бошқа жойларда янги ангиомалар пайдо бўлиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Қачон шифокорга мурожаат қилиш керак:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Қон кетиши: Агар ангиома тез-тез қонайдиган бўлса.",
+                      "Кескин ўзгаришлар: Ҳажми, шакли, ранги ўзгарса ёки оғриқ пайдо бўлса.",
+                      "Кўплаб янги ўсмалар: Кўп сонли янги ангиомалар пайдо бўлса, онкодерматолог билан маслаҳатлашиш тавсия этилади.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          uz: [
+            {
+              text: "Olcha angiomalarining asosiy xususiyatlari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Rangi: Odatda yorqin qizil, ammo qon tomirlarning terida qanchalik chuqur joylashganiga qarab ular binafsha yoki ko‘kimtir tusda bo‘lishi mumkin.",
+                      "Shakli va tuzilishi: Odatda yumaloq yoki ovalsimon shaklda bo‘lib, o‘lchami kichik nuqtadan tortib, biroz ko‘tarilgan yirikroq tuzilmalargacha bo‘lishi mumkin. Yuzasi ko‘pincha silliq, ammo ba'zan biroz g‘adir-budur bo‘lishi mumkin.",
+                      "O‘lchami: Aksariyat angiomalarning diametri 1–5 mm oralig‘ida bo‘ladi, lekin kattaroq hajmga yetishi ham mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Joylashuvi:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Tananing istalgan qismida paydo bo‘lishi mumkin, ammo ko‘pincha tana, qo‘llar va yelkada uchraydi.",
+                      "Ayniqsa ko‘krak va orqada ko‘p uchraydi, kamroq hollarda — yuz va bo‘yinda kuzatiladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Sabablari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Genetik omillar: Angiomalar irsiy tarzda o‘tishi mumkin, bu esa genetik moyillikni anglatadi.",
+                      "Qarish: 30 yoshdan keyin angiomalarning paydo bo‘lish chastotasi ortib boradi.",
+                      "Gormonal o‘zgarishlar: Homiladorlik yoki gormonal kontratseptivlarni qabul qilish yangi angiomalarning paydo bo‘lishiga olib kelishi mumkin.",
+                      "Atrof-muhit omillari: Aniq sabablari noma'lum, ammo ba'zi tashqi omillar ularning rivojlanishiga ta'sir qilishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Belgilar:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Aksariyat hollarda olcha angiomalari hech qanday noqulaylik yoki og‘riq keltirmaydi.",
+                      "Ba'zan shikastlanganda qon ketishi mumkin, ammo bu holat kamdan-kam hollarda jiddiy muammolarga olib keladi.",
+                      "Asosiy tashvish odatda kosmetik nuqsonlar bilan bog‘liq bo‘ladi, ayniqsa, ular ochiq joylarda joylashgan bo‘lsa.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Diagnostika:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Vizual ko‘rik: Shifokor angiomani uning o‘ziga xos rangi va shakli asosida oson aniqlaydi.",
+                      "Biopsiya: Kam hollarda, agar boshqa o‘smalarga shubha bo‘lsa, biopsiya o‘tkazilishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Davolash usullari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Lazer terapiyasi: Qon tomirlarni lazer yordamida yo‘q qilish. Iz qoldirmaydi.",
+                      "Elektrojarrohlik: Elektr toki orqali angiomani olib tashlash.",
+                      "Krioterapiya: Suvuk azot bilan muzlatish orqali angiomani yo‘q qilish.",
+                      "Jarrohlik: Katta yoki halaqit beruvchi angiomalarni jarrohlik yo‘li bilan olib tashlash yoki qirish.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Prognoz:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Olcha angiomalari xavfsizdir va saratonga aylanmaydi.",
+                      "Olib tashlanganidan so‘ng, odatda, qayta o‘sha joyda paydo bo‘lmaydi, ammo vaqt o‘tishi bilan boshqa joylarda yangi angiomalar paydo bo‘lishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Qachon shifokorga murojaat qilish kerak:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Qon ketishi: Agar angioma tez-tez qonaydigan bo‘lsa.",
+                      "Keskin o‘zgarishlar: Hajmi, shakli, rangi o‘zgarsa yoki og‘riq paydo bo‘lsa.",
+                      "Ko‘plab yangi o‘smalar: Ko‘p sonli yangi angiomalar paydo bo‘lsa, onkodermatolog bilan maslahatlashish tavsiya etiladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Summary:",
+          kr: "Хулоса",
+          uz: "Xulosa:",
+          ru: "Вывод:",
+        },
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Cherry angiomas are common, harmless, and generally don't require treatment unless they cause bleeding, discomfort, or cosmetic concerns. If you notice any unusual changes in a cherry angioma or have multiple new growths appearing over time, it’s always a good idea to consult a oncodermatologist for further evaluation.",
+          kr: "Олча ангиомалари кенг тарқалган ва одатда хавфсиз бўлган ўсмалардир. Агар улар қон кетиши, ноқулайлик ёки косметик муаммолар келтириб чиқармаса, даво талаб этилмайди. Бироқ, уларда ғайритабиий ўзгаришлар кузатилса ёки янги ангиомалар тез-тез пайдо бўлса, онкодерматологга мурожаат қилиш мақсадга мувофиқ.",
+          uz: "Olcha angiomalari keng tarqalgan va odatda xavfsiz bo‘lgan o‘smalardir. Agar ular qon ketishi, noqulaylik yoki kosmetik muammolar keltirib chiqarmasa, davo talab etilmaydi. Biroq, ularda g‘ayritabiiy o‘zgarishlar kuzatilsa yoki yangi angiomalari tez-tez paydo bo‘lsa, onkodermatologga murojaat qilish maqsadga muvofiq.",
+          ru: "Вишнёвые ангиомы — это распространённые и, как правило, безвредные образования, не требующие лечения, если только они не вызывают кровотечений, дискомфорта или эстетических проблем. При появлении необычных изменений или множества новых образований рекомендуется обратиться к онкодерматологу для дополнительного обследования.",
+        },
+      },
+    ],
+    type: "disease",
+  },
+  {
+    id: 15,
+    slug: "skin-papillomas-warts-кожные-папилломы-teri-papillomalari-тери-папилломалари",
+    title: {
+      kr: "Тери папилломалари (сўгаллар)",
+      uz: "Teri papillomalari (so‘gallar)",
+      en: "Skin Papillomas (Warts)",
+      ru: "Кожные папилломы (бородавки)",
+    },
+    description: {
+      en: "Skin Papillomas are benign growths that develop on the skin, caused by the human papillomavirus (HPV). They are commonly referred to as warts and can appear in various shapes and sizes. While these growths are generally harmless, they can cause cosmetic concerns, discomfort, or irritation, especially if located in areas that experience friction or frequent contact.",
+      kr: "Тери папилломалари — бу одам папиллома вируси (ОПВ) келтириб чиқарадиган теридаги хавфсиз ўсмалар. Улар одатда сўгал деб аталади ва турли шакл ва ўлчамларга эга бўлиши мумкин. Бундай тузилмалар одатда хавфли бўлмаса-да, косметик ноқулайлик, безовталик ёки оғриқ келтириши мумкин, айниқса ишқаланиш ёки тез-тез алоқа қиладиган жойларда жойлашган бўлса.",
+      uz: "Teri papillomalari — bu odam papilloma virusi (OPV) keltirib chiqaradigan teridagi xavfsiz o‘smalar. Ular odatda so‘gal deb ataladi va turli shakl va o‘lchamlarga ega bo‘lishi mumkin. Bunday tuzilmalar odatda xavfli bo‘lmasa-da, kosmetik noqulaylik, bezovtalik yoki og‘riq keltirishi mumkin, ayniqsa ishqalanish yoki tez-tez aloqa qiladigan joylarda joylashgan bo‘lsa.",
+      ru: "Кожные папилломы — это доброкачественные образования на коже, вызванные вирусом папилломы человека (ВПЧ). Их обычно называют бородавками, и они могут иметь разные формы и размеры. Хотя такие образования, как правило, не опасны, они могут вызывать косметические неудобства, дискомфорт или раздражение, особенно если расположены в местах трения или частого контакта.",
+    },
+    image: "/article-images/pa/image-1.jpg",
+    date: "2025-06-28",
+    linkText: {
+      uz: "Ko'proq o'qish",
+      en: "Read more",
+      ru: "Читать далее",
+      kr: "Кўпроқ ўқиш",
+    },
+    isPopular: true,
+    structure: [
+      {
+        elementType: "heading",
+        level: 1,
+        content: {
+          en: "Skin Papillomas (Warts)",
+          kr: "Тери папилломалари (сўгаллар)",
+          uz: "Teri papillomalari (so‘gallar)",
+          ru: "Кожные папилломы (бородавки)",
+        },
+      },
+      {
+        elementType: "wrapper",
+        elements: [
+          {
+            elementType: "image",
+            content: "/article-images/pa/image-1.jpg",
+          },
+          {
+            elementType: "image",
+            content: "/article-images/pa/image-2.jpg",
+          },
+        ],
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Skin Papillomas are benign growths that develop on the skin, caused by the human papillomavirus (HPV). They are commonly referred to as warts and can appear in various shapes and sizes. While these growths are generally harmless, they can cause cosmetic concerns, discomfort, or irritation, especially if located in areas that experience friction or frequent contact.",
+          kr: "Тери папилломалари — бу одам папиллома вируси (ОПВ) келтириб чиқарадиган теридаги хавфсиз ўсмалар. Улар одатда сўгал деб аталади ва турли шакл ва ўлчамларга эга бўлиши мумкин. Бундай тузилмалар одатда хавфли бўлмаса-да, косметик ноқулайлик, безовталик ёки оғриқ келтириши мумкин, айниқса ишқаланиш ёки тез-тез алоқа қиладиган жойларда жойлашган бўлса.",
+          uz: "Teri papillomalari — bu odam papilloma virusi (OPV) keltirib chiqaradigan teridagi xavfsiz o‘smalar. Ular odatda so‘gal deb ataladi va turli shakl va o‘lchamlarga ega bo‘lishi mumkin. Bunday tuzilmalar odatda xavfli bo‘lmasa-da, kosmetik noqulaylik, bezovtalik yoki og‘riq keltirishi mumkin, ayniqsa ishqalanish yoki tez-tez aloqa qiladigan joylarda joylashgan bo‘lsa.",
+          ru: "Кожные папилломы — это доброкачественные образования на коже, вызванные вирусом папилломы человека (ВПЧ). Их обычно называют бородавками, и они могут иметь разные формы и размеры. Хотя такие образования, как правило, не опасны, они могут вызывать косметические неудобства, дискомфорт или раздражение, особенно если расположены в местах трения или частого контакта.",
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Key Features of Skin Papillomas (Warts):",
+          kr: "Тери папилломалари (сўгаллар)нинг асосий хусусиятлари:",
+          uz: "Teri papillomalari (so‘gallar)ning asosiy xususiyatlari:",
+          ru: "Основные характеристики кожных папиллом (бородавок):",
+        },
+      },
+      {
+        elementType: "list",
+        content: {
+          en: [
+            {
+              text: "Key Features of Skin Papillomas (Skin Warts):",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Shape: Skin papillomas usually have a wart-like appearance, with a raised, bumpy, or cauliflower-like surface. They may appear flat or raised depending on the type of wart.",
+                      "Color: They can be flesh-colored, pink, white, or brown, depending on the location and the specific type of HPV involved.",
+                      "Size: Skin papillomas can range in size from small, a few millimeters in diameter, to larger, several centimeters in diameter.",
+                      "Surface Texture: They often have a rough or scaly texture on the surface, and some can have a smooth or flat appearance.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Types of Skin Papillomas:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Common Warts: These are the most common type of skin papilloma and typically appear on the hands, fingers, or around the nails. They are usually small and round with a rough surface.",
+                      "Plantar Warts: These occur on the soles of the feet and may be painful, especially when walking or standing. They often grow inward due to pressure from standing and walking.",
+                      "Flat Warts: These warts are smaller, flatter, and smoother than common warts and are usually found on the face, arms, or legs.",
+                      "Filiform Warts: These are long, thread-like warts that tend to develop around the mouth, eyes, or nose.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Causes:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "HPV Infection: The primary cause of skin papillomas is infection with certain strains of the human papillomavirus (HPV). HPV infects the outer layer of skin, causing abnormal growth of skin cells.",
+                      "Transmission: HPV is contagious and can spread through direct skin-to-skin contact or indirectly via contaminated surfaces such as towels, shower floors, or other shared items. The virus thrives in moist environments, making public spaces like swimming pools and gyms common places for transmission.",
+                      "Risk Factors: Individuals with weakened immune systems (e.g., those with HIV or undergoing immunosuppressive therapy) are more likely to develop papillomas. Additionally, people with frequent skin injuries or cuts may be at higher risk.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Symptoms:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Asymptomatic: Many skin papillomas do not cause any pain or discomfort. They may go unnoticed unless they are in an area of the body where they are visible or irritated.",
+                      "Discomfort or Pain: Papillomas on areas subjected to friction (e.g., on the hands, feet, or around the nails) can cause pain or tenderness, particularly if they are pressed or scratched.",
+                      "Cosmetic Concerns: Skin papillomas can be bothersome if they develop on visible areas of the body, such as the face, neck, or hands, as they may be considered unsightly.",
+                      "Skin Irritation: If the wart is in a location where it experiences constant pressure (e.g., on the feet), it can cause discomfort, especially while walking.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Diagnosis:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Physical Examination: Skin papillomas are usually diagnosed based on their appearance and location during a physical exam. In most cases, no further tests are required.",
+                      "Biopsy: If the wart has unusual features, a biopsy (removal of a small tissue sample) may be performed to ensure it is not a sign of a more serious condition, like skin cancer.",
+                      "HPV Testing: While not usually required for skin papillomas, HPV testing may be done in certain cases to identify the specific strain of HPV.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Treatment:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Observation: If the papillomas are not causing symptoms or cosmetic concerns, they may not require treatment. In some cases, they may disappear on their own over time.",
+                      "Topical Treatments: Over-the-counter treatments containing salicylic acid or cryotherapy (freezing) are often used to remove skin warts. Salicylic acid works by softening the wart, while cryotherapy freezes it off.",
+                      "Cryotherapy: Liquid nitrogen is used to freeze and destroy the wart tissue. This method is commonly used by oncodermatologists and is effective for most types of warts.",
+                      "Electrosurgery: This procedure uses electrical currents to burn off the wart. It is usually used for larger or persistent papillomas.",
+                      "Laser Therapy: Laser treatment is sometimes used for stubborn papillomas that do not respond to other treatments. The laser targets and destroys the wart tissue.",
+                      "Excision (Surgical Removal): In some cases, especially for large or persistent papillomas, surgical excision may be required to remove the growth completely.",
+                      "Immunotherapy: In rare cases, treatments that stimulate the immune system, such as topical imiquimod (a cream that stimulates the immune response), may be used to treat stubborn warts.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Prevention:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "HPV Vaccination: The HPV vaccine (e.g., Gardasil) can help protect against certain strains of HPV, particularly those that cause genital warts, but may also help reduce the risk of other HPV-related skin warts.",
+                      "Avoid Skin-to-Skin Contact: Avoid direct contact with warts or papillomas, and do not share towels, razors, or other personal items that may carry the virus.",
+                      "Good Hygiene: Wash hands regularly and avoid touching warts or papillomas, especially on others. Keeping your skin clean and dry can reduce the risk of HPV transmission.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "When to Seek Medical Attention:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "If the papilloma is causing significant discomfort, irritation, or pain, it may be time to seek treatment.",
+                      "If the wart is rapidly growing, changing in appearance, or bleeding, it should be evaluated by a healthcare provider to rule out other skin conditions.",
+                      "If the papillomas appear in sensitive areas (like the face or genital region) and cause cosmetic or functional concerns, treatment should be considered.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          ru: [
+            {
+              text: "Основные характеристики кожных папиллом (кожных бородавок):",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Форма: Кожные папилломы обычно имеют бородавчатую поверхность с бугорками или напоминают цветную капусту. В зависимости от типа бородавки они могут быть как плоскими, так и приподнятыми.",
+                      "Цвет: Может быть телесного, розового, белого или коричневого цвета, в зависимости от места расположения и типа ВПЧ.",
+                      "Размер: Размеры варьируются от нескольких миллиметров до нескольких сантиметров в диаметре.",
+                      "Текстура поверхности: Часто поверхность бородавок шероховатая или чешуйчатая, но некоторые могут быть гладкими и плоскими.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Виды кожных папиллом:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Обыкновенные бородавки: Наиболее распространённый тип, чаще всего появляются на руках, пальцах или вокруг ногтей. Обычно маленькие и округлые с шероховатой поверхностью.",
+                      "Подошвенные бородавки: Образуются на подошвах ног и могут быть болезненными, особенно при ходьбе или стоянии. Из-за давления они часто растут внутрь.",
+                      "Плоские бородавки: Меньше, площе и гладче, чем обыкновенные, чаще встречаются на лице, руках или ногах.",
+                      "Филиформные бородавки: Длинные, нитевидные, обычно появляются вокруг рта, глаз или носа.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Причины:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Инфекция ВПЧ: Основная причина — заражение определёнными штаммами вируса папилломы человека. Вирус поражает верхний слой кожи, вызывая аномальный рост клеток.",
+                      "Передача: ВПЧ заразен и распространяется при прямом контакте кожи с кожей или косвенно через заражённые предметы (полотенца, пол душа и т.д.). Вирус лучше размножается во влажной среде, поэтому бассейны и спортзалы — распространённые места заражения.",
+                      "Факторы риска: Люди с ослабленным иммунитетом (например, ВИЧ-положительные или на иммуносупрессивной терапии) более подвержены папилломам. Также риск выше при частых повреждениях кожи.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Симптомы:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Без симптомов: Многие папилломы не вызывают боли или дискомфорта и остаются незамеченными, если не расположены на видных местах или не раздражены.",
+                      "Дискомфорт или боль: Папилломы в местах трения (руки, ноги, вокруг ногтей) могут болеть или быть чувствительными.",
+                      "Косметические проблемы: Появление папиллом на лице, шее или руках может беспокоить из-за внешнего вида.",
+                      "Раздражение кожи: Постоянное давление на папиллому (например, на стопе) может вызывать дискомфорт при ходьбе.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Диагностика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Осмотр: Обычно диагностика проводится по внешнему виду и месту папилломы. Дополнительные тесты не требуются.",
+                      "Биопсия: При подозрительных признаках берётся небольшой образец ткани для исключения серьёзных заболеваний, например рака кожи.",
+                      "Тест на ВПЧ: В редких случаях может проводиться для определения штамма вируса.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Лечение:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Наблюдение: Если нет симптомов, лечение может не понадобиться — бородавки могут исчезнуть сами.",
+                      "Местное лечение: Применяются безрецептурные препараты с салициловой кислотой или криотерапия (замораживание).",
+                      "Криотерапия: Использование жидкого азота для замораживания и разрушения ткани бородавки, широко применяется онкодерматологами.",
+                      "Электрохирургия: Сжигание бородавки электрическим током, применяется при больших или стойких образованиях.",
+                      "Лазерная терапия: Используется для удаления устойчивых бородавок.",
+                      "Хирургическое удаление: Показано при больших или трудноудаляемых папилломах.",
+                      "Иммунотерапия: Редко — применение препаратов, стимулирующих иммунитет (например, крема имиквимод).",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Профилактика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Вакцинация против ВПЧ: Вакцина (например, Гардасил) защищает от некоторых штаммов ВПЧ, вызывающих генитальные бородавки, и может снизить риск кожных бородавок.",
+                      "Избегать прямого контакта: Не трогать бородавки, не пользоваться чужими полотенцами и бритвами.",
+                      "Гигиена: Регулярно мыть руки, избегать прикосновений к чужим бородавкам, поддерживать кожу чистой и сухой.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Когда обращаться к врачу:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Если папиллома вызывает сильный дискомфорт, боль или раздражение.",
+                      "При быстром росте, изменении внешнего вида или кровотечении.",
+                      "Если папилломы расположены в чувствительных местах (лицо, гениталии) и вызывают косметические или функциональные проблемы.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          kr: [
+            {
+              text: "Тери папилломалари (тери сўгаллари)нинг асосий хусусиятлари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Юзаси одатда сўгалсимон, дўмбоқчали ёки гулкарамга ўхшаш бўлади. Сўгал турига қараб ясси ёки кўтарилган бўлиши мумкин.",
+                      "Ранги жойлашуви ва ОПВ турига қараб тана, пушти, оқ ёки жигарранг бўлиши мумкин.",
+                      "Ўлчами бир неча миллиметрдан бир неча сантиметргача диаметрда бўлади.",
+                      "Юзаси кўпинча ғадир-будур ёки тангачасимон, баъзан эса силлиқ ва ясси бўлиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Тери папилломаларининг турлари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Оддий сўгаллар: Кенг тарқалган тур, кўпинча қўллар, бармоқлар ёки тирноқ атрофида пайдо бўлади. Кичик ва юмалоқ, юзаси ғадир-будур.",
+                      "Оёқ кафти сўгаллари: Оёқ кафтларида ҳосил бўлади, айниқса юрганда ёки тик турганда оғриқ келтириши мумкин. Босим туфайли кўпинча ичкарига қараб ўсади.",
+                      "Ясси сўгаллар: Оддий сўгалларга нисбатан кичикроқ, қалинроқ ва силлиқроқ бўлиб, юз, қўл ёки оёқларда кўпроқ учрайди.",
+                      "Филиморф сўгаллар: Узун, ипсимон шаклда бўлиб, одатда оғиз, кўз ёки бурун атрофида пайдо бўлади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Сабаблари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "HPV инфекцияси: Асосий сабаб — одам папиллома вирусининг маълум штаммлари билан касалланиш. Вирус терининг юқори қатламига таъсир қилиб, ҳужайраларнинг аномал ўсишига сабаб бўлади.",
+                      "Трансмиссия: Вирус терининг терига бевосита тегиши ёки зарарланган буюмлар (сочиқ, пол, душ ва бошқалар) орқали тарқалади. Вирус нам муҳитда яхши кўпаяди, шунинг учун бассейнлар ва спорт заллари инфекция тарқалган жойлардир.",
+                      "Хавф омиллари: Иммунитети заиф одамлар (ОИВ мусбат ёки иммуносупрессив терапияда бўлганлар) папилломаларга кўпроқ моил бўлади. Терининг тез-тез шикастланиши ҳам хавфни оширади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Белгилари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Симптомларсиз: Кўпгина папилломалар оғриқ ёки ноқулайлик келтирмайди ва кўзга кўринадиган жойда бўлмаса сезилмайди.",
+                      "Ноқулайлик ёки оғриқ: Ишқаланиш жойларидаги папилломалар оғриши ёки сезгир бўлиши мумкин.",
+                      "Косметик муаммолар: Юз, бўйин ёки қўлларда пайдо бўлиши ташқи кўриниш учун безовта қилиши мумкин.",
+                      "Тери таъсирланиши: Папилломага доимий босим оғриқ ёки ноқулайлик келтириши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Диагностика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Одатда ташхис папилломанинг ташқи кўриниши ва жойлашган жойи асосида қўйилади. Қўшимча текширувлар талаб қилинмайди.",
+                      "Биопсия зарур бўлганда, жиддий касалликларни (масалан, тери саратони) истисно қилиш учун амалга оширилади.",
+                      "ОПВ тести камдан-кам ҳолларда вирус штаммини аниқлаш учун қўлланилиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Даволаш:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Кўпгина папилломалар ўз-ўзидан ўтиб кетади, лекин ноқулайлик, косметик муаммо ёки тарқалиш ҳолатида даволаш керак.",
+                      "Кузатув: Агар симптомлар бўлмаса, даволаш талаб қилинмаслиги мумкин.",
+                      "Маҳаллий даво: Салитсил кислотаси ёки криотерапия (музлатиш) қўлланилади.",
+                      "Криотерапия: Суюқ азот билан сўгал тўқимаси музлатилиб, парчаланди.",
+                      "Электрохирургия: Электр токи билан катта ёки турғун папилломалар ёқилади.",
+                      "Лазер терапияси: Қийин ўтадиган папилломаларни олиб ташлашда ишлатилади.",
+                      "Жарроҳлик йўли билан олиб ташлаш: Катта ёки қайтарилувчи папилломалар учун.",
+                      "Иммунотерапия: Камдан-кам ҳолларда иммунитетни ошириш учун қўлланилади (масалан, имиквимод креми).",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Профилактика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "ОПВга қарши эмлаш: Вакцина (Гардасил) генитал сўгалларни келтирувчи штаммларга қарши ҳимоя қилади ва тери сўгаллари хавфини камайтиради.",
+                      "Тўғридан-тўғри алоқа қилишдан сақланиш: Сўгалларга тегмаслик ва бошқаларнинг шахсий буюмларидан фойдаланмаслик.",
+                      "Гигиена: Қўлларни мунтазам ювиш, бегона сўгалларга тегмаслик, терини тоза ва қуруқ сақлаш.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Шифокорга мурожаат қилиш керак бўлган ҳолатлар:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Папиллома кучли ноқулайлик, оғриқ ёки таъсирланиш келтирса.",
+                      "Тез ўсиш, ташқи кўриниш ўзгариши ёки қон кетиши кузатилса.",
+                      "Сезгир жойларда (юз, жинсий аъзолар) жойлашиб, косметик ёки функционал муаммо келтирса.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          uz: [
+            {
+              text: "Teri papillomalari (teri so‘gallari)ning asosiy xususiyatlari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Yuzasi odatda so‘galsimon, do‘mbog‘chali yoki gulkaramga o‘xshash bo‘ladi. So‘gal turiga qarab tekis yoki ko‘tarilgan bo‘lishi mumkin.",
+                      "Rangi joylashuvi va HPV turiga qarab tana, pushti, oq yoki jigarrang bo‘lishi mumkin.",
+                      "O‘lchami bir necha millimetrdan bir necha santimetrgacha diametrda bo‘ladi.",
+                      "Yuzasi ko‘pincha g‘adir-budur yoki tangachasimon, ba'zan esa silliq va tekis bo‘lishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Teri papillomalarining turlari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Oddiy so‘gallar: Keng tarqalgan tur, ko‘pincha qo‘llar, barmoqlar yoki tirnoq atrofida paydo bo‘ladi. Kichik va yumaloq, yuzasi g‘adir-budur.",
+                      "Oyoq kafti so‘gallari: Oyoq kaftlarida hosil bo‘ladi, ayniqsa yurganda yoki tik turganda og‘riq keltirishi mumkin. Bosim tufayli ko‘pincha ichkariga qarab o‘sadi.",
+                      "Tekis so‘gallar: Oddiy so‘gallarga nisbatan kichikroq, qalinroq va silliqroq bo‘lib, yuz, qo‘l yoki oyoqlarda ko‘proq uchraydi.",
+                      "Filimorf so‘gallar: Uzun, ipsimon shaklda bo‘lib, odatda og‘iz, ko‘z yoki burun atrofida paydo bo‘ladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Sabablari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "HPV infektsiyasi: Asosiy sabab — odam papilloma virusining ma'lum shtammlari bilan kasallanish. Virus terining yuqori qatlamiga ta'sir qilib, hujayralarning anormal o‘sishiga sabab bo‘ladi.",
+                      "Transmissiya: Virus terining teriga bevosita tegishi yoki zararlangan buyumlar (sochiq, pol, dush va boshqalar) orqali tarqaladi. Virus nam muhitda yaxshi ko‘payadi, shuning uchun basseynlar va sport zallari infektsiya tarqalgan joylardir.",
+                      "Xavf omillari: Immuniteti zaif odamlar (HIV musbat yoki immunosupressiv terapiyada bo‘lganlar) papillomalarga ko‘proq moyil bo‘ladi. Terining tez-tez shikastlanishi ham xavfni oshiradi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Belgilar:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Simsiz: Ko‘pgina papillomalar og‘riq yoki noqulaylik keltirmaydi va ko‘zga ko‘rinadigan joyda bo‘lmasa sezilmaydi.",
+                      "Noqulaylik yoki og‘riq: Ishqalanish joylaridagi papillomalar og‘rishi yoki sezgir bo‘lishi mumkin.",
+                      "Kosmetik muammolar: Yuz, bo‘yin yoki qo‘llarda paydo bo‘lishi tashqi ko‘rinish uchun bezovta qilishi mumkin.",
+                      "Teri ta'sirlanishi: Papillomaga doimiy bosim og‘riq yoki noqulaylik keltirishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Diagnostika:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Odatda tashxis papillomaning tashqi ko‘rinishi va joylashgan joyi asosida qo‘yiladi. Qo‘shimcha tekshiruvlar talab qilinmaydi.",
+                      "Biopsiya zarur bo‘lganda, jiddiy kasalliklarni (masalan, teri saratoni) istisno qilish uchun amalga oshiriladi.",
+                      "HPV testi kamdan-kam hollarda virus shtammini aniqlash uchun qo‘llanilishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Davolash:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Ko‘pgina papillomalar o‘z-o‘zidan o‘tib ketadi, lekin noqulaylik, kosmetik muammo yoki tarqalish holatida davolash kerak.",
+                      "Kuzatish: Agar simptomlar bo‘lmasa, davolash talab qilinmasligi mumkin.",
+                      "Mahalliy davo: Salitsil kislotasi yoki krioterapiya (muzlatish) qo‘llaniladi.",
+                      "Krioterapiya: Suvuk azot bilan so‘gal to‘qimasi muzlatilib, parchalanadi.",
+                      "Elektrojarrohlik: Elektr toki bilan katta yoki turib qolgan papillomalar yoqiladi.",
+                      "Lazer terapiyasi: Qiyin o‘tadigan papillomalarni olib tashlashda ishlatiladi.",
+                      "Jarrohlik yo‘li bilan olib tashlash: Katta yoki qaytariluvchi papillomalar uchun.",
+                      "Immunoterapiya: Kamdan-kam hollarda immunitetni oshirish uchun qo‘llaniladi (masalan, imikvimod kremi).",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Profilaktika:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "HPVga qarshi emlash: Vaktsina (Gardasil) genital so‘gallarni keltiruvchi shtammlarga qarshi himoya qiladi va teri so‘gallari xavfini kamaytiradi.",
+                      "To‘g‘ridan-to‘g‘ri aloqadan saqlanish: So‘gallarga tegmaslik va boshqalarning shaxsiy buyumlaridan foydalanmaslik.",
+                      "Gigiyena: Qo‘llarni muntazam yuvish, begona so‘gallarga tegmaslik, terini toza va quruq saqlash.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Shifokorga murojaat qilish kerak bo‘lgan holatlar:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Papilloma kuchli noqulaylik, og‘riq yoki ta'sirlanish keltirsa.",
+                      "Tez o‘sish, tashqi ko‘rinish o‘zgarishi yoki qon ketishi kuzatilsa.",
+                      "Sezgir joylarda (yuz, jinsiy a'zolar) joylashib, kosmetik yoki funksional muammo keltirsa.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Summary:",
+          kr: "Хулоса",
+          uz: "Xulosa:",
+          ru: "Вывод:",
+        },
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Skin papillomas, or warts, are benign growths caused by HPV infection. They are typically harmless but can cause discomfort, cosmetic concerns, or irritation, especially if they develop in areas subject to friction or pressure. Treatment options include cryotherapy, topical treatments, electrosurgery, laser therapy, and surgical removal. While many skin papillomas resolve on their own, medical intervention may be required for persistent or bothersome growths. Preventative measures such as HPV vaccination and avoiding skin-to-skin contact with warts can help reduce the risk of developing papillomas.",
+          kr: "Тери папилломалари (сўгаллар) — одам папиллома вируси туфайли келиб чиқадиган хавфсиз ўсмалардир. Улар одатда зарарсиз бўлса-да, косметик ва оғриқли муаммоларга сабаб бўлиши мумкин. Даволаш усуллари — криотерапия, маҳаллий дорилар, жарроҳлик ва лазер терапиясини ўз ичига олади. Профилактика учун вакцинация ва гигиена қоидаларига риоя қилиш муҳимдир.",
+          uz: "Teri papillomalari (so‘gallar) — odam papilloma virusi tufayli kelib chiqadigan xavfsiz o‘smalardir. Ular odatda zararsiz bo‘lsa-da, kosmetik va og‘riqli muammolarga sabab bo‘lishi mumkin. Davolash usullari — krioterapiya, mahalliy dorilar, jarrohlik va lazer terapiyasini o‘z ichiga oladi. Profilaktika uchun emlash va gigiyena qoidalariga rioya qilish muhimdir.",
+          ru: "Кожные папилломы (бородавки) — доброкачественные образования, вызванные ВПЧ. Они обычно безвредны, но могут вызывать дискомфорт и косметические неудобства. Лечение включает криотерапию, местные препараты, хирургические методы и лазерную терапию. Профилактика — вакцинация и соблюдение гигиены.",
+        },
+      },
+    ],
+    type: "disease",
+  },
+  {
+    id: 16,
+    slug: "epidermoid-cysts-эпидермоидные-кисты-эпидермоид-кисталар",
+    title: {
+      kr: "Эпидермоид кисталар",
+      uz: "Epidermoid kistalar",
+      en: "Epidermoid Cysts",
+      ru: "Эпидермоидные кисты",
+    },
+    description: {
+      en: "Epidermoid Cysts (also known as epidermal cysts or sebaceous cysts) are common, benign (non-cancerous) growths that form under the skin. These cysts are typically slow-growing, round or oval-shaped, and filled with a substance called keratin, which is a protein normally found in skin, hair, and nails.",
+      kr: "Эпидермоид кисталар (эпидермал ёки ёғ кисталари деб ҳам аталади) — тери остида кенг тарқалган хавфсиз (нохавфли) тузилмалардир. Одатда бундай кисталар секин ўсади, юмалоқ ёки овал шаклга эга ва кератин деб аталадиган модда билан тўлдирилган — бу оқсил бўлиб, одатда тери, соч ва тирноқларда учрайди.",
+      uz: "Epidermoid kistalar (epidermal yoki yog‘ kistalari deb ham ataladi) — teri ostida keng tarqalgan xavfsiz (noxavfli) tuzilmalar. Odatda bunday kistalar sekin o‘sadi, yumaloq yoki oval shaklga ega va keratin deb ataladigan modda bilan to‘ldirilgan — bu oqsil bo‘lib, odatda teri, soch va tirnoqlarda uchraydi.",
+      ru: "Эпидермоидные кисты (также известные как эпидермальные или сальные кисты) — это распространённые доброкачественные (незлокачественные) образования, формирующиеся под кожей. Обычно такие кисты растут медленно, имеют округлую или овальную форму и заполнены веществом под названием кератин — это белок, который в норме содержится в коже, волосах и ногтях.",
+    },
+    image: "/article-images/cs/image-1.jpg",
+    date: "2025-06-29",
+    linkText: {
+      uz: "Ko'proq o'qish",
+      en: "Read more",
+      ru: "Читать далее",
+      kr: "Кўпроқ ўқиш",
+    },
+    isPopular: false,
+    structure: [
+      {
+        elementType: "heading",
+        level: 1,
+        content: {
+          en: "Epidermoid Cysts",
+          kr: "Эпидермоид кисталар",
+          uz: "Epidermoid kistalar",
+          ru: "Эпидермоидные кисты",
+        },
+      },
+      {
+        elementType: "wrapper",
+        elements: [
+          {
+            elementType: "image",
+            content: "/article-images/cs/image-1.jpg",
+          },
+          {
+            elementType: "image",
+            content: "/article-images/cs/image-2.jpg",
+          },
+        ],
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Epidermoid Cysts (also known as epidermal cysts or sebaceous cysts) are common, benign (non-cancerous) growths that form under the skin. These cysts are typically slow-growing, round or oval-shaped, and filled with a substance called keratin, which is a protein normally found in skin, hair, and nails.",
+          kr: "Эпидермоид кисталар (эпидермал ёки ёғ кисталари деб ҳам аталади) — тери остида кенг тарқалган хавфсиз (нохавфли) тузилмалардир. Одатда бундай кисталар секин ўсади, юмалоқ ёки овал шаклга эга ва кератин деб аталадиган модда билан тўлдирилган — бу оқсил бўлиб, одатда тери, соч ва тирноқларда учрайди.",
+          uz: "Epidermoid kistalar (epidermal yoki yog‘ kistalari deb ham ataladi) — teri ostida keng tarqalgan xavfsiz (noxavfli) tuzilmalar. Odatda bunday kistalar sekin o‘sadi, yumaloq yoki oval shaklga ega va keratin deb ataladigan modda bilan to‘ldirilgan — bu oqsil bo‘lib, odatda teri, soch va tirnoqlarda uchraydi.",
+          ru: "Эпидермоидные кисты (также известные как эпидермальные или сальные кисты) — это распространённые доброкачественные (незлокачественные) образования, формирующиеся под кожей. Обычно такие кисты растут медленно, имеют округлую или овальную форму и заполнены веществом под названием кератин — это белок, который в норме содержится в коже, волосах и ногтях.",
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Key Features of Epidermoid Cysts:",
+          kr: "Эпидермоид кисталарнинг асосий хусусиятлари:",
+          uz: "Epidermoid kistalarning asosiy xususiyatlari:",
+          ru: "Основные характеристики эпидермоидных кист:",
+        },
+      },
+      {
+        elementType: "list",
+        content: {
+          en: [
+            {
+              text: "Key Features of Epidermoid Cysts:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "They are usually round, smooth, and firm to the touch.",
+                      "The skin over the cyst may appear normal or slightly yellowish, depending on the contents inside.",
+                      "The cyst may vary in size, from as small as a pea to several centimeters across.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Location:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Epidermoid cysts are most commonly found on the face, neck, back, scalp, or chest.",
+                      "However, they can appear anywhere on the body.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Symptoms:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Most epidermoid cysts are painless and do not cause any discomfort.",
+                      "If the cyst becomes infected, it may become red, inflamed, painful, and potentially drain a thick, foul-smelling substance.",
+                      "In some cases, the cyst may have a visible central pore (small opening) through which the keratin may be expelled.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Causes:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "These cysts typically form when a hair follicle or oil gland becomes blocked, causing the buildup of keratin underneath the skin.",
+                      "They may also develop as a result of skin trauma, such as cuts, acne, or surgery.",
+                      "Genetics can play a role, as some people are more prone to developing these cysts.",
+                      "Certain genetic conditions, like Gardner's syndrome, can lead to multiple epidermoid cysts.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Treatment:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Observation: Most epidermoid cysts do not require treatment unless they become infected or cause discomfort.",
+                      "Drainage or Removal: If the cyst becomes infected or bothersome, a healthcare provider may choose to drain the cyst or surgically remove it.",
+                      "Steroid Injections: These may be used to reduce inflammation if the cyst is swollen or tender.",
+                      "It's important not to attempt to pop or squeeze an epidermoid cyst, as this can lead to infection or scarring.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "When to Seek Medical Attention:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "If the cyst becomes painful, red, or swollen, it may be infected and require medical attention.",
+                      "If the cyst grows rapidly or changes in appearance, it should be evaluated by a healthcare provider to rule out other conditions.",
+                      "If the cyst causes significant cosmetic concerns or discomfort, surgical removal may be considered.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          ru: [
+            {
+              text: "Основные характеристики эпидермоидных кист:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Обычно кисты имеют округлую форму, гладкие и упругие на ощупь.",
+                      "Кожа над кистой может выглядеть нормально или иметь слегка желтоватый оттенок — это зависит от содержимого.",
+                      "Размер кисты варьируется от размера горошины до нескольких сантиметров в диаметре.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Локализация:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Наиболее часто эпидермоидные кисты встречаются на лице, шее, спине, коже головы и груди.",
+                      "Однако они могут возникать на любой части тела.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Симптомы:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Большинство эпидермоидных кист безболезненны и не вызывают дискомфорта.",
+                      "При инфицировании киста может покраснеть, воспалиться, стать болезненной и начать выделять густое, зловонное содержимое.",
+                      "В некоторых случаях можно заметить центральное отверстие (пора), через которое может выходить кератин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Причины:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Обычно кисты формируются при блокировке волосяного фолликула или сальной железы, что приводит к накоплению кератина под кожей.",
+                      "Они также могут возникнуть в результате травмы кожи — порезов, акне или хирургического вмешательства.",
+                      "Генетическая предрасположенность играет роль: у некоторых людей склонность к таким кистам выше.",
+                      "Некоторые наследственные синдромы (например, синдром Гарднера) могут сопровождаться множественными эпидермоидными кистами.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Лечение:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Наблюдение: В большинстве случаев лечение не требуется, если киста не вызывает дискомфорта или не инфицирована.",
+                      "Дренаж или удаление: При воспалении или дискомфорте врач может вскрыть кисту или хирургически её удалить.",
+                      "Стероидные инъекции: Применяются для уменьшения воспаления, если киста отёчна или болезненна.",
+                      "Важно: не пытайтесь выдавливать или прокалывать кисту самостоятельно, это может привести к инфекции или образованию рубцов.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Когда следует обратиться к врачу:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Если киста становится болезненной, покрасневшей или отёчной — это признаки инфекции, требующие лечения.",
+                      "Если киста быстро растёт или меняет форму, её следует показать врачу для исключения других заболеваний.",
+                      "Если киста вызывает выраженные косметические неудобства или физический дискомфорт — может потребоваться хирургическое удаление.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          kr: [
+            {
+              text: "Эпидермоид кисталарнинг асосий хусусиятлари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Одатда кисталар юмалоқ шаклда, силлиқ ва ушлаб кўрилганда эластик бўлади.",
+                      "Киста устидаги тери нормал кўриниши ёки бироз сарғиш рангга эга бўлиши мумкин — бу таркибга боғлиқ.",
+                      "Кистанинг катталиги нўхатдан тортиб, диаметри бир неча сантиметргача бўлади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Жойлашуви:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Эпидермоид кисталар юз, бўйин, орқа, бош териси ва кўкракда кўпроқ учрайди.",
+                      "Аммо улар тананинг ҳар қандай қисмида пайдо бўлиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Белгилари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Эпидермоид кисталарнинг аксарияти оғриқсиз ва ноқулайлик туғдирмайди.",
+                      "Инфекцияланганда киста қизариши, яллиғланиши, оғриқли бўлиши ва қўланса ҳидли қуюқ модда ажрата бошлаши мумкин.",
+                      "Баъзи ҳолларда кератин чиқиши мумкин бўлган марказий тешикни (ғовакни) кўриш мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Сабаблари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Одатда, кисталар соч фолликуласи ёки ёғ бези тиқилиб қолганда ҳосил бўлади, бу эса тери остида кератин тўпланишига олиб келади.",
+                      "Улар терининг шикастланиши — кесилиш, акне ёки жарроҳлик аралашуви натижасида ҳам пайдо бўлиши мумкин.",
+                      "Генетик мойиллик роль ўйнайди: баъзи одамларда бундай кисталарга мойиллик юқори бўлади.",
+                      "Баъзи ирсий синдромлар (масалан, Гарднер синдроми) кўплаб эпидермоид кисталар билан бирга келиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Даволаш:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Кузатув: Аксарият ҳолларда, агар киста безовта қилмаса ёки инфекцияланмаган бўлса, даволаш талаб қилинмайди.",
+                      "Дренаж ёки олиб ташлаш: Яллиғланиш ёки ноқулайлик бўлса, шифокор кистани очиши ёки жарроҳлик йўли билан олиб ташлаши мумкин.",
+                      "Стероид инъекциялар: Киста шишган ёки оғриқли бўлса, яллиғланишни камайтириш учун қўлланилади.",
+                      "Муҳим: кистани ўзингиз сиқиб чиқаришга ёки тешишга уринманг, бу инфекция ёки чандиқлар пайдо бўлишига олиб келиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Шифокорга қачон мурожаат қилиш керак:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Агар киста оғриқли, қизарган ёки шишган бўлса, бу инфекциянинг белгиси ва даволанишни талаб қилади.",
+                      "Агар киста тез ўсса ёки шакли ўзгарса, бошқа касалликларни истисно қилиш учун уни шифокорга кўрсатиш керак.",
+                      "Агар киста косметик ёки жисмоний ноқулайлик туғдирса, жарроҳлик йўли билан олиб ташлаш кўриб чиқилиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          uz: [
+            {
+              text: "Epidermoid kistalarning asosiy xususiyatlari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Odatda kistalar yumaloq shaklda, silliq va ushlab ko‘rilganda elastik bo‘ladi.",
+                      "Kista ustidagi teri normal ko‘rinishi yoki biroz sarg‘ish rangga ega bo‘lishi mumkin — bu tarkibga bog‘liq.",
+                      "Kistaning kattaligi no‘xatdan tortib, diametri bir necha santimetrgacha bo‘ladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Joylashuvi:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Epidermoid kistalar yuz, bo‘yin, orqa, bosh terisi va ko‘krakda ko‘proq uchraydi.",
+                      "Ammo ular tananing har qanday qismida paydo bo‘lishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Belgilar:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Epidermoid kistalarning aksariyati og‘riqsiz va noqulaylik tug‘dirmaydi.",
+                      "Infektsiyalanganda kista qizarishi, yallig‘lanishi, og‘riqli bo‘lishi va qo‘lansa hidli quyuq modda ajrata boshlashi mumkin.",
+                      "Ba'zi hollarda keratin chiqishi mumkin bo‘lgan markaziy teshikni (g‘ovakni) ko‘rish mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Sabablari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Odatda, kistalar soch follikulasi yoki yog‘ bezi tiqilib qolganida hosil bo‘ladi, bu esa teri ostida keratin to‘planishiga olib keladi.",
+                      "Ular terining shikastlanishi — kesilish, akne yoki jarrohlik aralashuvi natijasida ham paydo bo‘lishi mumkin.",
+                      "Genetik moyillik rol o‘ynaydi: ba'zi odamlarda bunday kistalarga moyillik yuqori bo‘ladi.",
+                      "Ba'zi irsiy sindromlar (masalan, Gardner sindromi) ko‘plab epidermoid kistalar bilan birga kelishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Davolash:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Kuzatish: Aksariyat hollarda, agar kista bezovta qilmasa yoki infektsiyalanmagan bo‘lsa, davolash talab qilinmaydi.",
+                      "Drenaj yoki olib tashlash: Yallig‘lanish yoki noqulaylik bo‘lsa, shifokor kistani ochishi yoki jarrohlik yo‘li bilan olib tashlashi mumkin.",
+                      "Steroid inyektsiyalar: Kista shishgan yoki og‘riqli bo‘lsa, yallig‘lanishni kamaytirish uchun qo‘llaniladi.",
+                      "Muhim: kistani o‘zingiz siqib chiqarishga yoki teshishga urinmang, bu infektsiya yoki chandiqlar paydo bo‘lishiga olib kelishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Shifokorga qachon murojaat qilish kerak:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Agar kista og‘riqli, qizargan yoki shishgan bo‘lsa, bu infektsiyaning belgisi va davolanishni talab qiladi.",
+                      "Agar kista tez o‘ssa yoki shakli o‘zgarsa, boshqa kasalliklarni istisno qilish uchun uni shifokorga ko‘rsatish kerak.",
+                      "Agar kista kosmetik yoki jismoniy noqulaylik tug‘dirsa, jarrohlik yo‘li bilan olib tashlash ko‘rib chiqilishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Summary:",
+          kr: "Хулоса",
+          uz: "Xulosa:",
+          ru: "Вывод:",
+        },
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Epidermoid cysts are generally harmless and often do not require treatment. However, if they become infected or problematic, professional medical care may be needed to drain or remove them. If you are concerned about any skin growth or changes, it’s always a good idea to consult with a healthcare provider for an accurate diagnosis and appropriate treatment.",
+          kr: "Эпидермоид кисталар одатда зарарсиз бўлиб, даволашни талаб қилмайди. Аммо инфекция ёки бошқа муаммолар бўлса, тиббий ёрдам керак бўлиши мумкин. Теридаги ўзгаришларга шубҳа туғилса, аниқ ташхис қўйиш ва тўғри даволаш усулини танлаш учун шифокорга мурожаат қилиш тавсия этилади.",
+          uz: "Epidermoid kistalar odatda zararsiz bo‘lib, davolashni talab qilmaydi. Ammo infeksiya yoki boshqa muammolar bo‘lsa, tibbiy yordam kerak bo‘lishi mumkin. Teridagi o‘zgarishlarga shubha tug‘ilsa, aniq tashxis qo‘yish va to‘g‘ri davolash usulini tanlash uchun shifokorga murojaat qilish tavsiya etiladi.",
+          ru: "Эпидермоидные кисты, как правило, безвредны и не требуют лечения. Однако при инфицировании или других проблемах может понадобиться медицинская помощь. При любых сомнениях по поводу изменений на коже рекомендуется обратиться к врачу для точной диагностики и выбора подходящего лечения.",
         },
       },
     ],
