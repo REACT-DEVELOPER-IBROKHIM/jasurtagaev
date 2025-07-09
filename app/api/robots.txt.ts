@@ -15,8 +15,9 @@ export default function handler(
     Disallow: /404
     Disallow: /500
     Allow: /
-    Sitemap: https://example.com/sitemap-en.xml
-    Sitemap: https://example.com/sitemap-fr.xml
-    Sitemap: https://example.com/sitemap-es.xml
+    Sitemap: https://jasurtagaev.com/sitemap-en.xml
+    Sitemap: https://jasurtagaev.com/sitemap-ru.xml
+    Sitemap: https://jasurtagaev.com/sitemap-uz.xml
+    Sitemap: https://jasurtagaev.com/sitemap-kr.xml
   `);
 }
