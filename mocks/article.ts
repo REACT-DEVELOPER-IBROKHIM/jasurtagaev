@@ -22,7 +22,7 @@ export const ARTICLES_MOCK = [
       ru: "Читать далее",
       kr: "Кўпроқ ўқиш",
     },
-    isPopular: false,
+    isFeatured: true,
     structure: [
       {
         elementType: "heading",
@@ -659,37 +659,37 @@ export const ARTICLES_MOCK = [
   },
   {
     id: 2,
-    slug: "atheromas-ateromalar-атеромы-атеромалар",
+    slug: "keratoacanthoma-keratoacanthoma-кератоакантома-кератоакантома",
     title: {
-      kr: "Атеромалар",
-      uz: "Ateromalar",
-      en: "Atheromas",
-      ru: "Атеромы",
+      kr: "Кератоакантома",
+      uz: "Keratoakantoma",
+      en: "Keratoacanthoma",
+      ru: "Кератоакантома",
     },
     description: {
-      en: "Atheromas, also known as sebaceous cysts or epidermoid cysts, are benign (non-cancerous) lumps or growths that develop within the skin, typically caused by the accumulation of sebum (an oily substance produced by sebaceous glands). These cysts are generally slow-growing and can be found in various parts of the body, most commonly on the face, neck, and back.",
-      kr: "Атеромалар, шунингдек, ёғ кисталари ёки эпидермоид кисталар деб ҳам аталади, терида ривожланадиган хавфсиз (рак эмас) зичлашмалар ёки неоплазмалардир. Улар одатда тери ёғининг (ёғ безлари ишлаб чиқарадиган ёғ моддаси) тўпланиши натижасида юзага келади. Бу кисталар одатда секин ўсади ва тананинг турли қисмларида, кўпинча юз, бўйин ва орқада учраши мумкин.",
-      uz: "Ateromalar, shuningdek, yog‘ kistalari yoki epidermoid kistalar deb ham ataladi, terida rivojlanadigan xavfsiz (rak emas) zichlashmalar yoki neoplazmalardir. Ular odatda teri yog‘ining (yog‘ bezlari ishlab chiqaradigan yog‘ moddasi) to‘planishi natijasida yuzaga keladi. Bu kistalar odatda sekin o‘sadi va tananing turli qismlarida, ko‘pincha yuz, bo‘yin va orqada uchrashi mumkin.",
-      ru: "Атеромы, также известные как сальные кисты или эпидермоидные кисты, — это доброкачественные (не раковые) уплотнения или новообразования, которые развиваются в коже. Они обычно возникают в результате накопления кожного сала (жирного вещества, вырабатываемого сальными железами). Эти кисты, как правило, растут медленно и могут встречаться в различных частях тела, чаще всего на лице, шее и спине.",
+      en: "Keratoacanthoma (KA) is a benign but often rapidly growing skin tumor that resembles squamous cell carcinoma (SCC). It is typically considered a low-grade, well-differentiated form of SCC. Although it generally has a good prognosis and may resolve on its own, keratoacanthomas can be challenging to distinguish from squamous cell carcinomas, which can be malignant.",
+      kr: "Кератоакантома (КА) — хавфсиз, аммо тез ўсувчи тери ўсмаси бўлиб, ясси ҳужайрали тери саратонига ўхшайди. Одатда, паст даражадаги хавфли, яхши дифференциаллашган ЯҲК шакли сифатида қаралади. Кератоакантома кўпинча ижобий прогнозга эга ва ўз-ўзидан йўқолиши мумкин бўлса-да, уни хавфли бўлиши эҳтимоли бор ясси ҳужайрали саратондан фарқлаш қийин.",
+      uz: "Keratoakantoma (KA) — xavfsiz, ammo tez o‘suvchi teri o‘smalari bo‘lib, yas­si hujayrali teri saratoniga o‘xshaydi. Odatda, past darajadagi xavfli, yaxshi differentsiallashgan YAHK shakli sifatida qaraladi. Keratoakantoma ko‘pincha ijobiy prognozga ega va o‘z-o‘zidan yo‘qolishi mumkin bo‘lsa-da, uni xavfli bo‘lishi ehtimoli bor yas­si hujayrali saratondan farqlash qiyin.",
+      ru: "Кератоакантома (КА) — это доброкачественная, но часто быстрорастущая опухоль кожи, которая напоминает плоскоклеточный рак кожи (ПКР). Обычно её рассматривают как низкозлокачественную, хорошо дифференцированную форму ПКР. Хотя кератоакантома, как правило, имеет благоприятный прогноз и может исчезнуть самостоятельно, её сложно отличить от плоскоклеточного рака, который может быть злокачественным.",
     },
-    image: "/article-images/ath/image-1.jpg",
-    date: "2025-06-22",
+    image: "/article-images/ka/image-1.jpg",
+    date: "2025-06-18",
     linkText: {
       uz: "Ko'proq o'qish",
       en: "Read more",
       ru: "Читать далее",
       kr: "Кўпроқ ўқиш",
     },
-    isPopular: true,
+    isFeatured: true,
     structure: [
       {
         elementType: "heading",
         level: 1,
         content: {
-          en: "Atheromas",
-          kr: "Атеромалар",
-          uz: "Ateromalar",
-          ru: "Атеромы",
+          en: "Keratoacanthoma",
+          kr: "Кератоакантома",
+          uz: "Keratoakantoma",
+          ru: "Кератоакантома",
         },
       },
       {
@@ -697,31 +697,31 @@ export const ARTICLES_MOCK = [
         elements: [
           {
             elementType: "image",
-            content: "/article-images/ath/image-1.jpg",
+            content: "/article-images/ka/image-1.jpg",
           },
           {
             elementType: "image",
-            content: "/article-images/ath/image-2.jpg",
+            content: "/article-images/ka/image-2.jpeg",
           },
         ],
       },
       {
         elementType: "paragraph",
         content: {
-          en: "Atheromas, also known as sebaceous cysts or epidermoid cysts, are benign (non-cancerous) lumps or growths that develop within the skin, typically caused by the accumulation of sebum (an oily substance produced by sebaceous glands). These cysts are generally slow-growing and can be found in various parts of the body, most commonly on the face, neck, and back.",
-          kr: "Атеромалар, шунингдек, ёғ кисталари ёки эпидермоид кисталар деб ҳам аталади, терида ривожланадиган хавфсиз (рак эмас) зичлашмалар ёки неоплазмалардир. Улар одатда тери ёғининг (ёғ безлари ишлаб чиқарадиган ёғ моддаси) тўпланиши натижасида юзага келади. Бу кисталар одатда секин ўсади ва тананинг турли қисмларида, кўпинча юз, бўйин ва орқада учраши мумкин.",
-          uz: "Ateromalar, shuningdek, yog‘ kistalari yoki epidermoid kistalar deb ham ataladi, terida rivojlanadigan xavfsiz (rak emas) zichlashmalar yoki neoplazmalardir. Ular odatda teri yog‘ining (yog‘ bezlari ishlab chiqaradigan yog‘ moddasi) to‘planishi natijasida yuzaga keladi. Bu kistalar odatda sekin o‘sadi va tananing turli qismlarida, ko‘pincha yuz, bo‘yin va orqada uchrashi mumkin.",
-          ru: "Атеромы — это доброкачественные, медленно растущие кисты, вызванные закупоркой сальных желез. Они, как правило, безвредны, но могут воспаляться или увеличиваться в размерах. Методы лечения включают дренаж, хирургическое удаление и антибиотики при инфекции. Поддержание чистоты кожи и лечение акне помогают предотвратить их появление. Если атерома вызывает боль, дискомфорт или эстетическую проблему — стоит обратиться к врачу.",
+          en: "Keratoacanthoma (KA) is a benign but often rapidly growing skin tumor that resembles squamous cell carcinoma (SCC). It is typically considered a low-grade, well-differentiated form of SCC. Although it generally has a good prognosis and may resolve on its own, keratoacanthomas can be challenging to distinguish from squamous cell carcinomas, which can be malignant.",
+          kr: "Кератоакантома (КА) — хавфсиз, аммо тез ўсувчи тери ўсмаси бўлиб, ясси ҳужайрали тери саратонига ўхшайди. Одатда, паст даражадаги хавфли, яхши дифференциаллашган ЯҲК шакли сифатида қаралади. Кератоакантома кўпинча ижобий прогнозга эга ва ўз-ўзидан йўқолиши мумкин бўлса-да, уни хавфли бўлиши эҳтимоли бор ясси ҳужайрали саратондан фарқлаш қийин.",
+          uz: "Keratoakantoma (KA) — xavfsiz, ammo tez o‘suvchi teri o‘smalari bo‘lib, yas­si hujayrali teri saratoniga o‘xshaydi. Odatda, past darajadagi xavfli, yaxshi differentsiallashgan YAHK shakli sifatida qaraladi. Keratoakantoma ko‘pincha ijobiy prognozga ega va o‘z-o‘zidan yo‘qolishi mumkin bo‘lsa-da, uni xavfli bo‘lishi ehtimoli bor yas­si hujayrali saratondan farqlash qiyin.",
+          ru: "Кератоакантома (КА) — это доброкачественная, но часто быстрорастущая опухоль кожи, которая напоминает плоскоклеточный рак кожи (ПКР). Обычно её рассматривают как низкозлокачественную, хорошо дифференцированную форму ПКР. Хотя кератоакантома, как правило, имеет благоприятный прогноз и может исчезнуть самостоятельно, её сложно отличить от плоскоклеточного рака, который может быть злокачественным.",
         },
       },
       {
         elementType: "heading",
         level: 3,
         content: {
-          en: "Key Features of Atheromas:",
-          kr: "Атеромаларнинг асосий хусусиятлари",
-          uz: "Ateromalar asosiy xususiyatlari",
-          ru: "Ключевые особенности атером",
+          en: "Key Features of Keratoacanthoma:",
+          kr: "Кератоакантоманинг асосий хусусиятлари:",
+          uz: "Keratoakantomaning asosiy xususiyatlari:",
+          ru: "Основные характеристики Кератоакантомы:",
         },
       },
       {
@@ -735,28 +735,38 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     en: [
-                      "Shape: Atheromas are typically round or oval, with a smooth surface.",
-                      "Color: They are usually the same color as the skin or slightly yellowish, due to the sebum inside.",
-                      "Size: They can vary in size, from small (a few millimeters) to large (several centimeters in diameter).",
-                      "Texture: Atheromas are generally firm and movable under the skin, as they are filled with a thick, oily substance.",
-                      "Opening: Some atheromas may have a small opening at the surface of the skin, through which the sebum can occasionally leak out, leading to the formation of a blackhead or an unpleasant odor.",
+                      "Shape: KA usually appears as a dome-shaped, raised nodule or mass with a central crater filled with keratin (the protein found in skin and nails). This gives it the characteristic 'volcano-like' appearance.",
+                      "Size: It typically ranges from 1 to 3 cm in diameter, although it can sometimes grow larger.",
+                      "Color: The lesion may be flesh-colored, red, or brown. The center may be keratinous (yellowish or white), often forming a scab or crust.",
+                      "Surface: The surface is often smooth or slightly rough and scaly, with a prominent central keratin plug.",
                     ],
                   },
                 },
               ],
             },
             {
-              text: "Causes:",
+              text: "Location:",
               elements: [
                 {
                   elementType: "list",
                   content: {
                     en: [
-                      "Blocked Sebaceous Gland: The primary cause of an atheroma is a blocked sebaceous gland or hair follicle. When the duct that drains sebum becomes blocked, the oil accumulates, creating a cyst.",
-                      "Trauma or Skin Injury: A previous injury or skin trauma, such as a scratch or a puncture, can lead to a cyst developing if the sebaceous gland or follicle becomes damaged.",
-                      "Genetic Factors: In some cases, atheromas may run in families, suggesting a genetic predisposition.",
-                      "Other Skin Conditions: Certain skin conditions, such as acne, can increase the likelihood of developing atheromas due to the involvement of sebaceous glands.",
-                      "Hormonal Changes: Hormonal fluctuations during puberty, pregnancy, or menopause can contribute to the formation of these cysts.",
+                      "Common Areas: Keratoacanthomas are most commonly found on sun-exposed areas of the skin, such as the face, ears, neck, upper extremities, and scalp.",
+                      "Frequency: They are more common in older adults (especially those over 50 years old) and people with fair skin, due to the cumulative effects of sun exposure.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Growth Pattern:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Rapid Growth: One of the hallmark features of keratoacanthoma is its rapid growth, often reaching its full size within a few weeks to months.",
+                      "Spontaneous Regression: In many cases, KA will regress spontaneously after several months (typically 6–12 months), shrinking and flattening out on its own. However, this can leave behind scars or pigment changes.",
                     ],
                   },
                 },
@@ -769,11 +779,24 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     en: [
-                      "Painless Lump: Atheromas are often painless and may not cause any symptoms unless they become infected or inflamed.",
-                      "Swelling or Redness: If the cyst becomes infected, it may become red, swollen, and tender to the touch. Infected cysts may also release pus.",
-                      "Discomfort: Atheromas can sometimes cause discomfort if they are located in an area that experiences frequent friction, such as the armpits or back.",
-                      "Unpleasant Odor: If the cyst becomes infected or ruptures, it may release a foul-smelling discharge.",
-                      "Enlargement: Over time, some atheromas may slowly enlarge.",
+                      "Painless: Keratoacanthomas are typically painless, though they may become itchy or tender as they grow or become ulcerated.",
+                      "Cosmetic Concerns: The appearance of the lesion is often the primary concern, especially if it appears on the face or other visible areas.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Causes and Risk Factors:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "UV Exposure: Chronic sun exposure is a significant risk factor for developing KA. The lesion often appears in areas with the most sun exposure over time.",
+                      "Immunosuppression: Individuals who are immunocompromised (e.g., organ transplant recipients, those on immunosuppressive drugs) may be at higher risk for developing KA.",
+                      "Age: KA is more common in older adults, typically those over 50, although it can occur at any age.",
+                      "Genetic Predisposition: While not hereditary, individuals with genetic skin conditions (like xeroderma pigmentosum, a condition that increases skin cancer risk due to UV damage) may be at increased risk.",
                     ],
                   },
                 },
@@ -786,9 +809,23 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     en: [
-                      "Physical Examination: A healthcare provider typically diagnoses atheromas based on their appearance and the patient’s medical history.",
-                      "Ultrasound: If there is any uncertainty about the nature of the cyst, an ultrasound may be used to check for other conditions or complications.",
-                      "Biopsy: In rare cases, if the cyst does not resolve or if it shows signs of being cancerous (though this is extremely rare), a biopsy may be performed to rule out malignancy.",
+                      "Clinical Examination: KA is often diagnosed based on its characteristic appearance: a dome-shaped nodule with a central keratin-filled crater.",
+                      "Skin Biopsy: A skin biopsy is essential for distinguishing KA from other skin lesions, particularly squamous cell carcinoma (SCC). A biopsy will show:",
+                      {
+                        text: "Histological Features:",
+                        elements: [
+                          {
+                            elementType: "list",
+                            content: {
+                              en: [
+                                "Exophytic growth: The lesion grows outward from the skin.",
+                                "Central keratin plug: A central keratinous mass or plug is commonly present.",
+                                "Mild atypia in cells at the periphery of the tumor.",
+                              ],
+                            },
+                          },
+                        ],
+                      },
                     ],
                   },
                 },
@@ -801,12 +838,26 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     en: [
-                      "Observation: If an atheroma is not causing symptoms or discomfort, it may not require treatment. In many cases, atheromas remain stable or even shrink over time.",
-                      "Drainage: If the cyst becomes inflamed or infected, it may be drained to relieve the pressure and remove the trapped sebum. This can be done by a healthcare provider.",
-                      "Incision and Drainage: In cases where the cyst is painful or infected, a doctor may perform a small incision to drain the cyst and relieve symptoms.",
-                      "Surgical Removal: The definitive treatment for atheromas is surgical removal, which involves excising the entire cyst and the surrounding tissue. This prevents the cyst from returning. It is usually done under local anesthesia in a clinical setting.",
-                      "Antibiotics: If the atheroma becomes infected, antibiotics may be prescribed to treat the infection before further treatment is performed.",
-                      "Steroid Injections: In some cases, corticosteroid injections may help reduce inflammation, but they do not remove the cyst.",
+                      "Surgical Excision: The most common and definitive treatment for keratoacanthoma is surgical excision, especially if the lesion is causing cosmetic concerns or if there's suspicion of malignant transformation. Excision typically results in a low recurrence rate.",
+                      "Curettage and Electrodessication: This technique involves scraping the lesion off and using electrical currents to remove remaining tumor tissue. It's typically reserved for smaller lesions and those that are not located in high-risk areas (e.g., face).",
+                      "Cryotherapy: In some cases, cryotherapy (freezing) may be used to treat KA, especially in lesions that are not large or deep.",
+                      "Topical Treatments: If the lesion is small and superficial, topical treatments like 5-fluorouracil (5-FU) or imiquimod may be used. These treatments are generally not as effective as surgical excision but may be considered for cases where surgery is not preferred.",
+                      "Observation: In cases where the lesion is small, non-invasive, and located in a low-risk area, observation may be an option, especially since KA can often resolve on its own. However, because of its potential to mimic squamous cell carcinoma, biopsy and close monitoring are essential.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Prognosis:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Benign Nature: Keratoacanthomas are generally benign and are not considered life-threatening. However, they can cause significant cosmetic damage or leave scars after resolution.",
+                      "Recurrence: If not fully excised or if the initial diagnosis is uncertain, KA can recur. If the lesion is left untreated, it may grow larger and become ulcerated.",
+                      "Malignant Potential: While keratoacanthomas are typically benign, they can sometimes transform into squamous cell carcinoma (SCC), particularly if not adequately treated. This is why a biopsy and appropriate treatment are important to rule out malignant behavior.",
                     ],
                   },
                 },
@@ -819,25 +870,8 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     en: [
-                      "Good Skin Hygiene: Maintaining proper skin hygiene can help prevent blocked pores and reduce the risk of developing atheromas. Regular cleansing of the skin can help prevent the buildup of oils and dead skin cells that can lead to cyst formation.",
-                      "Avoiding Skin Trauma: Avoiding skin injuries or trauma to areas prone to atheromas can help reduce the risk of their formation.",
-                      "Treatment of Acne: Managing acne with appropriate treatments, such as topical medications, can help prevent the development of atheromas in areas affected by acne.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "When to Seek Medical Attention:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    en: [
-                      "Infected or Inflamed Cyst: If the atheroma becomes painful, red, swollen, or starts to drain pus, it may be infected and require medical attention.",
-                      "Rapid Growth: If the cyst grows rapidly or becomes unusually large, it should be evaluated by a doctor to rule out other potential conditions.",
-                      "Recurrent Cysts: If an atheroma reoccurs after treatment or removal, further evaluation and treatment may be necessary.",
-                      "Cosmetic Concerns: If the cyst is in a visible area and is causing cosmetic concerns, a healthcare provider can help with removal options.",
+                      "Sun Protection: Since UV radiation is a major risk factor for KA, using sunscreen, wearing protective clothing, and avoiding excessive sun exposure (especially during peak hours) are essential steps in prevention.",
+                      "Skin Surveillance: Regular self-exams and dermatological check-ups are important for individuals at risk of developing skin tumors like KA, especially those with a history of sun exposure.",
                     ],
                   },
                 },
@@ -852,28 +886,38 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     ru: [
-                      "Форма: Обычно округлая или овальная, с гладкой поверхностью.",
-                      "Цвет: Совпадает с цветом кожи или может быть слегка желтоватым (из-за содержащегося сала).",
-                      "Размер: Может варьироваться — от нескольких миллиметров до нескольких сантиметров в диаметре.",
-                      "Консистенция: Плотные на ощупь, подвижны под кожей, так как заполнены густым, жирным веществом.",
-                      "Отверстие: У некоторых атером имеется небольшое отверстие на коже, через которое сало может выходить наружу, иногда вызывая появление черной точки или неприятный запах.",
+                      "Форма: Кератоакантома (КА) обычно выглядит как куполообразный, приподнятый узел или опухоль с центральным кратером, заполненным кератином (белком, содержащимся в коже и ногтях). Это придаёт ей характерный «вулканический» вид.",
+                      "Размер: Обычно от 1 до 3 см в диаметре, но может достигать больших размеров.",
+                      "Цвет: Поражение может быть телесного, красного или коричневого цвета. В центре — кератиновая (желтоватая или белая) масса, часто образующая корку или струп.",
+                      "Поверхность: Часто гладкая или слегка шероховатая, чешуйчатая, с выраженной центральной кератиновой пробкой.",
                     ],
                   },
                 },
               ],
             },
             {
-              text: "Причины появления:",
+              text: "Локализация:",
               elements: [
                 {
                   elementType: "list",
                   content: {
                     ru: [
-                      "Закупорка сальной железы: Основная причина атеромы — это закупорка протока сальной железы или волосяного фолликула.",
-                      "Травма кожи: Повреждение кожи (царапина, укол и т.д.) может привести к развитию кисты, если нарушается структура сальной железы.",
-                      "Генетическая предрасположенность: В некоторых случаях атеромы могут быть наследственными.",
-                      "Кожные заболевания: Заболевания кожи, такие как акне, увеличивают риск образования атером.",
-                      "Гормональные изменения: Гормональные всплески в пубертате, при беременности или менопаузе также способствуют их формированию.",
+                      "Частые зоны: Кератоакантомы чаще всего возникают на участках кожи, подверженных воздействию солнца: лице, ушах, шее, верхних конечностях и коже головы.",
+                      "Частота: Чаще встречаются у пожилых людей (особенно старше 50 лет) и у светлокожих из-за кумулятивного воздействия ультрафиолетовых лучей.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Характер роста:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Быстрый рост: Отличительная черта Кератоакантомы (КА) — её быстрое увеличение, часто достигающее максимального размера за несколько недель или месяцев.",
+                      "Спонтанная регрессия: Во многих случаях КА исчезает самостоятельно через несколько месяцев (обычно в течение 6–12 месяцев), уменьшаясь и уплощаясь. Однако это может привести к образованию рубцов или изменению пигментации.",
                     ],
                   },
                 },
@@ -886,11 +930,24 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     ru: [
-                      "Безболезненное уплотнение: Атеромы часто не вызывают боли и не сопровождаются симптомами, если не инфицированы.",
-                      "Покраснение и отек: При инфицировании киста становится красной, припухлой и болезненной.",
-                      "Неприятный запах: При вскрытии или инфицировании возможны выделения с неприятным запахом.",
-                      "Дискомфорт: Могут вызывать неудобства, особенно если расположены в зонах трения (подмышки, спина).",
-                      "Увеличение в размере: Со временем могут постепенно увеличиваться.",
+                      "Безболезненность: Как правило, Кератоакантома (КА) не вызывает боли, хотя может чесаться или становиться чувствительной при росте или изъязвлении.",
+                      "Косметический дискомфорт: Внешний вид поражения — основная причина беспокойства, особенно если оно расположено на лице или других открытых участках.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Причины и факторы риска:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "УФ-излучение: Хроническое воздействие солнечных лучей — значительный фактор риска. Поражения часто появляются в наиболее подверженных солнцу участках кожи.",
+                      "Иммуносупрессия: Люди с ослабленным иммунитетом (например, получатели трансплантатов органов, пациенты на иммуносупрессивной терапии) подвержены более высокому риску.",
+                      "Возраст: КА чаще встречается у пожилых людей, обычно старше 50 лет, но может возникнуть в любом возрасте.",
+                      "Генетическая предрасположенность: Хотя Кератоакантома (КА) не передаётся по наследству, люди с генетическими кожными заболеваниями (например, ксеродерма пигментозум) подвержены повышенному риску.",
                     ],
                   },
                 },
@@ -903,9 +960,23 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     ru: [
-                      "Физикальный осмотр: Врач диагностирует атерому на основании её внешнего вида и истории болезни.",
-                      "УЗИ: При сомнениях проводят ультразвуковое исследование для исключения других патологий.",
-                      "Биопсия: В редких случаях, если киста не проходит или вызывает подозрение на злокачественность (что крайне редко), может быть выполнена биопсия.",
+                      "Клиническое обследование: Кератоакантома (КА) часто диагностируют по её характерному виду: куполообразный узел с центральным кратером, заполненным кератином.",
+                      "Биопсия кожи: Необходима для отличия Кератоакантомы (КА) от других кожных образований, особенно плоскоклеточного рака (ПКР). Биопсия выявляет:",
+                      {
+                        text: "Гистологические признаки:",
+                        elements: [
+                          {
+                            elementType: "list",
+                            content: {
+                              ru: [
+                                "Экзофитный рост: Поражение растёт наружу от кожи.",
+                                "Центральная кератиновая пробка: Часто присутствует в центре.",
+                                "Слабая атипия клеток по периферии опухоли.",
+                              ],
+                            },
+                          },
+                        ],
+                      },
                     ],
                   },
                 },
@@ -918,12 +989,26 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     ru: [
-                      "Наблюдение: Если киста не вызывает симптомов, лечение может не потребоваться — иногда они остаются стабильными или уменьшаются.",
-                      "Дренирование: При воспалении или инфекции кисту вскрывают и удаляют содержимое.",
-                      "Вскрытие и дренаж: При выраженной боли или инфицировании врач может сделать надрез и освободить кисту от содержимого.",
-                      "Хирургическое удаление: Наиболее эффективное лечение — полное иссечение кисты вместе с капсулой. Проводится под местной анестезией.",
-                      "Антибиотики: При инфекции назначаются антибиотики.",
-                      "Стероидные инъекции: Иногда используются для снятия воспаления, но не устраняют саму кисту.",
+                      "Хирургическое удаление: Наиболее распространённое и эффективное лечение. Особенно показано при косметических беспокойствах или подозрении на злокачественное перерождение. Удаление снижает риск рецидива.",
+                      "Кюретаж и электродеструкция: Соскоб опухоли с последующим прижиганием током. Обычно применяется при небольших и низкорисковых поражениях.",
+                      "Криотерапия: Иногда применяется при не очень глубоких и не крупных поражениях.",
+                      "Местная терапия: При небольших и поверхностных образованиях могут применяться кремы с 5-фторурацилом (5-ФУ) или имиквимодом. Однако они менее эффективны, чем хирургическое удаление.",
+                      "Наблюдение: При маленьких, неинвазивных поражениях в зонах с низким риском иногда возможно наблюдение. Однако из-за сходства с плоскоклеточным раком необходимы биопсия и мониторинг.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Прогноз:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Доброкачественный характер: Кератоакантома (КА), как правило, не представляет угрозы для жизни, но может вызывать косметические дефекты или оставлять рубцы.",
+                      "Рецидив: Возможно, если опухоль не была полностью удалена или диагноз был неточным. При отсутствии лечения может увеличиться и изъязвиться.",
+                      "Злокачественный потенциал: Хотя Кератоакантома (КА) обычно доброкачественна, в редких случаях она может перерасти в плоскоклеточный рак, особенно при неправильном лечении. Поэтому важно проводить биопсию и адекватную терапию.",
                     ],
                   },
                 },
@@ -936,25 +1021,159 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     ru: [
-                      "Гигиена кожи: Регулярное очищение помогает предотвращать закупорку пор и образование атером.",
-                      "Избегание травм кожи: Уменьшает риск повреждения сальных желез.",
-                      "Лечение акне: Своевременное и правильное лечение прыщей снижает риск образования атером.",
+                      "Защита от солнца: Использование солнцезащитных кремов, защитной одежды и избегание длительного пребывания на солнце — важные меры профилактики.",
+                      "Наблюдение за кожей: Регулярные самоосмотры и визиты к дерматологу особенно важны для людей с высоким риском развития кожных опухолей.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          uz: [
+            {
+              text: "Tashqi ko‘rinishi:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Shakli: Keratoakantoma (KA) odatda gumbazsimon, ko‘tarilgan tugun yoki o‘simta ko‘rinishida bo‘ladi, markazida keratin (teri va tirnoqlarda uchraydigan oqsil) bilan to‘lgan krater mavjud. Bu unga xos 'vulqonsimon' ko‘rinish beradi.",
+                      "O‘lchami: Odatda diametri 1 dan 3 sm gacha bo‘ladi, lekin ba'zan kattaroq bo‘lishi mumkin.",
+                      "Rangi: Shikastlanish joyi teri rangida, qizil yoki jigarrang bo‘lishi mumkin. Markazida keratinli (sarg‘ish yoki oq) massa bo‘lib, ko‘pincha qobiq yoki quruq qavat hosil qiladi.",
+                      "Yuzasi: Ko‘pincha silliq yoki biroz dag‘al va tangachali, markazida aniq ko‘rinadigan keratin tiqini mavjud.",
                     ],
                   },
                 },
               ],
             },
             {
-              text: "Когда обратиться к врачу:",
+              text: "Joylashuvi:",
               elements: [
                 {
                   elementType: "list",
                   content: {
-                    ru: [
-                      "Инфицированная киста: Если появляется боль, покраснение, гной — необходим медицинский осмотр.",
-                      "Быстрый рост: Быстро увеличивающиеся кисты требуют дополнительной диагностики.",
-                      "Рецидив: При повторном возникновении — возможно потребуется полное удаление.",
-                      "Эстетические жалобы: Если киста заметна и мешает внешне — врач подберёт метод удаления.",
+                    uz: [
+                      "Ko‘p uchraydigan joylar: Keratoakantomalar ko‘pincha quyosh ta'siriga ko‘proq uchraydigan joylarda paydo bo‘ladi: yuz, quloq, bo‘yin, qo‘l va bosh terisi.",
+                      "Ko‘p uchrash chastotasi: Ular odatda keksa yoshdagi odamlarda (ayniqsa 50 yoshdan oshganlarda) va och terili odamlarda uchraydi, bu quyosh nurlarining uzoq muddatli ta'siri bilan bog‘liq.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "O‘sish xususiyatlari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Tez o‘sish: Keratoakantomaga xos xususiyatlardan biri uning tez o‘sishi bo‘lib, ko‘pincha bir necha hafta yoki oy ichida maksimal o‘lchamga yetadi.",
+                      "Spontan regressiya: Ko‘p hollarda KA bir necha oy (odatda 6–12 oy) ichida o‘z-o‘zidan yo‘qoladi, kichrayib va tekislanib ketadi. Ammo bu chandiq yoki pigmentatsiya o‘zgarishlariga olib kelishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Belgilar:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Og‘riqsiz: Odatda, Keratoakantoma (KA) og‘riq keltirmaydi, lekin o‘sib borishi yoki yaralanishi bilan qichishish yoki sezgirlik paydo bo‘lishi mumkin.",
+                      "Kosmetik noqulaylik: Shikastlanish joyining ko‘rinishi ko‘pincha asosiy tashvish bo‘ladi, ayniqsa u yuz yoki boshqa ochiq joylarda bo‘lsa.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Sabablari va xavf omillari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "UV nurlanishi: Quyosh nurlarining uzoq muddatli ta'siri muhim xavf omilidir. Shikastlanishlar ko‘pincha quyoshga eng ko‘p ta'sir qiladigan teri joylarida paydo bo‘ladi.",
+                      "Immunosupressiya: Immuniteti zaiflashgan odamlar (masalan, organ transplantatsiyasi oluvchilar, immunosupressiv terapiyadagi bemorlar) yuqori xavf ostida bo‘ladi.",
+                      "Yosh: KA odatda keksa yoshdagi odamlarda uchraydi, odatda 50 yoshdan oshganlarda, lekin har qanday yoshda paydo bo‘lishi mumkin.",
+                      "Genetik moyillik: KA irsiy bo‘lmasa-da, genetik teri kasalliklari (masalan, kseroderma pigmentozum) bo‘lgan odamlar yuqori xavf ostida bo‘ladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Tashxis:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Klinik tekshiruv: Keratoakantoma (KA) ko‘pincha uning xos ko‘rinishi asosida tashxis qilinadi: gumbazsimon tugun, markazida keratin bilan to‘lgan krater.",
+                      "Teri biopsiyasi: KAni boshqa teri o‘simtalaridan, ayniqsa, yassi hujayrali saratondan (YHS) farqlash uchun zarur. Biopsiya quyidagilarni aniqlaydi:",
+                      {
+                        text: "Gistologik xususiyatlar:",
+                        elements: [
+                          {
+                            elementType: "list",
+                            content: {
+                              uz: [
+                                "Ekzofit o‘sish: Shikastlanish teridan tashqariga o‘sadi.",
+                                "Markaziy keratin tiqini: Markazda ko‘pincha keratinli massa mavjud.",
+                                "Periferik hujayralarda yengil atipiya.",
+                              ],
+                            },
+                          },
+                        ],
+                      },
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Davolash:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Jarrohlik yo‘li bilan olib tashlash: Eng keng tarqalgan va samarali davolash usuli. Ayniqsa, kosmetik tashvishlar yoki xavfli o‘sma gumoni bo‘lsa tavsiya etiladi. Olib tashlash qaytalanish xavfini kamaytiradi.",
+                      "Kyuretaj va elektrodeststruksiya: O‘simtani qirib olib, keyin tok bilan kuydirish. Odatda kichik va xavfi past shikastlanishlarda qo‘llaniladi.",
+                      "Krioterapiya: Ba'zan chuqur bo‘lmagan va katta bo‘lmagan shikastlanishlarda qo‘llaniladi.",
+                      "Mahalliy terapiya: Kichik va yuzaki o‘simtalarda 5-fluoruratsil (5-FU) yoki imikvimod bilan krem qo‘llanilishi mumkin. Ammo ular jarrohlik yo‘li bilan olib tashlashga qaraganda kamroq samarali.",
+                      "Kuzatish: Kichik, invaziv bo‘lmagan shikastlanishlarda xavfi past bo‘lgan joylarda ba'zan kuzatish mumkin. Ammo yassi hujayrali saraton bilan o‘xshashligi sababli biopsiya va monitoring zarur.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Prognoz:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Xavfsiz tabiati: Keratoakantoma (KA) odatda hayot uchun xavf tug‘dirmaydi, lekin kosmetik nuqsonlarga olib kelishi yoki chandiq qoldirishi mumkin.",
+                      "Qaytalanish: Agar o‘simta to‘liq olib tashlanmagan bo‘lsa yoki tashxis noto‘g‘ri bo‘lsa, qaytalanishi mumkin. Davolanmasa, kattalashib, yaralanishi mumkin.",
+                      "Xavfli bo‘lish ehtimoli: KA odatda xavfsiz bo‘lsa-da, kamdan-kam hollarda, ayniqsa noto‘g‘ri davolashda, yassi hujayrali saratonga aylanishi mumkin. Shu sababli biopsiya va to‘g‘ri davolash muhim.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Oldini olish:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Quyoshdan himoya: Quyoshdan saqlovchi kremlar, himoya kiyimlari va quyoshda uzoq vaqt qolishdan saqlanish muhim profilaktika choralaridir.",
+                      "Teri kuzatuvi: O‘z-o‘zini tekshirish va dermatologga muntazam tashriflar, ayniqsa yuqori xavfli odamlarda, muhim ahamiyatga ega.",
                     ],
                   },
                 },
@@ -969,28 +1188,38 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     kr: [
-                      "Шакли: Одатда юмалоқ ёки овалсимон, юзаси силлиқ.",
-                      "Ранги: Тери рангига мос келади ёки бироз сарғиш бўлиши мумкин (таркибидаги ёғ туфайли).",
-                      "Ўлчами: Диаметри бир неча миллиметрдан бир неча сантиметргача бўлиши мумкин.",
-                      "Консистенсияси: Ушлаб кўрилганда зич, тери остида ҳаракатчан, чунки улар қуюқ, ёғли модда билан тўлдирилган.",
-                      "Тешик: Баъзи атеромаларнинг терисида кичик тешик бўлиб, у орқали ёғ ташқарига чиқиши мумкин, баъзида бу қора нуқта ёки ёқимсиз ҳид пайдо бўлишига олиб келади.",
+                      "Шакли: Кератоакантома (КА) одатда гумбазсимон, кўтарилган тугун ёки ўсма кўринишида бўлади, марказида кератин (тери ва тирноқларда учрайдиган оқсил) билан тўлган кратер мавжуд. Бу унга хос 'вулқонсимон' кўриниш беради.",
+                      "Ўлчами: Одатда диаметри 1 дан 3 см гача бўлади, лекин баъзан каттароқ бўлиши мумкин.",
+                      "Ранги: Шикастланиш жойи тери рангида, қизил ёки жигарранг бўлиши мумкин. Марказида кератинли (сарғиш ёки оқ) масса бўлиб, кўпинча қобиқ ёки қуруқ қават ҳосил қилади.",
+                      "Юзаси: Кўпинча силлиқ ёки бироз дағал ва тангачали, марказида аниқ кўринадиган кератин тиқини мавжуд.",
                     ],
                   },
                 },
               ],
             },
             {
-              text: "Сабаблари:",
+              text: "Жойлашуви:",
               elements: [
                 {
                   elementType: "list",
                   content: {
                     kr: [
-                      "Ёғ безининг тиқилиб қолиши: Атероманинг асосий сабаби ёғ бези йўли ёки соч халтачасининг тиқилиб қолишидир.",
-                      "Терининг шикастланиши: (Тирналиш, санчиш ва ҳ.к.) ёғ безининг тузилиши бузилганда киста ривожланишига олиб келиши мумкин.",
-                      "Генетик мойиллик: Баъзи ҳолларда атеромалар ирсий бўлиши мумкин.",
-                      "Тери касалликлари: Акне каби тери касалликлари атерома ҳосил бўлиш хавфини оширади.",
-                      "Гормонал ўзгаришлар: Пубертат, ҳомиладорлик ёки менопаузадаги гормонал кўтарилишлар ҳам уларнинг шаклланишига ҳисса қўшади.",
+                      "Кўп учрайдиган жойлар: Кератоакантомалар кўпинча қуёш таъсирига кўпроқ учрайдиган жойларда пайдо бўлади: юз, қулоқ, бўйин, қўл ва бош териси.",
+                      "Кўп учраш частотаси: Улар одатда кекса ёшдаги одамларда (айниқса 50 ёшдан ошганларда) ва оч терили одамларда учрайди, бу қуёш нурларининг узоқ муддатли таъсири билан боғлиқ.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Ўсиш хусусиятлари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Тез ўсиш: Кератоакантомага хос хусусиятлардан бири унинг тез ўсиши бўлиб, кўпинча бир неча ҳафта ёки ой ичида максимал ўлчамга етади.",
+                      "Спонтан регрессия: Кўп ҳолларда КА бир неча ой (одатда 6–12 ой) ичида ўз-ўзидан йўқолади, кичрайиб ва текисланиб кетади. Аммо бу чандиқ ёки пигментация ўзгаришларига олиб келиши мумкин.",
                     ],
                   },
                 },
@@ -1003,26 +1232,53 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     kr: [
-                      "Оғриқсиз зичлашув: Атеромалар кўпинча оғриқ келтириб чиқармайди ва инфекцияланмаган бўлса, симптомлар билан кечмайди.",
-                      "Инфекция тушганда: Киста қизаради, шишади ва оғриқли бўлади.",
-                      "Ёқимсиз ҳид: Ёриб кўрилганда ёки инфекция юқтирилганда ёқимсиз ҳидли ажралмалар чиқиши мумкин.",
-                      "Ноқулайлик: Айниқса ишқаланиш зоналарида (қўлтиқ ости, орқа) жойлашган бўлса, ноқулайлик туғдириши мумкин.",
-                      "Катталаштириш: Вақт ўтиши билан аста-секин катталашиши мумкин.",
+                      "Оғриқсиз: Одатда, Кератоакантома (КА) оғриқ келтирмайди, лекин ўсиб бориши ёки яраланиши билан қичишиш ёки сезгирлик пайдо бўлиши мумкин.",
+                      "Косметик ноқулайлик: Шикастланиш жойининг кўриниши кўпинча асосий ташвиш бўлади, айниқса у юз ёки бошқа очиқ жойларда бўлса.",
                     ],
                   },
                 },
               ],
             },
             {
-              text: "Диагностика:",
+              text: "Сабаблари ва хавф омиллари:",
               elements: [
                 {
                   elementType: "list",
                   content: {
                     kr: [
-                      "Кўздан кечириш: Шифокор атеромани ташқи кўриниши ва касаллик тарихига қараб аниқлайди.",
-                      "Ультратовуш текшируви: Шубҳа туғилганда бошқа патологияларни истисно қилиш учун ультратовуш текшируви ўтказилади.",
-                      "Биопсия: Камдан-кам ҳолларда, агар киста ўтиб кетмаса ёки хавфлилигига шубҳа туғилса (бу жуда кам учрайди), биопсия ўтказилиши мумкин.",
+                      "УВ нурланиши: Қуёш нурларининг узоқ муддатли таъсири муҳим хавф омилидир. Шикастланишлар кўпинча қуёшга энг кўп таъсир қиладиган тери жойларида пайдо бўлади.",
+                      "Иммуносупрессия: Иммунитети заифлашган одамлар (масалан, орган трансплантацияси олувчилар, иммуносупрессив терапиядаги беморлар) юқори хавф остида бўлади.",
+                      "Ёш: КА одатда кекса ёшдаги одамларда учрайди, одатда 50 ёшдан ошганларда, лекин ҳар қандай ёшда пайдо бўлиши мумкин.",
+                      "Генетик мойиллик: КА ирсий бўлмаса-да, генетик тери касалликлари (масалан, ксеродерма пигментозум) бўлган одамлар юқори хавф остида бўлади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Ташхис:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Клиник текширув: Кератоакантома (КА) кўпинча унинг хос кўриниши асосида ташхис қилинади: гумбазсимон тугун, марказида кератин билан тўлган кратер.",
+                      "Тери биопсияси: КАни бошқа тери ўсмталарида, айниқса, ясси ҳужайрали саратондан (ЙҲС) фарқлаш учун зарур. Биопсия қуйидагиларни аниқлайди:",
+                      {
+                        text: "Гистологик хусусиятлар:",
+                        elements: [
+                          {
+                            elementType: "list",
+                            content: {
+                              kr: [
+                                "Экзофит ўсиш: Шикастланиш теридан ташқарига ўсади.",
+                                "Марказий кератин тиқини: Марказда кўпинча кератинли масса мавжуд.",
+                                "Периферик ҳужайраларда енгил атипия.",
+                              ],
+                            },
+                          },
+                        ],
+                      },
                     ],
                   },
                 },
@@ -1035,160 +1291,40 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     kr: [
-                      "Кузатув: Агар киста симптомларни келтириб чиқармаса, даволаш талаб қилинмаслиги мумкин – баъзида улар барқарор бўлиб қолади ёки камаяди.",
-                      "Яллиғланиш ёки инфекция бўлса: Киста очилади ва ичидаги суюқлик олиб ташланади.",
-                      "Ёриш ва дренаж: Кучли оғриқ ёки инфекция мавжуд бўлганда, шифокор кесма ясаб, кистани ичидагидан бўшатиши мумкин.",
-                      "Жарроҳлик йўли билан олиб ташлаш: Энг самарали даволаш усули кистани капсуласи билан бирга тўлиқ олиб ташлашдир. Маҳаллий оғриқсизлантириш остида ўтказилади.",
-                      "Антибиотиклар: Инфекцияда антибиотиклар буюрилади.",
-                      "Стероид инъекциялари: Баъзан яллиғланишни йўқотиш учун ишлатилади, лекин кистанинг ўзини йўқотмайди.",
+                      "Жарроҳлик йўли билан олиб ташлаш: Энг кенг тарқалган ва самарали даволаш усули. Айниқса, косметик ташвишлар ёки хавфли ўсма гумони бўлса тавсия этилади. Олиб ташлаш қайта пайдо бўлиш хавфини камайтиради.",
+                      "Кюретаж ва электродеструкция: Ўсмани қириб олиб, кейин ток билан куйдириш. Одатда кичик ва хавфи паст шикастланишларда қўлланилади.",
+                      "Криотерапия: Баъзан чуқур бўлмаган ва катта бўлмаган шикастланишларда қўлланилади.",
+                      "Маҳаллий терапия: Кичик ва юзаки ўсмталарда 5-фторурацил (5-ФУ) ёки имиквимод билан крем қўлланилиши мумкин. Аммо улар жарроҳлик йўли билан олиб ташлашга қараганда камроқ самарали.",
+                      "Кузатиш: Кичик, инвазив бўлмаган шикастланишларда хавфи паст бўлган жойларда баъзан кузатиш мумкин. Аммо ясси ҳужайрали саратон билан ўхшашлиги сабабли биопсия ва мониторинг зарур.",
                     ],
                   },
                 },
               ],
             },
             {
-              text: "Профилактика:",
+              text: "Прогноз:",
               elements: [
                 {
                   elementType: "list",
                   content: {
                     kr: [
-                      "Тери гигиенаси: Мунтазам тозалаш тешикларнинг тиқилиб қолиши ва атер ҳосил бўлишининг олдини олишга ёрдам беради.",
-                      "Тери шикастланишининг олдини олиш: Ёғ безларининг шикастланиш хавфини камайтиради.",
-                      "Ҳуснбузарларни ўз вақтида ва тўғри даволаш: Атерома ҳосил бўлиш хавфини камайтиради.",
+                      "Хавфсиз табиати: Кератоакантома (КА) одатда ҳаёт учун хавф туғдирмайди, лекин косметик нуқсонларга олиб келиши ёки чандиқ қолдириши мумкин.",
+                      "Қайта пайдо бўлиш: Агар ўсма тўлиқ олиб ташланмаган бўлса ёки ташхис нотўғри бўлса, қайта пайдо бўлиши мумкин. Даволанмаса, катталашиб, яраланиши мумкин.",
+                      "Хавфли бўлиш эҳтимоли: КА одатда хавфсиз бўлса-да, камдан-кам ҳолларда, айниқса нотўғри даволашда, ясси ҳужайрали саратонга айланиши мумкин. Шу сабабли биопсия ва тўғри даволаш муҳим.",
                     ],
                   },
                 },
               ],
             },
             {
-              text: "Шифокорга қачон мурожаат қилиш керак:",
+              text: "Олдини олиш:",
               elements: [
                 {
                   elementType: "list",
                   content: {
                     kr: [
-                      "Инфекцияланган киста: Агар оғриқ, қизариш, йиринг пайдо бўлса, тиббий кўрикдан ўтиш керак.",
-                      "Тез ўсиш: Тез катталашаётган кисталар қўшимча ташхис қўйишни талаб қилади.",
-                      "Рецидив: Қайта пайдо бўлганда – тўлиқ олиб ташлаш керак бўлиши мумкин.",
-                      "Эстетик шикоятлар: Агар киста кўзга ташланса ва ташқи томондан халақит берса – шифокор олиб ташлаш усулини танлайди.",
-                    ],
-                  },
-                },
-              ],
-            },
-          ],
-          uz: [
-            {
-              text: "Tashqi ko'rinishi:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    uz: [
-                      "Shakli: Odatda yumaloq yoki ovalsimon, yuzasi silliq.",
-                      "Rangi: Teri rangi bilan mos keladi yoki biroz sariq bo'lishi mumkin (ichidagi yog' tufayli).",
-                      "O'lchami: Bir necha millimetrdan bir necha santimetrgacha o'zgarishi mumkin.",
-                      "Konsistensiyasi: Zich, teri ostida harakatlanuvchi, chunki ular qattiq, yog'li modda bilan to'ldirilgan.",
-                      "Teshik: Ba'zi ateromalarda terida kichik teshik bo'lib, u orqali yog' tashqariga chiqishi mumkin, ba'zida bu qora nuqta yoki yoqimsiz hid paydo bo'lishiga olib keladi.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Sabablari:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    uz: [
-                      "Yog' bezining tiqilib qolishi: Ateromaning asosiy sababi yog' bezining kanali yoki soch folikulining tiqilib qolishidir.",
-                      "Teri shikastlanishi: (tirnalish, sanjish va h.k.) yog' bezining tuzilishi buzilganda kista rivojlanishiga olib kelishi mumkin.",
-                      "Genetik moyillik: Ba'zi hollarda ateromalar irsiy bo'lishi mumkin.",
-                      "Teri kasalliklari: Akne kabi teri kasalliklari ateroma hosil bo'lish xavfini oshiradi.",
-                      "Gormonal o'zgarishlar: Pubertat, homiladorlik yoki menopauzadagi gormonal ko'tarilishlar ham ularning shakllanishiga hissa qo'shadi.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Belgilari:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    uz: [
-                      "Og'riqsiz zichlashuv: Ateromalar ko'pincha og'riq keltirib chiqarmaydi va infektsiyalanmagan bo'lsa, simptomlar bilan kechmaydi.",
-                      "Infektsiya tushganda: Kista qizaradi, shishadi va og'riqli bo'ladi.",
-                      "Yoqimsiz hid: Yorib ko'rilganda yoki infektsiya yuqdirilganda yoqimsiz hidli ajralmalar chiqishi mumkin.",
-                      "Noqulaylik: Ayrim joylarda (qo'ltiq osti, orqa) joylashgan bo'lsa, noqulaylik tug'dirishi mumkin.",
-                      "Kattalashishi: Vaqt o'tishi bilan asta-sekin kattalashishi mumkin.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Diagnostika:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    uz: [
-                      "Ko'zdan kechirish: Shifokor ateromani tashqi korinishi va kasallik tarixiga qarab aniqlaydi.",
-                      "Ultratovush tekshiruvi: Shubha tug'ilganda boshqa patologiyalarni istisno qilish uchun ultratovush tekshiruvi o'tkaziladi.",
-                      "Biopsiya: Kamdan-kam hollarda, agar kista o'tib ketmasa yoki xavfli ekanligiga shubha tug'ilsa (bu juda kam uchraydi), biopsiya o'tkazilishi mumkin.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Davolash:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    uz: [
-                      "Kuzatuv: Agar kista simptomlarni keltirib chiqarmasa, davolash talab qilinmasligi mumkin – ba'zan ular barqaror bo'lib qoladi yoki kamayadi.",
-                      "Yallig'lanish yoki infektsiya bo'lsa: Kista ochiladi va ichidagi suyuqlik olib tashlanadi.",
-                      "Yorish va drenaj: Kuchli og'riq yoki infektsiya mavjud bo'lsa, shifokor kesma yasab, cystani ichidagi moddasidan bo'shatishi mumkin.",
-                      "Jarrohlik yo'li bilan olib tashlash: Eng samarali davolash usuli cystani kapsulasi bilan birga to'liq olib tashlashdir. Mahalliy og'riqsizlantirish ostida o'tkaziladi.",
-                      "Antibiotiklar: Infektsiyada antibiotiklar buyuriladi.",
-                      "Steroid in'ektsiyalari: Ba'zida yallig'lanishni yo'qotish uchun ishlatiladi, lekin cystaning o'zini yo'qotmaydi.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Profilaktika:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    uz: [
-                      "Teri gigienasi: Muntazam tozalash teshiklarning tiqilib qolishi va ateroma hosil bo'lishining oldini olishga yordam beradi.",
-                      "Teri shikastlanishining oldini olish: Yog' bezlarining shikastlanish xavfini kamaytiradi.",
-                      "Husnbuzarlarni o'z vaqtida va to'g'ri davolash: Ateroma hosil bo'lish xavfini kamaytiradi.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Shifokorga qachon murojaat qilish kerak:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    uz: [
-                      "Infektsiyalangan kista: Agar og'riq, qizarish, yiring paydo bo'lsa, tibbiy ko'rikdan o'tish kerak.",
-                      "Tez o'sish: Tez kattalashayotgan cystalar qo'shimcha tashxis qo'yishni talab qiladi.",
-                      "Retsidiv: Qayta paydo bo'lganda – to'liq olib tashlash kerak bo'lishi mumkin.",
-                      "Estetik shikoyatlar: Agar kista ko'zga tashlansa va tashqi tomondan xalokat bersa – shifokor olib tashlash usulini tanlaydi.",
+                      "Қуёшдан ҳимоя: Қуёшдан сақловчи кремлар, ҳимоя кийимлари ва қуёшда узоқ вақт қолишдан сақланиш муҳим профилактика чораларидир.",
+                      "Тери кузатуви: Ўз-ўзини текшириш ва дерматологга мунтазам ташрифлар, айниқса юқори хавфли одамларда, муҳим аҳамиятга эга.",
                     ],
                   },
                 },
@@ -1202,7 +1338,7 @@ export const ARTICLES_MOCK = [
         level: 3,
         content: {
           en: "Summary:",
-          kr: "Хулоса",
+          kr: "Хулоса:",
           uz: "Xulosa:",
           ru: "Вывод:",
         },
@@ -1210,10 +1346,10 @@ export const ARTICLES_MOCK = [
       {
         elementType: "paragraph",
         content: {
-          en: "Atheromas are benign, slow-growing cysts caused by blocked sebaceous glands. They are usually painless and not dangerous, but they can become infected or enlarged. Treatment options include drainage, surgical removal, and antibiotics if the cyst becomes infected. Good skin hygiene and management of skin conditions like acne can help prevent their formation. If you have an atheroma that becomes painful, infected, or cosmetically concerning, it's best to consult a healthcare provider for advice and treatment.",
-          kr: "Атеромалар ёғ безларининг тиқилиб қолиши натижасида юзага келадиган хавфсиз, секин ўсувчи кисталардир. Улар одатда зарарсиз, аммо яллиғланиши ёки катталашиши мумкин. Даволаш усулларига дренаж, жарроҳлик йўли билан олиб ташлаш ва инфекция учун антибиотиклар киради. Терини тоза сақлаш ва ҳуснбузарларни даволаш уларнинг пайдо бўлишининг олдини олишга ёрдам беради. Агар атерома оғриқ, ноқулайлик ёки эстетик муаммони келтириб чиқарса, шифокорга мурожаат қилиш керак.",
-          uz: "Ateromalar yog‘ bezlarining tiqilib qolishi natijasida yuzaga keladigan xavfsiz, sekin o‘suvchi kistalardir. Ular odatda zararli emas, ammo yallig‘lanishi yoki kattalashishi mumkin. Davolash usullariga drenaj, jarrohlik yo‘li bilan olib tashlash va infektsiya uchun antibiotiklar kiradi. Terini toza saqlash va husnbuzarlarni davolash ularning paydo bo‘lishining oldini olishga yordam beradi. Agar ateroma og‘riq, noqulaylik yoki estetik muammoni keltirib chiqarsa, shifokorga murojaat qilish kerak.",
-          ru: "Атеромы — это доброкачественные, медленно растущие кисты, вызванные закупоркой сальных желез. Они, как правило, безвредны, но могут воспаляться или увеличиваться в размерах. Методы лечения включают дренаж, хирургическое удаление и антибиотики при инфекции. Поддержание чистоты кожи и лечение акне помогают предотвратить их появление. Если атерома вызывает боль, дискомфорт или эстетическую проблему — стоит обратиться к врачу.",
+          en: "Keratoacanthoma (KA) is a benign, rapidly growing skin tumor that resembles squamous cell carcinoma. It often regresses spontaneously but can cause significant cosmetic concern or lead to scarring. Treatment typically involves excision or curettage, and the lesion's potential to transform into SCC makes a biopsy critical. Sun protection and regular skin checks are key for preventing and monitoring skin tumors like KA.",
+          kr: "Кератоакантома — хавфсиз, тез ўсувчи тери ўсмаси. Ясси ҳужайрали саратонга ўхшайди, ва кўпинча ўз-ўзидан йўқолади, аммо косметик муаммолар келтириб чиқариши ёки чандиқ қолдириши мумкин. Асосий даволаш — жарроҳлик, ва саратонга айланиш эҳтимоли сабабли биопсия ва кузатув шарт. Профилактика — қуёшдан ҳимоя ва мунтазам текширув.",
+          uz: "Keratoakantoma — xavfsiz, tez o‘suvchi teri o‘smalari. Yas­si hujayrali saratonga o‘xshaydi, va ko‘pincha o‘z-o‘zidan yo‘qoladi, ammo kosmetik muammolar keltirib chiqarishi yoki chandiq qoldirishi mumkin. Asosiy davolash — jarrohlik, va saratonga aylanish ehtimoli sababli biopsiya va kuzatuv shart. Profilaktika — quyoshdan himoya va muntazam tekshiruv.",
+          ru: "Кератоакантома — это доброкачественная, быстрорастущая опухоль кожи, похожая на плоскоклеточный рак. Часто исчезает самостоятельно, но может вызывать косметические проблемы или оставлять рубцы. Основное лечение — хирургическое удаление. Поскольку Кератоакантома может трансформироваться в рак, биопсия и наблюдение обязательны. Профилактика включает защиту от солнца и регулярные кожные осмотры.",
         },
       },
     ],
@@ -1242,7 +1378,7 @@ export const ARTICLES_MOCK = [
       ru: "Читать далее",
       kr: "Кўпроқ ўқиш",
     },
-    isPopular: true,
+    isFeatured: true,
     structure: [
       {
         elementType: "heading",
@@ -1966,1341 +2102,6 @@ export const ARTICLES_MOCK = [
   },
   {
     id: 4,
-    slug: "melanoma-melanoma-меланома-меланома",
-    title: {
-      kr: "Меланома",
-      uz: "Melanoma",
-      en: "Melanoma",
-      ru: "Меланома",
-    },
-    description: {
-      en: "Melanoma is a type of skin cancer that develops from melanocytes, the cells in the skin that produce melanin, the pigment responsible for skin color. Melanoma is one of the most serious types of skin cancer due to its ability to spread (metastasize) to other parts of the body, making early detection and treatment crucial.",
-      kr: "Меланома — тери саратонининг бир тури бўлиб, терининг ранги учун масъул бўлган меланин пигментини ишлаб чиқарадиган тери ҳужайралари — меланотситлардан ривожланади. Меланома тананинг бошқа қисмларига метастаз бериш (тарқалиш) қобилияти туфайли тери саратонининг энг хавфли шаклларидан биридир, шунинг учун эрта ташхис қўйиш ва даволаш жуда муҳимдир.",
-      uz: "Melanoma — teri saratonining bir turi bo‘lib, terining rangi uchun mas’ul bo‘lgan melanin pigmentini ishlab chiqaradigan teri hujayralari — melanotsitlardan rivojlanadi. Melanoma tananing boshqa qismlariga metastaz berish (tarqalish) qobiliyati tufayli teri saratonining eng xavfli shakllaridan biridir, shuning uchun erta tashxis qo‘yish va davolash juda muhimdir.",
-      ru: "Меланома — это тип рака кожи, который развивается из меланоцитов — клеток кожи, вырабатывающих меланин, пигмент, отвечающий за цвет кожи. Меланома является одной из самых опасных форм рака кожи из-за своей способности метастазировать (распространяться) в другие части тела, поэтому ранняя диагностика и лечение крайне важны.",
-    },
-    image: "/article-images/ma/image-1.jpg",
-    date: "2025-06-18",
-    linkText: {
-      uz: "Ko'proq o'qish",
-      en: "Read more",
-      ru: "Читать далее",
-      kr: "Кўпроқ ўқиш",
-    },
-    isPopular: true,
-    structure: [
-      {
-        elementType: "heading",
-        level: 1,
-        content: {
-          en: "Melanoma",
-          kr: "Меланома",
-          uz: "Melanoma",
-          ru: "Меланома",
-        },
-      },
-      {
-        elementType: "wrapper",
-        elements: [
-          {
-            elementType: "image",
-            content: "/article-images/ma/image-1.jpg",
-          },
-          {
-            elementType: "image",
-            content: "/article-images/ma/image-2.jpg",
-          },
-        ],
-      },
-      {
-        elementType: "paragraph",
-        content: {
-          en: "Melanoma is a type of skin cancer that develops from melanocytes, the cells in the skin that produce melanin, the pigment responsible for skin color. Melanoma is one of the most serious types of skin cancer due to its ability to spread (metastasize) to other parts of the body, making early detection and treatment crucial.",
-          kr: "Меланома — тери саратонининг бир тури бўлиб, терининг ранги учун масъул бўлган меланин пигментини ишлаб чиқарадиган тери ҳужайралари — меланотситлардан ривожланади. Меланома тананинг бошқа қисмларига метастаз бериш (тарқалиш) қобилияти туфайли тери саратонининг энг хавфли шаклларидан биридир, шунинг учун эрта ташхис қўйиш ва даволаш жуда муҳимдир.",
-          uz: "Melanoma — teri saratonining bir turi bo‘lib, terining rangi uchun mas’ul bo‘lgan melanin pigmentini ishlab chiqaradigan teri hujayralari — melanotsitlardan rivojlanadi. Melanoma tananing boshqa qismlariga metastaz berish (tarqalish) qobiliyati tufayli teri saratonining eng xavfli shakllaridan biridir, shuning uchun erta tashxis qo‘yish va davolash juda muhimdir.",
-          ru: "Меланома — это тип рака кожи, который развивается из меланоцитов — клеток кожи, вырабатывающих меланин, пигмент, отвечающий за цвет кожи. Меланома является одной из самых опасных форм рака кожи из-за своей способности метастазировать (распространяться) в другие части тела, поэтому ранняя диагностика и лечение крайне важны.",
-        },
-      },
-      {
-        elementType: "heading",
-        level: 3,
-        content: {
-          en: "Key Features of Melanoma:",
-          kr: "Меланоманинг асосий хусусиятлари:",
-          uz: "Melanomaning asosiy xususiyatlari:",
-          ru: "Основные особенности меланомы:",
-        },
-      },
-      {
-        elementType: "list",
-        content: {
-          en: [
-            {
-              text: "Appearance:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    en: [
-                      "Color: Melanomas can vary in color, often being brown, black, tan, red, blue, or white, or a combination of these.",
-                      "Shape: The lesion may be asymmetrical, with irregular borders.",
-                      "Size: Melanomas often exceed 6 mm in diameter (about the size of a pencil eraser) but can be smaller, particularly in the early stages.",
-                      "Texture: The surface of a melanoma may appear uneven, and the lesion may become raised over time.",
-                      "Changes: The lesion may grow rapidly, itch, bleed, or ulcerate.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Types of Melanoma:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    en: [
-                      "Superficial Spreading Melanoma: The most common type, often flat or slightly elevated with irregular borders. It typically grows horizontally before it grows deeper into the skin.",
-                      "Nodular Melanoma: Usually more aggressive, presenting as a raised, dark blue-black or red nodule that grows vertically into the skin.",
-                      "Lentigo Maligna Melanoma: Often found in older adults and tends to occur in sun-exposed areas. It starts as a flat, irregularly pigmented patch and slowly grows.",
-                      "Acral Lentiginous Melanoma: This type occurs on non-hair-bearing surfaces like the palms of the hands, soles of the feet, or under the nails. It is more common in individuals with darker skin.",
-                      "Desmoplastic Melanoma: A rarer form of melanoma that typically has a fibrous texture and may be difficult to diagnose clinically due to its subtle appearance.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Causes and Risk Factors:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    en: [
-                      "Sun Exposure: The most significant risk factor for melanoma is excessive UV radiation exposure from the sun or tanning beds. This damages the DNA in skin cells, increasing the risk of mutations.",
-                      "Intermittent, intense sun exposure (e.g., sunburns) increases the risk of melanoma, especially in those who are fair-skinned and prone to burning.",
-                      "Genetics: A family history of melanoma increases the risk of developing the disease, as genetic mutations can predispose individuals to melanoma. The CDKN2A gene is one gene associated with inherited melanoma risk.",
-                      "Skin Type: People with fair skin that freckles or burns easily are at higher risk. Those with blonde or red hair, light eyes, and many moles also have a higher risk.",
-                      "Previous Melanoma: If you've had melanoma in the past, you're at an increased risk of developing a second melanoma.",
-                      "Weakened Immune System: Individuals with immunosuppression, such as organ transplant recipients, are at higher risk.",
-                      "Moles and Birthmarks: Having a large number of moles or atypical moles (dysplastic nevi) increases the risk of melanoma. Atypical moles have irregular shapes and colors and can be a precursor to melanoma.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Diagnosis:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    en: [
-                      "Clinical Examination: An oncodermatologist can assess a suspicious mole or lesion using the ABCDE rule:",
-                      {
-                        text: "ABCDE Rule:",
-                        elements: [
-                          {
-                            elementType: "list",
-                            content: {
-                              en: [
-                                "Asymmetry: One half of the mole looks different from the other.",
-                                "Border: The edges are irregular, scalloped, or poorly defined.",
-                                "Color: There are multiple colors or uneven coloring.",
-                                "Diameter: The mole is larger than 6 mm (though melanomas can be smaller).",
-                                "Evolution: The mole is changing in size, shape, or color.",
-                              ],
-                            },
-                          },
-                        ],
-                      },
-                      "Skin Biopsy: The gold standard for diagnosing melanoma is a skin biopsy. A small sample of the suspicious mole or lesion is removed and examined under a microscope to check for cancerous cells.",
-                      "Imaging: If melanoma is suspected to have spread (metastasized), imaging tests such as CT scans, MRI, or PET scans may be used to assess the extent of spread to lymph nodes or distant organs.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Treatment:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    en: [
-                      "Surgical Excision: Primary treatment for localized melanoma is wide local excision (WLE) of the tumor. The goal is to remove the melanoma and a margin of surrounding healthy tissue to ensure clear surgical margins.",
-                      "Sentinel Lymph Node Biopsy: For melanomas thicker than 1 mm, a sentinel lymph node biopsy may be performed to check for signs of spread to the lymph nodes.",
-                      "Immunotherapy: If the melanoma has spread (metastasized), immunotherapy drugs like checkpoint inhibitors (e.g., nivolumab and pembrolizumab) can help stimulate the immune system to fight cancer cells.",
-                      "Targeted Therapy: Targeted therapies, such as BRAF inhibitors (e.g., vemurafenib and dabrafenib), are used for melanomas with specific genetic mutations (e.g., mutations in the BRAF gene).",
-                      "Chemotherapy: While chemotherapy is sometimes used, it is less common in treating melanoma today due to the rise of more effective therapies like immunotherapy and targeted therapy.",
-                      "Radiation Therapy: In some cases, radiation therapy may be used to treat melanoma that has spread to the brain or bones.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Prognosis:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    en: [
-                      "The prognosis for melanoma depends on the Breslow thickness (depth of tumor invasion), ulceration, and mitotic rate (rate of cell division).",
-                      "Survival rates for melanoma are high if the tumor is detected early. For localized melanoma, the 5-year survival rate can exceed 90%, while the survival rate drops significantly for melanoma that has spread to distant organs.",
-                      "Follow-up is critical for detecting recurrence or metastasis, with patients typically undergoing regular skin checks and imaging tests depending on the stage of melanoma.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Prevention:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    en: [
-                      "Sun Protection: The most important preventive measure is to avoid excessive sun exposure. Use broad-spectrum sunscreen with an SPF of at least 30, wear protective clothing, and seek shade during peak sun hours (10 a.m. to 4 p.m.).",
-                      "Avoid Tanning Beds: Tanning beds increase the risk of melanoma, particularly in young people.",
-                      "Skin Surveillance: Regular self-exams and visits to an oncodermatologist for a thorough skin check can help detect melanoma early. Monitor any moles or new skin lesions for changes in size, shape, or color.",
-                      "Protective Clothing: Wearing hats, sunglasses, and clothing with UV protection can reduce sun exposure and protect the skin.",
-                    ],
-                  },
-                },
-              ],
-            },
-          ],
-          ru: [
-            {
-              text: "Внешний вид:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    ru: [
-                      "Характеристика очага: АК обычно проявляется в виде шероховатого, чешуйчатого пятна или бугорка на коже. Очаг часто имеет красный, розовый или телесный цвет, но может быть с коричневатым или желтоватым оттенком.",
-                      "Текстура: Поверхность может быть сухой, коркой покрытой или шероховатой на ощупь. Может быть немного приподнятой или плоской, с шелушением.",
-                      "Размер: Обычно от 2 до 6 мм в диаметре, но может быть и больше.",
-                      "Локализация: Чаще всего возникает на участках, подверженных солнцу — лице, ушах, коже головы, шее, предплечьях, тыльной стороне кистей, груди и плечах. У людей с длительным воздействием солнца АК может быть более распространённой, особенно на губах (в таком случае может развиться актинический хейлит).",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Типы меланомы:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    ru: [
-                      "Поверхностно распространяющаяся меланома: Наиболее распространённый тип, обычно плоская или немного приподнятая с неровными краями. Сначала распространяется горизонтально, затем вглубь кожи.",
-                      "Узловая меланома: Более агрессивный тип, проявляется в виде приподнятого узла тёмно-синего, чёрного или красного цвета, быстро проникает вглубь кожи.",
-                      "Меланома лентиго малигна: Встречается у пожилых людей, развивается на участках кожи, подверженных солнцу. Начинается как плоское пигментированное пятно с неравномерной окраской.",
-                      "Акральная лентигинозная меланома: Появляется на участках без волосяного покрова — ладони, подошвы, под ногтями. Более распространена у людей с тёмной кожей.",
-                      "Десмопластическая меланома: Редкий тип с волокнистой структурой, трудно диагностируется из-за слабо выраженных клинических признаков.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Причины и факторы риска:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    ru: [
-                      "Воздействие ультрафиолета (УФ): Главный фактор риска — избыточное УФ-облучение от солнца или соляриев. Это повреждает ДНК клеток кожи, повышая риск мутаций.",
-                      "Интенсивное прерывистое воздействие солнца: Например, солнечные ожоги, особенно у людей со светлой кожей.",
-                      "Генетика: Наличие меланомы у родственников повышает риск. Гены, такие как CDKN2A, связаны с наследственной формой.",
-                      "Тип кожи: Люди с бледной кожей, светлыми глазами, рыжими или светлыми волосами, а также большим количеством родинок имеют повышенный риск.",
-                      "Предыдущая меланома: Перенесённая меланома повышает риск повторного заболевания.",
-                      "Ослабленный иммунитет: У людей с иммунодепрессией (например, после трансплантации органов) риск выше.",
-                      "Родинки и родимые пятна: Атипичные родинки (диспластические невусы) с неровными краями и неравномерной окраской могут предшествовать меланоме.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Диагностика:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    ru: [
-                      "Клинический осмотр: Дерматоонколог оценивает подозрительное новообразование по правилу ABCDE:",
-                      {
-                        text: "Правило ABCDE:",
-                        elements: [
-                          {
-                            elementType: "list",
-                            content: {
-                              ru: [
-                                "Асимметрия: Одна половина родинки отличается от другой.",
-                                "Границы: Края неровные, зазубренные или плохо очерченные.",
-                                "Цвет: Наличие нескольких цветов или неравномерная окраска.",
-                                "Диаметр: Родинка больше 6 мм (хотя меланомы могут быть и меньше).",
-                                "Эволюция: Родинка меняется в размере, форме или цвете.",
-                              ],
-                            },
-                          },
-                        ],
-                      },
-                      "Биопсия кожи: «Золотой стандарт» диагностики меланомы. Небольшой образец подозрительного участка удаляется и исследуется под микроскопом для выявления раковых клеток.",
-                      "Визуализация: Если есть подозрение на метастазы, могут быть назначены КТ, МРТ или ПЭТ для оценки распространения заболевания на лимфоузлы или отдалённые органы.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Лечение:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    ru: [
-                      "Хирургическое удаление: Основной метод лечения локализованной меланомы — широкое иссечение опухоли с захватом здоровой ткани для обеспечения чистых хирургических краёв.",
-                      "Биопсия сторожевого лимфоузла: Для меланом толщиной более 1 мм может быть выполнена биопсия сторожевого лимфоузла для проверки признаков распространения на лимфоузлы.",
-                      "Иммунотерапия: При метастатической меланоме применяются препараты иммунотерапии, такие как ингибиторы контрольных точек (например, ниволумаб и пембролизумаб), которые помогают стимулировать иммунную систему для борьбы с раковыми клетками.",
-                      "Таргетная терапия: Таргетные препараты, такие как ингибиторы BRAF (например, вемурафениб и дабрафениб), используются для меланом с определёнными генетическими мутациями (например, мутациями в гене BRAF).",
-                      "Химиотерапия: Хотя химиотерапия иногда используется, она менее распространена при лечении меланомы сегодня из-за появления более эффективных методов, таких как иммунотерапия и таргетная терапия.",
-                      "Лучевая терапия: В некоторых случаях лучевая терапия может быть использована для лечения меланомы, распространившейся на мозг или кости.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Прогноз:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    ru: [
-                      "Прогноз при меланоме зависит от толщины опухоли по Бреслоу (глубина инвазии), наличия изъязвления и митотической активности (скорости деления клеток).",
-                      "Выживаемость при меланоме высока, если опухоль обнаружена на ранней стадии. Для локализованной меланомы 5-летняя выживаемость может превышать 90%, в то время как при метастазировании выживаемость значительно снижается.",
-                      "Регулярное наблюдение важно для выявления рецидивов или метастазов. Пациенты обычно проходят регулярные осмотры кожи и визуализационные исследования в зависимости от стадии меланомы.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Профилактика:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    ru: [
-                      "Защита от солнца: Наиболее важная мера профилактики — избегать чрезмерного воздействия солнца. Используйте солнцезащитные кремы с SPF не менее 30, носите защитную одежду и оставайтесь в тени в часы пиковой солнечной активности (с 10:00 до 16:00).",
-                      "Отказ от соляриев: Солярии увеличивают риск меланомы, особенно у молодых людей.",
-                      "Наблюдение за кожей: Регулярные самоосмотры и визиты к дерматоонкологу для тщательной проверки кожи помогут выявить меланому на ранней стадии. Следите за изменениями в размерах, форме или цвете родинок или новых кожных образований.",
-                      "Защитная одежда: Ношение шляп, солнцезащитных очков и одежды с УФ-защитой может снизить воздействие солнца и защитить кожу.",
-                    ],
-                  },
-                },
-              ],
-            },
-          ],
-          kr: [
-            {
-              text: "Ташқи кўриниши:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    kr: [
-                      "Ўчоқ тавсифи: ғадир-будур, тангачасимон доғ ёки дўмбоқча. Қизил, пушти, тана ранги, жигарранг ёки сарғиш тусда бўлиши мумкин.",
-                      "Текстура: қуруқ, пўстлоқ, пайпаслаганда ғадир-будур. Кўтарилган ёки ясси.",
-                      "Ўлчами: 2–6 мм, баъзан каттароқ.",
-                      "Локализацияси: қуёшга таъсирланган жойлар — юз, қулоқ, бош териси, бўйин, билак, қўл панжаси, кўкрак, елка, лаб.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Меланома турлари:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    kr: [
-                      "Юзаки тарқалган меланома: Энг кенг тарқалган тури, одатда текис ёки бироз кўтарилган, четлари нотекис. Дастлаб горизонтал, сўнгра тери ичига тарқалади.",
-                      "Тугунли меланома: Янада тажовузкор тури, тўқ кўк, қора ёки қизил рангли кўтарилган тугун кўринишида намоён бўлади, тезда тери ичига кириб боради.",
-                      "Лентиго малина меланомаси: Қарияларда учрайди, терининг қуёш нури тушадиган жойларида ривожланади. Бир текис бўлмаган пигментли доғ кўринишида бошланади.",
-                      "Акрал лентигиноз меланома: Соч қоплами бўлмаган жойларда — кафт, товон, тирноқ остида пайдо бўлади. Қора танли одамларда кўпроқ учрайди.",
-                      "Десмопластик меланома: Толали тузилишга эга бўлган кам учрайдиган тури, клиник белгилари кам ифодаланганлиги сабабли ташхис қўйиш қийин.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Сабаблари ва хавф омиллари:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    kr: [
-                      "Ультрабинафша нурлар (УБ) таъсири: Қуёш ёки солярийлардан ортиқча УБ-нурланиш тери ҳужайраларининг ДНКсини шикастлайди ва мутация хавфини оширади.",
-                      "Қуёшнинг интенсив узлукли таъсири: Масалан, қуёшдан куйиш, айниқса оқ танли одамларда.",
-                      "Генетика: Қариндошларда меланома борлиги хавф даражасини оширади (масалан, CDKN2A гени).",
-                      "Тери тури: Териси рангпар, кўзлари сарғиш, сочлари қизғиш ёки сарғиш, холи кўп бўлган одамларда хавф юқори.",
-                      "Олдинги меланома: Ўтказилган меланома кейинги касалланиш хавфини оширади.",
-                      "Иммунитетнинг пасайиши: Масалан, орган трансплантациясидан кейин.",
-                      "Атипик холлар (диспластик невус): Четлари нотекис ва ранги нотекис холлар меланомадан олдин пайдо бўлиши мумкин.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Ташхис:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    kr: [
-                      "Клиник кўрик: Дерматоонколог шубҳали ўсмани ABCDE қоидаси асосида баҳолайди:",
-                      {
-                        text: "ABCDE қоидаси:",
-                        elements: [
-                          {
-                            elementType: "list",
-                            content: {
-                              kr: [
-                                "Носиққиёслик: Бир ярим қисми иккинчисидан фарқ қилади.",
-                                "Чегаралар: Четлари нотекис, тишли ёки ноаниқ.",
-                                "Ранги: Бир неча ранглар ёки нотекис ранг.",
-                                "Ўлчами: 6 мм дан катта (меланома кичикроқ бўлиши ҳам мумкин).",
-                                "Эволюция: Шакли, ўлчами ёки ранги ўзгариши.",
-                              ],
-                            },
-                          },
-                        ],
-                      },
-                      "Тери биопсияси: Меланомани ташхислашнинг «олтин стандарти». Шубҳали жойдан кичик тўқима олиб, микроскопда ўрганилади.",
-                      "Тасвирлаш: Метастазларга шубҳа қилинганда КТ, МРТ ёки ПЭТ текширувлари қўлланилади.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Даволаш:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    kr: [
-                      "Жарроҳлик: Маҳаллий меланомада асосий усул — кенг кесиш. Туморни ва соғлом тери тўқимасини олиб ташлаш мақсадида.",
-                      "Қўриқчи лимфа тугунининг биопсияси: 1 мм дан катта меланомаларда лимфа тугунларига тарқалишни текшириш учун ўтказилади.",
-                      "Иммунотерапия: Метастатик меланомада назорат нуқталари ингибиторлари (масалан, ниволумаб ва пембролизумаб) қўлланилади, иммун тизимини раков ҳужайраларга қарши курашишга рағбатлантиради.",
-                      "Мақсадли терапия: BRAF мутациялари бўлган меланомаларда BRAF ингибиторлари (масалан, вемурафениб ва дабрафениб) қўлланилади.",
-                      "Кимётерапия: Камроқ самарали бўлгани учун камроқ қўлланилади.",
-                      "Нур терапияси: Мия ёки суякларга тарқалган меланомаларда қўлланилади.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Прогноз:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    kr: [
-                      "Прогноз Бреслоу қалинлиги (инвазия чуқурлиги), ярали ўзгаришлар ва митоз даражасига боғлиқ.",
-                      "Эрта ташхисда прогноз ижобий. Маҳаллий меланомада 5 йиллик яшаш даражаси 90% дан юқори бўлиши мумкин.",
-                      "Метастаз бўлган ҳолатларда яшаш даражаси сезиларли даражада пасаяди.",
-                      "Мунтазам назорат ва текширувлар рецидивларни ёки метастазларни эрта аниқлаш учун муҳим.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Профилактика:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    kr: [
-                      "Қуёшдан ҳимоя: SPF 30+ кремлар, ҳимоя кийимлари, сояда бўлиш.",
-                      "Солярийдан воз кечиш: Ёшлар учун хавфли.",
-                      "Терини кузатиш: Мустақил текширувлар ва мутахассисга мурожаат.",
-                      "Ҳимоя кийимлари: Ультрабинафшага қарши шляпа, кўзойнак, кийим.",
-                    ],
-                  },
-                },
-              ],
-            },
-          ],
-          uz: [
-            {
-              text: "Tashqi ko'rinishi:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    uz: [
-                      "O'choq tavsifi: g'adir-budur, tangachamsimon dog' yoki dumbaqcha. Qizil, pushti, tana rangi, jigarrang yoki sariq tusda bo'lishi mumkin.",
-                      "Tekstura: quruq, po'stloq, paypaslaganda g'adir-budur. Ko'tarilgan yoki tekis.",
-                      "O'lchami: 2–6 mm, ba'zan kattaroq.",
-                      "Lokalizatsiyasi: quyoshga ta'sirlangan joylar — yuz, quloq, bosh terisi, bo'yin, bilak, qo'l panjasi, ko'krak, elka, lab.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Melanoma turlari:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    uz: [
-                      "Yuzaki tarqalgan melanoma: Eng keng tarqalgan turi, odatda tekis yoki biroz ko'tarilgan, chetlari notekis. Dastlab gorizontal, so'ngra teri ichiga tarqaladi.",
-                      "Tugunli melanoma: Yanada tajovuzkor turi, to'q ko'k, qora yoki qizil rangli ko'tarilgan tugun ko'rinishida namoyon bo'ladi, tezda teri ichiga kirib boradi.",
-                      "Lentigo maligna melanomasi: Qarilarda uchraydi, terining quyosh nuri tushadigan joylarida rivojlanadi. Bir tekis bo'lmagan pigmentli dog' ko'rinishida boshlanadi.",
-                      "Akrall lentiginoz melanoma: Soch qoplami bo'lmagan joylarda — kaft, tovon, tirnoq ostida paydo bo'ladi. Qora tanli odamlarda ko'proq uchraydi.",
-                      "Desmoplastik melanoma: Tolali tuzilishga ega bo'lgan kam uchraydigan turi, klinik belgilari kam ifodalanganligi sababli tashxis qo'yish qiyin.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Sabablari va xavf omillari:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    uz: [
-                      "Ultrabinafsha nurlar (UB) ta'siri: Quyosh yoki solyariylardan ortiqcha UB-nurlanish teri hujayralarining DNKsini shikastlaydi va mutatsiya xavfini oshiradi.",
-                      "Quyoshning intensiv uzlukli ta'siri: Masalan, quyoshdan kuyish, ayniqsa oq tanli odamlarda.",
-                      "Genetika: Qarindoshlarda melanoma borligi xavf darajasini oshiradi (masalan, CDKN2A geni).",
-                      "Teri turi: Terisi rangpar, ko'zlari sarg'ish, sochlari qizg'ish yoki sarg'ish, holi ko'p bo'lgan odamlarda xavf yuqori.",
-                      "Oldingi melanoma: O'tkazilgan melanoma keyingi kasallanish xavfini oshiradi.",
-                      "Immunitetning pasayishi: Masalan, organ transplantatsiyasidan keyin.",
-                      "Atypik hollar (displastik nevus): Chetlari notekis va rangi notekis hollar melanomadan oldin paydo bo'lishi mumkin.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Tashxis:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    uz: [
-                      "Klinik ko'rik: Dermatolog shubhali o'smani ABCDE qoidasi asosida baholaydi:",
-                      {
-                        text: "ABCDE qoidasi:",
-                        elements: [
-                          {
-                            elementType: "list",
-                            content: {
-                              uz: [
-                                "Nosimmetriklik: Bir yarim qismi ikkinchisidan farq qiladi.",
-                                "Chegaralar: Chetlari notekis, tishli yoki noaniq.",
-                                "Rangi: Bir necha ranglar yoki notekis rang.",
-                                "O'lchami: 6 mm dan katta (melanoma kichikroq bo'lishi ham mumkin).",
-                                "Evolyutsiya: Shakli, o'lchami yoki rangi o'zgarishi.",
-                              ],
-                            },
-                          },
-                        ],
-                      },
-                      "Teri biopsiyasi: Melanomani tashxislashning «oltin standarti». Shubhali joydan kichik to'qima olib, mikroskopda o'rganiladi.",
-                      "Tasvirlash: Metastazlarga shubha qilinganda KT, MRT yoki PET tekshiruvlari qo'llaniladi.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Davolash:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    uz: [
-                      "Jarrohlik: Mahalliy melanomada asosiy usul — keng kesish. Tumorni va sog'lom teri to'qimasini olib tashlash maqsadida.",
-                      "Qo'riqchi limfa tugunining biopsiyasi: 1 mm dan katta melanomalarda limfa tugunlariga tarqalishni tekshirish uchun o'tkaziladi.",
-                      "Immunoterapiya: Metastatik melanomada nazorat nuqtalari ingibitorlari (masalan, nivolumab va pembrolizumab) qo'llaniladi, immun tizimini rak hujayralarga qarshi kurashishga rag'batlantiradi.",
-                      "Maqsadli terapiya: BRAF mutatsiyalari bo'lgan melanomalarda BRAF ingibitorlari (masalan, vemurafenib va dabrafenib) qo'llaniladi.",
-                      "Kimyoterapiya: Kamroq samarali bo'lgani uchun kamroq qo'llaniladi.",
-                      "Nur terapiyasi: Miya yoki suyaklarga tarqalgan melanomalarda qo'llaniladi.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Prognoz:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    uz: [
-                      "Prognoz Breslow qalinligi (invaziya chuqurligi), yarali o'zgarishlar va mitoz darajasiga bog'liq.",
-                      "Erta tashxisda prognoz ijobiy. Mahalliy melanomada 5 yillik yashash darajasi 90% dan yuqori bo'lishi mumkin.",
-                      "Metastaz bo'lgan holatlarda yashash darajasi sezilarli darajada pasayadi.",
-                      "Muntazam nazorat va tekshiruvlar retsidivlarni yoki metastazlarni erta aniqlash uchun muhim.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Profilaktika:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    uz: [
-                      "Quyoshdan himoya: SPF 30+ kremlar, himoya kiyimlari, soyada bo'lish.",
-                      "Solyariydan voz kechish: Yoshlar uchun xavfli.",
-                      "Terini kuzatish: Mustaqil tekshiruvlar va mutaxassisga murojaat.",
-                      "Himoya kiyimlari: Ultrabinafshaga qarshi shlyapa, ko'zoynak, kiyim.",
-                    ],
-                  },
-                },
-              ],
-            },
-          ],
-        },
-      },
-      {
-        elementType: "heading",
-        level: 3,
-        content: {
-          en: "Summary:",
-          kr: "Хулоса:",
-          uz: "Xulosa:",
-          ru: "Вывод:",
-        },
-      },
-      {
-        elementType: "paragraph",
-        content: {
-          en: "Melanoma is a type of skin cancer that originates in the pigment-producing cells called melanocytes. It is often caused by UV exposure, but genetic factors and a history of unusual moles can also increase the risk. Early detection through regular skin checks and the use of the ABCDE rule is crucial for successful treatment. Treatment may include surgical excision, immunotherapy, and targeted therapy, depending on the stage of melanoma.",
-          kr: "Меланома — меланотситлардан келиб чиққан тери саратони. УБ нурланиш, ирсий омиллар ва атипик холлар билан боғлиқ. ABCDE қоидаси бўйича эрта аниқлаш муҳим. Даволаш — жарроҳлик, иммунотерапия ва мақсадли терапияни ўз ичига олади.",
-          uz: "Melanoma — melanotsitlardan kelib chiqqan teri saratoni. UB nurlanish, irsiy omillar va atypik xollar bilan bog‘liq. ABCDE qoidasi bo‘yicha erta aniqlash muhim. Davolash — jarrohlik, immunoterapiya va maqsadli terapiyani o‘z ichiga oladi.",
-          ru: "Меланома — это рак кожи, происходящий из меланоцитов. Наиболее частая причина — УФ-облучение, но также важны наследственность и наличие атипичных родинок. Ранняя диагностика по правилу ABCDE и регулярные осмотры критичны для успешного лечения. Варианты лечения включают хирургическое удаление, иммунотерапию и таргетную терапию в зависимости от стадии заболевания.",
-        },
-      },
-    ],
-    type: "disease",
-  },
-  {
-    id: 5,
-    slug: "keratoacanthoma-keratoacanthoma-кератоакантома-кератоакантома",
-    title: {
-      kr: "Кератоакантома",
-      uz: "Keratoakantoma",
-      en: "Keratoacanthoma",
-      ru: "Кератоакантома",
-    },
-    description: {
-      en: "Keratoacanthoma (KA) is a benign but often rapidly growing skin tumor that resembles squamous cell carcinoma (SCC). It is typically considered a low-grade, well-differentiated form of SCC. Although it generally has a good prognosis and may resolve on its own, keratoacanthomas can be challenging to distinguish from squamous cell carcinomas, which can be malignant.",
-      kr: "Кератоакантома (КА) — хавфсиз, аммо тез ўсувчи тери ўсмаси бўлиб, ясси ҳужайрали тери саратонига ўхшайди. Одатда, паст даражадаги хавфли, яхши дифференциаллашган ЯҲК шакли сифатида қаралади. Кератоакантома кўпинча ижобий прогнозга эга ва ўз-ўзидан йўқолиши мумкин бўлса-да, уни хавфли бўлиши эҳтимоли бор ясси ҳужайрали саратондан фарқлаш қийин.",
-      uz: "Keratoakantoma (KA) — xavfsiz, ammo tez o‘suvchi teri o‘smalari bo‘lib, yas­si hujayrali teri saratoniga o‘xshaydi. Odatda, past darajadagi xavfli, yaxshi differentsiallashgan YAHK shakli sifatida qaraladi. Keratoakantoma ko‘pincha ijobiy prognozga ega va o‘z-o‘zidan yo‘qolishi mumkin bo‘lsa-da, uni xavfli bo‘lishi ehtimoli bor yas­si hujayrali saratondan farqlash qiyin.",
-      ru: "Кератоакантома (КА) — это доброкачественная, но часто быстрорастущая опухоль кожи, которая напоминает плоскоклеточный рак кожи (ПКР). Обычно её рассматривают как низкозлокачественную, хорошо дифференцированную форму ПКР. Хотя кератоакантома, как правило, имеет благоприятный прогноз и может исчезнуть самостоятельно, её сложно отличить от плоскоклеточного рака, который может быть злокачественным.",
-    },
-    image: "/article-images/ka/image-1.jpg",
-    date: "2025-06-18",
-    linkText: {
-      uz: "Ko'proq o'qish",
-      en: "Read more",
-      ru: "Читать далее",
-      kr: "Кўпроқ ўқиш",
-    },
-    isPopular: true,
-    structure: [
-      {
-        elementType: "heading",
-        level: 1,
-        content: {
-          en: "Keratoacanthoma",
-          kr: "Кератоакантома",
-          uz: "Keratoakantoma",
-          ru: "Кератоакантома",
-        },
-      },
-      {
-        elementType: "wrapper",
-        elements: [
-          {
-            elementType: "image",
-            content: "/article-images/ka/image-1.jpg",
-          },
-          {
-            elementType: "image",
-            content: "/article-images/ka/image-2.jpeg",
-          },
-        ],
-      },
-      {
-        elementType: "paragraph",
-        content: {
-          en: "Keratoacanthoma (KA) is a benign but often rapidly growing skin tumor that resembles squamous cell carcinoma (SCC). It is typically considered a low-grade, well-differentiated form of SCC. Although it generally has a good prognosis and may resolve on its own, keratoacanthomas can be challenging to distinguish from squamous cell carcinomas, which can be malignant.",
-          kr: "Кератоакантома (КА) — хавфсиз, аммо тез ўсувчи тери ўсмаси бўлиб, ясси ҳужайрали тери саратонига ўхшайди. Одатда, паст даражадаги хавфли, яхши дифференциаллашган ЯҲК шакли сифатида қаралади. Кератоакантома кўпинча ижобий прогнозга эга ва ўз-ўзидан йўқолиши мумкин бўлса-да, уни хавфли бўлиши эҳтимоли бор ясси ҳужайрали саратондан фарқлаш қийин.",
-          uz: "Keratoakantoma (KA) — xavfsiz, ammo tez o‘suvchi teri o‘smalari bo‘lib, yas­si hujayrali teri saratoniga o‘xshaydi. Odatda, past darajadagi xavfli, yaxshi differentsiallashgan YAHK shakli sifatida qaraladi. Keratoakantoma ko‘pincha ijobiy prognozga ega va o‘z-o‘zidan yo‘qolishi mumkin bo‘lsa-da, uni xavfli bo‘lishi ehtimoli bor yas­si hujayrali saratondan farqlash qiyin.",
-          ru: "Кератоакантома (КА) — это доброкачественная, но часто быстрорастущая опухоль кожи, которая напоминает плоскоклеточный рак кожи (ПКР). Обычно её рассматривают как низкозлокачественную, хорошо дифференцированную форму ПКР. Хотя кератоакантома, как правило, имеет благоприятный прогноз и может исчезнуть самостоятельно, её сложно отличить от плоскоклеточного рака, который может быть злокачественным.",
-        },
-      },
-      {
-        elementType: "heading",
-        level: 3,
-        content: {
-          en: "Key Features of Keratoacanthoma:",
-          kr: "Кератоакантоманинг асосий хусусиятлари:",
-          uz: "Keratoakantomaning asosiy xususiyatlari:",
-          ru: "Основные характеристики Кератоакантомы:",
-        },
-      },
-      {
-        elementType: "list",
-        content: {
-          en: [
-            {
-              text: "Appearance:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    en: [
-                      "Shape: KA usually appears as a dome-shaped, raised nodule or mass with a central crater filled with keratin (the protein found in skin and nails). This gives it the characteristic 'volcano-like' appearance.",
-                      "Size: It typically ranges from 1 to 3 cm in diameter, although it can sometimes grow larger.",
-                      "Color: The lesion may be flesh-colored, red, or brown. The center may be keratinous (yellowish or white), often forming a scab or crust.",
-                      "Surface: The surface is often smooth or slightly rough and scaly, with a prominent central keratin plug.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Location:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    en: [
-                      "Common Areas: Keratoacanthomas are most commonly found on sun-exposed areas of the skin, such as the face, ears, neck, upper extremities, and scalp.",
-                      "Frequency: They are more common in older adults (especially those over 50 years old) and people with fair skin, due to the cumulative effects of sun exposure.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Growth Pattern:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    en: [
-                      "Rapid Growth: One of the hallmark features of keratoacanthoma is its rapid growth, often reaching its full size within a few weeks to months.",
-                      "Spontaneous Regression: In many cases, KA will regress spontaneously after several months (typically 6–12 months), shrinking and flattening out on its own. However, this can leave behind scars or pigment changes.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Symptoms:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    en: [
-                      "Painless: Keratoacanthomas are typically painless, though they may become itchy or tender as they grow or become ulcerated.",
-                      "Cosmetic Concerns: The appearance of the lesion is often the primary concern, especially if it appears on the face or other visible areas.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Causes and Risk Factors:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    en: [
-                      "UV Exposure: Chronic sun exposure is a significant risk factor for developing KA. The lesion often appears in areas with the most sun exposure over time.",
-                      "Immunosuppression: Individuals who are immunocompromised (e.g., organ transplant recipients, those on immunosuppressive drugs) may be at higher risk for developing KA.",
-                      "Age: KA is more common in older adults, typically those over 50, although it can occur at any age.",
-                      "Genetic Predisposition: While not hereditary, individuals with genetic skin conditions (like xeroderma pigmentosum, a condition that increases skin cancer risk due to UV damage) may be at increased risk.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Diagnosis:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    en: [
-                      "Clinical Examination: KA is often diagnosed based on its characteristic appearance: a dome-shaped nodule with a central keratin-filled crater.",
-                      "Skin Biopsy: A skin biopsy is essential for distinguishing KA from other skin lesions, particularly squamous cell carcinoma (SCC). A biopsy will show:",
-                      {
-                        text: "Histological Features:",
-                        elements: [
-                          {
-                            elementType: "list",
-                            content: {
-                              en: [
-                                "Exophytic growth: The lesion grows outward from the skin.",
-                                "Central keratin plug: A central keratinous mass or plug is commonly present.",
-                                "Mild atypia in cells at the periphery of the tumor.",
-                              ],
-                            },
-                          },
-                        ],
-                      },
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Treatment:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    en: [
-                      "Surgical Excision: The most common and definitive treatment for keratoacanthoma is surgical excision, especially if the lesion is causing cosmetic concerns or if there's suspicion of malignant transformation. Excision typically results in a low recurrence rate.",
-                      "Curettage and Electrodessication: This technique involves scraping the lesion off and using electrical currents to remove remaining tumor tissue. It's typically reserved for smaller lesions and those that are not located in high-risk areas (e.g., face).",
-                      "Cryotherapy: In some cases, cryotherapy (freezing) may be used to treat KA, especially in lesions that are not large or deep.",
-                      "Topical Treatments: If the lesion is small and superficial, topical treatments like 5-fluorouracil (5-FU) or imiquimod may be used. These treatments are generally not as effective as surgical excision but may be considered for cases where surgery is not preferred.",
-                      "Observation: In cases where the lesion is small, non-invasive, and located in a low-risk area, observation may be an option, especially since KA can often resolve on its own. However, because of its potential to mimic squamous cell carcinoma, biopsy and close monitoring are essential.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Prognosis:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    en: [
-                      "Benign Nature: Keratoacanthomas are generally benign and are not considered life-threatening. However, they can cause significant cosmetic damage or leave scars after resolution.",
-                      "Recurrence: If not fully excised or if the initial diagnosis is uncertain, KA can recur. If the lesion is left untreated, it may grow larger and become ulcerated.",
-                      "Malignant Potential: While keratoacanthomas are typically benign, they can sometimes transform into squamous cell carcinoma (SCC), particularly if not adequately treated. This is why a biopsy and appropriate treatment are important to rule out malignant behavior.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Prevention:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    en: [
-                      "Sun Protection: Since UV radiation is a major risk factor for KA, using sunscreen, wearing protective clothing, and avoiding excessive sun exposure (especially during peak hours) are essential steps in prevention.",
-                      "Skin Surveillance: Regular self-exams and dermatological check-ups are important for individuals at risk of developing skin tumors like KA, especially those with a history of sun exposure.",
-                    ],
-                  },
-                },
-              ],
-            },
-          ],
-          ru: [
-            {
-              text: "Внешний вид:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    ru: [
-                      "Форма: Кератоакантома (КА) обычно выглядит как куполообразный, приподнятый узел или опухоль с центральным кратером, заполненным кератином (белком, содержащимся в коже и ногтях). Это придаёт ей характерный «вулканический» вид.",
-                      "Размер: Обычно от 1 до 3 см в диаметре, но может достигать больших размеров.",
-                      "Цвет: Поражение может быть телесного, красного или коричневого цвета. В центре — кератиновая (желтоватая или белая) масса, часто образующая корку или струп.",
-                      "Поверхность: Часто гладкая или слегка шероховатая, чешуйчатая, с выраженной центральной кератиновой пробкой.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Локализация:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    ru: [
-                      "Частые зоны: Кератоакантомы чаще всего возникают на участках кожи, подверженных воздействию солнца: лице, ушах, шее, верхних конечностях и коже головы.",
-                      "Частота: Чаще встречаются у пожилых людей (особенно старше 50 лет) и у светлокожих из-за кумулятивного воздействия ультрафиолетовых лучей.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Характер роста:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    ru: [
-                      "Быстрый рост: Отличительная черта Кератоакантомы (КА) — её быстрое увеличение, часто достигающее максимального размера за несколько недель или месяцев.",
-                      "Спонтанная регрессия: Во многих случаях КА исчезает самостоятельно через несколько месяцев (обычно в течение 6–12 месяцев), уменьшаясь и уплощаясь. Однако это может привести к образованию рубцов или изменению пигментации.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Симптомы:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    ru: [
-                      "Безболезненность: Как правило, Кератоакантома (КА) не вызывает боли, хотя может чесаться или становиться чувствительной при росте или изъязвлении.",
-                      "Косметический дискомфорт: Внешний вид поражения — основная причина беспокойства, особенно если оно расположено на лице или других открытых участках.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Причины и факторы риска:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    ru: [
-                      "УФ-излучение: Хроническое воздействие солнечных лучей — значительный фактор риска. Поражения часто появляются в наиболее подверженных солнцу участках кожи.",
-                      "Иммуносупрессия: Люди с ослабленным иммунитетом (например, получатели трансплантатов органов, пациенты на иммуносупрессивной терапии) подвержены более высокому риску.",
-                      "Возраст: КА чаще встречается у пожилых людей, обычно старше 50 лет, но может возникнуть в любом возрасте.",
-                      "Генетическая предрасположенность: Хотя Кератоакантома (КА) не передаётся по наследству, люди с генетическими кожными заболеваниями (например, ксеродерма пигментозум) подвержены повышенному риску.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Диагностика:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    ru: [
-                      "Клиническое обследование: Кератоакантома (КА) часто диагностируют по её характерному виду: куполообразный узел с центральным кратером, заполненным кератином.",
-                      "Биопсия кожи: Необходима для отличия Кератоакантомы (КА) от других кожных образований, особенно плоскоклеточного рака (ПКР). Биопсия выявляет:",
-                      {
-                        text: "Гистологические признаки:",
-                        elements: [
-                          {
-                            elementType: "list",
-                            content: {
-                              ru: [
-                                "Экзофитный рост: Поражение растёт наружу от кожи.",
-                                "Центральная кератиновая пробка: Часто присутствует в центре.",
-                                "Слабая атипия клеток по периферии опухоли.",
-                              ],
-                            },
-                          },
-                        ],
-                      },
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Лечение:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    ru: [
-                      "Хирургическое удаление: Наиболее распространённое и эффективное лечение. Особенно показано при косметических беспокойствах или подозрении на злокачественное перерождение. Удаление снижает риск рецидива.",
-                      "Кюретаж и электродеструкция: Соскоб опухоли с последующим прижиганием током. Обычно применяется при небольших и низкорисковых поражениях.",
-                      "Криотерапия: Иногда применяется при не очень глубоких и не крупных поражениях.",
-                      "Местная терапия: При небольших и поверхностных образованиях могут применяться кремы с 5-фторурацилом (5-ФУ) или имиквимодом. Однако они менее эффективны, чем хирургическое удаление.",
-                      "Наблюдение: При маленьких, неинвазивных поражениях в зонах с низким риском иногда возможно наблюдение. Однако из-за сходства с плоскоклеточным раком необходимы биопсия и мониторинг.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Прогноз:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    ru: [
-                      "Доброкачественный характер: Кератоакантома (КА), как правило, не представляет угрозы для жизни, но может вызывать косметические дефекты или оставлять рубцы.",
-                      "Рецидив: Возможно, если опухоль не была полностью удалена или диагноз был неточным. При отсутствии лечения может увеличиться и изъязвиться.",
-                      "Злокачественный потенциал: Хотя Кератоакантома (КА) обычно доброкачественна, в редких случаях она может перерасти в плоскоклеточный рак, особенно при неправильном лечении. Поэтому важно проводить биопсию и адекватную терапию.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Профилактика:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    ru: [
-                      "Защита от солнца: Использование солнцезащитных кремов, защитной одежды и избегание длительного пребывания на солнце — важные меры профилактики.",
-                      "Наблюдение за кожей: Регулярные самоосмотры и визиты к дерматологу особенно важны для людей с высоким риском развития кожных опухолей.",
-                    ],
-                  },
-                },
-              ],
-            },
-          ],
-          uz: [
-            {
-              text: "Tashqi ko‘rinishi:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    uz: [
-                      "Shakli: Keratoakantoma (KA) odatda gumbazsimon, ko‘tarilgan tugun yoki o‘simta ko‘rinishida bo‘ladi, markazida keratin (teri va tirnoqlarda uchraydigan oqsil) bilan to‘lgan krater mavjud. Bu unga xos 'vulqonsimon' ko‘rinish beradi.",
-                      "O‘lchami: Odatda diametri 1 dan 3 sm gacha bo‘ladi, lekin ba'zan kattaroq bo‘lishi mumkin.",
-                      "Rangi: Shikastlanish joyi teri rangida, qizil yoki jigarrang bo‘lishi mumkin. Markazida keratinli (sarg‘ish yoki oq) massa bo‘lib, ko‘pincha qobiq yoki quruq qavat hosil qiladi.",
-                      "Yuzasi: Ko‘pincha silliq yoki biroz dag‘al va tangachali, markazida aniq ko‘rinadigan keratin tiqini mavjud.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Joylashuvi:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    uz: [
-                      "Ko‘p uchraydigan joylar: Keratoakantomalar ko‘pincha quyosh ta'siriga ko‘proq uchraydigan joylarda paydo bo‘ladi: yuz, quloq, bo‘yin, qo‘l va bosh terisi.",
-                      "Ko‘p uchrash chastotasi: Ular odatda keksa yoshdagi odamlarda (ayniqsa 50 yoshdan oshganlarda) va och terili odamlarda uchraydi, bu quyosh nurlarining uzoq muddatli ta'siri bilan bog‘liq.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "O‘sish xususiyatlari:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    uz: [
-                      "Tez o‘sish: Keratoakantomaga xos xususiyatlardan biri uning tez o‘sishi bo‘lib, ko‘pincha bir necha hafta yoki oy ichida maksimal o‘lchamga yetadi.",
-                      "Spontan regressiya: Ko‘p hollarda KA bir necha oy (odatda 6–12 oy) ichida o‘z-o‘zidan yo‘qoladi, kichrayib va tekislanib ketadi. Ammo bu chandiq yoki pigmentatsiya o‘zgarishlariga olib kelishi mumkin.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Belgilar:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    uz: [
-                      "Og‘riqsiz: Odatda, Keratoakantoma (KA) og‘riq keltirmaydi, lekin o‘sib borishi yoki yaralanishi bilan qichishish yoki sezgirlik paydo bo‘lishi mumkin.",
-                      "Kosmetik noqulaylik: Shikastlanish joyining ko‘rinishi ko‘pincha asosiy tashvish bo‘ladi, ayniqsa u yuz yoki boshqa ochiq joylarda bo‘lsa.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Sabablari va xavf omillari:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    uz: [
-                      "UV nurlanishi: Quyosh nurlarining uzoq muddatli ta'siri muhim xavf omilidir. Shikastlanishlar ko‘pincha quyoshga eng ko‘p ta'sir qiladigan teri joylarida paydo bo‘ladi.",
-                      "Immunosupressiya: Immuniteti zaiflashgan odamlar (masalan, organ transplantatsiyasi oluvchilar, immunosupressiv terapiyadagi bemorlar) yuqori xavf ostida bo‘ladi.",
-                      "Yosh: KA odatda keksa yoshdagi odamlarda uchraydi, odatda 50 yoshdan oshganlarda, lekin har qanday yoshda paydo bo‘lishi mumkin.",
-                      "Genetik moyillik: KA irsiy bo‘lmasa-da, genetik teri kasalliklari (masalan, kseroderma pigmentozum) bo‘lgan odamlar yuqori xavf ostida bo‘ladi.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Tashxis:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    uz: [
-                      "Klinik tekshiruv: Keratoakantoma (KA) ko‘pincha uning xos ko‘rinishi asosida tashxis qilinadi: gumbazsimon tugun, markazida keratin bilan to‘lgan krater.",
-                      "Teri biopsiyasi: KAni boshqa teri o‘simtalaridan, ayniqsa, yassi hujayrali saratondan (YHS) farqlash uchun zarur. Biopsiya quyidagilarni aniqlaydi:",
-                      {
-                        text: "Gistologik xususiyatlar:",
-                        elements: [
-                          {
-                            elementType: "list",
-                            content: {
-                              uz: [
-                                "Ekzofit o‘sish: Shikastlanish teridan tashqariga o‘sadi.",
-                                "Markaziy keratin tiqini: Markazda ko‘pincha keratinli massa mavjud.",
-                                "Periferik hujayralarda yengil atipiya.",
-                              ],
-                            },
-                          },
-                        ],
-                      },
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Davolash:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    uz: [
-                      "Jarrohlik yo‘li bilan olib tashlash: Eng keng tarqalgan va samarali davolash usuli. Ayniqsa, kosmetik tashvishlar yoki xavfli o‘sma gumoni bo‘lsa tavsiya etiladi. Olib tashlash qaytalanish xavfini kamaytiradi.",
-                      "Kyuretaj va elektrodeststruksiya: O‘simtani qirib olib, keyin tok bilan kuydirish. Odatda kichik va xavfi past shikastlanishlarda qo‘llaniladi.",
-                      "Krioterapiya: Ba'zan chuqur bo‘lmagan va katta bo‘lmagan shikastlanishlarda qo‘llaniladi.",
-                      "Mahalliy terapiya: Kichik va yuzaki o‘simtalarda 5-fluoruratsil (5-FU) yoki imikvimod bilan krem qo‘llanilishi mumkin. Ammo ular jarrohlik yo‘li bilan olib tashlashga qaraganda kamroq samarali.",
-                      "Kuzatish: Kichik, invaziv bo‘lmagan shikastlanishlarda xavfi past bo‘lgan joylarda ba'zan kuzatish mumkin. Ammo yassi hujayrali saraton bilan o‘xshashligi sababli biopsiya va monitoring zarur.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Prognoz:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    uz: [
-                      "Xavfsiz tabiati: Keratoakantoma (KA) odatda hayot uchun xavf tug‘dirmaydi, lekin kosmetik nuqsonlarga olib kelishi yoki chandiq qoldirishi mumkin.",
-                      "Qaytalanish: Agar o‘simta to‘liq olib tashlanmagan bo‘lsa yoki tashxis noto‘g‘ri bo‘lsa, qaytalanishi mumkin. Davolanmasa, kattalashib, yaralanishi mumkin.",
-                      "Xavfli bo‘lish ehtimoli: KA odatda xavfsiz bo‘lsa-da, kamdan-kam hollarda, ayniqsa noto‘g‘ri davolashda, yassi hujayrali saratonga aylanishi mumkin. Shu sababli biopsiya va to‘g‘ri davolash muhim.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Oldini olish:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    uz: [
-                      "Quyoshdan himoya: Quyoshdan saqlovchi kremlar, himoya kiyimlari va quyoshda uzoq vaqt qolishdan saqlanish muhim profilaktika choralaridir.",
-                      "Teri kuzatuvi: O‘z-o‘zini tekshirish va dermatologga muntazam tashriflar, ayniqsa yuqori xavfli odamlarda, muhim ahamiyatga ega.",
-                    ],
-                  },
-                },
-              ],
-            },
-          ],
-          kr: [
-            {
-              text: "Ташқи кўриниши:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    kr: [
-                      "Шакли: Кератоакантома (КА) одатда гумбазсимон, кўтарилган тугун ёки ўсма кўринишида бўлади, марказида кератин (тери ва тирноқларда учрайдиган оқсил) билан тўлган кратер мавжуд. Бу унга хос 'вулқонсимон' кўриниш беради.",
-                      "Ўлчами: Одатда диаметри 1 дан 3 см гача бўлади, лекин баъзан каттароқ бўлиши мумкин.",
-                      "Ранги: Шикастланиш жойи тери рангида, қизил ёки жигарранг бўлиши мумкин. Марказида кератинли (сарғиш ёки оқ) масса бўлиб, кўпинча қобиқ ёки қуруқ қават ҳосил қилади.",
-                      "Юзаси: Кўпинча силлиқ ёки бироз дағал ва тангачали, марказида аниқ кўринадиган кератин тиқини мавжуд.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Жойлашуви:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    kr: [
-                      "Кўп учрайдиган жойлар: Кератоакантомалар кўпинча қуёш таъсирига кўпроқ учрайдиган жойларда пайдо бўлади: юз, қулоқ, бўйин, қўл ва бош териси.",
-                      "Кўп учраш частотаси: Улар одатда кекса ёшдаги одамларда (айниқса 50 ёшдан ошганларда) ва оч терили одамларда учрайди, бу қуёш нурларининг узоқ муддатли таъсири билан боғлиқ.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Ўсиш хусусиятлари:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    kr: [
-                      "Тез ўсиш: Кератоакантомага хос хусусиятлардан бири унинг тез ўсиши бўлиб, кўпинча бир неча ҳафта ёки ой ичида максимал ўлчамга етади.",
-                      "Спонтан регрессия: Кўп ҳолларда КА бир неча ой (одатда 6–12 ой) ичида ўз-ўзидан йўқолади, кичрайиб ва текисланиб кетади. Аммо бу чандиқ ёки пигментация ўзгаришларига олиб келиши мумкин.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Белгилари:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    kr: [
-                      "Оғриқсиз: Одатда, Кератоакантома (КА) оғриқ келтирмайди, лекин ўсиб бориши ёки яраланиши билан қичишиш ёки сезгирлик пайдо бўлиши мумкин.",
-                      "Косметик ноқулайлик: Шикастланиш жойининг кўриниши кўпинча асосий ташвиш бўлади, айниқса у юз ёки бошқа очиқ жойларда бўлса.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Сабаблари ва хавф омиллари:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    kr: [
-                      "УВ нурланиши: Қуёш нурларининг узоқ муддатли таъсири муҳим хавф омилидир. Шикастланишлар кўпинча қуёшга энг кўп таъсир қиладиган тери жойларида пайдо бўлади.",
-                      "Иммуносупрессия: Иммунитети заифлашган одамлар (масалан, орган трансплантацияси олувчилар, иммуносупрессив терапиядаги беморлар) юқори хавф остида бўлади.",
-                      "Ёш: КА одатда кекса ёшдаги одамларда учрайди, одатда 50 ёшдан ошганларда, лекин ҳар қандай ёшда пайдо бўлиши мумкин.",
-                      "Генетик мойиллик: КА ирсий бўлмаса-да, генетик тери касалликлари (масалан, ксеродерма пигментозум) бўлган одамлар юқори хавф остида бўлади.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Ташхис:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    kr: [
-                      "Клиник текширув: Кератоакантома (КА) кўпинча унинг хос кўриниши асосида ташхис қилинади: гумбазсимон тугун, марказида кератин билан тўлган кратер.",
-                      "Тери биопсияси: КАни бошқа тери ўсмталарида, айниқса, ясси ҳужайрали саратондан (ЙҲС) фарқлаш учун зарур. Биопсия қуйидагиларни аниқлайди:",
-                      {
-                        text: "Гистологик хусусиятлар:",
-                        elements: [
-                          {
-                            elementType: "list",
-                            content: {
-                              kr: [
-                                "Экзофит ўсиш: Шикастланиш теридан ташқарига ўсади.",
-                                "Марказий кератин тиқини: Марказда кўпинча кератинли масса мавжуд.",
-                                "Периферик ҳужайраларда енгил атипия.",
-                              ],
-                            },
-                          },
-                        ],
-                      },
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Даволаш:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    kr: [
-                      "Жарроҳлик йўли билан олиб ташлаш: Энг кенг тарқалган ва самарали даволаш усули. Айниқса, косметик ташвишлар ёки хавфли ўсма гумони бўлса тавсия этилади. Олиб ташлаш қайта пайдо бўлиш хавфини камайтиради.",
-                      "Кюретаж ва электродеструкция: Ўсмани қириб олиб, кейин ток билан куйдириш. Одатда кичик ва хавфи паст шикастланишларда қўлланилади.",
-                      "Криотерапия: Баъзан чуқур бўлмаган ва катта бўлмаган шикастланишларда қўлланилади.",
-                      "Маҳаллий терапия: Кичик ва юзаки ўсмталарда 5-фторурацил (5-ФУ) ёки имиквимод билан крем қўлланилиши мумкин. Аммо улар жарроҳлик йўли билан олиб ташлашга қараганда камроқ самарали.",
-                      "Кузатиш: Кичик, инвазив бўлмаган шикастланишларда хавфи паст бўлган жойларда баъзан кузатиш мумкин. Аммо ясси ҳужайрали саратон билан ўхшашлиги сабабли биопсия ва мониторинг зарур.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Прогноз:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    kr: [
-                      "Хавфсиз табиати: Кератоакантома (КА) одатда ҳаёт учун хавф туғдирмайди, лекин косметик нуқсонларга олиб келиши ёки чандиқ қолдириши мумкин.",
-                      "Қайта пайдо бўлиш: Агар ўсма тўлиқ олиб ташланмаган бўлса ёки ташхис нотўғри бўлса, қайта пайдо бўлиши мумкин. Даволанмаса, катталашиб, яраланиши мумкин.",
-                      "Хавфли бўлиш эҳтимоли: КА одатда хавфсиз бўлса-да, камдан-кам ҳолларда, айниқса нотўғри даволашда, ясси ҳужайрали саратонга айланиши мумкин. Шу сабабли биопсия ва тўғри даволаш муҳим.",
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              text: "Олдини олиш:",
-              elements: [
-                {
-                  elementType: "list",
-                  content: {
-                    kr: [
-                      "Қуёшдан ҳимоя: Қуёшдан сақловчи кремлар, ҳимоя кийимлари ва қуёшда узоқ вақт қолишдан сақланиш муҳим профилактика чораларидир.",
-                      "Тери кузатуви: Ўз-ўзини текшириш ва дерматологга мунтазам ташрифлар, айниқса юқори хавфли одамларда, муҳим аҳамиятга эга.",
-                    ],
-                  },
-                },
-              ],
-            },
-          ],
-        },
-      },
-      {
-        elementType: "heading",
-        level: 3,
-        content: {
-          en: "Summary:",
-          kr: "Хулоса:",
-          uz: "Xulosa:",
-          ru: "Вывод:",
-        },
-      },
-      {
-        elementType: "paragraph",
-        content: {
-          en: "Keratoacanthoma (KA) is a benign, rapidly growing skin tumor that resembles squamous cell carcinoma. It often regresses spontaneously but can cause significant cosmetic concern or lead to scarring. Treatment typically involves excision or curettage, and the lesion's potential to transform into SCC makes a biopsy critical. Sun protection and regular skin checks are key for preventing and monitoring skin tumors like KA.",
-          kr: "Кератоакантома — хавфсиз, тез ўсувчи тери ўсмаси. Ясси ҳужайрали саратонга ўхшайди, ва кўпинча ўз-ўзидан йўқолади, аммо косметик муаммолар келтириб чиқариши ёки чандиқ қолдириши мумкин. Асосий даволаш — жарроҳлик, ва саратонга айланиш эҳтимоли сабабли биопсия ва кузатув шарт. Профилактика — қуёшдан ҳимоя ва мунтазам текширув.",
-          uz: "Keratoakantoma — xavfsiz, tez o‘suvchi teri o‘smalari. Yas­si hujayrali saratonga o‘xshaydi, va ko‘pincha o‘z-o‘zidan yo‘qoladi, ammo kosmetik muammolar keltirib chiqarishi yoki chandiq qoldirishi mumkin. Asosiy davolash — jarrohlik, va saratonga aylanish ehtimoli sababli biopsiya va kuzatuv shart. Profilaktika — quyoshdan himoya va muntazam tekshiruv.",
-          ru: "Кератоакантома — это доброкачественная, быстрорастущая опухоль кожи, похожая на плоскоклеточный рак. Часто исчезает самостоятельно, но может вызывать косметические проблемы или оставлять рубцы. Основное лечение — хирургическое удаление. Поскольку Кератоакантома может трансформироваться в рак, биопсия и наблюдение обязательны. Профилактика включает защиту от солнца и регулярные кожные осмотры.",
-        },
-      },
-    ],
-    type: "disease",
-  },
-  {
-    id: 6,
     slug: "squamous-cell-carcinoma-scc-ясси-хужайрали-карцинома-yassi-hujayrali-karsinoma-плоскоклеточный-рак-кожи",
     title: {
       kr: "Ясси ҳужайрали карцинома (ЯҲК)",
@@ -3322,7 +2123,7 @@ export const ARTICLES_MOCK = [
       ru: "Читать далее",
       kr: "Кўпроқ ўқиш",
     },
-    isPopular: true,
+    isFeatured: true,
     structure: [
       {
         elementType: "heading",
@@ -3978,6 +2779,1206 @@ export const ARTICLES_MOCK = [
     type: "disease",
   },
   {
+    id: 5,
+    slug: "melanoma-melanoma-меланома-меланома",
+    title: {
+      kr: "Меланома",
+      uz: "Melanoma",
+      en: "Melanoma",
+      ru: "Меланома",
+    },
+    description: {
+      en: "Melanoma is a type of skin cancer that develops from melanocytes, the cells in the skin that produce melanin, the pigment responsible for skin color. Melanoma is one of the most serious types of skin cancer due to its ability to spread (metastasize) to other parts of the body, making early detection and treatment crucial.",
+      kr: "Меланома — тери саратонининг бир тури бўлиб, терининг ранги учун масъул бўлган меланин пигментини ишлаб чиқарадиган тери ҳужайралари — меланотситлардан ривожланади. Меланома тананинг бошқа қисмларига метастаз бериш (тарқалиш) қобилияти туфайли тери саратонининг энг хавфли шаклларидан биридир, шунинг учун эрта ташхис қўйиш ва даволаш жуда муҳимдир.",
+      uz: "Melanoma — teri saratonining bir turi bo‘lib, terining rangi uchun mas’ul bo‘lgan melanin pigmentini ishlab chiqaradigan teri hujayralari — melanotsitlardan rivojlanadi. Melanoma tananing boshqa qismlariga metastaz berish (tarqalish) qobiliyati tufayli teri saratonining eng xavfli shakllaridan biridir, shuning uchun erta tashxis qo‘yish va davolash juda muhimdir.",
+      ru: "Меланома — это тип рака кожи, который развивается из меланоцитов — клеток кожи, вырабатывающих меланин, пигмент, отвечающий за цвет кожи. Меланома является одной из самых опасных форм рака кожи из-за своей способности метастазировать (распространяться) в другие части тела, поэтому ранняя диагностика и лечение крайне важны.",
+    },
+    image: "/article-images/ma/image-1.jpg",
+    date: "2025-06-18",
+    linkText: {
+      uz: "Ko'proq o'qish",
+      en: "Read more",
+      ru: "Читать далее",
+      kr: "Кўпроқ ўқиш",
+    },
+    isFeatured: true,
+    structure: [
+      {
+        elementType: "heading",
+        level: 1,
+        content: {
+          en: "Melanoma",
+          kr: "Меланома",
+          uz: "Melanoma",
+          ru: "Меланома",
+        },
+      },
+      {
+        elementType: "wrapper",
+        elements: [
+          {
+            elementType: "image",
+            content: "/article-images/ma/image-1.jpg",
+          },
+          {
+            elementType: "image",
+            content: "/article-images/ma/image-2.jpg",
+          },
+        ],
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Melanoma is a type of skin cancer that develops from melanocytes, the cells in the skin that produce melanin, the pigment responsible for skin color. Melanoma is one of the most serious types of skin cancer due to its ability to spread (metastasize) to other parts of the body, making early detection and treatment crucial.",
+          kr: "Меланома — тери саратонининг бир тури бўлиб, терининг ранги учун масъул бўлган меланин пигментини ишлаб чиқарадиган тери ҳужайралари — меланотситлардан ривожланади. Меланома тананинг бошқа қисмларига метастаз бериш (тарқалиш) қобилияти туфайли тери саратонининг энг хавфли шаклларидан биридир, шунинг учун эрта ташхис қўйиш ва даволаш жуда муҳимдир.",
+          uz: "Melanoma — teri saratonining bir turi bo‘lib, terining rangi uchun mas’ul bo‘lgan melanin pigmentini ishlab chiqaradigan teri hujayralari — melanotsitlardan rivojlanadi. Melanoma tananing boshqa qismlariga metastaz berish (tarqalish) qobiliyati tufayli teri saratonining eng xavfli shakllaridan biridir, shuning uchun erta tashxis qo‘yish va davolash juda muhimdir.",
+          ru: "Меланома — это тип рака кожи, который развивается из меланоцитов — клеток кожи, вырабатывающих меланин, пигмент, отвечающий за цвет кожи. Меланома является одной из самых опасных форм рака кожи из-за своей способности метастазировать (распространяться) в другие части тела, поэтому ранняя диагностика и лечение крайне важны.",
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Key Features of Melanoma:",
+          kr: "Меланоманинг асосий хусусиятлари:",
+          uz: "Melanomaning asosiy xususiyatlari:",
+          ru: "Основные особенности меланомы:",
+        },
+      },
+      {
+        elementType: "list",
+        content: {
+          en: [
+            {
+              text: "Appearance:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Color: Melanomas can vary in color, often being brown, black, tan, red, blue, or white, or a combination of these.",
+                      "Shape: The lesion may be asymmetrical, with irregular borders.",
+                      "Size: Melanomas often exceed 6 mm in diameter (about the size of a pencil eraser) but can be smaller, particularly in the early stages.",
+                      "Texture: The surface of a melanoma may appear uneven, and the lesion may become raised over time.",
+                      "Changes: The lesion may grow rapidly, itch, bleed, or ulcerate.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Types of Melanoma:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Superficial Spreading Melanoma: The most common type, often flat or slightly elevated with irregular borders. It typically grows horizontally before it grows deeper into the skin.",
+                      "Nodular Melanoma: Usually more aggressive, presenting as a raised, dark blue-black or red nodule that grows vertically into the skin.",
+                      "Lentigo Maligna Melanoma: Often found in older adults and tends to occur in sun-exposed areas. It starts as a flat, irregularly pigmented patch and slowly grows.",
+                      "Acral Lentiginous Melanoma: This type occurs on non-hair-bearing surfaces like the palms of the hands, soles of the feet, or under the nails. It is more common in individuals with darker skin.",
+                      "Desmoplastic Melanoma: A rarer form of melanoma that typically has a fibrous texture and may be difficult to diagnose clinically due to its subtle appearance.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Causes and Risk Factors:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Sun Exposure: The most significant risk factor for melanoma is excessive UV radiation exposure from the sun or tanning beds. This damages the DNA in skin cells, increasing the risk of mutations.",
+                      "Intermittent, intense sun exposure (e.g., sunburns) increases the risk of melanoma, especially in those who are fair-skinned and prone to burning.",
+                      "Genetics: A family history of melanoma increases the risk of developing the disease, as genetic mutations can predispose individuals to melanoma. The CDKN2A gene is one gene associated with inherited melanoma risk.",
+                      "Skin Type: People with fair skin that freckles or burns easily are at higher risk. Those with blonde or red hair, light eyes, and many moles also have a higher risk.",
+                      "Previous Melanoma: If you've had melanoma in the past, you're at an increased risk of developing a second melanoma.",
+                      "Weakened Immune System: Individuals with immunosuppression, such as organ transplant recipients, are at higher risk.",
+                      "Moles and Birthmarks: Having a large number of moles or atypical moles (dysplastic nevi) increases the risk of melanoma. Atypical moles have irregular shapes and colors and can be a precursor to melanoma.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Diagnosis:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Clinical Examination: An oncodermatologist can assess a suspicious mole or lesion using the ABCDE rule:",
+                      {
+                        text: "ABCDE Rule:",
+                        elements: [
+                          {
+                            elementType: "list",
+                            content: {
+                              en: [
+                                "Asymmetry: One half of the mole looks different from the other.",
+                                "Border: The edges are irregular, scalloped, or poorly defined.",
+                                "Color: There are multiple colors or uneven coloring.",
+                                "Diameter: The mole is larger than 6 mm (though melanomas can be smaller).",
+                                "Evolution: The mole is changing in size, shape, or color.",
+                              ],
+                            },
+                          },
+                        ],
+                      },
+                      "Skin Biopsy: The gold standard for diagnosing melanoma is a skin biopsy. A small sample of the suspicious mole or lesion is removed and examined under a microscope to check for cancerous cells.",
+                      "Imaging: If melanoma is suspected to have spread (metastasized), imaging tests such as CT scans, MRI, or PET scans may be used to assess the extent of spread to lymph nodes or distant organs.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Treatment:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Surgical Excision: Primary treatment for localized melanoma is wide local excision (WLE) of the tumor. The goal is to remove the melanoma and a margin of surrounding healthy tissue to ensure clear surgical margins.",
+                      "Sentinel Lymph Node Biopsy: For melanomas thicker than 1 mm, a sentinel lymph node biopsy may be performed to check for signs of spread to the lymph nodes.",
+                      "Immunotherapy: If the melanoma has spread (metastasized), immunotherapy drugs like checkpoint inhibitors (e.g., nivolumab and pembrolizumab) can help stimulate the immune system to fight cancer cells.",
+                      "Targeted Therapy: Targeted therapies, such as BRAF inhibitors (e.g., vemurafenib and dabrafenib), are used for melanomas with specific genetic mutations (e.g., mutations in the BRAF gene).",
+                      "Chemotherapy: While chemotherapy is sometimes used, it is less common in treating melanoma today due to the rise of more effective therapies like immunotherapy and targeted therapy.",
+                      "Radiation Therapy: In some cases, radiation therapy may be used to treat melanoma that has spread to the brain or bones.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Prognosis:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "The prognosis for melanoma depends on the Breslow thickness (depth of tumor invasion), ulceration, and mitotic rate (rate of cell division).",
+                      "Survival rates for melanoma are high if the tumor is detected early. For localized melanoma, the 5-year survival rate can exceed 90%, while the survival rate drops significantly for melanoma that has spread to distant organs.",
+                      "Follow-up is critical for detecting recurrence or metastasis, with patients typically undergoing regular skin checks and imaging tests depending on the stage of melanoma.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Prevention:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Sun Protection: The most important preventive measure is to avoid excessive sun exposure. Use broad-spectrum sunscreen with an SPF of at least 30, wear protective clothing, and seek shade during peak sun hours (10 a.m. to 4 p.m.).",
+                      "Avoid Tanning Beds: Tanning beds increase the risk of melanoma, particularly in young people.",
+                      "Skin Surveillance: Regular self-exams and visits to an oncodermatologist for a thorough skin check can help detect melanoma early. Monitor any moles or new skin lesions for changes in size, shape, or color.",
+                      "Protective Clothing: Wearing hats, sunglasses, and clothing with UV protection can reduce sun exposure and protect the skin.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          ru: [
+            {
+              text: "Внешний вид:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Характеристика очага: АК обычно проявляется в виде шероховатого, чешуйчатого пятна или бугорка на коже. Очаг часто имеет красный, розовый или телесный цвет, но может быть с коричневатым или желтоватым оттенком.",
+                      "Текстура: Поверхность может быть сухой, коркой покрытой или шероховатой на ощупь. Может быть немного приподнятой или плоской, с шелушением.",
+                      "Размер: Обычно от 2 до 6 мм в диаметре, но может быть и больше.",
+                      "Локализация: Чаще всего возникает на участках, подверженных солнцу — лице, ушах, коже головы, шее, предплечьях, тыльной стороне кистей, груди и плечах. У людей с длительным воздействием солнца АК может быть более распространённой, особенно на губах (в таком случае может развиться актинический хейлит).",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Типы меланомы:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Поверхностно распространяющаяся меланома: Наиболее распространённый тип, обычно плоская или немного приподнятая с неровными краями. Сначала распространяется горизонтально, затем вглубь кожи.",
+                      "Узловая меланома: Более агрессивный тип, проявляется в виде приподнятого узла тёмно-синего, чёрного или красного цвета, быстро проникает вглубь кожи.",
+                      "Меланома лентиго малигна: Встречается у пожилых людей, развивается на участках кожи, подверженных солнцу. Начинается как плоское пигментированное пятно с неравномерной окраской.",
+                      "Акральная лентигинозная меланома: Появляется на участках без волосяного покрова — ладони, подошвы, под ногтями. Более распространена у людей с тёмной кожей.",
+                      "Десмопластическая меланома: Редкий тип с волокнистой структурой, трудно диагностируется из-за слабо выраженных клинических признаков.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Причины и факторы риска:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Воздействие ультрафиолета (УФ): Главный фактор риска — избыточное УФ-облучение от солнца или соляриев. Это повреждает ДНК клеток кожи, повышая риск мутаций.",
+                      "Интенсивное прерывистое воздействие солнца: Например, солнечные ожоги, особенно у людей со светлой кожей.",
+                      "Генетика: Наличие меланомы у родственников повышает риск. Гены, такие как CDKN2A, связаны с наследственной формой.",
+                      "Тип кожи: Люди с бледной кожей, светлыми глазами, рыжими или светлыми волосами, а также большим количеством родинок имеют повышенный риск.",
+                      "Предыдущая меланома: Перенесённая меланома повышает риск повторного заболевания.",
+                      "Ослабленный иммунитет: У людей с иммунодепрессией (например, после трансплантации органов) риск выше.",
+                      "Родинки и родимые пятна: Атипичные родинки (диспластические невусы) с неровными краями и неравномерной окраской могут предшествовать меланоме.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Диагностика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Клинический осмотр: Дерматоонколог оценивает подозрительное новообразование по правилу ABCDE:",
+                      {
+                        text: "Правило ABCDE:",
+                        elements: [
+                          {
+                            elementType: "list",
+                            content: {
+                              ru: [
+                                "Асимметрия: Одна половина родинки отличается от другой.",
+                                "Границы: Края неровные, зазубренные или плохо очерченные.",
+                                "Цвет: Наличие нескольких цветов или неравномерная окраска.",
+                                "Диаметр: Родинка больше 6 мм (хотя меланомы могут быть и меньше).",
+                                "Эволюция: Родинка меняется в размере, форме или цвете.",
+                              ],
+                            },
+                          },
+                        ],
+                      },
+                      "Биопсия кожи: «Золотой стандарт» диагностики меланомы. Небольшой образец подозрительного участка удаляется и исследуется под микроскопом для выявления раковых клеток.",
+                      "Визуализация: Если есть подозрение на метастазы, могут быть назначены КТ, МРТ или ПЭТ для оценки распространения заболевания на лимфоузлы или отдалённые органы.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Лечение:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Хирургическое удаление: Основной метод лечения локализованной меланомы — широкое иссечение опухоли с захватом здоровой ткани для обеспечения чистых хирургических краёв.",
+                      "Биопсия сторожевого лимфоузла: Для меланом толщиной более 1 мм может быть выполнена биопсия сторожевого лимфоузла для проверки признаков распространения на лимфоузлы.",
+                      "Иммунотерапия: При метастатической меланоме применяются препараты иммунотерапии, такие как ингибиторы контрольных точек (например, ниволумаб и пембролизумаб), которые помогают стимулировать иммунную систему для борьбы с раковыми клетками.",
+                      "Таргетная терапия: Таргетные препараты, такие как ингибиторы BRAF (например, вемурафениб и дабрафениб), используются для меланом с определёнными генетическими мутациями (например, мутациями в гене BRAF).",
+                      "Химиотерапия: Хотя химиотерапия иногда используется, она менее распространена при лечении меланомы сегодня из-за появления более эффективных методов, таких как иммунотерапия и таргетная терапия.",
+                      "Лучевая терапия: В некоторых случаях лучевая терапия может быть использована для лечения меланомы, распространившейся на мозг или кости.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Прогноз:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Прогноз при меланоме зависит от толщины опухоли по Бреслоу (глубина инвазии), наличия изъязвления и митотической активности (скорости деления клеток).",
+                      "Выживаемость при меланоме высока, если опухоль обнаружена на ранней стадии. Для локализованной меланомы 5-летняя выживаемость может превышать 90%, в то время как при метастазировании выживаемость значительно снижается.",
+                      "Регулярное наблюдение важно для выявления рецидивов или метастазов. Пациенты обычно проходят регулярные осмотры кожи и визуализационные исследования в зависимости от стадии меланомы.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Профилактика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Защита от солнца: Наиболее важная мера профилактики — избегать чрезмерного воздействия солнца. Используйте солнцезащитные кремы с SPF не менее 30, носите защитную одежду и оставайтесь в тени в часы пиковой солнечной активности (с 10:00 до 16:00).",
+                      "Отказ от соляриев: Солярии увеличивают риск меланомы, особенно у молодых людей.",
+                      "Наблюдение за кожей: Регулярные самоосмотры и визиты к дерматоонкологу для тщательной проверки кожи помогут выявить меланому на ранней стадии. Следите за изменениями в размерах, форме или цвете родинок или новых кожных образований.",
+                      "Защитная одежда: Ношение шляп, солнцезащитных очков и одежды с УФ-защитой может снизить воздействие солнца и защитить кожу.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          kr: [
+            {
+              text: "Ташқи кўриниши:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Ўчоқ тавсифи: ғадир-будур, тангачасимон доғ ёки дўмбоқча. Қизил, пушти, тана ранги, жигарранг ёки сарғиш тусда бўлиши мумкин.",
+                      "Текстура: қуруқ, пўстлоқ, пайпаслаганда ғадир-будур. Кўтарилган ёки ясси.",
+                      "Ўлчами: 2–6 мм, баъзан каттароқ.",
+                      "Локализацияси: қуёшга таъсирланган жойлар — юз, қулоқ, бош териси, бўйин, билак, қўл панжаси, кўкрак, елка, лаб.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Меланома турлари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Юзаки тарқалган меланома: Энг кенг тарқалган тури, одатда текис ёки бироз кўтарилган, четлари нотекис. Дастлаб горизонтал, сўнгра тери ичига тарқалади.",
+                      "Тугунли меланома: Янада тажовузкор тури, тўқ кўк, қора ёки қизил рангли кўтарилган тугун кўринишида намоён бўлади, тезда тери ичига кириб боради.",
+                      "Лентиго малина меланомаси: Қарияларда учрайди, терининг қуёш нури тушадиган жойларида ривожланади. Бир текис бўлмаган пигментли доғ кўринишида бошланади.",
+                      "Акрал лентигиноз меланома: Соч қоплами бўлмаган жойларда — кафт, товон, тирноқ остида пайдо бўлади. Қора танли одамларда кўпроқ учрайди.",
+                      "Десмопластик меланома: Толали тузилишга эга бўлган кам учрайдиган тури, клиник белгилари кам ифодаланганлиги сабабли ташхис қўйиш қийин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Сабаблари ва хавф омиллари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Ультрабинафша нурлар (УБ) таъсири: Қуёш ёки солярийлардан ортиқча УБ-нурланиш тери ҳужайраларининг ДНКсини шикастлайди ва мутация хавфини оширади.",
+                      "Қуёшнинг интенсив узлукли таъсири: Масалан, қуёшдан куйиш, айниқса оқ танли одамларда.",
+                      "Генетика: Қариндошларда меланома борлиги хавф даражасини оширади (масалан, CDKN2A гени).",
+                      "Тери тури: Териси рангпар, кўзлари сарғиш, сочлари қизғиш ёки сарғиш, холи кўп бўлган одамларда хавф юқори.",
+                      "Олдинги меланома: Ўтказилган меланома кейинги касалланиш хавфини оширади.",
+                      "Иммунитетнинг пасайиши: Масалан, орган трансплантациясидан кейин.",
+                      "Атипик холлар (диспластик невус): Четлари нотекис ва ранги нотекис холлар меланомадан олдин пайдо бўлиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Ташхис:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Клиник кўрик: Дерматоонколог шубҳали ўсмани ABCDE қоидаси асосида баҳолайди:",
+                      {
+                        text: "ABCDE қоидаси:",
+                        elements: [
+                          {
+                            elementType: "list",
+                            content: {
+                              kr: [
+                                "Носиққиёслик: Бир ярим қисми иккинчисидан фарқ қилади.",
+                                "Чегаралар: Четлари нотекис, тишли ёки ноаниқ.",
+                                "Ранги: Бир неча ранглар ёки нотекис ранг.",
+                                "Ўлчами: 6 мм дан катта (меланома кичикроқ бўлиши ҳам мумкин).",
+                                "Эволюция: Шакли, ўлчами ёки ранги ўзгариши.",
+                              ],
+                            },
+                          },
+                        ],
+                      },
+                      "Тери биопсияси: Меланомани ташхислашнинг «олтин стандарти». Шубҳали жойдан кичик тўқима олиб, микроскопда ўрганилади.",
+                      "Тасвирлаш: Метастазларга шубҳа қилинганда КТ, МРТ ёки ПЭТ текширувлари қўлланилади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Даволаш:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Жарроҳлик: Маҳаллий меланомада асосий усул — кенг кесиш. Туморни ва соғлом тери тўқимасини олиб ташлаш мақсадида.",
+                      "Қўриқчи лимфа тугунининг биопсияси: 1 мм дан катта меланомаларда лимфа тугунларига тарқалишни текшириш учун ўтказилади.",
+                      "Иммунотерапия: Метастатик меланомада назорат нуқталари ингибиторлари (масалан, ниволумаб ва пембролизумаб) қўлланилади, иммун тизимини раков ҳужайраларга қарши курашишга рағбатлантиради.",
+                      "Мақсадли терапия: BRAF мутациялари бўлган меланомаларда BRAF ингибиторлари (масалан, вемурафениб ва дабрафениб) қўлланилади.",
+                      "Кимётерапия: Камроқ самарали бўлгани учун камроқ қўлланилади.",
+                      "Нур терапияси: Мия ёки суякларга тарқалган меланомаларда қўлланилади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Прогноз:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Прогноз Бреслоу қалинлиги (инвазия чуқурлиги), ярали ўзгаришлар ва митоз даражасига боғлиқ.",
+                      "Эрта ташхисда прогноз ижобий. Маҳаллий меланомада 5 йиллик яшаш даражаси 90% дан юқори бўлиши мумкин.",
+                      "Метастаз бўлган ҳолатларда яшаш даражаси сезиларли даражада пасаяди.",
+                      "Мунтазам назорат ва текширувлар рецидивларни ёки метастазларни эрта аниқлаш учун муҳим.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Профилактика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Қуёшдан ҳимоя: SPF 30+ кремлар, ҳимоя кийимлари, сояда бўлиш.",
+                      "Солярийдан воз кечиш: Ёшлар учун хавфли.",
+                      "Терини кузатиш: Мустақил текширувлар ва мутахассисга мурожаат.",
+                      "Ҳимоя кийимлари: Ультрабинафшага қарши шляпа, кўзойнак, кийим.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          uz: [
+            {
+              text: "Tashqi ko'rinishi:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "O'choq tavsifi: g'adir-budur, tangachamsimon dog' yoki dumbaqcha. Qizil, pushti, tana rangi, jigarrang yoki sariq tusda bo'lishi mumkin.",
+                      "Tekstura: quruq, po'stloq, paypaslaganda g'adir-budur. Ko'tarilgan yoki tekis.",
+                      "O'lchami: 2–6 mm, ba'zan kattaroq.",
+                      "Lokalizatsiyasi: quyoshga ta'sirlangan joylar — yuz, quloq, bosh terisi, bo'yin, bilak, qo'l panjasi, ko'krak, elka, lab.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Melanoma turlari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Yuzaki tarqalgan melanoma: Eng keng tarqalgan turi, odatda tekis yoki biroz ko'tarilgan, chetlari notekis. Dastlab gorizontal, so'ngra teri ichiga tarqaladi.",
+                      "Tugunli melanoma: Yanada tajovuzkor turi, to'q ko'k, qora yoki qizil rangli ko'tarilgan tugun ko'rinishida namoyon bo'ladi, tezda teri ichiga kirib boradi.",
+                      "Lentigo maligna melanomasi: Qarilarda uchraydi, terining quyosh nuri tushadigan joylarida rivojlanadi. Bir tekis bo'lmagan pigmentli dog' ko'rinishida boshlanadi.",
+                      "Akrall lentiginoz melanoma: Soch qoplami bo'lmagan joylarda — kaft, tovon, tirnoq ostida paydo bo'ladi. Qora tanli odamlarda ko'proq uchraydi.",
+                      "Desmoplastik melanoma: Tolali tuzilishga ega bo'lgan kam uchraydigan turi, klinik belgilari kam ifodalanganligi sababli tashxis qo'yish qiyin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Sabablari va xavf omillari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Ultrabinafsha nurlar (UB) ta'siri: Quyosh yoki solyariylardan ortiqcha UB-nurlanish teri hujayralarining DNKsini shikastlaydi va mutatsiya xavfini oshiradi.",
+                      "Quyoshning intensiv uzlukli ta'siri: Masalan, quyoshdan kuyish, ayniqsa oq tanli odamlarda.",
+                      "Genetika: Qarindoshlarda melanoma borligi xavf darajasini oshiradi (masalan, CDKN2A geni).",
+                      "Teri turi: Terisi rangpar, ko'zlari sarg'ish, sochlari qizg'ish yoki sarg'ish, holi ko'p bo'lgan odamlarda xavf yuqori.",
+                      "Oldingi melanoma: O'tkazilgan melanoma keyingi kasallanish xavfini oshiradi.",
+                      "Immunitetning pasayishi: Masalan, organ transplantatsiyasidan keyin.",
+                      "Atypik hollar (displastik nevus): Chetlari notekis va rangi notekis hollar melanomadan oldin paydo bo'lishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Tashxis:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Klinik ko'rik: Dermatolog shubhali o'smani ABCDE qoidasi asosida baholaydi:",
+                      {
+                        text: "ABCDE qoidasi:",
+                        elements: [
+                          {
+                            elementType: "list",
+                            content: {
+                              uz: [
+                                "Nosimmetriklik: Bir yarim qismi ikkinchisidan farq qiladi.",
+                                "Chegaralar: Chetlari notekis, tishli yoki noaniq.",
+                                "Rangi: Bir necha ranglar yoki notekis rang.",
+                                "O'lchami: 6 mm dan katta (melanoma kichikroq bo'lishi ham mumkin).",
+                                "Evolyutsiya: Shakli, o'lchami yoki rangi o'zgarishi.",
+                              ],
+                            },
+                          },
+                        ],
+                      },
+                      "Teri biopsiyasi: Melanomani tashxislashning «oltin standarti». Shubhali joydan kichik to'qima olib, mikroskopda o'rganiladi.",
+                      "Tasvirlash: Metastazlarga shubha qilinganda KT, MRT yoki PET tekshiruvlari qo'llaniladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Davolash:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Jarrohlik: Mahalliy melanomada asosiy usul — keng kesish. Tumorni va sog'lom teri to'qimasini olib tashlash maqsadida.",
+                      "Qo'riqchi limfa tugunining biopsiyasi: 1 mm dan katta melanomalarda limfa tugunlariga tarqalishni tekshirish uchun o'tkaziladi.",
+                      "Immunoterapiya: Metastatik melanomada nazorat nuqtalari ingibitorlari (masalan, nivolumab va pembrolizumab) qo'llaniladi, immun tizimini rak hujayralarga qarshi kurashishga rag'batlantiradi.",
+                      "Maqsadli terapiya: BRAF mutatsiyalari bo'lgan melanomalarda BRAF ingibitorlari (masalan, vemurafenib va dabrafenib) qo'llaniladi.",
+                      "Kimyoterapiya: Kamroq samarali bo'lgani uchun kamroq qo'llaniladi.",
+                      "Nur terapiyasi: Miya yoki suyaklarga tarqalgan melanomalarda qo'llaniladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Prognoz:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Prognoz Breslow qalinligi (invaziya chuqurligi), yarali o'zgarishlar va mitoz darajasiga bog'liq.",
+                      "Erta tashxisda prognoz ijobiy. Mahalliy melanomada 5 yillik yashash darajasi 90% dan yuqori bo'lishi mumkin.",
+                      "Metastaz bo'lgan holatlarda yashash darajasi sezilarli darajada pasayadi.",
+                      "Muntazam nazorat va tekshiruvlar retsidivlarni yoki metastazlarni erta aniqlash uchun muhim.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Profilaktika:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Quyoshdan himoya: SPF 30+ kremlar, himoya kiyimlari, soyada bo'lish.",
+                      "Solyariydan voz kechish: Yoshlar uchun xavfli.",
+                      "Terini kuzatish: Mustaqil tekshiruvlar va mutaxassisga murojaat.",
+                      "Himoya kiyimlari: Ultrabinafshaga qarshi shlyapa, ko'zoynak, kiyim.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Summary:",
+          kr: "Хулоса:",
+          uz: "Xulosa:",
+          ru: "Вывод:",
+        },
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Melanoma is a type of skin cancer that originates in the pigment-producing cells called melanocytes. It is often caused by UV exposure, but genetic factors and a history of unusual moles can also increase the risk. Early detection through regular skin checks and the use of the ABCDE rule is crucial for successful treatment. Treatment may include surgical excision, immunotherapy, and targeted therapy, depending on the stage of melanoma.",
+          kr: "Меланома — меланотситлардан келиб чиққан тери саратони. УБ нурланиш, ирсий омиллар ва атипик холлар билан боғлиқ. ABCDE қоидаси бўйича эрта аниқлаш муҳим. Даволаш — жарроҳлик, иммунотерапия ва мақсадли терапияни ўз ичига олади.",
+          uz: "Melanoma — melanotsitlardan kelib chiqqan teri saratoni. UB nurlanish, irsiy omillar va atypik xollar bilan bog‘liq. ABCDE qoidasi bo‘yicha erta aniqlash muhim. Davolash — jarrohlik, immunoterapiya va maqsadli terapiyani o‘z ichiga oladi.",
+          ru: "Меланома — это рак кожи, происходящий из меланоцитов. Наиболее частая причина — УФ-облучение, но также важны наследственность и наличие атипичных родинок. Ранняя диагностика по правилу ABCDE и регулярные осмотры критичны для успешного лечения. Варианты лечения включают хирургическое удаление, иммунотерапию и таргетную терапию в зависимости от стадии заболевания.",
+        },
+      },
+    ],
+    type: "disease",
+  },
+  {
+    id: 6,
+    slug: "atheromas-ateromalar-атеромы-атеромалар",
+    title: {
+      kr: "Атеромалар",
+      uz: "Ateromalar",
+      en: "Atheromas",
+      ru: "Атеромы",
+    },
+    description: {
+      en: "Atheromas, also known as sebaceous cysts or epidermoid cysts, are benign (non-cancerous) lumps or growths that develop within the skin, typically caused by the accumulation of sebum (an oily substance produced by sebaceous glands). These cysts are generally slow-growing and can be found in various parts of the body, most commonly on the face, neck, and back.",
+      kr: "Атеромалар, шунингдек, ёғ кисталари ёки эпидермоид кисталар деб ҳам аталади, терида ривожланадиган хавфсиз (рак эмас) зичлашмалар ёки неоплазмалардир. Улар одатда тери ёғининг (ёғ безлари ишлаб чиқарадиган ёғ моддаси) тўпланиши натижасида юзага келади. Бу кисталар одатда секин ўсади ва тананинг турли қисмларида, кўпинча юз, бўйин ва орқада учраши мумкин.",
+      uz: "Ateromalar, shuningdek, yog‘ kistalari yoki epidermoid kistalar deb ham ataladi, terida rivojlanadigan xavfsiz (rak emas) zichlashmalar yoki neoplazmalardir. Ular odatda teri yog‘ining (yog‘ bezlari ishlab chiqaradigan yog‘ moddasi) to‘planishi natijasida yuzaga keladi. Bu kistalar odatda sekin o‘sadi va tananing turli qismlarida, ko‘pincha yuz, bo‘yin va orqada uchrashi mumkin.",
+      ru: "Атеромы, также известные как сальные кисты или эпидермоидные кисты, — это доброкачественные (не раковые) уплотнения или новообразования, которые развиваются в коже. Они обычно возникают в результате накопления кожного сала (жирного вещества, вырабатываемого сальными железами). Эти кисты, как правило, растут медленно и могут встречаться в различных частях тела, чаще всего на лице, шее и спине.",
+    },
+    image: "/article-images/ath/image-1.jpg",
+    date: "2025-06-22",
+    linkText: {
+      uz: "Ko'proq o'qish",
+      en: "Read more",
+      ru: "Читать далее",
+      kr: "Кўпроқ ўқиш",
+    },
+    isFeatured: false,
+    structure: [
+      {
+        elementType: "heading",
+        level: 1,
+        content: {
+          en: "Atheromas",
+          kr: "Атеромалар",
+          uz: "Ateromalar",
+          ru: "Атеромы",
+        },
+      },
+      {
+        elementType: "wrapper",
+        elements: [
+          {
+            elementType: "image",
+            content: "/article-images/ath/image-1.jpg",
+          },
+          {
+            elementType: "image",
+            content: "/article-images/ath/image-2.jpg",
+          },
+        ],
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Atheromas, also known as sebaceous cysts or epidermoid cysts, are benign (non-cancerous) lumps or growths that develop within the skin, typically caused by the accumulation of sebum (an oily substance produced by sebaceous glands). These cysts are generally slow-growing and can be found in various parts of the body, most commonly on the face, neck, and back.",
+          kr: "Атеромалар, шунингдек, ёғ кисталари ёки эпидермоид кисталар деб ҳам аталади, терида ривожланадиган хавфсиз (рак эмас) зичлашмалар ёки неоплазмалардир. Улар одатда тери ёғининг (ёғ безлари ишлаб чиқарадиган ёғ моддаси) тўпланиши натижасида юзага келади. Бу кисталар одатда секин ўсади ва тананинг турли қисмларида, кўпинча юз, бўйин ва орқада учраши мумкин.",
+          uz: "Ateromalar, shuningdek, yog‘ kistalari yoki epidermoid kistalar deb ham ataladi, terida rivojlanadigan xavfsiz (rak emas) zichlashmalar yoki neoplazmalardir. Ular odatda teri yog‘ining (yog‘ bezlari ishlab chiqaradigan yog‘ moddasi) to‘planishi natijasida yuzaga keladi. Bu kistalar odatda sekin o‘sadi va tananing turli qismlarida, ko‘pincha yuz, bo‘yin va orqada uchrashi mumkin.",
+          ru: "Атеромы — это доброкачественные, медленно растущие кисты, вызванные закупоркой сальных желез. Они, как правило, безвредны, но могут воспаляться или увеличиваться в размерах. Методы лечения включают дренаж, хирургическое удаление и антибиотики при инфекции. Поддержание чистоты кожи и лечение акне помогают предотвратить их появление. Если атерома вызывает боль, дискомфорт или эстетическую проблему — стоит обратиться к врачу.",
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Key Features of Atheromas:",
+          kr: "Атеромаларнинг асосий хусусиятлари",
+          uz: "Ateromalar asosiy xususiyatlari",
+          ru: "Ключевые особенности атером",
+        },
+      },
+      {
+        elementType: "list",
+        content: {
+          en: [
+            {
+              text: "Appearance:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Shape: Atheromas are typically round or oval, with a smooth surface.",
+                      "Color: They are usually the same color as the skin or slightly yellowish, due to the sebum inside.",
+                      "Size: They can vary in size, from small (a few millimeters) to large (several centimeters in diameter).",
+                      "Texture: Atheromas are generally firm and movable under the skin, as they are filled with a thick, oily substance.",
+                      "Opening: Some atheromas may have a small opening at the surface of the skin, through which the sebum can occasionally leak out, leading to the formation of a blackhead or an unpleasant odor.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Causes:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Blocked Sebaceous Gland: The primary cause of an atheroma is a blocked sebaceous gland or hair follicle. When the duct that drains sebum becomes blocked, the oil accumulates, creating a cyst.",
+                      "Trauma or Skin Injury: A previous injury or skin trauma, such as a scratch or a puncture, can lead to a cyst developing if the sebaceous gland or follicle becomes damaged.",
+                      "Genetic Factors: In some cases, atheromas may run in families, suggesting a genetic predisposition.",
+                      "Other Skin Conditions: Certain skin conditions, such as acne, can increase the likelihood of developing atheromas due to the involvement of sebaceous glands.",
+                      "Hormonal Changes: Hormonal fluctuations during puberty, pregnancy, or menopause can contribute to the formation of these cysts.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Symptoms:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Painless Lump: Atheromas are often painless and may not cause any symptoms unless they become infected or inflamed.",
+                      "Swelling or Redness: If the cyst becomes infected, it may become red, swollen, and tender to the touch. Infected cysts may also release pus.",
+                      "Discomfort: Atheromas can sometimes cause discomfort if they are located in an area that experiences frequent friction, such as the armpits or back.",
+                      "Unpleasant Odor: If the cyst becomes infected or ruptures, it may release a foul-smelling discharge.",
+                      "Enlargement: Over time, some atheromas may slowly enlarge.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Diagnosis:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Physical Examination: A healthcare provider typically diagnoses atheromas based on their appearance and the patient’s medical history.",
+                      "Ultrasound: If there is any uncertainty about the nature of the cyst, an ultrasound may be used to check for other conditions or complications.",
+                      "Biopsy: In rare cases, if the cyst does not resolve or if it shows signs of being cancerous (though this is extremely rare), a biopsy may be performed to rule out malignancy.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Treatment:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Observation: If an atheroma is not causing symptoms or discomfort, it may not require treatment. In many cases, atheromas remain stable or even shrink over time.",
+                      "Drainage: If the cyst becomes inflamed or infected, it may be drained to relieve the pressure and remove the trapped sebum. This can be done by a healthcare provider.",
+                      "Incision and Drainage: In cases where the cyst is painful or infected, a doctor may perform a small incision to drain the cyst and relieve symptoms.",
+                      "Surgical Removal: The definitive treatment for atheromas is surgical removal, which involves excising the entire cyst and the surrounding tissue. This prevents the cyst from returning. It is usually done under local anesthesia in a clinical setting.",
+                      "Antibiotics: If the atheroma becomes infected, antibiotics may be prescribed to treat the infection before further treatment is performed.",
+                      "Steroid Injections: In some cases, corticosteroid injections may help reduce inflammation, but they do not remove the cyst.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Prevention:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Good Skin Hygiene: Maintaining proper skin hygiene can help prevent blocked pores and reduce the risk of developing atheromas. Regular cleansing of the skin can help prevent the buildup of oils and dead skin cells that can lead to cyst formation.",
+                      "Avoiding Skin Trauma: Avoiding skin injuries or trauma to areas prone to atheromas can help reduce the risk of their formation.",
+                      "Treatment of Acne: Managing acne with appropriate treatments, such as topical medications, can help prevent the development of atheromas in areas affected by acne.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "When to Seek Medical Attention:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    en: [
+                      "Infected or Inflamed Cyst: If the atheroma becomes painful, red, swollen, or starts to drain pus, it may be infected and require medical attention.",
+                      "Rapid Growth: If the cyst grows rapidly or becomes unusually large, it should be evaluated by a doctor to rule out other potential conditions.",
+                      "Recurrent Cysts: If an atheroma reoccurs after treatment or removal, further evaluation and treatment may be necessary.",
+                      "Cosmetic Concerns: If the cyst is in a visible area and is causing cosmetic concerns, a healthcare provider can help with removal options.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          ru: [
+            {
+              text: "Внешний вид:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Форма: Обычно округлая или овальная, с гладкой поверхностью.",
+                      "Цвет: Совпадает с цветом кожи или может быть слегка желтоватым (из-за содержащегося сала).",
+                      "Размер: Может варьироваться — от нескольких миллиметров до нескольких сантиметров в диаметре.",
+                      "Консистенция: Плотные на ощупь, подвижны под кожей, так как заполнены густым, жирным веществом.",
+                      "Отверстие: У некоторых атером имеется небольшое отверстие на коже, через которое сало может выходить наружу, иногда вызывая появление черной точки или неприятный запах.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Причины появления:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Закупорка сальной железы: Основная причина атеромы — это закупорка протока сальной железы или волосяного фолликула.",
+                      "Травма кожи: Повреждение кожи (царапина, укол и т.д.) может привести к развитию кисты, если нарушается структура сальной железы.",
+                      "Генетическая предрасположенность: В некоторых случаях атеромы могут быть наследственными.",
+                      "Кожные заболевания: Заболевания кожи, такие как акне, увеличивают риск образования атером.",
+                      "Гормональные изменения: Гормональные всплески в пубертате, при беременности или менопаузе также способствуют их формированию.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Симптомы:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Безболезненное уплотнение: Атеромы часто не вызывают боли и не сопровождаются симптомами, если не инфицированы.",
+                      "Покраснение и отек: При инфицировании киста становится красной, припухлой и болезненной.",
+                      "Неприятный запах: При вскрытии или инфицировании возможны выделения с неприятным запахом.",
+                      "Дискомфорт: Могут вызывать неудобства, особенно если расположены в зонах трения (подмышки, спина).",
+                      "Увеличение в размере: Со временем могут постепенно увеличиваться.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Диагностика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Физикальный осмотр: Врач диагностирует атерому на основании её внешнего вида и истории болезни.",
+                      "УЗИ: При сомнениях проводят ультразвуковое исследование для исключения других патологий.",
+                      "Биопсия: В редких случаях, если киста не проходит или вызывает подозрение на злокачественность (что крайне редко), может быть выполнена биопсия.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Лечение:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Наблюдение: Если киста не вызывает симптомов, лечение может не потребоваться — иногда они остаются стабильными или уменьшаются.",
+                      "Дренирование: При воспалении или инфекции кисту вскрывают и удаляют содержимое.",
+                      "Вскрытие и дренаж: При выраженной боли или инфицировании врач может сделать надрез и освободить кисту от содержимого.",
+                      "Хирургическое удаление: Наиболее эффективное лечение — полное иссечение кисты вместе с капсулой. Проводится под местной анестезией.",
+                      "Антибиотики: При инфекции назначаются антибиотики.",
+                      "Стероидные инъекции: Иногда используются для снятия воспаления, но не устраняют саму кисту.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Профилактика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Гигиена кожи: Регулярное очищение помогает предотвращать закупорку пор и образование атером.",
+                      "Избегание травм кожи: Уменьшает риск повреждения сальных желез.",
+                      "Лечение акне: Своевременное и правильное лечение прыщей снижает риск образования атером.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Когда обратиться к врачу:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    ru: [
+                      "Инфицированная киста: Если появляется боль, покраснение, гной — необходим медицинский осмотр.",
+                      "Быстрый рост: Быстро увеличивающиеся кисты требуют дополнительной диагностики.",
+                      "Рецидив: При повторном возникновении — возможно потребуется полное удаление.",
+                      "Эстетические жалобы: Если киста заметна и мешает внешне — врач подберёт метод удаления.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          kr: [
+            {
+              text: "Ташқи кўриниши:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Шакли: Одатда юмалоқ ёки овалсимон, юзаси силлиқ.",
+                      "Ранги: Тери рангига мос келади ёки бироз сарғиш бўлиши мумкин (таркибидаги ёғ туфайли).",
+                      "Ўлчами: Диаметри бир неча миллиметрдан бир неча сантиметргача бўлиши мумкин.",
+                      "Консистенсияси: Ушлаб кўрилганда зич, тери остида ҳаракатчан, чунки улар қуюқ, ёғли модда билан тўлдирилган.",
+                      "Тешик: Баъзи атеромаларнинг терисида кичик тешик бўлиб, у орқали ёғ ташқарига чиқиши мумкин, баъзида бу қора нуқта ёки ёқимсиз ҳид пайдо бўлишига олиб келади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Сабаблари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Ёғ безининг тиқилиб қолиши: Атероманинг асосий сабаби ёғ бези йўли ёки соч халтачасининг тиқилиб қолишидир.",
+                      "Терининг шикастланиши: (Тирналиш, санчиш ва ҳ.к.) ёғ безининг тузилиши бузилганда киста ривожланишига олиб келиши мумкин.",
+                      "Генетик мойиллик: Баъзи ҳолларда атеромалар ирсий бўлиши мумкин.",
+                      "Тери касалликлари: Акне каби тери касалликлари атерома ҳосил бўлиш хавфини оширади.",
+                      "Гормонал ўзгаришлар: Пубертат, ҳомиладорлик ёки менопаузадаги гормонал кўтарилишлар ҳам уларнинг шаклланишига ҳисса қўшади.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Белгилари:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Оғриқсиз зичлашув: Атеромалар кўпинча оғриқ келтириб чиқармайди ва инфекцияланмаган бўлса, симптомлар билан кечмайди.",
+                      "Инфекция тушганда: Киста қизаради, шишади ва оғриқли бўлади.",
+                      "Ёқимсиз ҳид: Ёриб кўрилганда ёки инфекция юқтирилганда ёқимсиз ҳидли ажралмалар чиқиши мумкин.",
+                      "Ноқулайлик: Айниқса ишқаланиш зоналарида (қўлтиқ ости, орқа) жойлашган бўлса, ноқулайлик туғдириши мумкин.",
+                      "Катталаштириш: Вақт ўтиши билан аста-секин катталашиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Диагностика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Кўздан кечириш: Шифокор атеромани ташқи кўриниши ва касаллик тарихига қараб аниқлайди.",
+                      "Ультратовуш текшируви: Шубҳа туғилганда бошқа патологияларни истисно қилиш учун ультратовуш текшируви ўтказилади.",
+                      "Биопсия: Камдан-кам ҳолларда, агар киста ўтиб кетмаса ёки хавфлилигига шубҳа туғилса (бу жуда кам учрайди), биопсия ўтказилиши мумкин.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Даволаш:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Кузатув: Агар киста симптомларни келтириб чиқармаса, даволаш талаб қилинмаслиги мумкин – баъзида улар барқарор бўлиб қолади ёки камаяди.",
+                      "Яллиғланиш ёки инфекция бўлса: Киста очилади ва ичидаги суюқлик олиб ташланади.",
+                      "Ёриш ва дренаж: Кучли оғриқ ёки инфекция мавжуд бўлганда, шифокор кесма ясаб, кистани ичидагидан бўшатиши мумкин.",
+                      "Жарроҳлик йўли билан олиб ташлаш: Энг самарали даволаш усули кистани капсуласи билан бирга тўлиқ олиб ташлашдир. Маҳаллий оғриқсизлантириш остида ўтказилади.",
+                      "Антибиотиклар: Инфекцияда антибиотиклар буюрилади.",
+                      "Стероид инъекциялари: Баъзан яллиғланишни йўқотиш учун ишлатилади, лекин кистанинг ўзини йўқотмайди.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Профилактика:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Тери гигиенаси: Мунтазам тозалаш тешикларнинг тиқилиб қолиши ва атер ҳосил бўлишининг олдини олишга ёрдам беради.",
+                      "Тери шикастланишининг олдини олиш: Ёғ безларининг шикастланиш хавфини камайтиради.",
+                      "Ҳуснбузарларни ўз вақтида ва тўғри даволаш: Атерома ҳосил бўлиш хавфини камайтиради.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Шифокорга қачон мурожаат қилиш керак:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    kr: [
+                      "Инфекцияланган киста: Агар оғриқ, қизариш, йиринг пайдо бўлса, тиббий кўрикдан ўтиш керак.",
+                      "Тез ўсиш: Тез катталашаётган кисталар қўшимча ташхис қўйишни талаб қилади.",
+                      "Рецидив: Қайта пайдо бўлганда – тўлиқ олиб ташлаш керак бўлиши мумкин.",
+                      "Эстетик шикоятлар: Агар киста кўзга ташланса ва ташқи томондан халақит берса – шифокор олиб ташлаш усулини танлайди.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+          uz: [
+            {
+              text: "Tashqi ko'rinishi:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Shakli: Odatda yumaloq yoki ovalsimon, yuzasi silliq.",
+                      "Rangi: Teri rangi bilan mos keladi yoki biroz sariq bo'lishi mumkin (ichidagi yog' tufayli).",
+                      "O'lchami: Bir necha millimetrdan bir necha santimetrgacha o'zgarishi mumkin.",
+                      "Konsistensiyasi: Zich, teri ostida harakatlanuvchi, chunki ular qattiq, yog'li modda bilan to'ldirilgan.",
+                      "Teshik: Ba'zi ateromalarda terida kichik teshik bo'lib, u orqali yog' tashqariga chiqishi mumkin, ba'zida bu qora nuqta yoki yoqimsiz hid paydo bo'lishiga olib keladi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Sabablari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Yog' bezining tiqilib qolishi: Ateromaning asosiy sababi yog' bezining kanali yoki soch folikulining tiqilib qolishidir.",
+                      "Teri shikastlanishi: (tirnalish, sanjish va h.k.) yog' bezining tuzilishi buzilganda kista rivojlanishiga olib kelishi mumkin.",
+                      "Genetik moyillik: Ba'zi hollarda ateromalar irsiy bo'lishi mumkin.",
+                      "Teri kasalliklari: Akne kabi teri kasalliklari ateroma hosil bo'lish xavfini oshiradi.",
+                      "Gormonal o'zgarishlar: Pubertat, homiladorlik yoki menopauzadagi gormonal ko'tarilishlar ham ularning shakllanishiga hissa qo'shadi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Belgilari:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Og'riqsiz zichlashuv: Ateromalar ko'pincha og'riq keltirib chiqarmaydi va infektsiyalanmagan bo'lsa, simptomlar bilan kechmaydi.",
+                      "Infektsiya tushganda: Kista qizaradi, shishadi va og'riqli bo'ladi.",
+                      "Yoqimsiz hid: Yorib ko'rilganda yoki infektsiya yuqdirilganda yoqimsiz hidli ajralmalar chiqishi mumkin.",
+                      "Noqulaylik: Ayrim joylarda (qo'ltiq osti, orqa) joylashgan bo'lsa, noqulaylik tug'dirishi mumkin.",
+                      "Kattalashishi: Vaqt o'tishi bilan asta-sekin kattalashishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Diagnostika:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Ko'zdan kechirish: Shifokor ateromani tashqi korinishi va kasallik tarixiga qarab aniqlaydi.",
+                      "Ultratovush tekshiruvi: Shubha tug'ilganda boshqa patologiyalarni istisno qilish uchun ultratovush tekshiruvi o'tkaziladi.",
+                      "Biopsiya: Kamdan-kam hollarda, agar kista o'tib ketmasa yoki xavfli ekanligiga shubha tug'ilsa (bu juda kam uchraydi), biopsiya o'tkazilishi mumkin.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Davolash:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Kuzatuv: Agar kista simptomlarni keltirib chiqarmasa, davolash talab qilinmasligi mumkin – ba'zan ular barqaror bo'lib qoladi yoki kamayadi.",
+                      "Yallig'lanish yoki infektsiya bo'lsa: Kista ochiladi va ichidagi suyuqlik olib tashlanadi.",
+                      "Yorish va drenaj: Kuchli og'riq yoki infektsiya mavjud bo'lsa, shifokor kesma yasab, cystani ichidagi moddasidan bo'shatishi mumkin.",
+                      "Jarrohlik yo'li bilan olib tashlash: Eng samarali davolash usuli cystani kapsulasi bilan birga to'liq olib tashlashdir. Mahalliy og'riqsizlantirish ostida o'tkaziladi.",
+                      "Antibiotiklar: Infektsiyada antibiotiklar buyuriladi.",
+                      "Steroid in'ektsiyalari: Ba'zida yallig'lanishni yo'qotish uchun ishlatiladi, lekin cystaning o'zini yo'qotmaydi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Profilaktika:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Teri gigienasi: Muntazam tozalash teshiklarning tiqilib qolishi va ateroma hosil bo'lishining oldini olishga yordam beradi.",
+                      "Teri shikastlanishining oldini olish: Yog' bezlarining shikastlanish xavfini kamaytiradi.",
+                      "Husnbuzarlarni o'z vaqtida va to'g'ri davolash: Ateroma hosil bo'lish xavfini kamaytiradi.",
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              text: "Shifokorga qachon murojaat qilish kerak:",
+              elements: [
+                {
+                  elementType: "list",
+                  content: {
+                    uz: [
+                      "Infektsiyalangan kista: Agar og'riq, qizarish, yiring paydo bo'lsa, tibbiy ko'rikdan o'tish kerak.",
+                      "Tez o'sish: Tez kattalashayotgan cystalar qo'shimcha tashxis qo'yishni talab qiladi.",
+                      "Retsidiv: Qayta paydo bo'lganda – to'liq olib tashlash kerak bo'lishi mumkin.",
+                      "Estetik shikoyatlar: Agar kista ko'zga tashlansa va tashqi tomondan xalokat bersa – shifokor olib tashlash usulini tanlaydi.",
+                    ],
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      },
+      {
+        elementType: "heading",
+        level: 3,
+        content: {
+          en: "Summary:",
+          kr: "Хулоса",
+          uz: "Xulosa:",
+          ru: "Вывод:",
+        },
+      },
+      {
+        elementType: "paragraph",
+        content: {
+          en: "Atheromas are benign, slow-growing cysts caused by blocked sebaceous glands. They are usually painless and not dangerous, but they can become infected or enlarged. Treatment options include drainage, surgical removal, and antibiotics if the cyst becomes infected. Good skin hygiene and management of skin conditions like acne can help prevent their formation. If you have an atheroma that becomes painful, infected, or cosmetically concerning, it's best to consult a healthcare provider for advice and treatment.",
+          kr: "Атеромалар ёғ безларининг тиқилиб қолиши натижасида юзага келадиган хавфсиз, секин ўсувчи кисталардир. Улар одатда зарарсиз, аммо яллиғланиши ёки катталашиши мумкин. Даволаш усулларига дренаж, жарроҳлик йўли билан олиб ташлаш ва инфекция учун антибиотиклар киради. Терини тоза сақлаш ва ҳуснбузарларни даволаш уларнинг пайдо бўлишининг олдини олишга ёрдам беради. Агар атерома оғриқ, ноқулайлик ёки эстетик муаммони келтириб чиқарса, шифокорга мурожаат қилиш керак.",
+          uz: "Ateromalar yog‘ bezlarining tiqilib qolishi natijasida yuzaga keladigan xavfsiz, sekin o‘suvchi kistalardir. Ular odatda zararli emas, ammo yallig‘lanishi yoki kattalashishi mumkin. Davolash usullariga drenaj, jarrohlik yo‘li bilan olib tashlash va infektsiya uchun antibiotiklar kiradi. Terini toza saqlash va husnbuzarlarni davolash ularning paydo bo‘lishining oldini olishga yordam beradi. Agar ateroma og‘riq, noqulaylik yoki estetik muammoni keltirib chiqarsa, shifokorga murojaat qilish kerak.",
+          ru: "Атеромы — это доброкачественные, медленно растущие кисты, вызванные закупоркой сальных желез. Они, как правило, безвредны, но могут воспаляться или увеличиваться в размерах. Методы лечения включают дренаж, хирургическое удаление и антибиотики при инфекции. Поддержание чистоты кожи и лечение акне помогают предотвратить их появление. Если атерома вызывает боль, дискомфорт или эстетическую проблему — стоит обратиться к врачу.",
+        },
+      },
+    ],
+    type: "disease",
+  },
+
+  {
     id: 7,
     slug: "merkel-cell-carcinoma-mcc-меркел-хужайрали-карцинома-merkel-hujayrali-karsinoma-карцинома-меркель-клеток",
     title: {
@@ -4000,7 +4001,7 @@ export const ARTICLES_MOCK = [
       ru: "Читать далее",
       kr: "Кўпроқ ўқиш",
     },
-    isPopular: true,
+    isFeatured: false,
     structure: [
       {
         elementType: "heading",
@@ -4602,7 +4603,7 @@ export const ARTICLES_MOCK = [
       ru: "Читать далее",
       kr: "Кўпроқ ўқиш",
     },
-    isPopular: false,
+    isFeatured: false,
     structure: [
       {
         elementType: "heading",
@@ -5176,7 +5177,7 @@ export const ARTICLES_MOCK = [
       ru: "Читать далее",
       kr: "Кўпроқ ўқиш",
     },
-    isPopular: false,
+    isFeatured: false,
     structure: [
       {
         elementType: "heading",
@@ -5754,7 +5755,7 @@ export const ARTICLES_MOCK = [
       ru: "Читать далее",
       kr: "Кўпроқ ўқиш",
     },
-    isPopular: false,
+    isFeatured: false,
     structure: [
       {
         elementType: "heading",
@@ -6224,7 +6225,7 @@ export const ARTICLES_MOCK = [
       ru: "Читать далее",
       kr: "Кўпроқ ўқиш",
     },
-    isPopular: true,
+    isFeatured: false,
     structure: [
       {
         elementType: "heading",
@@ -6822,7 +6823,7 @@ export const ARTICLES_MOCK = [
       ru: "Читать далее",
       kr: "Кўпроқ ўқиш",
     },
-    isPopular: false,
+    isFeatured: false,
     structure: [
       {
         elementType: "heading",
@@ -7352,7 +7353,7 @@ export const ARTICLES_MOCK = [
       ru: "Читать далее",
       kr: "Кўпроқ ўқиш",
     },
-    isPopular: true,
+    isFeatured: false,
     structure: [
       {
         elementType: "heading",
@@ -7954,7 +7955,7 @@ export const ARTICLES_MOCK = [
       ru: "Читать далее",
       kr: "Кўпроқ ўқиш",
     },
-    isPopular: false,
+    isFeatured: false,
     structure: [
       {
         elementType: "heading",
@@ -8531,7 +8532,7 @@ export const ARTICLES_MOCK = [
       ru: "Читать далее",
       kr: "Кўпроқ ўқиш",
     },
-    isPopular: true,
+    isFeatured: false,
     structure: [
       {
         elementType: "heading",
@@ -9143,7 +9144,7 @@ export const ARTICLES_MOCK = [
       ru: "Читать далее",
       kr: "Кўпроқ ўқиш",
     },
-    isPopular: false,
+    isFeatured: false,
     structure: [
       {
         elementType: "heading",

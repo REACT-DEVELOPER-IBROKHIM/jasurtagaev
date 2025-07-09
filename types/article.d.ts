@@ -19,6 +19,8 @@ export interface IArticle {
     en: string;
   };
   elements: any[];
+  isFeatured: boolean;
+  type: "article" | "disease";
 }
 
 export interface IMedia {
