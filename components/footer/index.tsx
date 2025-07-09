@@ -17,9 +17,7 @@ const Footer = () => {
             <div className="flex-1">
               <div className="mb-[20px]">
                 <p className="text-xl mb-[20px]">{t("contact")}</p>
-                <a href="tel:+998991234567">+998991234567</a>
-                <br />
-                <a href="tel:+998991234567">+998991234567</a>
+                <a href="tel:+998991662220">+998 (99) 166 22 20</a>
               </div>
               <div>
                 <p className="text-xl mb-[20px]">{t("email")}</p>
@@ -28,7 +26,7 @@ const Footer = () => {
               <div>
                 <p className="text-xl my-[20px]">{t("socials")}</p>
                 <div className="flex gap-x-[20px]">
-                  <a href="https://t.me/jasurtagaev" className="text-2xl">
+                  <a href="https://t.me/jasur_tagaev" className="text-2xl">
                     <FaTelegram />
                   </a>
                   <a

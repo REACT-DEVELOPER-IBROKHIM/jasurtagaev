@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import AfterBefore from "../after-before";
 import Media from "../media";

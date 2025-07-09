@@ -25,7 +25,7 @@ const Media = ({
     <>
       <section className="w-full flex my-[50px]">
         <div className="container mx-auto">
-          <div className="flex gap-4 justify-between flex-wrap">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {mediaData
               .filter((media) =>
                 isFeatured ? media.isFeatured === isFeatured : true,

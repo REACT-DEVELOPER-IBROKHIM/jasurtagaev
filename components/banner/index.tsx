@@ -1,3 +1,4 @@
+"use client";
 import { IBannerProps } from "@/types/article";
 import { useLocale } from "next-intl";
 import Image from "next/image";
