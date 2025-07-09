@@ -10,10 +10,9 @@ import { Metadata } from "next";
 export async function generateMetadata({
   params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const resolvedParams = await params;
-  const locale = resolvedParams.locale as "en" | "uz" | "ru" | "kr";
+  const locale = (await params).locale as "en" | "uz" | "ru" | "kr";
 
   return useLocalizedMetadata(articlePageMetaData, locale);
 }

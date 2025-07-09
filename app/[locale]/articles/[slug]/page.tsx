@@ -12,7 +12,7 @@ import { ORIGIN } from "@/contants/api";
 export async function generateMetadata({
   params,
 }: {
-  params: { locale: string; slug: string };
+  params: Promise<{ locale: string; slug: string }>;
 }): Promise<Metadata> {
   const resolvedParams = await params;
   const post = await fetchArticleBySlug((await params).slug);
