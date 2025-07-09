@@ -93,21 +93,98 @@ export const MEDIA_MOCK = [
 
 export const AFTER_BEFORE_MOCK = [
   {
+    id: 0,
+    urls: ["/after-before/0/0.1.jpg", "/after-before/0/0.2.jpg"],
+    isFeatured: false,
+  },
+  {
     id: 1,
     urls: ["/after-before/1/1.1.jpeg", "/after-before/1/1.2.jpeg"],
-    isFeatured: true,
+    isFeatured: false,
   },
   {
     id: 2,
     urls: ["/after-before/2/2.1.jpg", "/after-before/2/2.2.jpeg"],
-    isFeatured: true,
+    isFeatured: false,
   },
   {
     id: 3,
-    urls: ["/after-before/3/3.1.JPG", "/after-before/3/3.2.jpg"],
+    urls: ["/after-before/3/3.1.jpeg", "/after-before/3/3.2.jpeg"],
+    isFeatured: false,
   },
   {
     id: 4,
-    urls: ["/after-before/4/4.1.jpeg", "/after-before/4/4.2.jpeg"],
+    urls: ["/after-before/4/4.1.jpg", "/after-before/4/4.2.jpeg"],
+    isFeatured: false,
+  },
+  {
+    id: 5,
+    urls: ["/after-before/5/5.1.jpg", "/after-before/5/5.2.jpg"],
+    isFeatured: false,
+  },
+  {
+    id: 6,
+    urls: ["/after-before/6/6.1.jpeg", "/after-before/6/6.2.jpeg"],
+    isFeatured: false,
+  },
+  {
+    id: 7,
+    urls: ["/after-before/7/7.1.jpg", "/after-before/7/7.2.jpg"],
+    isFeatured: false,
+  },
+  {
+    id: 8,
+    urls: ["/after-before/8/8.1.JPG", "/after-before/8/8.2.jpeg"],
+    isFeatured: false,
+  },
+  {
+    id: 9,
+    urls: ["/after-before/9/9.1.jpg", "/after-before/9/9.2.jpg"],
+    isFeatured: false,
+  },
+  {
+    id: 10,
+    urls: ["/after-before/10/10.1.JPG", "/after-before/10/10.2.jpg"],
+    isFeatured: false,
+  },
+  {
+    id: 11,
+    urls: ["/after-before/11/11.1.jpg", "/after-before/11/11.2.JPG"],
+    isFeatured: false,
+  },
+  {
+    id: 12,
+    urls: ["/after-before/12/12.1.jpeg", "/after-before/12/12.2.jpg"],
+    isFeatured: true,
+  },
+  {
+    id: 13,
+    urls: ["/after-before/13/13.1.jpeg", "/after-before/13/13.2.jpeg"],
+    isFeatured: false,
+  },
+  {
+    id: 14,
+    urls: ["/after-before/14/14.1.jpg", "/after-before/14/14.2.jpeg"],
+    isFeatured: false,
+  },
+  {
+    id: 15,
+    urls: ["/after-before/15/15.1.jpeg", "/after-before/15/15.2.jpeg"],
+    isFeatured: false,
+  },
+  {
+    id: 16,
+    urls: ["/after-before/16/16.1.jpg", "/after-before/16/16.2.jpg"],
+    isFeatured: false,
+  },
+  {
+    id: 17,
+    urls: ["/after-before/17/17.1.jpeg", "/after-before/17/17.2.jpg"],
+    isFeatured: false,
+  },
+  {
+    id: 18,
+    urls: ["/after-before/18/18.1.jpeg", "/after-before/18/18.2.JPG"],
+    isFeatured: true,
   },
 ];
