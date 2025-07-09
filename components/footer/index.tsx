@@ -90,15 +90,50 @@ const Footer = () => {
                 >
                   Садовый центр в Ташкенте
                 </a>
-                <iframe
-                  width={"100%"}
-                  height={260}
-                  src="https://yandex.uz/map-widget/v1/?ll=69.255366%2C41.315367&mode=search&oid=10583736196&ol=biz&z=16.44"
-                  style={{
-                    position: "relative",
-                    flex: 1,
-                  }}
-                ></iframe>
+                <div style={{ position: "relative", overflow: "hidden" }}>
+                  <a
+                    href="https://yandex.uz/maps/org/128530246647/?utm_medium=mapframe&utm_source=maps"
+                    style={{
+                      color: "#eee",
+                      fontSize: "12px",
+                      position: "absolute",
+                      top: "0px",
+                    }}
+                  >
+                    Centromed
+                  </a>
+                  <a
+                    href="https://yandex.uz/maps/10335/tashkent/category/medical_center_clinic/184106108/?utm_medium=mapframe&utm_source=maps"
+                    style={{
+                      color: "#eee",
+                      fontSize: "12px",
+                      position: "absolute",
+                      top: "14px",
+                    }}
+                  >
+                    Медцентр, клиника в Ташкенте
+                  </a>
+                  <a
+                    href="https://yandex.uz/maps/10335/tashkent/category/diagnostic_center/184106106/?utm_medium=mapframe&utm_source=maps"
+                    style={{
+                      color: "#eee",
+                      fontSize: "12px",
+                      position: "absolute",
+                      top: "28px",
+                    }}
+                  >
+                    Диагностический центр в Ташкенте
+                  </a>
+                  <iframe
+                    src="https://yandex.uz/map-widget/v1/org/128530246647/?ll=69.320600%2C41.368028&z=16"
+                    width="560"
+                    height="300"
+                    frameBorder="1"
+                    allowFullScreen
+                    style={{ position: "relative" }}
+                    title="Yandex Map"
+                  ></iframe>
+                </div>
                 <br />
                 <address>{t("address")}</address>
               </div>

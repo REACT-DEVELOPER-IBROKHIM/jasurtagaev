@@ -3,6 +3,20 @@ import Banner from "@/components/banner";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import { fetchArticles } from "@/helpers/api/articles.request";
+import useLocalizedMetadata from "@/helpers/generator";
+import { articlePageMetaData } from "@/mocks/metadata";
+import { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { locale: string };
+}): Promise<Metadata> {
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale as "en" | "uz" | "ru" | "kr";
+
+  return useLocalizedMetadata(articlePageMetaData, locale);
+}
 
 const ArticlesPage = async () => {
   const articles = await fetchArticles();
