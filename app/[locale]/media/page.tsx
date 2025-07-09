@@ -7,19 +7,6 @@ import {
 } from "@/helpers/api/media.request";
 import Footer from "@/components/footer";
 import MediaWrapper from "@/components/media-wrapper";
-import useLocalizedMetadata from "@/helpers/generator";
-import { Metadata } from "next";
-import { galleryPageMetaData } from "@/mocks/metadata";
-
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}): Promise<Metadata> {
-  const locale = (await params).locale as "en" | "uz" | "ru" | "kr";
-
-  return useLocalizedMetadata(galleryPageMetaData, locale);
-}
 
 const MediaPage = async () => {
   const mediaData = await fetchMediaData();

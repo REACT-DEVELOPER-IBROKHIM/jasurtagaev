@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://jasurtagaev.com
+
+# Sitemaps
+Sitemap: https://jasurtagaev.com/sitemap.xml
+Sitemap: https://jasurtagaev.com/sitemap-en.xml
+Sitemap: https://jasurtagaev.com/sitemap-uz.xml
+Sitemap: https://jasurtagaev.com/sitemap-ru.xml
+Sitemap: https://jasurtagaev.com/sitemap-kr.xml
