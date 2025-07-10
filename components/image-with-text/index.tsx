@@ -31,6 +31,8 @@ const ImageWithText = ({ data, imagePosition }: Props) => {
         </p>
         <LinkElement
           type="primary"
+          title={`Read more - "${translateContent(title, locale)}"`}
+          aria-label={`Read more about ${translateContent(title, locale)}`}
           href={decodeURIComponent(`/articles/${slug}`)}
         >
           {translateContent(linkText, locale)}

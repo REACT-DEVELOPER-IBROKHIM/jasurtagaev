@@ -28,7 +28,7 @@ const Header = () => {
     <header
       role="header"
       aria-label="Header section"
-      className="w-full h-[80px] bg-primary sticky top-0 z-10"
+      className="w-full h-[100px] bg-primary sticky top-0 z-10"
     >
       <div className="container h-full w-full mx-auto">
         <div className="h-full w-full flex items-center justify-between relative">
@@ -53,14 +53,13 @@ const Header = () => {
               English
             </option>
           </select>
-          <Link href="/">
+          <Link href="/" aria-label="Go to homepage" title="Go to homepage">
             <Image
               src="/logo.png"
               alt="Logo Jasur Tagaev Portfolio - Oncologist"
               width={256}
               height={81}
               loading="lazy"
-              className="h-[60px] w-[200px]"
             />
           </Link>
           <div>
