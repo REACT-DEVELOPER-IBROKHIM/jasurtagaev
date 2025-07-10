@@ -2,6 +2,7 @@ import React from "react";
 import LinkElement from "@/utils/components/link";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { translateContent } from "@/helpers/translation/translate-content";
 
 const Hero = () => {
   const t = useTranslations("home");
@@ -31,6 +32,9 @@ const Hero = () => {
             aria-label={"Go to about page"}
           >
             {t("reusable.learn_more")}
+            <span className="sr-only absolute border-0 m-[-1px] p-0 w-[1px] h-[1px] overflow-hidden clip-[rect(1px,1px,1px,1px)] clip-path-[inset(50%)] word-break-normal !important">
+              Know about Jasur Tagaev - {t("hero.title")}
+            </span>
           </LinkElement>
         </div>
       </div>

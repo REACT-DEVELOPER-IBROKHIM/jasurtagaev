@@ -36,6 +36,9 @@ const ImageWithText = ({ data, imagePosition }: Props) => {
           href={decodeURIComponent(`/articles/${slug}`)}
         >
           {translateContent(linkText, locale)}
+          <span className="sr-only absolute border-0 m-[-1px] p-0 w-[1px] h-[1px] overflow-hidden clip-[rect(1px,1px,1px,1px)] clip-path-[inset(50%)] word-break-normal !important">
+            {translateContent(title, locale)}
+          </span>
         </LinkElement>
       </div>
     </article>
