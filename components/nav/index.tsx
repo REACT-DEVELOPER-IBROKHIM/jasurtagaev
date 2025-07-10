@@ -20,7 +20,7 @@ const Nav = ({ menuIsOpen, setMenuOpen }: Props) => {
         className={`w-[400px] h-screen bg-primary fixed top-0 right-0 z-3 ${menuIsOpen ? "translate-x-0" : "translate-x-[440px]"} transition-transform duration-300 ease-in-out`}
       >
         <button
-          aria-expanded="true"
+          aria-expanded="false"
           aria-controls="navigation-menu"
           aria-label="Close navigation menu"
           className="text-white text-2xl absolute bg-primary left-[-40px] cursor-pointer w-[40px] h-[40px] flex items-center justify-center"
