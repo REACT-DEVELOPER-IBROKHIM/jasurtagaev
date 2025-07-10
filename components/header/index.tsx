@@ -26,7 +26,6 @@ const Header = () => {
   };
   return (
     <header
-      role="header"
       aria-label="Header section"
       className="w-full h-[100px] bg-primary sticky top-0 z-10"
     >
@@ -34,8 +33,13 @@ const Header = () => {
         <div className="h-full w-full flex items-center justify-between relative">
           <select
             onChange={handleChangeLanguage}
-            role="combobox"
             aria-label="Select Language: Uzbek, Russian, or English"
+            aria-haspopup="listbox"
+            aria-controls="language-options"
+            aria-autocomplete="list"
+            id="language-select"
+            aria-expanded="false"
+            aria-owns="language-options"
             name="language select"
             className="text-white"
             defaultValue={pathname.split("/")[1] || "en"}
@@ -65,8 +69,9 @@ const Header = () => {
           <div>
             <button
               onClick={handleMenuOpen}
-              aria-expanded={menuIsOpen}
+              aria-expanded="false"
               aria-controls="navigation-menu"
+              aria-label="Open navigation menu"
               className="text-white text-2xl cursor-pointer"
             >
               <HiOutlineMenu />

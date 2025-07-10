@@ -26,17 +26,26 @@ const Footer = () => {
               <div>
                 <p className="text-xl my-[20px]">{t("socials")}</p>
                 <div className="flex gap-x-[20px]">
-                  <a href="https://t.me/jasur_tagaev" className="text-2xl">
+                  <a
+                    href="https://t.me/jasur_tagaev"
+                    title="Go to Telegram"
+                    aria-label="Go to Telegram"
+                    className="text-2xl"
+                  >
                     <FaTelegram />
                   </a>
                   <a
                     href="https://www.youtube.com/@drjasurtagaev"
+                    title="Go to YouTube"
+                    aria-label="Go to YouTube"
                     className="text-2xl"
                   >
                     <FaYoutube />
                   </a>
                   <a
                     href="https://www.instagram.com/jasur_tagaev/"
+                    title="Go to Instagram"
+                    aria-label="Go to Instagram"
                     className="text-2xl"
                   >
                     <FaInstagram />
@@ -44,6 +53,8 @@ const Footer = () => {
 
                   <a
                     href="https://www.facebook.com/DoctorJasurTagaev/"
+                    title="Go to Facebook"
+                    aria-label="Go to Facebook"
                     className="text-2xl"
                   >
                     <FaFacebook />

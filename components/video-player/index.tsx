@@ -2,11 +2,7 @@ import React from "react";
 
 const VideoPlayer = () => {
   return (
-    <section
-      role="video"
-      aria-label="Video Player"
-      className="w-full h-[900px] py-[50px]"
-    >
+    <section aria-label="Video Player" className="w-full h-[900px] py-[50px]">
       <div className="container h-full mx-auto">
         <div className="flex h-full items-center justify-center">
           <video
