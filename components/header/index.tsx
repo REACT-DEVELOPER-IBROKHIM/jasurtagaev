@@ -57,10 +57,10 @@ const Header = () => {
             <Image
               src="/logo.png"
               alt="Logo Jasur Tagaev Portfolio - Oncologist"
-              width={200}
-              height={60}
+              width={256}
+              height={81}
               loading="lazy"
-              className="h-[60px]"
+              className="h-[60px] w-[200px]"
             />
           </Link>
           <div>
