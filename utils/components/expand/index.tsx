@@ -7,7 +7,12 @@ interface ExpandProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
 
 const ExpandLink = ({ href, children, ...rest }: ExpandProps) => {
   return (
-    <Link className="text-sky-700 m-8" href={href} {...rest}>
+    <Link
+      aria-label={`Go to explore more`}
+      className="text-sky-700 m-8"
+      href={href}
+      {...rest}
+    >
       {children}
     </Link>
   );

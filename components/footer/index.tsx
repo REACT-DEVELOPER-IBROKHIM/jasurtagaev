@@ -56,7 +56,13 @@ const Footer = () => {
               <ul className="flex flex-col gap-y-[10px]">
                 {NAVBAR_LIST_MOCK.map((item: INavigationItem) => (
                   <li key={item.id}>
-                    <Link href={item.url}>{item.label[locale]}</Link>
+                    <Link
+                      title={`Go to ${item.label[locale]}`}
+                      aria-label={`Go to ${item.label[locale]}`}
+                      href={item.url}
+                    >
+                      {item.label[locale]}
+                    </Link>
                   </li>
                 ))}
               </ul>

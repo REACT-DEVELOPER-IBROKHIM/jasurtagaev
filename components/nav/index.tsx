@@ -35,6 +35,9 @@ const Nav = ({ menuIsOpen, setMenuOpen }: Props) => {
               >
                 <Link
                   href={navitem.url}
+                  title={`Go to ${navitem.label[locale]}`}
+                  aria-label={`Go to ${navitem.label[locale]}`}
+                  prefetch={true}
                   className="block p-4 hover:bg-primary/50 transition-colors duration-300 ease-in-out"
                 >
                   {navitem.label[locale]}
