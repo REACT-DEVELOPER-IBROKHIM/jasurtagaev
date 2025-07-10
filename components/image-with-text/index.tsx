@@ -29,7 +29,10 @@ const ImageWithText = ({ data, imagePosition }: Props) => {
         <p className="text-lg leading-10 text-gray-500">
           {translateContent(description, locale)}
         </p>
-        <LinkElement type="primary" href={`/articles/${slug}`}>
+        <LinkElement
+          type="primary"
+          href={decodeURIComponent(`/articles/${slug}`)}
+        >
           {translateContent(linkText, locale)}
         </LinkElement>
       </div>

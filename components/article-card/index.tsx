@@ -27,7 +27,7 @@ const ArticleCard = ({ article }: { article: IArticle }) => {
         <p className="text-gray-500 text-lg">
           {truncateText(translateContent(description, locale), 110)}
         </p>
-        <LinkElement href={`/articles/${slug}`}>
+        <LinkElement href={decodeURIComponent(`/articles/${slug}`)}>
           {translateContent(linkText, locale)}
         </LinkElement>
       </div>
