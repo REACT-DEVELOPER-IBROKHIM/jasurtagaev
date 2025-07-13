@@ -11,22 +11,22 @@ const ImageWithText = ({ data, imagePosition }: Props) => {
 
   return (
     <article
-      className={`flex justify-between items-center gap-10 ${imagePosition === "left" ? "flex-row" : "flex-row-reverse"}`}
+      className={`flex-col  md:flex justify-between items-center gap-10 ${imagePosition === "left" ? "flex-row" : "flex-row-reverse"}`}
     >
-      <div className="w-1/2">
+      <div className="w-full md:w-1/2">
         <Image
           src={image}
           alt={translateContent(title, locale) || "Image"}
           width={500}
           height={500}
-          className="w-full h-[500px] object-cover"
+          className="w-full !h-[300px] md:!h-[300px] lg:h-[500px] object-cover"
         />
       </div>
-      <div className="w-1/2">
-        <h1 className="text-2xl font-bold mb-4">
+      <div className="w-full mt-[30px] md:w-1/2">
+        <h1 className="text-xl sm:text-2xl font-bold mb-4">
           {translateContent(title, locale)}
         </h1>
-        <p className="text-lg leading-10 text-gray-500">
+        <p className="text-[15px] sm:text-lg leading-10 text-gray-500">
           {translateContent(description, locale)}
         </p>
         <LinkElement

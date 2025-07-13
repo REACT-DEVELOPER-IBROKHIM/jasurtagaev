@@ -5,7 +5,7 @@ import { IArticle } from "@/types/article";
 const Diesease = ({ dieseases }: { dieseases: IArticle[] }) => {
   return (
     <section className="w-full h-auto mb-[100px]">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-6">
         <div className="flex flex-col gap-y-[50px]">
           {dieseases
             .filter((diesease: IArticle) => diesease.isFeatured)

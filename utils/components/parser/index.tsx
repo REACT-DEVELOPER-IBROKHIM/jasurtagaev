@@ -10,7 +10,7 @@ const Parser = ({ structure }: any) => {
     switch (type) {
       case "list":
         return (
-          <ul key={index} className="py-[50px]  pl-[30px]">
+          <ul key={index} className="py-0 md:py-[20px] lg:py-[50px] pl-[30px]">
             {content[locale] &&
               Array.isArray(content[locale]) &&
               content[locale].map((item: any, index: number) => {
@@ -18,9 +18,12 @@ const Parser = ({ structure }: any) => {
                   console.log("List item:", item);
                 }
                 return (
-                  <li key={index} className="py-[10px] list-decimal">
+                  <li
+                    key={index}
+                    className="text-16px py-[10px] md:py-[20px] list-decimal"
+                  >
                     {transformTextToStrong(item.text || item)}
-                    <div className="pl-[30px]">
+                    <div className="pl-0 md:pl-[20px] lg:pl-[30px]">
                       {item.elements &&
                         Array.isArray(item.elements) &&
                         item.elements.map((element: any, idx: number) => {
@@ -39,7 +42,10 @@ const Parser = ({ structure }: any) => {
         );
       case "paragraph":
         return (
-          <p className="py-[50px] text-xl" key={index}>
+          <p
+            className="py-[20px] text-[16px] md:py-[30px] md:text-[18px] lg:py-[50px] text-xl"
+            key={index}
+          >
             {translateContent(content, locale)}
           </p>
         );
@@ -47,19 +53,28 @@ const Parser = ({ structure }: any) => {
         switch (item.level) {
           case 1:
             return (
-              <h1 className="text-4xl font-bold" key={index}>
+              <h1
+                className="text-3xl font-bold md:text-3xl lg:text-4xl"
+                key={index}
+              >
                 {transformTextToStrong(translateContent(content, locale))}
               </h1>
             );
           case 2:
             return (
-              <h2 className="text-3xl font-bold" key={index}>
+              <h2
+                className="text-2xl font-bold md:text-2xl lg:text-3xl"
+                key={index}
+              >
                 {transformTextToStrong(translateContent(content, locale))}
               </h2>
             );
           case 3:
             return (
-              <h3 className="text-2xl font-bold" key={index}>
+              <h3
+                className="text-[18px] font-bold md:text-xl lg:text-3xl"
+                key={index}
+              >
                 {transformTextToStrong(translateContent(content, locale))}
               </h3>
             );
@@ -85,7 +100,7 @@ const Parser = ({ structure }: any) => {
       case "image":
         return (
           <Image
-            className="!max-w-[800px] flex-1 h-[600px] object-cover"
+            className="w-full max-w-[800px] h-[300px] object-cover sm:h-[400px] md:h-[500px] lg:h-[600px]"
             width={700}
             height={300}
             key={index}
@@ -97,7 +112,7 @@ const Parser = ({ structure }: any) => {
         return (
           <div
             key={index}
-            className="flex justify-center flex-wrap gap-4 py-[50px]"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-[50px]"
           >
             {item.elements &&
               Array.isArray(item.elements) &&
@@ -118,7 +133,7 @@ const Parser = ({ structure }: any) => {
 
   return (
     <>
-      <div className="container mx-auto py-[100px]">
+      <div className="container mx-auto py-[40px] md:py-[50px] px-6">
         {structure &&
           Array.isArray(structure) &&
           structure.map((item: any, index) => {
