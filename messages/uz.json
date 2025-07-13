@@ -34,8 +34,7 @@
     "title2": "Natijalar"
   },
   "after_before": {
-    "after": "Keyin",
-    "before": "Oldin"
+    "title": "Oldin va Keyin"
   },
   "articles": {
     "title": "Maqolalar"

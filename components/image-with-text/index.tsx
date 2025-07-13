@@ -19,14 +19,14 @@ const ImageWithText = ({ data, imagePosition }: Props) => {
           alt={translateContent(title, locale) || "Image"}
           width={500}
           height={500}
-          className="w-full !h-[300px] md:!h-[300px] lg:h-[500px] object-cover"
+          className="w-full !h-[300px] md:!h-[450px] lg:!h-[500px] object-cover"
         />
       </div>
       <div className="w-full mt-[30px] md:w-1/2">
         <h1 className="text-xl sm:text-2xl font-bold mb-4">
           {translateContent(title, locale)}
         </h1>
-        <p className="text-[15px] sm:text-lg leading-10 text-gray-500">
+        <p className="text-[15px] leading-6 sm:text-lg sm:leading-7 text-gray-500 md:text-[16px] md:leading-7 lg:leading-8">
           {translateContent(description, locale)}
         </p>
         <LinkElement

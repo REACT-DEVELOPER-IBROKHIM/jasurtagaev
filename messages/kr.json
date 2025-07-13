@@ -34,8 +34,7 @@
     "title2": "Натижалар"
   },
   "after_before": {
-    "after": "Кейин",
-    "before": "Олдин"
+    "title": "Кейин ва Олдин"
   },
   "articles": {
     "title": "Мақолалар"

@@ -34,8 +34,7 @@
     "title2": "Результаты"
   },
   "after_before": {
-    "after": "После",
-    "before": "До"
+    "title": "До и После"
   },
   "articles": {
     "title": "Статьи"
