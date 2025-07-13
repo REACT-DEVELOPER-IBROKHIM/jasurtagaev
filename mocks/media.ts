@@ -99,12 +99,12 @@ export const AFTER_BEFORE_MOCK = [
   },
   {
     id: 1,
-    urls: ["/after-before/1/1.1.jpeg", "/after-before/1/1.2.jpeg"],
+    urls: ["/after-before/1/1.1.jpg", "/after-before/1/1.2.jpg"],
     isFeatured: false,
   },
   {
     id: 2,
-    urls: ["/after-before/2/2.1.jpg", "/after-before/2/2.2.jpeg"],
+    urls: ["/after-before/2/2.1.jpg", "/after-before/2/2.2.jpg"],
     isFeatured: false,
   },
   {
@@ -159,7 +159,7 @@ export const AFTER_BEFORE_MOCK = [
   },
   {
     id: 13,
-    urls: ["/after-before/13/13.1.jpeg", "/after-before/13/13.2.jpeg"],
+    urls: ["/after-before/13/13.1.jpeg", "/after-before/13/13.2.jpg"],
     isFeatured: false,
   },
   {
