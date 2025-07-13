@@ -12,19 +12,33 @@ const Footer = () => {
   return (
     <>
       <footer id="footer" className="bg-primary text-white py-[40px]">
-        <div className="container mx-auto py-4">
-          <div className="flex">
+        <div className="container mx-auto py-4 px-6">
+          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="flex-1">
               <div className="mb-[20px]">
-                <p className="text-xl mb-[20px]">{t("contact")}</p>
-                <a href="tel:+998991662220">+998 (99) 166 22 20</a>
+                <p className="text-[16px] md:text-xl mb-[20px]">
+                  {t("contact")}
+                </p>
+                <a
+                  href="tel:+998991662220"
+                  className="text-[14px] md:text-[16px]"
+                >
+                  +998 (99) 166 22 20
+                </a>
               </div>
               <div>
-                <p className="text-xl mb-[20px]">{t("email")}</p>
-                <a href="mailto:jasurtagaev@gmail.com">jasurtagaev@gmail.com</a>
+                <p className="text-[16px] md:text-xl mb-[20px]">{t("email")}</p>
+                <a
+                  href="mailto:jasurtagaev@gmail.com"
+                  className="text-[14px] md:text-[16px]"
+                >
+                  jasurtagaev@gmail.com
+                </a>
               </div>
               <div>
-                <p className="text-xl my-[20px]">{t("socials")}</p>
+                <p className="text-[16px] md:text-xl my-[20px]">
+                  {t("socials")}
+                </p>
                 <div className="flex gap-x-[20px]">
                   <a
                     href="https://t.me/jasur_tagaev"
@@ -63,10 +77,10 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex-1">
-              <p className="text-xl  mb-[20px]">{t("links")}</p>
+              <p className="text-[16px] md:text-xl mb-[20px]">{t("links")}</p>
               <ul className="flex flex-col gap-y-[10px]">
                 {NAVBAR_LIST_MOCK.map((item: INavigationItem) => (
-                  <li key={item.id}>
+                  <li key={item.id} className="text-[14px] md:text-[16px]">
                     <Link
                       title={`Go to ${item.label[locale]}`}
                       aria-label={`Go to ${item.label[locale]}`}
@@ -78,7 +92,7 @@ const Footer = () => {
                 ))}
               </ul>
             </div>
-            <div className="flex-1">
+            <div className="col-span-full mt-[30px]">
               <div
                 style={{
                   position: "relative",
@@ -143,6 +157,7 @@ const Footer = () => {
                   </a>
                   <iframe
                     src="https://yandex.uz/map-widget/v1/org/128530246647/?ll=69.320600%2C41.368028&z=16"
+                    className="w-full"
                     width="560"
                     height="300"
                     frameBorder="1"

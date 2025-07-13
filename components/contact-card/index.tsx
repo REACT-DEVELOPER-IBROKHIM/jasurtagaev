@@ -8,9 +8,9 @@ const ContactCard = () => {
     <div className="container mx-auto">
       <section
         aria-label="Contact Card"
-        className="w-full py-8 bg-gray-100 flex justify-between px-[100px] items-center my-[100px]"
+        className="w-full py-8 bg-gray-100 flex justify-center px-[30px] gap-4 items-center my-[40px] flex-wrap md:justify-between md:px-[100px] md:my-[50px]"
       >
-        <h3 className="text-3xl italic">{t("title")}</h3>
+        <h3 className="text-xl lg:text-3xl italic">{t("title")}</h3>
         <LinkElement
           href="tel:+998991662220"
           className="bg-sky-700 inline-block px-[30px] py-[10px] cursor-pointer text-white hover:bg-sky-600"

@@ -25,8 +25,11 @@ const AfterBefore = ({
               isFeatured ? media.isFeatured === isFeatured : true,
             )
             .map((item) => (
-              <div className="flex flex-col md:flex-row" key={item.id}>
-                <div className="md:w-1/2 p-4">
+              <div
+                className="border-4 border-blue-600 p-4 mt-[30px] flex flex-col items-center md:flex-row"
+                key={item.id}
+              >
+                <div className="w-full md:w-1/2">
                   <h3 className="text-2xl mb-2">{t("before")}</h3>
                   <Image
                     src={item.urls[0]}
@@ -36,7 +39,8 @@ const AfterBefore = ({
                     className="w-full h-[400px] object-cover mb-4"
                   />
                 </div>
-                <div className="md:w-1/2 p-4">
+                <div className="w-full h-[250px] custom-arrow bg-gradient-to-b from-transparent via-blue-300 to-blue-600 md:mt-[30px] md:w-[300px] md:h-[400px] md:bg-gradient-to-r md:from-transparent md:via-blue-300 md:to-blue-600"></div>
+                <div className="w-full md:w-1/2">
                   <h3 className="text-2xl mb-2">{t("after")}</h3>
                   <Image
                     src={item.urls[1]}

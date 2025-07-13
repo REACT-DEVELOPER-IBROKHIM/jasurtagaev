@@ -29,7 +29,7 @@ const Header = () => {
       aria-label="Header section"
       className="w-full h-[100px] bg-primary sticky top-0 z-10"
     >
-      <div className="container h-full w-full mx-auto">
+      <div className="container h-full w-full mx-auto px-6">
         <div className="h-full w-full flex items-center justify-between relative">
           <select
             onChange={handleChangeLanguage}
@@ -63,6 +63,7 @@ const Header = () => {
               alt="Logo Jasur Tagaev Portfolio - Oncologist"
               width={256}
               height={81}
+              className="object-contain w-[180px] h-[60px] md:w-[256px] md:h-[81px] lg:w-[256px] lg:h-[81px]"
               loading="lazy"
             />
           </Link>
