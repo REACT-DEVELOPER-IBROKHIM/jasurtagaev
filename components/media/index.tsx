@@ -60,12 +60,13 @@ const Media = ({
                 </h2>
               )}
               <iframe
+                loading="lazy"
                 width={"100%"}
                 className="mb-4 flex-1"
                 referrerPolicy="strict-origin-when-cross-origin"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
-                src={selectedMedia?.link}
+                src={`${selectedMedia?.link}?rel=0`}
               ></iframe>
             </div>
           </div>
