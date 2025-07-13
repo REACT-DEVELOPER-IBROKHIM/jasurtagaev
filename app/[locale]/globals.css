@@ -18,30 +18,4 @@ body {
   .bg-primary {
     background-color: var(--color-primary);
   }
-
-  .custom-arrow {
-    clip-path: polygon(
-      0% 20%,
-      60% 35%,
-      61% 18%,
-      100% 50%,
-      61% 81%,
-      59% 66%,
-      0% 80%
-    );
-  }
-
-  @media (max-width: 768px) {
-    .custom-arrow {
-      clip-path: polygon(
-        67% 54%,
-        83% 55%,
-        51% 100%,
-        20% 54%,
-        34% 53%,
-        18% 1%,
-        81% 0
-      );
-    }
-  }
 }

@@ -34,8 +34,7 @@
     "title2": "Results"
   },
   "after_before": {
-    "after": "After",
-    "before": "Before"
+    "title": "Before and After"
   },
   "articles": {
     "title": "Articles"
