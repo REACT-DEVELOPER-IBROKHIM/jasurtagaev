@@ -22,24 +22,25 @@ const Main = async () => {
   const afterBefore = await fetchAfterBeforeData();
 
   return (
-    <main>
+    <>
       <Hero />
-      <VideoPlayer />
-      {/* <Articles articles={popularArticles} /> */}
-      <Media mediaData={mediaData} isFeatured={true} />
-      <AfterBefore afterBefore={afterBefore} isFeatured={true} />
-      <Banner
-        image={"/banner-images/banner-image-home.jpg"}
-        title={{
-          uz: "Xollaringizni tekshiring va saratonni oldini oling",
-          ru: "Проверьте свои родинки и предотвратите рак",
-          en: "Check your moles and prevent cancer",
-          kr: "Холларингизни текширинг ва саратонни олдини олинг",
-        }}
-        opacity={0.7}
-      />
-      <Diesease dieseases={dieseases} />
-    </main>
+      <main className="container mx-auto py-4 px-6">
+        <VideoPlayer />
+        <Media mediaData={mediaData} isFeatured={true} />
+        <AfterBefore afterBefore={afterBefore} isFeatured={true} />
+        <Banner
+          image={"/banner-images/banner-image-home.jpg"}
+          title={{
+            uz: "Xollaringizni tekshiring va saratonni oldini oling",
+            ru: "Проверьте свои родинки и предотвратите рак",
+            en: "Check your moles and prevent cancer",
+            kr: "Холларингизни текширинг ва саратонни олдини олинг",
+          }}
+          opacity={0.7}
+        />
+        <Diesease dieseases={dieseases} />
+      </main>
+    </>
   );
 };
 
