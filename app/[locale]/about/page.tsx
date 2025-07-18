@@ -11,7 +11,7 @@ const About = () => {
   return (
     <>
       <Header />
-      <main className="container mx-auto py-4">
+      <main className="container mx-auto py-4 px-6">
         <div className="container">
           <Banner
             image={"/banner-images/banner-image-about.png"}
@@ -25,12 +25,13 @@ const About = () => {
             height={700}
           />
 
-          <section className="flex items-center justify-between gap-8">
+          <section className="flex flex-col 2xl:flex-row items-center justify-between  gap-8">
             <Image
               src="/jasur-tagaev.jpg"
               alt="Jasur Tagaev"
               width={700}
               height={700}
+              className="lg:!w-full"
             />
             <div className="flex flex-col gap-4">
               <h2 className="text-3xl font-semibold">{t("person")}</h2>
@@ -44,8 +45,8 @@ const About = () => {
             aria-label="University and Professional Experience"
             className="my-[100px]"
           >
-            <ul className="flex justify-between items-center flex-wrap gap-4">
-              <li>
+            <ul className="grid items-center grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-8">
+              <li className="flex justify-center">
                 <Image
                   src="/university-logos/uis.png"
                   alt="University Logo"
@@ -53,7 +54,7 @@ const About = () => {
                   height={150}
                 />
               </li>
-              <li>
+              <li className="flex justify-center">
                 <Image
                   src="/university-logos/hui-ghent.png"
                   alt="University Logo"
@@ -61,7 +62,7 @@ const About = () => {
                   height={150}
                 />
               </li>
-              <li>
+              <li className="flex justify-center">
                 <Image
                   src="/university-logos/ghent.jpg"
                   alt="University Logo"
@@ -69,7 +70,7 @@ const About = () => {
                   height={120}
                 />
               </li>
-              <li>
+              <li className="flex justify-center">
                 <Image
                   src="/university-logos/uov.png"
                   alt="University Logo"
@@ -77,7 +78,7 @@ const About = () => {
                   height={150}
                 />
               </li>
-              <li>
+              <li className="flex justify-center">
                 <Image
                   src="/university-logos/children.png"
                   alt="University Logo"
@@ -85,7 +86,7 @@ const About = () => {
                   height={150}
                 />
               </li>
-              <li>
+              <li className="flex justify-center">
                 <Image
                   src="/university-logos/south.png"
                   alt="University Logo"
@@ -93,7 +94,7 @@ const About = () => {
                   height={150}
                 />
               </li>
-              <li>
+              <li className="flex justify-center">
                 <Image
                   src="/university-logos/hui.webp"
                   alt="University Logo"
