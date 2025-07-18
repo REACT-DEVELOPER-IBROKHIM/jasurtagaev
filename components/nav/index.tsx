@@ -5,6 +5,8 @@ import { NAVBAR_LIST_MOCK } from "@/mocks/component";
 import Link from "next/link";
 import { useLocale } from "next-intl";
 import { INavigationItem } from "@/types/article";
+import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
+import "./style.css";
 
 type Locale = "uz" | "ru" | "en" | "kr";
 
@@ -31,21 +33,54 @@ const Nav = ({ menuIsOpen, setMenuOpen }: Props) => {
         <nav className="h-full">
           <ul>
             {NAVBAR_LIST_MOCK.map((navitem: INavigationItem) => (
-              <li
-                key={navitem.id}
-                onClick={() => setMenuOpen(false)}
-                className="text-white text-xl border-b-[1px] border-b-white text-center uppercase"
-              >
-                <Link
-                  href={navitem.url}
-                  title={`Go to ${navitem.label[locale]}`}
-                  aria-label={`Go to ${navitem.label[locale]}`}
-                  prefetch={true}
-                  className="block p-4 hover:bg-primary/50 transition-colors duration-300 ease-in-out"
+              <div key={navitem.id} className="list-item">
+                <li
+                  onClick={
+                    navitem.children
+                      ? (e) => e.stopPropagation()
+                      : () => setMenuOpen(false)
+                  }
+                  className="text-white text-xl border-b-[1px] border-b-white text-center uppercase"
                 >
-                  {navitem.label[locale]}
-                </Link>
-              </li>
+                  <Link
+                    href={!navitem.children ? navitem.url : ""}
+                    title={`Go to ${navitem.label[locale]}`}
+                    aria-label={`Go to ${navitem.label[locale]}`}
+                    prefetch={true}
+                    className="block p-4 hover:bg-primary/50 transition-colors duration-300 ease-in-out"
+                  >
+                    {navitem.label[locale]}
+                    {navitem.children && (
+                      <>
+                        <MdKeyboardArrowDown className="inline text-3xl ml-2 mt-[-5px] to-bottom" />
+                        <MdKeyboardArrowUp className="hidden text-3xl ml-2 mt-[-5px] to-top" />
+                      </>
+                    )}
+                  </Link>
+                </li>
+                {navitem.children && (
+                  <div className="sub-list">
+                    <ul className="px-8">
+                      {navitem.children.map((child) => (
+                        <li
+                          key={child.id}
+                          className="text-white text-lg border-b-[1px] border-b-gray-600 text-center uppercase"
+                        >
+                          <Link
+                            href={child.url}
+                            title={`Go to ${child.label[locale]}`}
+                            aria-label={`Go to ${child.label[locale]}`}
+                            prefetch={true}
+                            className="block p-4 hover:bg-primary/50 transition-colors duration-300 ease-in-out"
+                          >
+                            {child.label[locale]}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
             ))}
           </ul>
         </nav>
