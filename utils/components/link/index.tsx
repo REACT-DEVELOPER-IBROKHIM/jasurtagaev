@@ -1,9 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const LinkElement = (
-  props: React.AnchorHTMLAttributes<HTMLAnchorElement> & { href: string },
-) => {
+const LinkElement = (props: any & { href: string }) => {
   return (
     <Link
       title={`Go to ${props.title}`}

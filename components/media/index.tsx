@@ -41,8 +41,14 @@ const Media = ({
         </div>
 
         {selectedMedia && (
-          <div className="fixed top-0 right-0 w-screen h-screen z-10 bg-[rgba(0,0,0,0.4)] backdrop-blur-sm flex items-center justify-center">
-            <div className="bg-white p-8 rounded-lg w-full max-w-[1200px] h-[80%] overflow-y-auto flex flex-col">
+          <div
+            onClick={() => setSelectedMedia(null)}
+            className="fixed top-0 right-0 w-screen h-screen z-10 bg-[rgba(0,0,0,0.4)] backdrop-blur-sm flex items-center justify-center p-4"
+          >
+            <div
+              onClick={(e) => e.stopPropagation()}
+              className="bg-white  rounded-lg w-full max-w-[1200px] overflow-y-auto flex flex-col p-4 h-[50%] md:h-[60%] md:p-8 lg:h-[80%] "
+            >
               <div className="flex justify-end mb-4">
                 <FiX
                   onClick={() => setSelectedMedia(null)}
@@ -55,7 +61,7 @@ const Media = ({
                 </p>
               )}
               {selectedMedia?.title && (
-                <h2 className="text-xl font-semibold mb-2">
+                <h2 className="text-[18px] md:text-xl font-semibold mb-2">
                   {selectedMedia.title[locale]}
                 </h2>
               )}

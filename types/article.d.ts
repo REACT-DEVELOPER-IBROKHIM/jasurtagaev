@@ -69,6 +69,7 @@ export interface INavigationItem {
     kr?: string; // Optional for Korean
   };
   url: string;
+  children?: INavigationItem[];
 }
 
 export interface IAfterBefore {
