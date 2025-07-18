@@ -19,3 +19,25 @@ body {
     background-color: var(--color-primary);
   }
 }
+
+.loader {
+  --d: 150px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #052d4f;
+  box-shadow:
+    calc(1 * var(--d)) calc(0 * var(--d)) 0 0,
+    calc(0.707 * var(--d)) calc(0.707 * var(--d)) 0 4px,
+    calc(0 * var(--d)) calc(1 * var(--d)) 0 6px,
+    calc(-0.707 * var(--d)) calc(0.707 * var(--d)) 0 8px,
+    calc(-1 * var(--d)) calc(0 * var(--d)) 0 10px,
+    calc(-0.707 * var(--d)) calc(-0.707 * var(--d)) 0 12px,
+    calc(0 * var(--d)) calc(-1 * var(--d)) 0 14px;
+  animation: l27 1s infinite steps(8);
+}
+@keyframes l27 {
+  100% {
+    transform: rotate(1turn);
+  }
+}

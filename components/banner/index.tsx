@@ -13,7 +13,7 @@ const Banner = (props: IBannerProps) => {
     <section
       role="banner"
       aria-label="Banner section"
-      className={`relative w-full flex items-center justify-center text-white mb-[100px] ${props.height ? `h-[700px]` : "h-[600px]"}`}
+      className={`relative w-full flex items-center justify-center text-white mb-[100px] ${props.height ? `h-[500px] lg:h-[700px]` : "h-[400px] lg:h-[600px]"}`}
     >
       <div className="container mx-auto relative w-full h-full flex flex-col items-center justify-center text-center">
         <div
@@ -30,7 +30,9 @@ const Banner = (props: IBannerProps) => {
         <div
           className={`relative z-3 flex flex-col text-center gap-4 p-4 ${props.height && "mb-[-400px]"}`}
         >
-          <h2 className="text-5xl">{props.title[locale]}</h2>
+          <h2 className="text-2xl md:text-3xl lg:text-5xl">
+            {props.title[locale]}
+          </h2>
           {props.description && <p>{props.description[locale]}</p>}
         </div>
       </div>

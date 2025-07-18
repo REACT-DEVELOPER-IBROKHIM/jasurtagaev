@@ -1,12 +1,15 @@
-import React from "react";
+"use client";
 import ArticleCard from "../article-card";
 import { IArticle } from "@/types/article";
 import ExpandLink from "@/utils/components/expand";
 import { useTranslations } from "next-intl";
+import { usePathname } from "next/navigation";
 
 const Articles = ({ articles }: { articles: IArticle[] }) => {
   const t = useTranslations("home");
   const t2 = useTranslations("articles");
+  const pathname = usePathname();
+
   return (
     <>
       <h2 className="text-3xl mb-4">{t2("title")}</h2>
@@ -23,9 +26,11 @@ const Articles = ({ articles }: { articles: IArticle[] }) => {
           </div>
         </div>
       </section>
-      <div className="flex justify-center">
-        <ExpandLink href="/articles">{t("reusable.explore_more")}</ExpandLink>
-      </div>
+      {!pathname.includes("articles") && (
+        <div className="flex justify-center">
+          <ExpandLink href="/articles">{t("reusable.explore_more")}</ExpandLink>
+        </div>
+      )}
     </>
   );
 };

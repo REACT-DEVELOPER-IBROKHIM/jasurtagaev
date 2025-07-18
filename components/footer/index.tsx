@@ -92,7 +92,7 @@ const Footer = () => {
                 ))}
               </ul>
             </div>
-            <div className="col-span-full mt-[30px]">
+            <div className="mt-[30px] col-span-full  md:mt-0 lg:col-span-1">
               <div
                 style={{
                   position: "relative",
