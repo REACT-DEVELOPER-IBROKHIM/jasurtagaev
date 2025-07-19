@@ -54,7 +54,7 @@ export interface IBannerProps {
     uz: string;
     ru: string;
     en: string;
-    kr: string; // Optional for Korean
+    kr: string;
   };
   opacity?: number;
   height?: number;
@@ -66,7 +66,7 @@ export interface INavigationItem {
     uz: string;
     ru: string;
     en: string;
-    kr?: string; // Optional for Korean
+    kr?: string;
   };
   url: string;
   children?: INavigationItem[];
@@ -76,4 +76,52 @@ export interface IAfterBefore {
   id: number;
   urls: string[];
   isFeatured: boolean;
+}
+
+export interface IServiceType {
+  id: number;
+  title: {
+    uz: string;
+    ru: string;
+    en: string;
+    kr: string;
+  };
+  description: {
+    uz: string;
+    ru: string;
+    en: string;
+    kr: string;
+  };
+  type: {
+    uz: "tashxis" | "davolash";
+    ru: "диагностика" | "лечение";
+    en: "diagnosis" | "treatment";
+    kr: "ташхис" | "даволаш";
+  };
+  slug: string;
+  image: string;
+}
+
+export interface IServiceSubType {
+  id: number;
+  title: {
+    uz: string;
+    ru: string;
+    en: string;
+    kr: string;
+  };
+  description: {
+    uz: string;
+    ru: string;
+    en: string;
+    kr: string;
+  };
+  type: {
+    uz: "tashxis" | "davolash";
+    ru: "диагностика" | "лечение";
+    en: "diagnosis" | "treatment";
+    kr: "ташхис" | "даволаш";
+  };
+  image?: string;
+  isFeatured?: boolean;
 }

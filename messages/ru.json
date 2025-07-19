@@ -38,5 +38,11 @@
   },
   "articles": {
     "title": "Статьи"
+  },
+  "services": {
+    "title": "Услуги",
+    "btn_text": "Узнать больше",
+    "treatment_title": "Услуги лечения",
+    "diagnosis_title": "Услуги диагностики"
   }
 }

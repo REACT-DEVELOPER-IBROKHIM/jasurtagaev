@@ -38,5 +38,11 @@
   },
   "articles": {
     "title": "Мақолалар"
+  },
+  "services": {
+    "title": "Хизматлар",
+    "btn_text": "Батафсил билиш",
+    "treatment_title": "Даволаш хизматлари",
+    "diagnosis_title": "Ташхис хизматлари"
   }
 }

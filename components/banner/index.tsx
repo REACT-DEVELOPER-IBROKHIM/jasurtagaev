@@ -33,7 +33,11 @@ const Banner = (props: IBannerProps) => {
           <h2 className="text-2xl md:text-3xl lg:text-5xl">
             {props.title[locale]}
           </h2>
-          {props.description && <p>{props.description[locale]}</p>}
+          {props.description && (
+            <p className="max-w-[80%] mx-auto text-gray-300">
+              {props.description[locale]}
+            </p>
+          )}
         </div>
       </div>
     </section>

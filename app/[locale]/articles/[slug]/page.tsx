@@ -13,7 +13,7 @@ const page = async ({ params }: Props) => {
       <Header />
       <Parser structure={post.structure} />
       <ContactCard />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

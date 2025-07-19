@@ -38,5 +38,11 @@
   },
   "articles": {
     "title": "Articles"
+  },
+  "services": {
+    "title": "Services",
+    "btn_text": "Know more",
+    "treatment_title": "Treatment services",
+    "diagnosis_title": "Diagnosis services"
   }
 }

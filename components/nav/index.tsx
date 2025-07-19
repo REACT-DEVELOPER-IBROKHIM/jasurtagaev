@@ -43,7 +43,7 @@ const Nav = ({ menuIsOpen, setMenuOpen }: Props) => {
                   className="text-white text-xl border-b-[1px] border-b-white text-center uppercase"
                 >
                   <Link
-                    href={!navitem.children ? navitem.url : ""}
+                    href={navitem.url}
                     title={`Go to ${navitem.label[locale]}`}
                     aria-label={`Go to ${navitem.label[locale]}`}
                     prefetch={true}

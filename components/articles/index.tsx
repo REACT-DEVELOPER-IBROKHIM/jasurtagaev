@@ -26,11 +26,6 @@ const Articles = ({ articles }: { articles: IArticle[] }) => {
           </div>
         </div>
       </section>
-      {!pathname.includes("articles") && (
-        <div className="flex justify-center">
-          <ExpandLink href="/articles">{t("reusable.explore_more")}</ExpandLink>
-        </div>
-      )}
     </>
   );
 };
