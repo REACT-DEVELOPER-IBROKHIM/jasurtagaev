@@ -72,7 +72,7 @@ const ServicesWrapper = ({
               )}
               {selectedService?.type[locale] && (
                 <p
-                  className={`text-sm inline px-4 capitalize text-gray-700 mb-4 ${selectedService.type[locale] === "diagnosis" ? "bg-sky-400" : "bg-green-400"} rounded-4xl`}
+                  className={`text-sm inline px-4 capitalize text-gray-700 mb-4 ${selectedService.type.en === "diagnosis" ? "bg-sky-400" : "bg-green-400"} rounded-4xl`}
                 >
                   {selectedService.type[locale]}
                 </p>
