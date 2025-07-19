@@ -305,3 +305,86 @@ export const aboutPageMetaData = {
     },
   },
 };
+
+export const servicesPageMetaData = {
+  en: {
+    metadataBase: new URL(ORIGIN || "http://localhost:3000"),
+    title: "Services | Jasur Tagaev",
+    description:
+      "Explore the services offered by Jasur Tagaev, including skin cancer and melanoma treatment.",
+    openGraph: {
+      title: "Services | Jasur Tagaev",
+      description:
+        "Explore the services offered by Jasur Tagaev, including skin cancer and melanoma treatment.",
+      images: [
+        {
+          url: "/banner-images/banner-image-services.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Services provided by Jasur Tagaev",
+        },
+      ],
+      siteName: "Jasur Tagaev",
+    },
+  },
+  uz: {
+    metadataBase: new URL(ORIGIN || "http://localhost:3000"),
+    title: "Xizmatlar | Jasur Tagaev",
+    description:
+      "Jasur Tagaev tomonidan taklif etilayotgan xizmatlarni o'rganing, jumladan teri saratoni va melanoma davolash.",
+    openGraph: {
+      title: "Xizmatlar | Jasur Tagaev",
+      description:
+        "Jasur Tagaev tomonidan taklif etilayotgan xizmatlarni o'rganing, jumladan teri saratoni va melanoma davolash.",
+      images: [
+        {
+          url: "/banner-images/banner-image-services.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Services provided by Jasur Tagaev",
+        },
+      ],
+      siteName: "Jasur Tagaev",
+    },
+  },
+  ru: {
+    metadataBase: new URL(ORIGIN || "http://localhost:3000"),
+    title: "Услуги | Жасур Тагаев",
+    description:
+      "Изучите услуги, предлагаемые Жасуром Тагеевым, включая лечение рака кожи и меланомы.",
+    openGraph: {
+      title: "Услуги | Жасур Тагаев",
+      description:
+        "Изучите услуги, предлагаемые Жасуром Тагеевым, включая лечение рака кожи и меланомы.",
+      images: [
+        {
+          url: "/banner-images/banner-image-services.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Services provided by Jasur Tagaev",
+        },
+      ],
+      siteName: "Жасур Тагаев",
+    },
+  },
+  kr: {
+    metadataBase: new URL(ORIGIN || "http://localhost:3000"),
+    title: "Хизматлар | Жасур Тагаев",
+    description:
+      "Жасур Тагаев томонидан таклиф этилаётган хизматларни ўрганинг, жумладан тери саратони ва меланома даволаш.",
+    openGraph: {
+      title: "Хизматлар | Жасур Тагаев",
+      description:
+        "Жасур Тагаев томонидан таклиф этилаётган хизматларни ўрганинг, жумладан тери саратони ва меланома даволаш.",
+      images: [
+        {
+          url: "/banner-images/banner-image-services.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Services provided by Jasur Tagaev",
+        },
+      ],
+      siteName: "Жасур Тагаев",
+    },
+  },
+};

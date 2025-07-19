@@ -38,5 +38,11 @@
   },
   "articles": {
     "title": "Maqolalar"
+  },
+  "services": {
+    "title": "Xizmatlar",
+    "btn_text": "Batafsil bilish",
+    "treatment_title": "Davolash xizmatlari",
+    "diagnosis_title": "Tashxis xizmatlari"
   }
 }

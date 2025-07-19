@@ -13,10 +13,10 @@ const ArticlesPage = async () => {
         <Banner
           image={"/banner-images/banner-image-articles.jpg"}
           title={{
-            uz: "Jasur Tagaev tomonidan tavsiya etilgan maqolalar",
-            ru: "Статьи, рекомендованные Жасуром Тагаевым",
-            en: "Articles shared by Jasur Tagaev",
-            kr: "Жасур Тагаев томонидан тавсия этилган мақолалар",
+            uz: "Maqolalar",
+            ru: "Статьи",
+            en: "Articles",
+            kr: "Мақолалар",
           }}
           opacity={0.7}
           description={{
