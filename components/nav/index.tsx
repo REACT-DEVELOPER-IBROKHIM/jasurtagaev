@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Props } from "./props";
 import { HiOutlineX } from "react-icons/hi";
 import { NAVBAR_LIST_MOCK } from "@/mocks/component";
@@ -12,6 +12,14 @@ type Locale = "uz" | "ru" | "en" | "kr";
 
 const Nav = ({ menuIsOpen, setMenuOpen }: Props) => {
   const locale = useLocale() as Locale;
+
+  useEffect(() => {
+    if (menuIsOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [menuIsOpen]);
   return (
     <div>
       <div

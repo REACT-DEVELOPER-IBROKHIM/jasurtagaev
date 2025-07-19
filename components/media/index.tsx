@@ -1,7 +1,7 @@
 "use client";
 import { IMedia } from "@/types/article";
 import MediaCard from "../media-card";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FiX } from "react-icons/fi";
 import ExpandLink from "@/utils/components/expand";
 import { useLocale, useTranslations } from "next-intl";
@@ -20,6 +20,14 @@ const Media = ({
   const locale = useLocale() as Locale;
 
   const pathname = usePathname();
+
+  useEffect(() => {
+    if (selectedMedia) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [selectedMedia]);
 
   return (
     <>
