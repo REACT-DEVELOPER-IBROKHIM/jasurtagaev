@@ -26,17 +26,21 @@ const Header = () => {
     router.push(newPath);
   };
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setNavbarPinned(window.scrollY > 130);
-    };
+  const handleScroll = () => {
+    setNavbarPinned(window.scrollY > 130);
+  };
 
+  useEffect(() => {
     window.addEventListener("scroll", handleScroll);
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   });
+
+  useEffect(() => {
+    handleScroll();
+  }, []);
 
   return (
     <header

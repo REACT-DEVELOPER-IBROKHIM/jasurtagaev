@@ -28,6 +28,28 @@ export const NAVBAR_LIST_MOCK = [
       kr: "Галерея",
     },
     url: "/media",
+    children: [
+      {
+        id: "3.1",
+        label: {
+          uz: "Media",
+          ru: "Медиа",
+          en: "Media",
+          kr: "Медиа",
+        },
+        url: "/media#media",
+      },
+      {
+        id: "3.2",
+        label: {
+          uz: "Before & After",
+          ru: "До и После",
+          en: "Before & After",
+          kr: "Before & After",
+        },
+        url: "/media#after-before",
+      },
+    ],
   },
   {
     id: "4",
@@ -47,7 +69,7 @@ export const NAVBAR_LIST_MOCK = [
           en: "Diagnosis",
           kr: "Диагностика",
         },
-        url: "/services/#services-diagnosis",
+        url: "/services#services-diagnosis",
       },
       {
         id: "4.2",
@@ -57,7 +79,7 @@ export const NAVBAR_LIST_MOCK = [
           en: "Treatment",
           kr: "Даволаш",
         },
-        url: "/services/#services-treatment",
+        url: "/services#services-treatment",
       },
     ],
   },
