@@ -1,4 +1,5 @@
 import Articles from "@/components/articles";
+import BackToTop from "@/components/back-to-top";
 import Banner from "@/components/banner";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
@@ -29,6 +30,7 @@ const ArticlesPage = async () => {
         <Articles articles={articles} />
       </main>
       <Footer />
+      <BackToTop />
     </>
   );
 };

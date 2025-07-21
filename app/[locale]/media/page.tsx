@@ -8,6 +8,7 @@ import {
 import Footer from "@/components/footer";
 import MediaWrapper from "@/components/media-wrapper";
 import ContactCard from "@/components/contact-card";
+import BackToTop from "@/components/back-to-top";
 
 const MediaPage = async () => {
   const mediaData = await fetchMediaData();
@@ -36,6 +37,7 @@ const MediaPage = async () => {
         <ContactCard />
       </main>
       <Footer />
+      <BackToTop />
     </>
   );
 };

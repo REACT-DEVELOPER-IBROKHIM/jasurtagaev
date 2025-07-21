@@ -1,3 +1,4 @@
+import BackToTop from "@/components/back-to-top";
 import Banner from "@/components/banner";
 import ContactCard from "@/components/contact-card";
 import Footer from "@/components/footer";
@@ -40,6 +41,7 @@ const Services = async () => {
         <ContactCard />
       </main>
       <Footer />
+      <BackToTop />
     </>
   );
 };
