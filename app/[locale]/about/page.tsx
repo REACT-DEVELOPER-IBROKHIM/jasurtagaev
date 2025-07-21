@@ -11,7 +11,7 @@ const About = () => {
   return (
     <>
       <Header />
-      <main className="container mx-auto py-4 px-6">
+      <main className="container mx-auto px-6">
         <div className="container">
           <Banner
             image={"/banner-images/banner-image-about.png"}
@@ -21,7 +21,7 @@ const About = () => {
               en: "Dr. Jasur Tagaev",
               kr: "Доктор Жасур Тагаев",
             }}
-            opacity={0.6}
+            opacity={0.75}
             height={700}
           />
 

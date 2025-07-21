@@ -24,7 +24,7 @@ const Main = async () => {
   return (
     <>
       <Hero />
-      <main className="container mx-auto py-4 px-6">
+      <main className="container mx-auto px-6">
         <VideoPlayer />
         <Media mediaData={mediaData} isFeatured={true} />
         <AfterBefore afterBefore={afterBefore} isFeatured={true} />
@@ -36,7 +36,7 @@ const Main = async () => {
             en: "Check your moles and prevent cancer",
             kr: "Холларингизни текширинг ва саратонни олдини олинг",
           }}
-          opacity={0.7}
+          opacity={0.75}
         />
         <Diesease dieseases={dieseases} />
       </main>

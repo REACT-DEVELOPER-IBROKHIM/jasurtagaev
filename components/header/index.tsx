@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React, { ChangeEvent } from "react";
+import React, { ChangeEvent, useEffect } from "react";
 import { HiOutlineMenu } from "react-icons/hi";
 import Nav from "../nav";
 import { useRouter, usePathname } from "next/navigation";
@@ -10,6 +10,7 @@ const Header = () => {
   const router = useRouter();
   const pathname = usePathname();
   const [menuIsOpen, setMenuOpen] = React.useState(false);
+  const [navbarPinned, setNavbarPinned] = React.useState(false);
 
   const handleMenuOpen = () => {
     setMenuOpen(true);
@@ -24,12 +25,25 @@ const Header = () => {
 
     router.push(newPath);
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setNavbarPinned(window.scrollY > 130);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  });
+
   return (
     <header
       aria-label="Header section"
-      className="w-full h-[100px] bg-primary sticky top-0 z-10"
+      className={`w-full h-[100px] ${navbarPinned ? "bg-primary fixed top-0 z-10" : "bg-transparent absolute top-0 z-10"} transition-all duration-300 ease-in-out`}
     >
-      <div className="container h-full w-full mx-auto px-6">
+      <div className="container h-full w-full mx-auto px-10">
         <div className="h-full w-full flex items-center justify-between relative">
           <select
             onChange={handleChangeLanguage}
@@ -73,9 +87,10 @@ const Header = () => {
               aria-expanded="false"
               aria-controls="navigation-menu"
               aria-label="Open navigation menu"
-              className="text-white text-2xl cursor-pointer"
+              className="text-white text-2xl cursor-pointer flex items-center gap-4"
             >
               <HiOutlineMenu />
+              <span className="text-lg">MENU</span>
             </button>
             <Nav menuIsOpen={menuIsOpen} setMenuOpen={setMenuOpen} />
           </div>

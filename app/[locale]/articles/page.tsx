@@ -9,7 +9,7 @@ const ArticlesPage = async () => {
   return (
     <>
       <Header />
-      <main className="container mx-auto py-4 px-6">
+      <main className="container mx-auto px-6">
         <Banner
           image={"/banner-images/banner-image-articles.jpg"}
           title={{
@@ -18,12 +18,12 @@ const ArticlesPage = async () => {
             en: "Articles",
             kr: "Мақолалар",
           }}
-          opacity={0.7}
+          opacity={0.75}
           description={{
-            en: "Explore a collection of articles shared by Jasur Tagaev, covering various topics in technology, programming, and personal insights.",
-            uz: "Jasur Tagaev tomonidan baham ko'rilgan maqolalar to'plamini o'rganing, texnologiya, dasturlash va shaxsiy fikrlar bo'yicha turli mavzularni qamrab oladi.",
-            ru: "Изучите коллекцию статей, поделившихся Жасуром Тагеевым, охватывающих различные темы в области технологий, программирования и личных взглядов.",
-            kr: "Жасур Тагаев томонидан бўлишилган мақолалар тўпламини ўрганинг, технология, дастурлаш ва шахсий фикрлар бўйича турли мавзуларни қамраб олади.",
+            en: "Explore a collection of articles shared by Jasur Tagaev",
+            uz: "Jasur Tagaev tomonidan baham ko'rilgan maqolalar to'plamini o'rganing",
+            ru: "Изучите коллекцию статей, поделившихся Жасуром Тагеевым",
+            kr: "Жасур Тагаев томонидан бўлишилган мақолалар тўпламини ўрганинг",
           }}
         />
         <Articles articles={articles} />

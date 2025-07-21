@@ -2,7 +2,6 @@ import React from "react";
 import LinkElement from "@/utils/components/link";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { translateContent } from "@/helpers/translation/translate-content";
 
 const Hero = () => {
   const t = useTranslations("home");
@@ -12,7 +11,7 @@ const Hero = () => {
       id="hero"
       role="banner"
       aria-label="Hero Section"
-      className="w-full max-w-[1536px] mx-auto mt-4"
+      className="w-full max-w-[1536px] mx-auto"
     >
       <div className="relative w-full h-[750px]">
         <Image
@@ -22,11 +21,12 @@ const Hero = () => {
           height={750}
           className="w-full h-full object-cover object-top"
         />
-        <div className="absolute top-0 left-0 w-full h-full bg-[rgb(5,45,79)] opacity-60"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-[rgb(5,45,79)] opacity-75"></div>
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-white text-center">
           <h1 className="text-[50px]">{t("hero.title")}</h1>
           <h2>{t("hero.content_text")}</h2>
           <LinkElement
+            className="bg-sky-700 text-white px-6 py-3 mt-4 uppercase"
             href="/about"
             title={"Go to about page"}
             aria-label={"Go to about page"}

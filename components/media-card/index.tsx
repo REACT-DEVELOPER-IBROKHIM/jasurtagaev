@@ -36,7 +36,7 @@ const MediaCard = ({
           onClick={() => {
             setSelectedMedia(media);
           }}
-          className="bg-blue-800 mt-4 px-[30px] py-[10px] cursor-pointer border-1 border-white rounded-[5px] hover:bg-blue-700"
+          className="bg-m-button mt-4 px-[30px] py-[10px] cursor-pointer border-1 border-white rounded-[5px] transition-colors duration-300"
         >
           {t("reusable.watch")}
         </Button>

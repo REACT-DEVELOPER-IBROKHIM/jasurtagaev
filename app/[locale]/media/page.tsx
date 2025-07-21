@@ -7,6 +7,7 @@ import {
 } from "@/helpers/api/media.request";
 import Footer from "@/components/footer";
 import MediaWrapper from "@/components/media-wrapper";
+import ContactCard from "@/components/contact-card";
 
 const MediaPage = async () => {
   const mediaData = await fetchMediaData();
@@ -14,7 +15,7 @@ const MediaPage = async () => {
   return (
     <>
       <Header />
-      <main className="container mx-auto py-4 px-6">
+      <main className="container mx-auto px-6">
         <Banner
           image={"/banner-images/banner-image-media.JPG"}
           title={{
@@ -23,7 +24,7 @@ const MediaPage = async () => {
             en: "Gallery",
             kr: "Галерея",
           }}
-          opacity={0.5}
+          opacity={0.75}
           description={{
             uz: "Jasur Tagaevnining erishgan natijalari va mediyadagi foydali malumotlarni o'rganing.",
             ru: "Изучите достижения Жасура Тагаева и полезную информацию в медиа.",
@@ -32,6 +33,7 @@ const MediaPage = async () => {
           }}
         />
         <MediaWrapper mediaData={mediaData} afterBefore={afterBefore} />
+        <ContactCard />
       </main>
       <Footer />
     </>

@@ -47,7 +47,7 @@ export const NAVBAR_LIST_MOCK = [
           en: "Diagnosis",
           kr: "Диагностика",
         },
-        url: "/services/diagnosis-диагностика-tashxis-ташхис",
+        url: "/services/#services-diagnosis",
       },
       {
         id: "4.2",
@@ -57,7 +57,7 @@ export const NAVBAR_LIST_MOCK = [
           en: "Treatment",
           kr: "Даволаш",
         },
-        url: "/services/treatment-лечение-davolash-даволаш",
+        url: "/services/#services-treatment",
       },
     ],
   },
