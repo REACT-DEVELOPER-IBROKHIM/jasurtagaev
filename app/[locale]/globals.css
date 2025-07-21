@@ -2,6 +2,8 @@
 
 :root {
   --color-primary: #052d4f;
+  --color-dark-primary: #232c39;
+  --color-sub-nav: #04325a;
   --color-m-button: #023a80;
   --color-m-hover-button: #0354b3;
   --font-primary: "Poppins", sans-serif;
@@ -19,6 +21,14 @@ body {
 @layer utilities {
   .bg-primary {
     background-color: var(--color-primary);
+  }
+
+  .bg-sub-nav {
+    background-color: var(--color-sub-nav);
+  }
+
+  .bg-dark-primary {
+    background-color: var(--color-dark-primary);
   }
 
   .bg-m-button {

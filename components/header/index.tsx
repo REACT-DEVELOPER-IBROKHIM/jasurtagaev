@@ -55,7 +55,7 @@ const Header = () => {
             aria-expanded="false"
             aria-owns="language-options"
             name="language select"
-            className="text-white"
+            className="text-[14px] text-white"
             defaultValue={pathname.split("/")[1] || "en"}
           >
             <option className="text-black" value="uz">
@@ -77,7 +77,7 @@ const Header = () => {
               alt="Logo Jasur Tagaev Portfolio - Oncologist"
               width={256}
               height={81}
-              className="object-contain w-[180px] h-[60px] md:w-[256px] md:h-[81px] lg:w-[256px] lg:h-[81px]"
+              className="object-contain w-[150px] h-[40px] md:w-[256px] md:h-[81px] lg:w-[256px] lg:h-[81px]"
               loading="lazy"
             />
           </Link>
@@ -87,10 +87,10 @@ const Header = () => {
               aria-expanded="false"
               aria-controls="navigation-menu"
               aria-label="Open navigation menu"
-              className="text-white text-2xl cursor-pointer flex items-center gap-4"
+              className="text-[20px]  cursor-pointer flex items-center gap-4 text-white md:text-2xl"
             >
               <HiOutlineMenu />
-              <span className="text-lg">MENU</span>
+              <span className="text-[16px] md:text-lg">MENU</span>
             </button>
             <Nav menuIsOpen={menuIsOpen} setMenuOpen={setMenuOpen} />
           </div>
