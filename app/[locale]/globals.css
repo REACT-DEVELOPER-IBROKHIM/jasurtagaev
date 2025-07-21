@@ -2,6 +2,8 @@
 
 :root {
   --color-primary: #052d4f;
+  --color-m-button: #023a80;
+  --color-m-hover-button: #0354b3;
   --font-primary: "Poppins", sans-serif;
 }
 
@@ -19,6 +21,13 @@ body {
     background-color: var(--color-primary);
   }
 
+  .bg-m-button {
+    background-color: var(--color-m-button);
+  }
+
+  .bg-m-button:hover {
+    background-color: var(--color-m-hover-button);
+  }
   .shadow-primary {
     box-shadow:
       rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,

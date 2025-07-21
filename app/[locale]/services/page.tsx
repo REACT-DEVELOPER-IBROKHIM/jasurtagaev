@@ -3,15 +3,16 @@ import ContactCard from "@/components/contact-card";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import ServicesWrapper from "@/components/services-wrapper";
-import { fetchServices } from "@/helpers/api/services.request";
+import { fetchSubservicesByType } from "@/helpers/api/services.request";
 
 const Services = async () => {
-  const serviceTypesData = await fetchServices();
+  const subservicesDiagnosisData = await fetchSubservicesByType("diagnosis");
+  const subservicesTreatmentData = await fetchSubservicesByType("treatment");
 
   return (
     <>
       <Header />
-      <main className="container mx-auto py-4 px-6">
+      <main className="container mx-auto px-6">
         <Banner
           image={"/banner-images/banner-image-services.PNG"}
           title={{
@@ -20,7 +21,7 @@ const Services = async () => {
             en: "Service types",
             kr: "Хизмат турлари",
           }}
-          opacity={0.6}
+          opacity={0.75}
           description={{
             en: "Explore the various services offered by Jasur Tagaev, including diagnosis, treatment, and more.",
             uz: "Jasur Tagaev tomonidan taklif etiladigan turli xizmatlarni, jumladan, diagnostika, davolash va boshqalarni o'rganing.",
@@ -28,7 +29,14 @@ const Services = async () => {
             kr: "Жасур Тагаев томонидан таклиф этилган турли хизматларни, жумладан, диагностика, даволаш ва бошқаларни ўрганинг.",
           }}
         />
-        <ServicesWrapper serviceTypesData={serviceTypesData} />
+        <ServicesWrapper
+          type="diagnosis"
+          subservicesData={subservicesDiagnosisData}
+        />
+        <ServicesWrapper
+          type="treatment"
+          subservicesData={subservicesTreatmentData}
+        />
         <ContactCard />
       </main>
       <Footer />

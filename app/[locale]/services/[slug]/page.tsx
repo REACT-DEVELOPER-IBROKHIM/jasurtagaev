@@ -20,13 +20,13 @@ const ServiceType = async ({
   return (
     <>
       <Header />
-      <main className="container mx-auto py-4 px-6">
+      <main className="container mx-auto px-6">
         <Banner
           image={
             serviceTypeData.image || "/banner-images/banner-image-services.PNG"
           }
           title={serviceTypeData.title}
-          opacity={0.6}
+          opacity={0.75}
           description={serviceTypeData.description}
         />
         <ServicesWrapper

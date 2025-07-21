@@ -13,7 +13,7 @@ const ContactCard = () => {
         <h3 className="text-xl lg:text-3xl italic">{t("title")}</h3>
         <LinkElement
           href="tel:+998991662220"
-          className="bg-sky-700 inline-block px-[30px] py-[10px] cursor-pointer text-white hover:bg-sky-600"
+          className="bg-m-button inline-block px-[30px] py-[10px] cursor-pointer text-white transition-colors duration-300"
         >
           {t("contact")}
         </LinkElement>

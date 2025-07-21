@@ -71,6 +71,7 @@ const Nav = ({ menuIsOpen, setMenuOpen }: Props) => {
                     <ul className="px-8">
                       {navitem.children.map((child) => (
                         <li
+                          onClick={() => setMenuOpen(false)}
                           key={child.id}
                           className="text-white text-lg border-b-[1px] border-b-gray-600 text-center uppercase"
                         >

@@ -30,7 +30,10 @@ const ServicesWrapper = ({
   }, [selectedService]);
 
   return subservicesData && subservicesData.length > 0 ? (
-    <section>
+    <section
+      className="mt-10 mb-20 -scroll-mt-[-150px]"
+      id={`services-${type}`}
+    >
       <h1 className="text-3xl font-bold mb-6">{t(`${type}_title`)}</h1>
       {subservicesData.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

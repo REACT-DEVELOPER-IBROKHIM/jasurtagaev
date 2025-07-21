@@ -17,8 +17,8 @@ const Banner = (props: IBannerProps) => {
     >
       <div className="container mx-auto relative w-full h-full flex flex-col items-center justify-center text-center">
         <div
-          className="absolute z-2 top-0 left-0 w-full h-full bg-black opacity-50"
-          style={{ opacity: props.opacity || 0.5 }}
+          className="absolute z-2 top-0 left-0 w-full h-full bg-primary opacity-75"
+          style={{ opacity: props.opacity || 0.75 }}
         ></div>
         <Image
           className={`w-full h-full`}
