@@ -144,7 +144,7 @@ export const AFTER_BEFORE_MOCK = [
   },
   {
     id: 10,
-    urls: ["/after-before/10/10.1.jpg", "/after-before/10/10.2.png"],
+    urls: ["/after-before/10/10.1.JPG", "/after-before/10/10.2.png"],
     isFeatured: false,
   },
   {
