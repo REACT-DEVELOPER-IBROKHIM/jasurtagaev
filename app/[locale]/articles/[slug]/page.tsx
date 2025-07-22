@@ -11,7 +11,7 @@ const page = async ({ params }: Props) => {
   const post = await fetchArticleBySlug((await params).slug);
   return (
     <>
-      <Header />
+      <Header pinned={true} />
       <Parser structure={post.structure} />
       <ContactCard />
       <Footer />

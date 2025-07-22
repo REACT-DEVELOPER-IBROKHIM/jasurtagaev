@@ -20,7 +20,7 @@ const MediaPage = async () => {
         <Banner
           image={"/banner-images/banner-image-media.JPG"}
           title={{
-            uz: "Galareya",
+            uz: "Galereya",
             ru: "Галерея",
             en: "Gallery",
             kr: "Галерея",

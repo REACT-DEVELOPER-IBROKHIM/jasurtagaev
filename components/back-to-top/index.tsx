@@ -18,7 +18,7 @@ const BackToTop = () => {
 
   return isBackToTopVisible ? (
     <button
-      className="bg-dark-primary cursor-pointer p-2 rounded-lg fixed bottom-[100px] right-[50px]"
+      className="bg-dark-primary cursor-pointer p-2 z-20 rounded-lg fixed bottom-[100px] right-[50px]"
       onClick={() => window.scrollTo(0, 0)}
     >
       <MdKeyboardArrowUp className="text-white text-3xl" />

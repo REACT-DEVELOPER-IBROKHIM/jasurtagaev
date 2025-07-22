@@ -24,7 +24,7 @@ const ArticlesPage = async () => {
             en: "Explore a collection of articles shared by Jasur Tagaev",
             uz: "Jasur Tagaev tomonidan baham ko'rilgan maqolalar to'plamini o'rganing",
             ru: "Изучите коллекцию статей, поделившихся Жасуром Тагеевым",
-            kr: "Жасур Тагаев томонидан бўлишилган мақолалар тўпламини ўрганинг",
+            kr: "Жасур Тагаев томонидан баҳам кўрилган мақолалар тўпламини ўрганинг",
           }}
         />
         <Articles articles={articles} />

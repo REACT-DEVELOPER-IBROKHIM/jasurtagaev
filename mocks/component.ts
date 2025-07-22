@@ -22,7 +22,7 @@ export const NAVBAR_LIST_MOCK = [
   {
     id: "3",
     label: {
-      uz: "Galareya",
+      uz: "Galereya",
       ru: "Галерея",
       en: "Gallery",
       kr: "Галерея",
@@ -42,10 +42,10 @@ export const NAVBAR_LIST_MOCK = [
       {
         id: "3.2",
         label: {
-          uz: "Before & After",
+          uz: "Oldin va keyin",
           ru: "До и После",
-          en: "Before & After",
-          kr: "Before & After",
+          en: "Before and After",
+          kr: "Олдин ва кейин",
         },
         url: "/media#after-before",
       },
