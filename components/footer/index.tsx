@@ -84,7 +84,7 @@ const Footer = () => {
                     <Link
                       title={`Go to ${item.label[locale]}`}
                       aria-label={`Go to ${item.label[locale]}`}
-                      href={item.url}
+                      href={`/${locale}${item.url}`}
                     >
                       {item.label[locale]}
                     </Link>

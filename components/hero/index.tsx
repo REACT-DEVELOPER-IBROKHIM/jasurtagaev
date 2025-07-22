@@ -1,10 +1,12 @@
 import React from "react";
 import LinkElement from "@/utils/components/link";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 const Hero = () => {
   const t = useTranslations("home");
+  type ILocale = "uz" | "ru" | "en" | "kr";
+  const locale = useLocale() as ILocale;
 
   return (
     <section
@@ -27,7 +29,7 @@ const Hero = () => {
           <h2>{t("hero.content_text")}</h2>
           <LinkElement
             className="bg-sky-700 text-white px-6 py-3 mt-4 uppercase"
-            href="/about"
+            href={`/${locale}/about`}
             title={"Go to about page"}
             aria-label={"Go to about page"}
           >

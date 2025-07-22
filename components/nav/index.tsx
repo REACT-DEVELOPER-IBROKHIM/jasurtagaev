@@ -51,7 +51,7 @@ const Nav = ({ menuIsOpen, setMenuOpen }: Props) => {
                   className="text-white text-xl border-b-[1px] border-b-gray-600 text-center uppercase"
                 >
                   <Link
-                    href={navitem.url}
+                    href={`/${locale}${navitem.url}`}
                     title={`Go to ${navitem.label[locale]}`}
                     aria-label={`Go to ${navitem.label[locale]}`}
                     prefetch={true}
@@ -76,7 +76,7 @@ const Nav = ({ menuIsOpen, setMenuOpen }: Props) => {
                           className="text-white bg-sub-nav text-lg border-b-[1px] border-b-gray-600 text-center uppercase"
                         >
                           <Link
-                            href={child.url}
+                            href={`/${locale}${child.url}`}
                             title={`Go to ${child.label[locale]}`}
                             aria-label={`Go to ${child.label[locale]}`}
                             prefetch={true}
