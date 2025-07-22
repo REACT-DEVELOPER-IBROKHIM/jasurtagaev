@@ -23,7 +23,7 @@ const ArticlesPage = async () => {
           description={{
             en: "Explore a collection of articles shared by Jasur Tagaev",
             uz: "Jasur Tagaev tomonidan baham ko'rilgan maqolalar to'plamini o'rganing",
-            ru: "Изучите коллекцию статей, поделившихся Жасуром Тагеевым",
+            ru: "Изучите коллекцию статей, поделившихся Жасуром Тагаевым",
             kr: "Жасур Тагаев томонидан баҳам кўрилган мақолалар тўпламини ўрганинг",
           }}
         />
