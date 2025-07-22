@@ -53,7 +53,7 @@ const Header = ({ pinned }: { pinned?: boolean }) => {
   return (
     <header
       aria-label="Header section"
-      className={`w-full h-[100px] ${navbarPinned || pinned ? "bg-primary fixed top-0 z-10" : "bg-transparent absolute top-0 z-10"} transition-all duration-300 ease-in-out`}
+      className={`w-full h-[100px] ${navbarPinned || pinned ? "bg-primary fixed top-0 z-30" : "bg-transparent absolute top-0 z-30"} transition-all duration-300 ease-in-out`}
     >
       <div className="container h-full w-full mx-auto px-10">
         <div className="h-full w-full flex items-center justify-between relative">

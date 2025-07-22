@@ -3302,7 +3302,7 @@ export const ARTICLES_MOCK = [
                       "Teri turi: Terisi rangpar, ko'zlari sarg'ish, sochlari qizg'ish yoki sarg'ish, holi ko'p bo'lgan odamlarda xavf yuqori.",
                       "Oldingi melanoma: O'tkazilgan melanoma keyingi kasallanish xavfini oshiradi.",
                       "Immunitetning pasayishi: Masalan, organ transplantatsiyasidan keyin.",
-                      "Atypik hollar (displastik nevus): Chetlari notekis va rangi notekis hollar melanomadan oldin paydo bo'lishi mumkin.",
+                      "Atypik xollar (displastik nevus): Chetlari notekis va rangi notekis xollar melanomadan oldin paydo bo'lishi mumkin.",
                     ],
                   },
                 },
@@ -7789,10 +7789,10 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     uz: [
-                      "Rangi: Hollar och jigarrangdan to‘q jigarranggacha yoki qora ranggacha bo‘lishi mumkin. Ba'zilari tanasimon yoki pushti rangda bo‘lishi mumkin.",
-                      "Shakli: Odatda hollar yumaloq yoki ovalsimon shaklda bo‘lib, tekis va aniq chegaraga ega. Ba'zi hollar bir oz ko‘tarilgan, boshqalari esa tekis bo‘lishi mumkin.",
-                      "O‘lchami: Ko‘pchilik hollarning diametri 6 millimetrdan kichik (taxminan qalam o‘chirg‘ichining o‘lchamiga teng), ammo katta hollar ham uchraydi.",
-                      "Tuzilishi: Hollar turiga qarab silliq yoki bir oz g‘adir-budur bo‘lishi mumkin.",
+                      "Rangi: xollar och jigarrangdan to‘q jigarranggacha yoki qora ranggacha bo‘lishi mumkin. Ba'zilari tanasimon yoki pushti rangda bo‘lishi mumkin.",
+                      "Shakli: Odatda xollar yumaloq yoki ovalsimon shaklda bo‘lib, tekis va aniq chegaraga ega. Ba'zi xollar bir oz ko‘tarilgan, boshqalari esa tekis bo‘lishi mumkin.",
+                      "O‘lchami: Ko‘pchilik hollarning diametri 6 millimetrdan kichik (taxminan qalam o‘chirg‘ichining o‘lchamiga teng), ammo katta xollar ham uchraydi.",
+                      "Tuzilishi: xollar turiga qarab silliq yoki bir oz g‘adir-budur bo‘lishi mumkin.",
                     ],
                   },
                 },
@@ -7805,7 +7805,7 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     uz: [
-                      "Hollar terining har qanday qismida — yuz, qo‘llar, oyoqlar, orqa va hatto bosh terisida paydo bo‘lishi mumkin.",
+                      "xollar terining har qanday qismida — yuz, qo‘llar, oyoqlar, orqa va hatto bosh terisida paydo bo‘lishi mumkin.",
                       "Ba'zi odamlarning yuzi yoki qo‘llari kabi quyosh tez-tez ta'sir qiladigan joylarida hol bo‘lishi mumkin.",
                     ],
                   },
@@ -7836,8 +7836,8 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     uz: [
-                      "Ko‘pchilik hollar og‘riq va qichishishni keltirib chiqarmaydi.",
-                      "Hollar ta'sirlanganda yoki shikastlanganda, masalan, soqol olish, tarash yoki quyosh ta'sirida simptomatik bo‘lishi mumkin.",
+                      "Ko‘pchilik xollar og‘riq va qichishishni keltirib chiqarmaydi.",
+                      "xollar ta'sirlanganda yoki shikastlanganda, masalan, soqol olish, tarash yoki quyosh ta'sirida simptomatik bo‘lishi mumkin.",
                       "Holdagi o‘zgarishlar — qon ketishi, qotib qolishi, qichishish — shifokor maslahati talab qiladi, chunki bu melanoma yoki boshqa teri kasalliklarining belgisi bo‘lishi mumkin.",
                     ],
                   },
@@ -7851,8 +7851,8 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     uz: [
-                      "Genetika: Ko‘p sonli hollar paydo bo‘lishiga moyillik, ayniqsa oilaviy hollar tarixi yoki melanoma mavjud bo‘lsa, nasldan-naslga o‘tishi mumkin.",
-                      "Quyoshning ta'siri: Quyosh yoki solyariylardan keladigan ultrabinafsha (UB) nurlanish melanin ishlab chiqarishni rag‘batlantiradi, bu esa hollarning paydo bo‘lishiga olib keladi. Shuning uchun hollar ko‘pincha quyosh nuri tushadigan joylarda paydo bo‘ladi.",
+                      "Genetika: Ko‘p sonli xollar paydo bo‘lishiga moyillik, ayniqsa oilaviy xollar tarixi yoki melanoma mavjud bo‘lsa, nasldan-naslga o‘tishi mumkin.",
+                      "Quyoshning ta'siri: Quyosh yoki solyariylardan keladigan ultrabinafsha (UB) nurlanish melanin ishlab chiqarishni rag‘batlantiradi, bu esa hollarning paydo bo‘lishiga olib keladi. Shuning uchun xollar ko‘pincha quyosh nuri tushadigan joylarda paydo bo‘ladi.",
                       "Gormonal o‘zgarishlar: Gormonal o‘zgarishlar, masalan, homiladorlik yoki balog‘atga yetish davrida, yangi hollarning paydo bo‘lishiga sabab bo‘lishi mumkin.",
                     ],
                   },
@@ -7884,9 +7884,9 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     uz: [
-                      "Kuzatish: Ko‘pchilik hollar, agar ular noqulaylik yoki xavotir tug‘dirmasa, davolanishni talab qilmaydi.",
+                      "Kuzatish: Ko‘pchilik xollar, agar ular noqulaylik yoki xavotir tug‘dirmasa, davolanishni talab qilmaydi.",
                       "Olib tashlash: Agar hol shubha uyg‘otsa yoki noqulaylik tug‘dirsa, onkodermatologlar uni jarrohlik yo‘li bilan olib tashlashlari mumkin. Olib tashlangan material odatda saraton hujayralarini tekshirish uchun biopsiyaga yuboriladi.",
-                      "Lazer yordamida olib tashlash: Ba'zida, ayniqsa kosmetik sabablarga ko‘ra, hollar lazer yordamida olib tashlanadi, ammo bu usul ko‘pincha kichik va shubhali bo‘lmagan hosilalar uchun qo‘llaniladi.",
+                      "Lazer yordamida olib tashlash: Ba'zida, ayniqsa kosmetik sabablarga ko‘ra, xollar lazer yordamida olib tashlanadi, ammo bu usul ko‘pincha kichik va shubhali bo‘lmagan hosilalar uchun qo‘llaniladi.",
                     ],
                   },
                 },
@@ -7900,8 +7900,8 @@ export const ARTICLES_MOCK = [
                   content: {
                     uz: [
                       "Quyoshdan himoyalanish: Yangi hollarning paydo bo‘lishi yoki mavjudlarining o‘zgarishining oldini olish uchun terini ortiqcha quyosh nurlanishidan himoya qilish muhim — SPF 30 va undan yuqori bo‘lgan quyoshdan himoyalovchi kremlardan foydalanish, solyariylardan saqlanish, himoya kiyimlarini kiyish.",
-                      "O‘z-o‘zini tekshirish: Ayniqsa quyoshda toblanganingizdan so‘ng, teringizda yangi hollar va mavjud hollaridagi o‘zgarishlarni muntazam ravishda tekshirib turing.",
-                      "Onkodermatolog maslahati: Agar shubhali o‘zgarishlar yoki yangi hollar paydo bo‘lsa, sinchkovlik bilan tekshirish uchun mutaxassisga murojaat qiling.",
+                      "O‘z-o‘zini tekshirish: Ayniqsa quyoshda toblanganingizdan so‘ng, teringizda yangi xollar va mavjud hollaridagi o‘zgarishlarni muntazam ravishda tekshirib turing.",
+                      "Onkodermatolog maslahati: Agar shubhali o‘zgarishlar yoki yangi xollar paydo bo‘lsa, sinchkovlik bilan tekshirish uchun mutaxassisga murojaat qiling.",
                     ],
                   },
                 },
