@@ -7,7 +7,8 @@ import { translateContent } from "@/helpers/translation/translate-content";
 
 const ImageWithText = ({ data, imagePosition }: Props) => {
   const { image, title, description, linkText, slug } = data;
-  const locale = useLocale();
+  type ILocale = "uz" | "ru" | "en" | "kr";
+  const locale = useLocale() as ILocale;
 
   return (
     <article
@@ -33,7 +34,7 @@ const ImageWithText = ({ data, imagePosition }: Props) => {
           type="primary"
           title={`Read more - "${translateContent(title, locale)}"`}
           aria-label={`Read more about ${translateContent(title, locale)}`}
-          href={decodeURIComponent(`/articles/${slug}`)}
+          href={decodeURIComponent(`/${locale}/articles/${slug}`)}
         >
           {translateContent(linkText, locale)}
           <span className="sr-only absolute border-0 m-[-1px] p-0 w-[1px] h-[1px] overflow-hidden clip-[rect(1px,1px,1px,1px)] clip-path-[inset(50%)] word-break-normal !important">

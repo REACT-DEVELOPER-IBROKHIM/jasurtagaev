@@ -5,7 +5,7 @@ import React, { ChangeEvent, useEffect } from "react";
 import { HiOutlineMenu } from "react-icons/hi";
 import Nav from "../nav";
 import { useRouter, usePathname } from "next/navigation";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 const Header = ({ pinned }: { pinned?: boolean }) => {
   const t = useTranslations("home");
@@ -13,6 +13,8 @@ const Header = ({ pinned }: { pinned?: boolean }) => {
   const pathname = usePathname();
   const [menuIsOpen, setMenuOpen] = React.useState(false);
   const [navbarPinned, setNavbarPinned] = React.useState(false);
+  type ILocale = "uz" | "ru" | "en" | "kr";
+  const locale = useLocale() as ILocale;
 
   const handleMenuOpen = () => {
     setMenuOpen(true);
@@ -81,7 +83,11 @@ const Header = ({ pinned }: { pinned?: boolean }) => {
               English
             </option>
           </select>
-          <Link href="/" aria-label="Go to homepage" title="Go to homepage">
+          <Link
+            href={`/${locale}/`}
+            aria-label="Go to homepage"
+            title="Go to homepage"
+          >
             <Image
               src="/logo.png"
               alt="Logo Jasur Tagaev Portfolio - Oncologist"

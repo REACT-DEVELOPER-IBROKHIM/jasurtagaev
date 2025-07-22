@@ -1,13 +1,15 @@
 "use client";
 import LinkElement from "@/utils/components/link";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
 
 const AfterBeforeCard = ({ item }: { item: any }) => {
   const t = useTranslations("after_before");
   const th = useTranslations("home");
   const pathname = usePathname();
+  type ILocale = "uz" | "ru" | "en" | "kr";
+  const locale = useLocale() as ILocale;
 
   return (
     <div key={item.id} className="mb-[30px]">
@@ -26,7 +28,7 @@ const AfterBeforeCard = ({ item }: { item: any }) => {
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
             <LinkElement
               className="bg-m-button text-white p-4 rounded-xl"
-              href="/media/#after-before"
+              href={`/${locale}/media/#after-before`}
               title={th("reusable.explore_more")}
             >
               {th("reusable.explore_more")}

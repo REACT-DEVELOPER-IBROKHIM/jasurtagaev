@@ -30,7 +30,7 @@ const ArticleCard = ({ article }: { article: IArticle }) => {
         <LinkElement
           title={`Read more - "${translateContent(title, locale)}"`}
           aria-label={`Read more about ${translateContent(title, locale)}`}
-          href={decodeURIComponent(`/articles/${slug}`)}
+          href={decodeURIComponent(`/${locale}/articles/${slug}`)}
         >
           {translateContent(linkText, locale)}
           <span className="sr-only absolute border-0 m-[-1px] p-0 w-[1px] h-[1px] overflow-hidden clip-[rect(1px,1px,1px,1px)] clip-path-[inset(50%)] word-break-normal !important">
