@@ -88,7 +88,9 @@ const Media = ({
       </section>
       {!pathname.includes("media") && (
         <div className="flex justify-center mb-[50px]">
-          <ExpandLink href="/media">{t("reusable.explore_more")}</ExpandLink>
+          <ExpandLink href="/media/#media">
+            {t("reusable.explore_more")}
+          </ExpandLink>
         </div>
       )}
     </>

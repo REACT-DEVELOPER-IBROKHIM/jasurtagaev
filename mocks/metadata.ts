@@ -82,11 +82,11 @@ export const galleryPageMetaData = {
   },
   uz: {
     metadataBase: new URL(ORIGIN || "http://localhost:3000"),
-    title: "Galareya | Jasur Tagaev",
+    title: "Galereya | Jasur Tagaev",
     description:
       "Jasur Tagaevning erishgan natijalari va mediyadagi foydali malumotlarni o'rganing.",
     openGraph: {
-      title: "Galareya | Jasur Tagaev",
+      title: "Galereya | Jasur Tagaev",
       description:
         "Jasur Tagaevning erishgan natijalari va mediyadagi foydali malumotlarni o'rganing.",
       images: [

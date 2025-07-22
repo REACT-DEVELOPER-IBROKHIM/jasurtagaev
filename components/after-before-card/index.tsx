@@ -26,7 +26,7 @@ const AfterBeforeCard = ({ item }: { item: any }) => {
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
             <LinkElement
               className="bg-m-button text-white p-4 rounded-xl"
-              href="/media"
+              href="/media/#after-before"
               title={th("reusable.explore_more")}
             >
               {th("reusable.explore_more")}

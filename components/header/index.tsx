@@ -6,7 +6,7 @@ import { HiOutlineMenu } from "react-icons/hi";
 import Nav from "../nav";
 import { useRouter, usePathname } from "next/navigation";
 
-const Header = () => {
+const Header = ({ pinned }: { pinned?: boolean }) => {
   const router = useRouter();
   const pathname = usePathname();
   const [menuIsOpen, setMenuOpen] = React.useState(false);
@@ -31,21 +31,25 @@ const Header = () => {
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
+    if (!pinned) {
+      window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }
   });
 
   useEffect(() => {
-    handleScroll();
+    if (pinned) {
+      handleScroll();
+    }
   }, []);
 
   return (
     <header
       aria-label="Header section"
-      className={`w-full h-[100px] ${navbarPinned ? "bg-primary fixed top-0 z-10" : "bg-transparent absolute top-0 z-10"} transition-all duration-300 ease-in-out`}
+      className={`w-full h-[100px] ${navbarPinned || pinned ? "bg-primary fixed top-0 z-10" : "bg-transparent absolute top-0 z-10"} transition-all duration-300 ease-in-out`}
     >
       <div className="container h-full w-full mx-auto px-10">
         <div className="h-full w-full flex items-center justify-between relative">

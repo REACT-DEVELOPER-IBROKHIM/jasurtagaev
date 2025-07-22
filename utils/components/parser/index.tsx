@@ -133,7 +133,7 @@ const Parser = ({ structure }: any) => {
 
   return (
     <>
-      <div className="container mx-auto py-[40px] md:py-[50px] px-6">
+      <div className="container mx-auto mt-[80px] py-[40px] md:py-[50px] px-6">
         {structure &&
           Array.isArray(structure) &&
           structure.map((item: any, index) => {
