@@ -27,7 +27,7 @@ const MediaPage = async () => {
           }}
           opacity={0.75}
           description={{
-            uz: "Jasur Tagaevnining erishgan natijalari va mediyadagi foydali malumotlarni o'rganing.",
+            uz: "Jasur Tagaevning erishgan natijalari va mediyadagi foydali ma'lumotlarni o'rganing.",
             ru: "Изучите достижения Жасура Тагаева и полезную информацию в медиа.",
             en: "Explore the achievements of Jasur Tagaev and useful information in the media.",
             kr: "Жасур Тагаевнинг эришган натижалари ва медиядаги фойдали маълумотларни ўрганинг.",
