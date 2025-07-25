@@ -21,10 +21,10 @@ const ArticleCard = ({ article }: { article: IArticle }) => {
         loading="lazy"
       />
       <div className="p-[24px] flex flex-col gap-[16px] items-start">
-        <h1 className="text-2xl min-h-[70px]">
+        <h1 className="text-xl h-[60px] md:text-lg lg:text-2xl lg:h-[70px]">
           {translateContent(title, locale)}
         </h1>
-        <p className="text-gray-500 text-lg">
+        <p className="text-gray-500 h-[140px] text-lg lg:h-[100px]">
           {truncateText(translateContent(description, locale), 110)}
         </p>
         <LinkElement

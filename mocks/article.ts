@@ -11,7 +11,7 @@ export const ARTICLES_MOCK = [
     description: {
       en: "Actinic Keratosis (AK), also known as solar keratosis or senile keratosis, is a precancerous condition that occurs when skin cells become damaged by ultraviolet (UV) radiation from the sun or tanning beds. It primarily affects the outer layer of skin (the epidermis) and can lead to the development of squamous cell carcinoma (SCC) if left untreated. AK is one of the most common precursors to skin cancer, and although it is typically benign, it requires careful monitoring and management.",
       kr: "Актиник кератоз - (шунингдек, қуёш кератози ёки кексалик кератози сифатида ҳам танилган) Актиник кератоз — терининг саратон олди ҳолати бўлиб, қуёш ёки солярийларнинг ультрабинафша (УБ) нурлари билан шикастланиши натижасида юзага келади. Бу ҳолат асосан терининг ташқи қатлами — эпидермисга таъсир қилади ва даволанмаса, ясси ҳужайрали тери саратони (ЙҲТС) ривожланишига олиб келиши мумкин. АК саратон олди ҳолатлари орасида энг кўп учрайдиганларидан биридир. У одатда хавфсиз бўлса-да, диққат билан кузатиш ва даволашни талаб қилади.",
-      uz: "Aktinik keratoz - (shuningdek, quyosh keratozi yoki keksalik keratozi sifatida ham tanilgan) Aktinik keratoz — terining saraton oldi holati bo‘lib, quyosh yoki solyariylarning ul'trabinafsha (UB) nurlari bilan shikastlanishi natijasida yuzaga keladi. Bu holat asosan terining tashqi qatlami — epidermisga ta'sir qiladi va davolanmasa, yassi hujayrali teri saratoni (YHTS) rivojlanishiga olib kelishi mumkin. AK saraton oldi holatlari orasida eng ko‘p uchraydiganlaridan biridir. U odatda xavfsiz bo‘lsa-da, diqqat bilan kuzatish va davolashni talab qiladi.",
+      uz: "Aktinik keratoz - (shuningdek, quyosh keratozi yoki keksalik keratozi sifatida ham tanilgan) Aktinik keratoz — terining saraton oldi holati bo‘lib, quyosh yoki solyariylarning ultrabinafsha (UB) nurlari bilan shikastlanishi natijasida yuzaga keladi. Bu holat asosan terining tashqi qatlami — epidermisga ta'sir qiladi va davolanmasa, yassi hujayrali teri saratoni (YHTS) rivojlanishiga olib kelishi mumkin. AK saraton oldi holatlari orasida eng ko‘p uchraydiganlaridan biridir. U odatda xavfsiz bo‘lsa-da, diqqat bilan kuzatish va davolashni talab qiladi.",
       ru: "Актинический кератоз (АК), также известный как солнечный кератоз или сенильный кератоз, — это предраковое состояние, возникающее при повреждении клеток кожи ультрафиолетовым (УФ) излучением от солнца или соляриев. Оно в первую очередь затрагивает внешний слой кожи (эпидермис) и может привести к развитию плоскоклеточного рака кожи (ПКР), если не лечить. АК является одним из наиболее распространённых предвестников рака кожи. Хотя оно, как правило, доброкачественное, требует внимательного наблюдения и лечения.",
     },
     image: "/article-images/ak/image-1.jpg",
@@ -53,7 +53,7 @@ export const ARTICLES_MOCK = [
         content: {
           en: "Actinic Keratosis (AK), also known as solar keratosis or senile keratosis, is a precancerous condition that occurs when skin cells become damaged by ultraviolet (UV) radiation from the sun or tanning beds. It primarily affects the outer layer of skin (the epidermis) and can lead to the development of squamous cell carcinoma (SCC) if left untreated. AK is one of the most common precursors to skin cancer, and although it is typically benign, it requires careful monitoring and management.",
           kr: "Актиник кератоз - (шунингдек, қуёш кератози ёки кексалик кератози сифатида ҳам танилган) Актиник кератоз — терининг саратон олди ҳолати бўлиб, қуёш ёки солярийларнинг ультрабинафша (УБ) нурлари билан шикастланиши натижасида юзага келади. Бу ҳолат асосан терининг ташқи қатлами — эпидермисга таъсир қилади ва даволанмаса, ясси ҳужайрали тери саратони (ЙҲТС) ривожланишига олиб келиши мумкин. АК саратон олди ҳолатлари орасида энг кўп учрайдиганларидан биридир. У одатда хавфсиз бўлса-да, диққат билан кузатиш ва даволашни талаб қилади.",
-          uz: "Aktinik keratoz - (shuningdek, quyosh keratozi yoki keksalik keratozi sifatida ham tanilgan) Aktinik keratoz — terining saraton oldi holati bo‘lib, quyosh yoki solyariylarning ul'trabinafsha (UB) nurlari bilan shikastlanishi natijasida yuzaga keladi. Bu holat asosan terining tashqi qatlami — epidermisga ta'sir qiladi va davolanmasa, yassi hujayrali teri saratoni (YHTS) rivojlanishiga olib kelishi mumkin. AK saraton oldi holatlari orasida eng ko‘p uchraydiganlaridan biridir. U odatda xavfsiz bo‘lsa-da, diqqat bilan kuzatish va davolashni talab qiladi.",
+          uz: "Aktinik keratoz - (shuningdek, quyosh keratozi yoki keksalik keratozi sifatida ham tanilgan) Aktinik keratoz — terining saraton oldi holati bo‘lib, quyosh yoki solyariylarning ultrabinafsha (UB) nurlari bilan shikastlanishi natijasida yuzaga keladi. Bu holat asosan terining tashqi qatlami — epidermisga ta'sir qiladi va davolanmasa, yassi hujayrali teri saratoni (YHTS) rivojlanishiga olib kelishi mumkin. AK saraton oldi holatlari orasida eng ko‘p uchraydiganlaridan biridir. U odatda xavfsiz bo‘lsa-da, diqqat bilan kuzatish va davolashni talab qiladi.",
           ru: "Актинический кератоз (АК), также известный как солнечный кератоз или сенильный кератоз, — это предраковое состояние, возникающее при повреждении клеток кожи ультрафиолетовым (УФ) излучением от солнца или соляриев. Оно в первую очередь затрагивает внешний слой кожи (эпидермис) и может привести к развитию плоскоклеточного рака кожи (ПКР), если не лечить. АК является одним из наиболее распространённых предвестников рака кожи. Хотя оно, как правило, доброкачественное, требует внимательного наблюдения и лечения.",
         },
       },
@@ -360,10 +360,10 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     uz: [
-                      "O'choq tavsifi: g'adir-budur, tangachamsimon dog' yoki dumbaqcha. Qizil, pushti, tana rangi, jigarrang yoki sariq tusda bo'lishi mumkin.",
+                      "O'choq tavsifi: g'adir-budur, tangachasimon dog' yoki do'mboqcha. Qizil, pushti, tana rangi, jigarrang yoki sariq tusda bo'lishi mumkin.",
                       "Tekstura: quruq, po'stloq, paypaslaganda g'adir-budur. Ko'tarilgan yoki tekis.",
                       "O'lchami: 2–6 mm, ba'zan kattaroq.",
-                      "Lokalizatsiyasi: quyoshga ta'sirlangan joylar — yuz, quloq, bosh terisi, bo'yin, bilak, qo'l panjasi, ko'krak, elka, lab.",
+                      "Lokalizatsiyasi: quyoshga ta'sirlangan joylar — yuz, quloq, bosh terisi, bo'yin, bilak, qo'l panjasi, ko'krak, yelka, lab.",
                     ],
                   },
                 },
@@ -394,7 +394,7 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     uz: [
-                      "Qumqo'g'ozsimon g'adir-budur dog'",
+                      "Qumqog'ozsimon g'adir-budur dog'",
                       "Qichishish, achishish, og'riq",
                       "Qonash yoki po'stloq hosil bo'lishi",
                     ],
@@ -423,8 +423,8 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     uz: [
-                      "Klinik ko'rik: onkodermatolog tomonidan vizual tekshirish va anamnez yig'ish orqali.",
-                      "Teri biopsiyasi: o'smaga shubha bo'lsa, to'qima olib, mikroskopda tekshiriladi.",
+                      "Saraton oldi ҳolati: Aktinik keratoz kўp ҳollarda saratonga ajlanmajdi.",
+                      "YHTS xavfi: 10–15% davolanmagan Aktinik keratozlar yassi hujayrali teri saratoni (YHTS) ga aylanishi mumkin. Xavf ko‘p o‘choq, katta o‘lcham va zaif immunitetda yuqori bo‘ladi.",
                     ],
                   },
                 },
@@ -454,7 +454,7 @@ export const ARTICLES_MOCK = [
                         ],
                       },
                       "Fotodinamik terapiya (FDT): fotosensibilizator va yorug'lik ta'siri",
-                      "Jarrohlik yo'li bilan olib tashlash: katta/turg'un o'choklarda",
+                      "Jarrohlik yo'li bilan olib tashlash: katta/turg'un o'choqlarda",
                       "Elektroxirurgiya: elektr toki orqali to'qimani yo'q qilish",
                     ],
                   },
@@ -484,8 +484,8 @@ export const ARTICLES_MOCK = [
                   content: {
                     uz: [
                       "Ajoyib: AK aksariyat hollarda muvaffaqiyatli davolanadi",
-                      "Retsidiv ehtimoli: yangi o'choklar paydo bo'lishi mumkin",
-                      "Xavfli o'smaga aylanish: davolangan, immuniteti zaiflarda xavf yuqori",
+                      "Retsidiv ehtimoli: yangi o'choqlar paydo bo'lishi mumkin",
+                      "Xavfli o'smaga aylanish: davolanmagan, immuniteti zaiflarda xavf yuqori",
                     ],
                   },
                 },
@@ -871,7 +871,7 @@ export const ARTICLES_MOCK = [
                   content: {
                     en: [
                       "Sun Protection: Since UV radiation is a major risk factor for KA, using sunscreen, wearing protective clothing, and avoiding excessive sun exposure (especially during peak hours) are essential steps in prevention.",
-                      "Skin Surveillance: Regular self-exams and dermatological check-ups are important for individuals at risk of developing skin tumors like KA, especially those with a history of sun exposure.",
+                      "Skin Surveillance: Regular self-exams and on oncodermatologist check-ups are important for individuals at risk of developing skin tumors like KA, especially those with a history of sun exposure.",
                     ],
                   },
                 },
@@ -1022,7 +1022,7 @@ export const ARTICLES_MOCK = [
                   content: {
                     ru: [
                       "Защита от солнца: Использование солнцезащитных кремов, защитной одежды и избегание длительного пребывания на солнце — важные меры профилактики.",
-                      "Наблюдение за кожей: Регулярные самоосмотры и визиты к дерматологу особенно важны для людей с высоким риском развития кожных опухолей.",
+                      "Наблюдение за кожей: Регулярные самоосмотры и визиты к онкодерматологу особенно важны для людей с высоким риском развития кожных опухолей.",
                     ],
                   },
                 },
@@ -1037,7 +1037,7 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     uz: [
-                      "Shakli: Keratoakantoma (KA) odatda gumbazsimon, ko‘tarilgan tugun yoki o‘simta ko‘rinishida bo‘ladi, markazida keratin (teri va tirnoqlarda uchraydigan oqsil) bilan to‘lgan krater mavjud. Bu unga xos 'vulqonsimon' ko‘rinish beradi.",
+                      "Shakli: Keratoakantoma (KA) odatda gumbazsimon, ko‘tarilgan tugun yoki o‘simta ko‘rinishida bo‘ladi, markazida keratin (teri va tirnoqlarda uchraydigan oqsil) bilan to‘lgan krater mavjud. Bu unga xos vulqonsimon' ko‘rinish beradi.",
                       "O‘lchami: Odatda diametri 1 dan 3 sm gacha bo‘ladi, lekin ba'zan kattaroq bo‘lishi mumkin.",
                       "Rangi: Shikastlanish joyi teri rangida, qizil yoki jigarrang bo‘lishi mumkin. Markazida keratinli (sarg‘ish yoki oq) massa bo‘lib, ko‘pincha qobiq yoki quruq qavat hosil qiladi.",
                       "Yuzasi: Ko‘pincha silliq yoki biroz dag‘al va tangachali, markazida aniq ko‘rinadigan keratin tiqini mavjud.",
@@ -1173,7 +1173,7 @@ export const ARTICLES_MOCK = [
                   content: {
                     uz: [
                       "Quyoshdan himoya: Quyoshdan saqlovchi kremlar, himoya kiyimlari va quyoshda uzoq vaqt qolishdan saqlanish muhim profilaktika choralaridir.",
-                      "Teri kuzatuvi: O‘z-o‘zini tekshirish va dermatologga muntazam tashriflar, ayniqsa yuqori xavfli odamlarda, muhim ahamiyatga ega.",
+                      "Teri kuzatuvi: O‘z-o‘zini tekshirish va onkodermatologga muntazam tashriflar, ayniqsa yuqori xavfli odamlarda, muhim ahamiyatga ega.",
                     ],
                   },
                 },
@@ -1324,7 +1324,7 @@ export const ARTICLES_MOCK = [
                   content: {
                     kr: [
                       "Қуёшдан ҳимоя: Қуёшдан сақловчи кремлар, ҳимоя кийимлари ва қуёшда узоқ вақт қолишдан сақланиш муҳим профилактика чораларидир.",
-                      "Тери кузатуви: Ўз-ўзини текшириш ва дерматологга мунтазам ташрифлар, айниқса юқори хавфли одамларда, муҳим аҳамиятга эга.",
+                      "Тери кузатуви: Ўз-ўзини текшириш ва онкодерматологга мунтазам ташрифлар, айниқса юқори хавфли одамларда, муҳим аҳамиятга эга.",
                     ],
                   },
                 },
@@ -1922,23 +1922,23 @@ export const ARTICLES_MOCK = [
                   content: {
                     uz: [
                       {
-                        text: "Jarohat xususiyatlari: Bazal hujayrali teri saratini jarohatlari ko'pincha og'riqsiz bo'lib, ko'rinishda farq qiladi. Ular quyidagi ko'rinishlarda bo'lishi mumkin:",
+                        text: "Jarohat xususiyatlari: Bazal hujayrali teri saraton jarohatlari ko'pincha og'riqsiz bo'lib, ko'rinishda farq qiladi. Ular quyidagi ko'rinishlarda bo'lishi mumkin:",
                         elements: [
                           {
                             elementType: "list",
                             content: {
                               uz: [
                                 "Marvarid yoki mumsiq tosh: Bu eng keng tarqalgan ko'rinish bo'lib, ko'pincha yarim shaffof yoki porloq rangda bo'ladi.",
-                                "Tekis, qobiq tashlagan dog': Ba'zi Bazal hujayrali teri saratinilar tekis, qizil yoki jigarrang dog' ko'rinishida bo'ladi.",
+                                "Tekis, qobiq tashlagan dog': Ba'zi Bazal hujayrali teri saratonlar tekis, qizil yoki jigarrang dog' ko'rinishida bo'ladi.",
                                 "Yarali yoki qonashli jarohat: Ba'zi hollarda, o'sma ochiq yara yoki yaraga aylanishi mumkin, bu qonashi yoki qobiq bilan qoplanishi mumkin.",
-                                "Ko'tarilgan chekkalar: Ko'p Bazal hujayrali teri saratinilar o'ziga xos qirralangan, ko'tarilgan chekka bilan markaziy yara yoki chuqurchaga ega.",
+                                "Ko'tarilgan chekkalar: Ko'p Bazal hujayrali teri saratonlar o'ziga xos qirralangan, ko'tarilgan chekka bilan markaziy yara yoki chuqurchaga ega.",
                               ],
                             },
                           },
                         ],
                       },
-                      "Rangi: Jarohat teri rangi, pushti, qizil yoki jigarrang bo'lishi mumkin. Pigmentli Bazal hujayrali teri saratinilar ham jigarrang yoki qora rangda bo'lishi mumkin.",
-                      "O'lchami: Bazal hujayrali teri saratini jarohatlari bir necha millimetrdan bir necha santimetrgacha o'zgarishi mumkin. O'sish odatda sekin, lekin ba'zi hollarda vaqt o'tishi bilan kattalashishi va atrofdagi to'qimalarga kirib borishi mumkin.",
+                      "Rangi: Jarohat teri rangi, pushti, qizil yoki jigarrang bo'lishi mumkin. Pigmentli Bazal hujayrali teri saratonlar ham jigarrang yoki qora rangda bo'lishi mumkin.",
+                      "O'lchami: Bazal hujayrali teri saraton jarohatlari bir necha millimetrdan bir necha santimetrgacha o'zgarishi mumkin. O'sish odatda sekin, lekin ba'zi hollarda vaqt o'tishi bilan kattalashishi va atrofdagi to'qimalarga kirib borishi mumkin.",
                     ],
                   },
                 },
@@ -1951,7 +1951,7 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     uz: [
-                      "Bazal hujayrali teri saratini ko'pincha quyoshga ta'sirlangan terining ochiq joylarida - yuz, quloq, bosh terisi, bo'yin, yelka, orqa, ko'krak, qo'llar va qo'llarda paydo bo'ladi. Kamdan-kam hollarda shilliq pardalarda, masalan, og'iz bo'shlig'ida uchraydi.",
+                      "Bazal hujayrali teri saraton ko'pincha quyoshga ta'sirlangan terining ochiq joylarida - yuz, quloq, bosh terisi, bo'yin, yelka, orqa, ko'krak, qo'llar va qo'llarda paydo bo'ladi. Kamdan-kam hollarda shilliq pardalarda, masalan, og'iz bo'shlig'ida uchraydi.",
                       "U ayniqsa, burun, ko'z va quloq atrofida keng tarqalgan.",
                     ],
                   },
@@ -1965,13 +1965,13 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     uz: [
-                      "Quyosh nurlanishi: Bazal hujayrali teri saratini rivojlanishining eng muhim xavf omili quyosh yoki solyariydan ultrabinafsha (UV) nurlanishidir. Uzoq muddatli va to'plangan UV nurlanishi Bazal hujayrali teri saratini rivojlanish ehtimolini oshiradi.",
+                      "Quyosh nurlanishi: Bazal hujayrali teri saraton rivojlanishining eng muhim xavf omili quyosh yoki solyariydan ultrabinafsha (UV) nurlanishidir. Uzoq muddatli va to'plangan UV nurlanishi Bazal hujayrali teri saraton rivojlanish ehtimolini oshiradi.",
                       "Ochiq rangli teri: Oq teri, sarg'ish sochlar va ko'k yoki yashil ko'zli odamlar ko'proq xavf ostida bo'ladi, chunki ularning terisi UV nurlanishiga sezgir.",
-                      "Yoshi: Bazal hujayrali teri saratini ko'proq 50 yoshdan oshgan odamlarda uchraydi, chunki bu yoshda quyosh nurlanishining to'plangan ta'siri ko'proq.",
+                      "Yoshi: Bazal hujayrali teri saraton ko'proq 50 yoshdan oshgan odamlarda uchraydi, chunki bu yoshda quyosh nurlanishining to'plangan ta'siri ko'proq.",
                       "Quyosh kuyish tarixi: Bolalik yoki o'smirlik davrida tez-tez yoki og'ir quyosh kuyishlari bo'lgan odamlar yuqori xavf ostida bo'ladi.",
-                      "Oilaviy tarix: Teri saratoni, jumladan Bazal hujayrali teri saratini, oilaviy tarixda bo'lgan odamlar Bazal hujayrali teri saratini rivojlanish xavfi yuqori.",
-                      "Immunosupressiya: Organ transplantatsiyasi qilingan yoki OIV/OITS bilan kasallangan odamlar immuniteti zaif bo'lganligi sababli Bazal hujayrali teri saratini rivojlanish xavfi yuqori.",
-                      "Oldingi teri saratoni: Boshqa turdagi teri saratoni, masalan, ploksokletli hujayrali saraton (PHS) yoki Bazal hujayrali teri saratini bo'lgan odamlar yangi Bazal hujayrali teri saratini jarohatlari rivojlanish xavfi yuqori.",
+                      "Oilaviy tarix: Teri saratoni, jumladan Bazal hujayrali teri saraton, oilaviy tarixda bo'lgan odamlar Bazal hujayrali teri saraton rivojlanish xavfi yuqori.",
+                      "Immunosupressiya: Organ transplantatsiyasi qilingan yoki OIV/OITS bilan kasallangan odamlar immuniteti zaif bo'lganligi sababli Bazal hujayrali teri saraton rivojlanish xavfi yuqori.",
+                      "Oldingi teri saratoni: Boshqa turdagi teri saratoni, masalan, ploksokletli hujayrali saraton (PHS) yoki Bazal hujayrali teri saraton bo'lgan odamlar yangi Bazal hujayrali teri saraton jarohatlari rivojlanish xavfi yuqori.",
                     ],
                   },
                 },
@@ -1984,10 +1984,10 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     uz: [
-                      "Og'riqsiz o'sish: Bazal hujayrali teri saratini jarohatlari ko'pincha og'riqsiz bo'ladi, lekin ba'zi hollarda qichishish yoki noqulaylik keltirib chiqarishi mumkin.",
+                      "Og'riqsiz o'sish: Bazal hujayrali teri saraton jarohatlari ko'pincha og'riqsiz bo'ladi, lekin ba'zi hollarda qichishish yoki noqulaylik keltirib chiqarishi mumkin.",
                       "Qonash yoki qobiq hosil bo'lishi: Agar jarohat yaralansa yoki bezovta qilinsa, u qonashi yoki qobiq bilan qoplanishi mumkin.",
-                      "Sezilarli o'sish: Bazal hujayrali teri saratini jarohatlari odatda sekin o'sadi, ko'pincha oylar yoki hatto yillar davomida sezilarli bo'ladi.",
-                      "Kosmetik muammolar: Bazal hujayrali teri saratini ko'pincha yuz va boshqa ko'rinadigan joylarda paydo bo'ladi, bu esa katta o'sganda kosmetik muammo bo'lishi mumkin.",
+                      "Sezilarli o'sish: Bazal hujayrali teri saraton jarohatlari odatda sekin o'sadi, ko'pincha oylar yoki hatto yillar davomida sezilarli bo'ladi.",
+                      "Kosmetik muammolar: Bazal hujayrali teri saraton ko'pincha yuz va boshqa ko'rinadigan joylarda paydo bo'ladi, bu esa katta o'sganda kosmetik muammo bo'lishi mumkin.",
                     ],
                   },
                 },
@@ -2001,25 +2001,25 @@ export const ARTICLES_MOCK = [
                   content: {
                     uz: [
                       "Klinik tekshiruv: Sog'liqni saqlash mutaxassisi, odatda onkodermatolog, jarohatni tekshiradi va bemorning xavf omillari va quyosh nurlanishi tarixi haqida ma'lumot to'playdi. Shubhali jarohat biopsiya qilinishi mumkin.",
-                      "Teri biopsiyasi: Bazal hujayrali teri saratini tashxisini tasdiqlash uchun teri biopsiyasi odatda amalga oshiriladi. Jarohatdan kichik namuna olinib, mikroskop ostida tekshiriladi.",
-                      "Gistopatologiya: Biopsiya namunasida Bazal hujayrali teri saratini hujayralari nazoratdan tashqari o'sib borishi va ko'pincha terining dermis qatlamiga kiruvchi hujayra orolchalarini hosil qiladi.",
+                      "Teri biopsiyasi: Bazal hujayrali teri saraton tashxisini tasdiqlash uchun teri biopsiyasi odatda amalga oshiriladi. Jarohatdan kichik namuna olinib, mikroskop ostida tekshiriladi.",
+                      "Gistopatologiya: Biopsiya namunasida Bazal hujayrali teri saraton hujayralari nazoratdan tashqari o'sib borishi va ko'pincha terining dermis qatlamiga kiruvchi hujayra orolchalarini hosil qiladi.",
                     ],
                   },
                 },
               ],
             },
             {
-              text: "Bazal hujayrali teri saratini turlari:",
+              text: "Bazal hujayrali teri saraton turlari:",
               elements: [
                 {
                   elementType: "list",
                   content: {
                     uz: [
-                      "Nodulyar Bazal hujayrali teri saratini: Eng keng tarqalgan tur bo'lib, odatda markaziy yarasi bo'lgan marvaridli tugun ko'rinishida bo'ladi.",
-                      "Yuza Bazal hujayrali teri saratini: Tekis, qizil yoki jigarrang dog' bo'lib, qobiq tashlash yoki qizish bilan ko'rinishi mumkin. U ko'pincha ekzema yoki psoriaz deb noto'g'ri tushuniladi.",
-                      "Morfeyasimon (sklerozlanuvchi) Bazal hujayrali teri saratini: Qattiq, chandiq ko'rinishida bo'lib, tekis shakli tufayli tashxis qo'yish qiyin.",
-                      "Pigmentli Bazal hujayrali teri saratini: Pigmentli Bazal hujayrali teri saratini qora yoki jigarrang rangda bo'lib, u ko'pincha dog' yoki melanomaga o'xshash ko'rinishda bo'ladi.",
-                      "Kistoz Bazal hujayrali teri saratini: Suyuqlik bilan to'lgan kista ko'rinishida bo'lib, yog'li kista yoki lipoma kabi ko'rinishi mumkin.",
+                      "Nodulyar Bazal hujayrali teri saraton: Eng keng tarqalgan tur bo'lib, odatda markaziy yarasi bo'lgan marvaridli tugun ko'rinishida bo'ladi.",
+                      "Yuza Bazal hujayrali teri saraton: Tekis, qizil yoki jigarrang dog' bo'lib, qobiq tashlash yoki qizish bilan ko'rinishi mumkin. U ko'pincha ekzema yoki psoriaz deb noto'g'ri tushuniladi.",
+                      "Morfeyasimon (sklerozlanuvchi) Bazal hujayrali teri saraton: Qattiq, chandiq ko'rinishida bo'lib, tekis shakli tufayli tashxis qo'yish qiyin.",
+                      "Pigmentli Bazal hujayrali teri saraton: Pigmentli Bazal hujayrali teri saraton qora yoki jigarrang rangda bo'lib, u ko'pincha dog' yoki melanomaga o'xshash ko'rinishda bo'ladi.",
+                      "Kistoz Bazal hujayrali teri saraton: Suyuqlik bilan to'lgan kista ko'rinishida bo'lib, yog'li kista yoki lipoma kabi ko'rinishi mumkin.",
                     ],
                   },
                 },
@@ -2037,7 +2037,7 @@ export const ARTICLES_MOCK = [
                       "Kuretaj va elektrodestuksiya: O'smani qirib olish va qolgan hujayralarni tok bilan kuyish. Yuzaki shakllarda samarali.",
                       "Krioterapiya: O'smani suyuq azot bilan muzlatish. Kichik yuzaki jarohatlar uchun qo'llaniladi.",
                       "Nurlanish terapiyasi: Katta yoki operatsiya qilinmaydigan o'smalar uchun, shuningdek operatsiya qilish mumkin bo'lmagan bemorlar uchun qo'llaniladi.",
-                      "Mahalliy preparatlar: Yuzaki Bazal hujayrali teri saratini uchun kremlar (masalan, 5-fluorourasil yoki imiquimod) ishlatiladi.",
+                      "Mahalliy preparatlar: Yuzaki Bazal hujayrali teri saraton uchun kremlar (masalan, 5-fluorourasil yoki imiquimod) ishlatiladi.",
                       "Fotodinamik terapiya (FDT): Fotosenzitizator moddani qo'llash va keyinchalik maxsus yorug'lik bilan yoritish.",
                     ],
                   },
@@ -2053,7 +2053,7 @@ export const ARTICLES_MOCK = [
                     uz: [
                       "Quyoshdan himoyalanish: Quyoshdan himoya kremi (SPF 30+) ishlatish, himoya kiyimlarini kiyish, quyoshning eng kuchli vaqtlarida quyoshdan saqlanish.",
                       "Solariumlardan voz kechish: Sun'iy ultrabinafsha nurlanish ham teri saratoni xavfini oshirishi mumkin.",
-                      "Muntazam teri tekshiruvlari: O'z-ozini tekshirish va dermatologga tashrif buyurish, ayniqsa teri saratoni tarixi bo'lgan odamlar uchun juda muhimdir.",
+                      "Muntazam teri tekshiruvlari: O'z-ozini tekshirish va onkodermatolog tashrif buyurish, ayniqsa teri saratoni tarixi bo'lgan odamlar uchun juda muhimdir.",
                       "Himoya kiyimlari: Keng qirrali shlyapalar, ko'zoynaklar, UV nurlaridan himoyalovchi kiyimlar.",
                     ],
                   },
@@ -2067,7 +2067,7 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     uz: [
-                      "Ajoyib prognoz: Bazal hujayrali teri saratini sekin rivojlanadi va juda kam hollarda metastaz beradi. Erta aniqlansa, davolanish darajasi yuqori.",
+                      "Ajoyib prognoz: Bazal hujayrali teri saraton sekin rivojlanadi va juda kam hollarda metastaz beradi. Erta aniqlansa, davolanish darajasi yuqori.",
                       "Qaytalanishi mumkin, ayniqsa o'sma to'liq olib tashlanmasa. Muntazam nazorat tekshiruvlaridan o'tish muhim.",
                       "O'tkazib yuborilgan holatlar: Kamdan-kam hollarda to'qimalarning deformatsiyasiga yoki yemirilishiga olib kelishi mumkin, ammo ichki a'zolarga tarqalishi juda kam uchraydi.",
                     ],
@@ -2093,7 +2093,7 @@ export const ARTICLES_MOCK = [
         content: {
           en: "Basal Cell Carcinoma (BCC) is a common and slow-growing type of skin cancer that primarily occurs due to long-term sun exposure. It is typically painless, appearing as a pearly bump or scaly patch on sun-exposed areas of the skin. While BCC is not usually fatal, early detection and treatment are essential to prevent local tissue damage. Treatment options include surgical excision, Mohs surgery, cryotherapy, and topical treatments. Sun protection is the key to preventing future BCCs, and regular skin checks are important for early detection.",
           kr: "Базал ҳужайрали тери саратони - ультрабинафша нурланишнинг узоқ муддатли таъсиридан келиб чиққан саратоннинг кенг тарқалган ва секин ривожланадиган шакли. Кўпинча у терининг очиқ жойларида садафсимон дўмбоқча ёки пўст ташлаган доғ кўринишида бўлади. У камдан-кам ҳолларда ҳаёт учун хавф туғдирса-да, уни эрта босқичда аниқлаш муҳимдир. Даволаш усуллари: жарроҳлик йўли билан олиб ташлаш, микрографик жарроҳлик, криотерапия ва маҳаллий дорилар. Профилактика қуёшдан ҳимояланиш ва терини мунтазам текширишга асосланган.",
-          uz: "Bazal hujayrali teri saratoni (Bazal hujayrali teri saratini) - uzoq muddatli quyosh nurlanishi natijasida yuzaga keladigan keng tarqalgan va sekin o'suvchi teri saratonidir. U ko'pincha terining ochiq joylarida perlamutrdan yassilangan tosh yoki qobiq tashlagan dog' ko'rinishida bo'ladi. Bazal hujayrali teri saratini odatda hayot uchun xavf tug'dirmaydi, ammo erta aniqlash va davolash mahalliy to'qimalarning zararlanishini oldini olish uchun muhimdir. Davolash usullariga jarrohlik yo'li bilan olib tashlash, Mohs jarrohligi, krioterapiya va lokal davolashlar kiradi. Kelajakdagi Bazal hujayrali teri saratinining oldini olish uchun quyoshdan himoyalanish va muntazam teri tekshiruvlari muhimdir.",
+          uz: "Bazal hujayrali teri saratoni (Bazal hujayrali teri saraton) - uzoq muddatli quyosh nurlanishi natijasida yuzaga keladigan keng tarqalgan va sekin o'suvchi teri saratonidir. U ko'pincha terining ochiq joylarida perlamutrdan yassilangan tosh yoki qobiq tashlagan dog' ko'rinishida bo'ladi. Bazal hujayrali teri saraton odatda hayot uchun xavf tug'dirmaydi, ammo erta aniqlash va davolash mahalliy to'qimalarning zararlanishini oldini olish uchun muhimdir. Davolash usullariga jarrohlik yo'li bilan olib tashlash, Mohs jarrohligi, krioterapiya va lokal davolashlar kiradi. Kelajakdagi Bazal hujayrali teri saratonning oldini olish uchun quyoshdan himoyalanish va muntazam teri tekshiruvlari muhimdir.",
           ru: "Базально-клеточный рак кожи — распространённая и медленно развивающаяся форма рака, вызванная длительным воздействием ультрафиолетового излучения. Чаще всего он выглядит как перламутровый бугорок или шелушащееся пятно на открытых участках кожи. Хотя он редко представляет угрозу для жизни, важно выявить его на ранней стадии. Методы лечения включают хирургическое удаление, микрографическую хирургию, криотерапию и местные препараты. Профилактика основана на защите от солнца и регулярных осмотрах кожи.",
         },
       },
@@ -2112,7 +2112,7 @@ export const ARTICLES_MOCK = [
     description: {
       en: "Squamous Cell Carcinoma (SCC) is a type of skin cancer that begins in the squamous cells, which are the flat, scale-like cells found in the outer layer of the skin (the epidermis). SCC is the second most common type of skin cancer after basal cell carcinoma. While it is generally less aggressive than melanoma, SCC can still be dangerous, particularly if left untreated, as it has the potential to spread (metastasize) to other parts of the body.",
       kr: "Ясси ҳужайрали карцинома (ЯҲК) — тери саратонининг бир тури бўлиб, терининг ташқи қаватида (эпидермисда) жойлашган ясси, тангачасимон ҳужайраларда бошланади. ЯҲК базал ҳужайрали карциномадан кейин иккинчи энг кенг тарқалган тери саратонидир. У одатда меланомага қараганда камроқ тажовузкор бўлса-да, ЯҲК хавфли бўлиши мумкин, айниқса даволанмаса, чунки у тананинг бошқа қисмларига тарқалиши (метастаз бериши) мумкин.",
-      uz: "Yassi hujayrali karsinoma (YHK) — teri saratonining bir turi bo‘lib, terining tashqi qavatida (epidermisda) joylashgan yassi, tangachamsimon hujayralarda boshlanadi. YHK bazal hujayrali karsinomadan keyin ikkinchi eng keng tarqalgan teri saratonidir. U odatda melanomaga qaraganda kamroq tajovuzkor bo‘lsa-da, YHK xavfli bo‘lishi mumkin, ayniqsa davolanmasa, chunki u tananing boshqa qismlariga tarqalishi (metastaz berishi) mumkin.",
+      uz: "Yassi hujayrali karsinoma (YHK) — teri saratonining bir turi bo‘lib, terining tashqi qavatida (epidermisda) joylashgan yassi, tangachasimon hujayralarda boshlanadi. YHK bazal hujayrali karsinomadan keyin ikkinchi eng keng tarqalgan teri saratonidir. U odatda melanomaga qaraganda kamroq tajovuzkor bo‘lsa-da, YHK xavfli bo‘lishi mumkin, ayniqsa davolanmasa, chunki u tananing boshqa qismlariga tarqalishi (metastaz berishi) mumkin.",
       ru: "Плоскоклеточный рак кожи (ПКР) — это тип рака кожи, который начинается в плоских, чешуйчатых клетках, расположенных во внешнем слое кожи (эпидермисе). ПКР является вторым по распространённости типом рака кожи после базальноклеточной карциномы. Хотя он обычно менее агрессивен, чем меланома, ПКР может быть опасным, особенно при отсутствии лечения, так как способен распространяться (метастазировать) на другие части тела.",
     },
     image: "/article-images/scc/image-1.jpg",
@@ -2153,7 +2153,7 @@ export const ARTICLES_MOCK = [
         content: {
           en: "Squamous Cell Carcinoma (SCC) is a type of skin cancer that begins in the squamous cells, which are the flat, scale-like cells found in the outer layer of the skin (the epidermis). SCC is the second most common type of skin cancer after basal cell carcinoma. While it is generally less aggressive than melanoma, SCC can still be dangerous, particularly if left untreated, as it has the potential to spread (metastasize) to other parts of the body.",
           kr: "Ясси ҳужайрали карцинома (ЯҲК) — тери саратонининг бир тури бўлиб, терининг ташқи қаватида (эпидермисда) жойлашган ясси, тангачасимон ҳужайраларда бошланади. ЯҲК базал ҳужайрали карциномадан кейин иккинчи энг кенг тарқалган тери саратонидир. У одатда меланомага қараганда камроқ тажовузкор бўлса-да, ЯҲК хавфли бўлиши мумкин, айниқса даволанмаса, чунки у тананинг бошқа қисмларига тарқалиши (метастаз бериши) мумкин.",
-          uz: "Yassi hujayrali karsinoma (YHK) — teri saratonining bir turi bo‘lib, terining tashqi qavatida (epidermisda) joylashgan yassi, tangachamsimon hujayralarda boshlanadi. YHK bazal hujayrali karsinomadan keyin ikkinchi eng keng tarqalgan teri saratonidir. U odatda melanomaga qaraganda kamroq tajovuzkor bo‘lsa-da, YHK xavfli bo‘lishi mumkin, ayniqsa davolanmasa, chunki u tananing boshqa qismlariga tarqalishi (metastaz berishi) mumkin.",
+          uz: "Yassi hujayrali karsinoma (YHK) — teri saratonining bir turi bo‘lib, terining tashqi qavatida (epidermisda) joylashgan yassi, tangachasimon hujayralarda boshlanadi. YHK bazal hujayrali karsinomadan keyin ikkinchi eng keng tarqalgan teri saratonidir. U odatda melanomaga qaraganda kamroq tajovuzkor bo‘lsa-da, YHK xavfli bo‘lishi mumkin, ayniqsa davolanmasa, chunki u tananing boshqa qismlariga tarqalishi (metastaz berishi) mumkin.",
           ru: "Плоскоклеточный рак кожи (ПКР) — это тип рака кожи, который начинается в плоских, чешуйчатых клетках, расположенных во внешнем слое кожи (эпидермисе). ПКР является вторым по распространённости типом рака кожи после базальноклеточной карциномы. Хотя он обычно менее агрессивен, чем меланома, ПКР может быть опасным, особенно при отсутствии лечения, так как способен распространяться (метастазировать) на другие части тела.",
         },
       },
@@ -3263,10 +3263,10 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     uz: [
-                      "O'choq tavsifi: g'adir-budur, tangachamsimon dog' yoki dumbaqcha. Qizil, pushti, tana rangi, jigarrang yoki sariq tusda bo'lishi mumkin.",
+                      "O'choq tavsifi: g'adir-budur, tangachasimon dog' yoki do'mboqcha. Qizil, pushti, tana rangi, jigarrang yoki sariq tusda bo'lishi mumkin.",
                       "Tekstura: quruq, po'stloq, paypaslaganda g'adir-budur. Ko'tarilgan yoki tekis.",
                       "O'lchami: 2–6 mm, ba'zan kattaroq.",
-                      "Lokalizatsiyasi: quyoshga ta'sirlangan joylar — yuz, quloq, bosh terisi, bo'yin, bilak, qo'l panjasi, ko'krak, elka, lab.",
+                      "Lokalizatsiyasi: quyoshga ta'sirlangan joylar — yuz, quloq, bosh terisi, bo'yin, bilak, qo'l panjasi, ko'krak, yelka, lab.",
                     ],
                   },
                 },
@@ -3302,7 +3302,7 @@ export const ARTICLES_MOCK = [
                       "Teri turi: Terisi rangpar, ko'zlari sarg'ish, sochlari qizg'ish yoki sarg'ish, holi ko'p bo'lgan odamlarda xavf yuqori.",
                       "Oldingi melanoma: O'tkazilgan melanoma keyingi kasallanish xavfini oshiradi.",
                       "Immunitetning pasayishi: Masalan, organ transplantatsiyasidan keyin.",
-                      "Atypik xollar (displastik nevus): Chetlari notekis va rangi notekis xollar melanomadan oldin paydo bo'lishi mumkin.",
+                      "Atipik xollar (displastik nevus): Chetlari notekis va rangi notekis xollar melanomadan oldin paydo bo'lishi mumkin.",
                     ],
                   },
                 },
@@ -3315,7 +3315,7 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     uz: [
-                      "Klinik ko'rik: Dermatolog shubhali o'smani ABCDE qoidasi asosida baholaydi:",
+                      "Klinik ko'rik: Dermatoonkolog shubhali o'smani ABCDE qoidasi asosida baholaydi:",
                       {
                         text: "ABCDE qoidasi:",
                         elements: [
@@ -3408,7 +3408,7 @@ export const ARTICLES_MOCK = [
         content: {
           en: "Melanoma is a type of skin cancer that originates in the pigment-producing cells called melanocytes. It is often caused by UV exposure, but genetic factors and a history of unusual moles can also increase the risk. Early detection through regular skin checks and the use of the ABCDE rule is crucial for successful treatment. Treatment may include surgical excision, immunotherapy, and targeted therapy, depending on the stage of melanoma.",
           kr: "Меланома — меланотситлардан келиб чиққан тери саратони. УБ нурланиш, ирсий омиллар ва атипик холлар билан боғлиқ. ABCDE қоидаси бўйича эрта аниқлаш муҳим. Даволаш — жарроҳлик, иммунотерапия ва мақсадли терапияни ўз ичига олади.",
-          uz: "Melanoma — melanotsitlardan kelib chiqqan teri saratoni. UB nurlanish, irsiy omillar va atypik xollar bilan bog‘liq. ABCDE qoidasi bo‘yicha erta aniqlash muhim. Davolash — jarrohlik, immunoterapiya va maqsadli terapiyani o‘z ichiga oladi.",
+          uz: "Melanoma — melanotsitlardan kelib chiqqan teri saratoni. UB nurlanish, irsiy omillar va atipik xollar bilan bog‘liq. ABCDE qoidasi bo‘yicha erta aniqlash muhim. Davolash — jarrohlik, immunoterapiya va maqsadli terapiyani o‘z ichiga oladi.",
           ru: "Меланома — это рак кожи, происходящий из меланоцитов. Наиболее частая причина — УФ-облучение, но также важны наследственность и наличие атипичных родинок. Ранняя диагностика по правилу ABCDE и регулярные осмотры критичны для успешного лечения. Варианты лечения включают хирургическое удаление, иммунотерапию и таргетную терапию в зависимости от стадии заболевания.",
         },
       },
@@ -3861,8 +3861,8 @@ export const ARTICLES_MOCK = [
                   elementType: "list",
                   content: {
                     uz: [
-                      "Yog' bezining tiqilib qolishi: Ateromaning asosiy sababi yog' bezining kanali yoki soch folikulining tiqilib qolishidir.",
-                      "Teri shikastlanishi: (tirnalish, sanjish va h.k.) yog' bezining tuzilishi buzilganda kista rivojlanishiga olib kelishi mumkin.",
+                      "Yog' bezining tiqilib qolishi: Ateromaning asosiy sababi yog' bezining kanali yoki soch folikulaning tiqilib qolishidir.",
+                      "Teri shikastlanishi: (tirnalish, sanchish va h.k.) yog' bezining tuzilishi buzilganda kista rivojlanishiga olib kelishi mumkin.",
                       "Genetik moyillik: Ba'zi hollarda ateromalar irsiy bo'lishi mumkin.",
                       "Teri kasalliklari: Akne kabi teri kasalliklari ateroma hosil bo'lish xavfini oshiradi.",
                       "Gormonal o'zgarishlar: Pubertat, homiladorlik yoki menopauzadagi gormonal ko'tarilishlar ham ularning shakllanishiga hissa qo'shadi.",
@@ -3912,10 +3912,10 @@ export const ARTICLES_MOCK = [
                     uz: [
                       "Kuzatuv: Agar kista simptomlarni keltirib chiqarmasa, davolash talab qilinmasligi mumkin – ba'zan ular barqaror bo'lib qoladi yoki kamayadi.",
                       "Yallig'lanish yoki infektsiya bo'lsa: Kista ochiladi va ichidagi suyuqlik olib tashlanadi.",
-                      "Yorish va drenaj: Kuchli og'riq yoki infektsiya mavjud bo'lsa, shifokor kesma yasab, cystani ichidagi moddasidan bo'shatishi mumkin.",
-                      "Jarrohlik yo'li bilan olib tashlash: Eng samarali davolash usuli cystani kapsulasi bilan birga to'liq olib tashlashdir. Mahalliy og'riqsizlantirish ostida o'tkaziladi.",
+                      "Yorish va drenaj: Kuchli og'riq yoki infektsiya mavjud bo'lsa, shifokor kesma yasab, kista ichidagi moddasidan bo'shatishi mumkin.",
+                      "Jarrohlik yo'li bilan olib tashlash: Eng samarali davolash usuli kista kapsulasi bilan birga to'liq olib tashlashdir. Mahalliy og'riqsizlantirish ostida o'tkaziladi.",
                       "Antibiotiklar: Infektsiyada antibiotiklar buyuriladi.",
-                      "Steroid in'ektsiyalari: Ba'zida yallig'lanishni yo'qotish uchun ishlatiladi, lekin cystaning o'zini yo'qotmaydi.",
+                      "Steroid in'ektsiyalari: Ba'zida yallig'lanishni yo'qotish uchun ishlatiladi, lekin kistang o'zini yo'qotmaydi.",
                     ],
                   },
                 },
@@ -7821,7 +7821,7 @@ export const ARTICLES_MOCK = [
                     uz: [
                       "Tug‘ma hol: Tug‘ilgandan boshlab mavjud bo‘lib, odatda qoraroq va kattaroq bo‘lishi mumkin.",
                       "Orttirilgan hol: Tug‘ilgandan keyin, ko‘pincha bolalik yoki o‘smirlik davrida paydo bo‘ladi. Vaqt o‘tishi bilan o‘zgarishi mumkin.",
-                      "Atypik hol (displastik nevuslar): Odatdagidan kattaroq, chetlari notekis, rangi bir xil emas. Melanoma rivojlanish xavfini ko‘rsatishi mumkin.",
+                      "Atipik hol (displastik nevuslar): Odatdagidan kattaroq, chetlari notekis, rangi bir xil emas. Melanoma rivojlanish xavfini ko‘rsatishi mumkin.",
                       "Yuksion hol: Odatda epidermis va derma (terining tashqi va ichki qavati) chegarasida hosil bo‘ladigan tekis, qoramtir hol.",
                       "Murakkab hol: Ham tekis, ham ko‘tarilgan hosilalar belgilari mavjud bo‘lgan ko‘tarilgan hol.",
                     ],

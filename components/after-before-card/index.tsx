@@ -37,7 +37,6 @@ const AfterBeforeCard = ({ item }: { item: any }) => {
         )}
 
         <div className="w-full md:w-1/2">
-          <h3 className="text-2xl mb-2"></h3>
           <Image
             src={item.urls[1]}
             alt="After"
