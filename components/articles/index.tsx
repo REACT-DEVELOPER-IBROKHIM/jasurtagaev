@@ -1,14 +1,10 @@
 "use client";
 import ArticleCard from "../article-card";
 import { IArticle } from "@/types/article";
-import ExpandLink from "@/utils/components/expand";
 import { useTranslations } from "next-intl";
-import { usePathname } from "next/navigation";
 
 const Articles = ({ articles }: { articles: IArticle[] }) => {
-  const t = useTranslations("home");
   const t2 = useTranslations("articles");
-  const pathname = usePathname();
 
   return (
     <>
@@ -19,7 +15,7 @@ const Articles = ({ articles }: { articles: IArticle[] }) => {
         className="w-full py-[50px]"
       >
         <div className="container h-full mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 h-full items-center gap-[24px]">
+          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 h-full items-center gap-[24px]">
             {articles.map((article: IArticle) => (
               <ArticleCard key={article.id} article={article} />
             ))}
