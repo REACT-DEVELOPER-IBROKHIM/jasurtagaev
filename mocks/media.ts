@@ -89,6 +89,24 @@ export const MEDIA_MOCK = [
     link: "https://www.youtube.com/embed/8PLBop7qKeE",
     isFeatured: false,
   },
+  {
+    id: 6,
+    tag: {
+      uz: "MEDIA | OPERATION",
+      ru: "МЕДИА | ОПЕРАЦИИ",
+      en: "MEDIA | OPERATIONS",
+      kr: "MEDIA | ОПЕРАЦИИ",
+    },
+    title: {
+      uz: "Yuzdagi tug'ma holni muvaffaqiyatli olib tashlash",
+      ru: "Удаление врожденного пятна на лице",
+      en: "Successful Removal of Congenital Spot on Face",
+      kr: "Юздаги туғма холни муваффақиятли олиб ташлаш",
+    },
+    thumbnail: "https://img.youtube.com/vi/vDcgTuegOgY/hqdefault.jpg",
+    link: "https://www.youtube.com/embed/vDcgTuegOgY",
+    isFeatured: false,
+  },
 ];
 
 export const AFTER_BEFORE_MOCK = [
