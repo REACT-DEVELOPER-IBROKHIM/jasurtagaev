@@ -11,7 +11,7 @@ Welcome to the **JasurTagaev** personal branding website repository. This projec
 - [Getting Started](#getting-started)
 - [File Structure](#file-structure)
 - [Contributing](#contributing)
-- [License](#license)
+- [License](#license) 
 
 ---
 
