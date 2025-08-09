@@ -1,0 +1,17 @@
+.sub-list {
+  transition: height 0.3s ease-in-out;
+  height: 0;
+  overflow: hidden;
+}
+
+.list-item:hover .sub-list {
+  height: 130px;
+}
+
+.list-item:hover .to-bottom {
+  display: none;
+}
+
+.list-item:hover .to-top {
+  display: inline;
+}
