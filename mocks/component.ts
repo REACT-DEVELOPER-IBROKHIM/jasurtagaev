@@ -112,30 +112,30 @@ export const DASHBOARD_LIST_MOCK = [
       uz: "Video",
       ru: "Видео",
       en: "Video",
-      kr: "Видео"
+      kr: "Видео",
     },
     children: [
       {
-        id: '1.1',
+        id: "1.1",
         label: {
           uz: "Vedio qo'shish",
           ru: "Создать видео",
           en: "Create vedio",
-          kr: "Видео қўшиш"
+          kr: "Видео қўшиш",
         },
-        url: "/admin"
+        url: "/admin",
       },
       {
-        id: '1.2',
+        id: "1.2",
         label: {
           uz: "Videoni boshqarish",
           ru: "Управление видео",
           en: "Manage vedio",
-          kr: "Видеони бошқариш"
+          kr: "Видеони бошқариш",
         },
-        url: '/admin/manage'
-      }
+        url: "/admin/manage",
+      },
     ],
-    url: "/admin"
-  }
-]
+    url: "/admin",
+  },
+];
