@@ -107,6 +107,24 @@ export const MEDIA_MOCK = [
     link: "https://www.youtube.com/embed/vDcgTuegOgY",
     isFeatured: false,
   },
+  {
+    id: 7,
+    tag: {
+      uz: "MEDIA | TA'LIM",
+      ru: "МЕДИА | ОБРАЗОВАНИЕ",
+      en: "MEDIA | EDUCATION",
+      kr: "MEDIA | ТАЪЛИМ",
+    },
+    title: {
+      uz: "Xavfli noto'g'ri tushuncha: teri saratoni yoki allergiya?",
+      ru: "Опасное заблуждение: рак кожи или аллергия?",
+      en: "Dangerous Misconception: Skin Cancer or Allergy?",
+      kr: "Хавфли нотўғри тушунча: тери саратони ёки аллергия?",
+    },
+    thumbnail: "https://img.youtube.com/vi/W2R_h5Q9U-4/maxresdefault.jpg",
+    link: "https://www.youtube.com/embed/W2R_h5Q9U-4",
+    isFeatured: false,
+  },
 ];
 
 export const AFTER_BEFORE_MOCK = [
