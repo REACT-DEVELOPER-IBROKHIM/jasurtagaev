@@ -103,7 +103,7 @@ const Header = ({ pinned }: { pinned?: boolean }) => {
               aria-expanded="false"
               aria-controls="navigation-menu"
               aria-label="Open navigation menu"
-              className="text-[20px]  cursor-pointer flex items-center gap-4 text-white md:text-2xl"
+              className="text-[20px] cursor-pointer flex items-center gap-4 text-white md:text-2xl"
             >
               <HiOutlineMenu />
               <span className="text-[16px] md:text-lg">

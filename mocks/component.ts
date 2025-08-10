@@ -104,3 +104,38 @@ export const NAVBAR_LIST_MOCK = [
     url: "/#footer",
   },
 ];
+
+export const DASHBOARD_LIST_MOCK = [
+  {
+    id: "1",
+    label: {
+      uz: "Video",
+      ru: "Видео",
+      en: "Video",
+      kr: "Видео",
+    },
+    children: [
+      {
+        id: "1.1",
+        label: {
+          uz: "Vedio qo'shish",
+          ru: "Создать видео",
+          en: "Create vedio",
+          kr: "Видео қўшиш",
+        },
+        url: "/admin",
+      },
+      {
+        id: "1.2",
+        label: {
+          uz: "Videoni boshqarish",
+          ru: "Управление видео",
+          en: "Manage vedio",
+          kr: "Видеони бошқариш",
+        },
+        url: "/admin/manage",
+      },
+    ],
+    url: "/admin",
+  },
+];

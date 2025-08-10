@@ -4,11 +4,9 @@ import { HiOutlineX } from "react-icons/hi";
 import { NAVBAR_LIST_MOCK } from "@/mocks/component";
 import Link from "next/link";
 import { useLocale } from "next-intl";
-import { INavigationItem } from "@/types/article";
+import { INavigationItem, Locale } from "@/types/article";
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 import "./style.css";
-
-type Locale = "uz" | "ru" | "en" | "kr";
 
 const Nav = ({ menuIsOpen, setMenuOpen }: Props) => {
   const locale = useLocale() as Locale;

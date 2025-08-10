@@ -125,3 +125,5 @@ export interface IServiceSubType {
   image?: string;
   isFeatured?: boolean;
 }
+
+type Locale = "uz" | "ru" | "en" | "kr";
