@@ -45,5 +45,19 @@
     "btn_text": "Узнать больше",
     "treatment_title": "Услуги лечения",
     "diagnosis_title": "Услуги диагностики"
+  },
+  "admin": {
+    "addNewVideo": "Добавить новое видео",
+    "manageVideos": "Управление видео"
+  },
+  "video_table": {
+    "no": "№",
+    "title": "Заголовок",
+    "thumbnail": "Миниатюра",
+    "link": "Ссылка",
+    "tag": "Тег",
+    "actions": "Действия",
+    "edit": "Редактировать",
+    "delete": "Удалить"
   }
 }
