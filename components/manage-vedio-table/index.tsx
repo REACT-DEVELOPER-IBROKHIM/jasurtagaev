@@ -18,7 +18,7 @@ const VideosTable = () => {
 
   return (
     <table className="w-full border border-gray-300 rounded-lg">
-      <thead className="bg-sky-700 text-white text-left">
+      <thead className="bg-[#232C39] text-white text-left">
         <tr>
           <th className="p-4 border-b border-gray-300 w-[50px]">{t("no")}</th>
           <th className="p-4 border-b border-gray-300">{t("title")}</th>
