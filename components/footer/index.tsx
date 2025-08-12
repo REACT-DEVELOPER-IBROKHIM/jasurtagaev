@@ -4,6 +4,7 @@ import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 import React from "react";
 import { FaFacebook, FaInstagram, FaTelegram, FaYoutube } from "react-icons/fa";
+import LanguageSelector from "../language-selector";
 
 const Footer = () => {
   const t = useTranslations("footer");
