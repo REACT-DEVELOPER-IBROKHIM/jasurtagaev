@@ -16,7 +16,7 @@ export default function AdminLayout({
 
   return (
     <div className="flex h-screen">
-      <aside className="w-[250px] flex-col bg-[#232C39]">
+      <aside className="min-w-[250px] flex-col bg-[#232C39]">
         <div className="px-[31px] py-[29px] mb-[11px]">
           <Image
             src="/logo.png"
@@ -30,7 +30,7 @@ export default function AdminLayout({
         <ul>
           {DASHBOARD_LIST_MOCK.map((menu: INavigationItem) => (
             <div key={menu.id} className="list-item">
-              <li className="text-[#fff] flex items-center justify-center p-[14px] border-y border-y-[#898989]">
+              <li className="text-[#fff] text-[20px] flex items-center justify-center p-[14px] border-y border-y-[#898989] uppercase">
                 {menu.label[locale]}
                 {menu.children && (
                   <>
@@ -52,7 +52,7 @@ export default function AdminLayout({
                           title={`Go to ${child.label[locale]}`}
                           aria-label={`Go to ${child.label[locale]}`}
                           prefetch={true}
-                          className="block p-[14px] hover:bg-primary/50 transition-colors duration-300 ease-in-out"
+                          className="block p-[16px] text-[18px] hover:bg-primary/50 transition-colors duration-300 ease-in-out"
                         >
                           {child.label[locale]}
                         </Link>

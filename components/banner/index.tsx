@@ -1,12 +1,10 @@
 "use client";
-import { IBannerProps } from "@/types/article";
+import { IBannerProps, Locale } from "@/types/article";
 import { useLocale } from "next-intl";
 import Image from "next/image";
 import React from "react";
 
 const Banner = (props: IBannerProps) => {
-  type Locale = "uz" | "ru" | "en" | "kr";
-
   const locale = useLocale() as Locale;
 
   return (
