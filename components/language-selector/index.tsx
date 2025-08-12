@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { usePathname, useRouter } from "next/navigation";
 import React, { ChangeEvent } from "react";
 
