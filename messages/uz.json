@@ -45,5 +45,19 @@
     "btn_text": "Batafsil bilish",
     "treatment_title": "Davolash xizmatlari",
     "diagnosis_title": "Tashxis xizmatlari"
+  },
+  "admin": {
+    "addNewVideo": "Yangi video qo‘shish",
+    "manageVideos": "Videolarni boshqarish"
+  },
+  "video_table": {
+    "no": "№",
+    "title": "Sarlavha",
+    "thumbnail": "Miniatyura",
+    "link": "Havola",
+    "tag": "Teg",
+    "actions": "Amallar",
+    "edit": "Tahrirlash",
+    "delete": "O‘chirish"
   }
 }

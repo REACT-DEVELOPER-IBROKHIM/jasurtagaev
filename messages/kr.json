@@ -45,5 +45,19 @@
     "btn_text": "Батафсил билиш",
     "treatment_title": "Даволаш хизматлари",
     "diagnosis_title": "Ташхис хизматлари"
+  },
+  "admin": {
+    "addNewVideo": "Янги видео қўшиш",
+    "manageVideos": "Видеоларни бошқариш"
+  },
+  "video_table": {
+    "no": "№",
+    "title": "Сарлавҳа",
+    "thumbnail": "Миниатюра",
+    "link": "Ҳавола",
+    "tag": "Тег",
+    "actions": "Амаллар",
+    "edit": "Таҳрирлаш",
+    "delete": "Ўчириш"
   }
 }

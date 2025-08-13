@@ -18,7 +18,7 @@ export default function AdminLayout({
 
   return (
     <div className="flex h-screen">
-      <aside className="w-[250px] bg-[#232C39] flex flex-col justify-between h-screen">
+      <aside className="min-w-[250px] bg-[#232C39] flex flex-col justify-between h-screen">
         <div>
           <div className="px-[31px] py-[29px] mb-[11px]">
             <Image
@@ -71,7 +71,7 @@ export default function AdminLayout({
 
         <div className="flex flex-col items-center justify-center">
           <LanguageSelector />
-          <div className="py-4 text-white">
+          <div className="py-4 text-white text-center">
             <p className="text-sm">
               © {new Date().getFullYear()} jasurtagaev.com. <br />
               {t("rights")}
