@@ -1,14 +1,12 @@
 import VideosTable from "@/components/manage-vedio-table";
-import { useTranslations } from "next-intl";
-import React from "react";
+import { fetchMediaData } from "@/helpers/api/media.request";
 
-const Manage = () => {
-  const t = useTranslations("admin");
+const Manage = async () => {
+  const media = await fetchMediaData();
 
   return (
     <div>
-      <h3>{t("manageVideos")}</h3>
-      <VideosTable />
+      <VideosTable media={media} />
     </div>
   );
 };

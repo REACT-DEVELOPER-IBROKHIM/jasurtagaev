@@ -33,7 +33,7 @@ export default function AdminLayout({
           <ul>
             {DASHBOARD_LIST_MOCK.map((menu: INavigationItem) => (
               <div key={menu.id} className="list-item">
-                <li className="text-[#fff] flex items-center justify-center p-[14px] border-y border-y-[#898989]">
+                <li className="text-[#fff] flex items-center text-xl uppercase justify-center p-[14px] border-y border-y-[#898989]">
                   {menu.label[locale]}
                   {menu.children && (
                     <>
@@ -71,15 +71,15 @@ export default function AdminLayout({
 
         <div className="flex flex-col items-center justify-center">
           <LanguageSelector />
-          <div className="py-4 text-white text-center">
-            <p className="text-sm">
+          <div className="py-4 text-white  text-center">
+            <p className="text-[14px]">
               © {new Date().getFullYear()} jasurtagaev.com. <br />
               {t("rights")}
             </p>
           </div>
         </div>
       </aside>
-      <main className="p-[16px]">{children}</main>
+      <main className="py-8 p-[16px] flex-1">{children}</main>
     </div>
   );
 }
