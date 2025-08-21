@@ -47,17 +47,18 @@
     "diagnosis_title": "Diagnosis services"
   },
   "admin": {
-    "addNewVideo": "Add new vedio",
-    "manageVideos": "Manage vedios"
-  },
-  "video_table": {
-    "no": "No",
-    "title": "Title",
-    "thumbnail": "Thumbnail",
-    "link": "Link",
-    "tag": "Tag",
-    "actions": "Actions",
-    "edit": "Edit",
-    "delete": "Delete"
+    "add_new_video": "Add new vedio",
+    "manage_videos": "Manage vedios",
+    "manage_table": {
+      "no": "No",
+      "watch": "Watch",
+      "title": "Title",
+      "thumbnail": "Thumbnail",
+      "link": "Link",
+      "tag": "Tag",
+      "actions": "Actions",
+      "edit": "Edit",
+      "delete": "Delete"
+    }
   }
 }

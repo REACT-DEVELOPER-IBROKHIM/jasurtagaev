@@ -47,17 +47,18 @@
     "diagnosis_title": "Услуги диагностики"
   },
   "admin": {
-    "addNewVideo": "Добавить новое видео",
-    "manageVideos": "Управление видео"
-  },
-  "video_table": {
-    "no": "№",
-    "title": "Заголовок",
-    "thumbnail": "Миниатюра",
-    "link": "Ссылка",
-    "tag": "Тег",
-    "actions": "Действия",
-    "edit": "Редактировать",
-    "delete": "Удалить"
+    "add_new_video": "Добавить новое видео",
+    "manage_videos": "Управление видео",
+    "manage_table": {
+      "no": "№",
+      "title": "Заголовок",
+      "watch": "Смотреть",
+      "thumbnail": "Миниатюра",
+      "link": "Ссылка",
+      "tag": "Тег",
+      "actions": "Действия",
+      "edit": "Редактировать",
+      "delete": "Удалить"
+    }
   }
 }
