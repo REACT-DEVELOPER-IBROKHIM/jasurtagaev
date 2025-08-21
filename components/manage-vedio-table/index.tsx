@@ -1,20 +1,11 @@
 "use client";
 
-import { fetchMediaData } from "@/helpers/api/media.request";
-import { Locale } from "@/types/article";
-import { VideoItem } from "@/types/common";
+import { IMedia, Locale } from "@/types/article";
 import { useLocale, useTranslations } from "next-intl";
-import React, { useEffect, useState } from "react";
 
-const VideosTable = () => {
+const VideosTable = ({ media }: { media: IMedia[] }) => {
   const locale = useLocale() as Locale;
-  const [videos, setVideos] = useState<VideoItem[]>([]);
-
   const t = useTranslations("video_table");
-
-  useEffect(() => {
-    fetchMediaData().then((data) => setVideos(data || []));
-  }, []);
 
   return (
     <table className="w-full border border-gray-300 rounded-lg">
@@ -33,22 +24,22 @@ const VideosTable = () => {
         </tr>
       </thead>
       <tbody className="text-left">
-        {videos.map((video, index) => (
-          <tr key={video.id} className="hover:bg-gray-50 transition-colors">
+        {media.map((media, index) => (
+          <tr key={media.id} className="hover:bg-gray-50 transition-colors">
             <td className="px-4 py-2 border-b border-gray-200">{index + 1}</td>
             <td className="px-4 py-2 border-b border-gray-200">
-              {video.title?.[locale]}
+              {media.title?.[locale]}
             </td>
             <td className="px-4 py-2 border-b border-gray-200 whitespace-nowrap">
               <img
-                src={video.thumbnail}
-                alt={video.title?.[locale]}
+                src={media.thumbnail}
+                alt={media.title?.[locale]}
                 className="w-20 h-14 object-cover rounded"
               />
             </td>
             <td className="px-4 py-2 border-b border-gray-200">
               <a
-                href={video.link}
+                href={media.link}
                 target="_blank"
                 className="text-blue-600 hover:underline"
               >
@@ -57,7 +48,7 @@ const VideosTable = () => {
             </td>
             <td className="px-4 py-2 border-b border-gray-200">
               <span className="px-2 py-1 bg-blue-100 text-blue-800 text-sm rounded">
-                {video.tag?.[locale]}
+                {media.tag?.[locale]}
               </span>
             </td>
             <td className="px-4 py-2 border-b border-gray-200 whitespace-nowrap">
