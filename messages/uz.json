@@ -47,17 +47,18 @@
     "diagnosis_title": "Tashxis xizmatlari"
   },
   "admin": {
-    "addNewVideo": "Yangi video qo‘shish",
-    "manageVideos": "Videolarni boshqarish"
-  },
-  "video_table": {
-    "no": "№",
-    "title": "Sarlavha",
-    "thumbnail": "Miniatyura",
-    "link": "Havola",
-    "tag": "Teg",
-    "actions": "Amallar",
-    "edit": "Tahrirlash",
-    "delete": "O‘chirish"
+    "add_new_video": "Yangi video qo‘shish",
+    "manage_videos": "Videolarni boshqarish",
+    "manage_table": {
+      "no": "№",
+      "title": "Sarlavha",
+      "watch": "Ko'rish",
+      "thumbnail": "Miniatyura",
+      "link": "Havola",
+      "tag": "Teg",
+      "actions": "Amallar",
+      "edit": "Tahrirlash",
+      "delete": "O‘chirish"
+    }
   }
 }

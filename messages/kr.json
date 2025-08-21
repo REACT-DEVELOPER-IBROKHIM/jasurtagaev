@@ -47,17 +47,18 @@
     "diagnosis_title": "Ташхис хизматлари"
   },
   "admin": {
-    "addNewVideo": "Янги видео қўшиш",
-    "manageVideos": "Видеоларни бошқариш"
-  },
-  "video_table": {
-    "no": "№",
-    "title": "Сарлавҳа",
-    "thumbnail": "Миниатюра",
-    "link": "Ҳавола",
-    "tag": "Тег",
-    "actions": "Амаллар",
-    "edit": "Таҳрирлаш",
-    "delete": "Ўчириш"
+    "add_new_video": "Янги видео қўшиш",
+    "manage_videos": "Видеоларни бошқариш",
+    "manage_table": {
+      "no": "№",
+      "title": "Сарлавҳа",
+      "watch": "Кўриш",
+      "thumbnail": "Миниатюра",
+      "link": "Ҳавола",
+      "tag": "Тег",
+      "actions": "Амаллар",
+      "edit": "Таҳрирлаш",
+      "delete": "Ўчириш"
+    }
   }
 }

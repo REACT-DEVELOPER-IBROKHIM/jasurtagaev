@@ -79,7 +79,7 @@ export default function AdminLayout({
           </div>
         </div>
       </aside>
-      <main className="py-8 p-[16px] flex-1">{children}</main>
+      <main className="py-8 px-6 flex-1">{children}</main>
     </div>
   );
 }
