@@ -2,6 +2,24 @@ export const MEDIA_MOCK = [
   {
     id: 1,
     tag: {
+      uz: "MEDIA | JARROHLIKLAR",
+      ru: "МЕДИА | ОПЕРАЦИИ",
+      en: "MEDIA | OPERATIONS",
+      kr: "MEDIA | ЖАРРОХЛИКЛАР",
+    },
+    title: {
+      uz: "Yuzdagi tug'ma holni muvaffaqiyatli olib tashlash",
+      ru: "Удаление врожденного пятна на лице",
+      en: "Successful Removal of Congenital Spot on Face",
+      kr: "Юздаги туғма холни муваффақиятли олиб ташлаш",
+    },
+    thumbnail: "https://img.youtube.com/vi/vDcgTuegOgY/hqdefault.jpg",
+    link: "https://www.youtube.com/embed/vDcgTuegOgY",
+    isFeatured: false,
+  },
+  {
+    id: 2,
+    tag: {
       uz: "MEDIA | YANGILIKLAR",
       ru: "МЕДИА | НОВОСТИ",
       en: "MEDIA | NEWS",
@@ -18,7 +36,7 @@ export const MEDIA_MOCK = [
     isFeatured: true,
   },
   {
-    id: 2,
+    id: 3,
     tag: {
       uz: "MEDIA | YANGILIKLAR",
       ru: "МЕДИА | НОВОСТИ",
@@ -36,7 +54,7 @@ export const MEDIA_MOCK = [
     isFeatured: true,
   },
   {
-    id: 3,
+    id: 4,
     tag: {
       uz: "MEDIA | YANGILIKLAR",
       ru: "МЕДИА | НОВОСТИ",
@@ -54,7 +72,7 @@ export const MEDIA_MOCK = [
     isFeatured: true,
   },
   {
-    id: 4,
+    id: 5,
     tag: {
       uz: "MEDIA | YANGILIKLAR",
       ru: "МЕДИА | НОВОСТИ",
@@ -72,7 +90,7 @@ export const MEDIA_MOCK = [
     isFeatured: false,
   },
   {
-    id: 5,
+    id: 6,
     tag: {
       uz: "MEDIA | YANGILIKLAR",
       ru: "МЕДИА | НОВОСТИ",
@@ -87,24 +105,6 @@ export const MEDIA_MOCK = [
     },
     thumbnail: "https://img.youtube.com/vi/8PLBop7qKeE/hqdefault.jpg",
     link: "https://www.youtube.com/embed/8PLBop7qKeE",
-    isFeatured: false,
-  },
-  {
-    id: 6,
-    tag: {
-      uz: "MEDIA | OPERATION",
-      ru: "МЕДИА | ОПЕРАЦИИ",
-      en: "MEDIA | OPERATIONS",
-      kr: "MEDIA | ОПЕРАЦИИ",
-    },
-    title: {
-      uz: "Yuzdagi tug'ma holni muvaffaqiyatli olib tashlash",
-      ru: "Удаление врожденного пятна на лице",
-      en: "Successful Removal of Congenital Spot on Face",
-      kr: "Юздаги туғма холни муваффақиятли олиб ташлаш",
-    },
-    thumbnail: "https://img.youtube.com/vi/vDcgTuegOgY/hqdefault.jpg",
-    link: "https://www.youtube.com/embed/vDcgTuegOgY",
     isFeatured: false,
   },
   {
