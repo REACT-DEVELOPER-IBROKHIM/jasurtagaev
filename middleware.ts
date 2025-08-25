@@ -1,8 +1,12 @@
-import createMiddleware from "next-intl/middleware";
-import { routing } from "./i18n/routing";
+import { validationMiddleware } from "@/middlewares/validation-middleware";
+import { intlMiddleware } from "./middlewares/intl-middleware";
+import { composeMiddlewares } from "./middlewares/compose-middlewares";
 
-export default createMiddleware(routing);
+export default composeMiddlewares({
+  middlewareA: validationMiddleware,
+  middlewareB: intlMiddleware,
+});
 
 export const config = {
-  matcher: "/((?!api|trpc|_next|_vercel|.*\\..*).*)",
+  matcher: ["/((?!api|trpc|_next|_vercel|.*\\..*).*)", "/admin"],
 };

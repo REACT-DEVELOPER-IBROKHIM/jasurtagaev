@@ -13,3 +13,12 @@ export interface VideoItem {
   link: string;
   isFeatured: boolean;
 }
+
+export interface IUser {
+  _id: string;
+  username: string;
+  email: string;
+  password: string;
+  verifyToken: string;
+  verifyTokenExpiry: string;
+}
