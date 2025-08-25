@@ -123,7 +123,7 @@ export const DASHBOARD_LIST_MOCK = [
           en: "Create vedio",
           kr: "Видео қўшиш",
         },
-        url: "/admin",
+        url: "/admin/add-video",
       },
       {
         id: "1.2",
@@ -133,7 +133,39 @@ export const DASHBOARD_LIST_MOCK = [
           en: "Manage vedio",
           kr: "Видеони бошқариш",
         },
-        url: "/admin/manage",
+        url: "/admin/manage-video",
+      },
+    ],
+    url: "/admin",
+  },
+  {
+    id: "2",
+    label: {
+      uz: "Admins",
+      ru: "Администраторы",
+      en: "Admins",
+      kr: "Админлар",
+    },
+    children: [
+      {
+        id: "2.1",
+        label: {
+          uz: "Admin qo'shish",
+          ru: "Добавить админа",
+          en: "Add admin",
+          kr: "Админ қўшиш",
+        },
+        url: "/admin/add-admin",
+      },
+      {
+        id: "2.2",
+        label: {
+          uz: "Adminni boshqarish",
+          ru: "Управление администратором",
+          en: "Manage admin",
+          kr: "Админни бошқариш",
+        },
+        url: "/admin/manage-admin",
       },
     ],
     url: "/admin",
