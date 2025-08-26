@@ -59,6 +59,20 @@
       "actions": "Amallar",
       "edit": "Tahrirlash",
       "delete": "O‘chirish"
+    },
+    "add_vedio": {
+      "add_title": "Yangi video qo‘shish",
+      "title": "Sarlavha",
+      "link": "Havola",
+      "thumbnail": "Miniatyura",
+      "tag": "Teg",
+      "search": "Qidirish",
+      "add_button": "Video qo‘shish",
+      "search_ph": "Postlarni qidiring",
+      "tag_ph": "Teglarni kiriting",
+      "thumbnail_ph": "Miniatyura havolasini kiriting",
+      "vedio_ph": "Video havolasini kiriting",
+      "title_ph": "Video sarlavhasini kiriting"
     }
   }
 }

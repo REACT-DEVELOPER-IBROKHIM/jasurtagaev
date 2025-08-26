@@ -59,6 +59,20 @@
       "actions": "Actions",
       "edit": "Edit",
       "delete": "Delete"
+    },
+    "add_vedio": {
+      "add_title": "Add New Video",
+      "title": "Title",
+      "link": "Link",
+      "thumbnail": "Thumbnail",
+      "tag": "Tag",
+      "search": "Search",
+      "add_button": "Add vedio",
+      "search_ph": "Search posts",
+      "tag_ph": "Enter tags",
+      "thumbnail_ph": "Enter thumbnail URL",
+      "vedio_ph": "Enter video link",
+      "title_ph": "Enter video title"
     }
   }
 }
