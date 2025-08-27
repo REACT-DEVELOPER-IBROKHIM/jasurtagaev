@@ -62,7 +62,7 @@ const AddVideo = () => {
           </div>
           <button
             type="submit"
-            className="bg-blue-500 text-white font-medium rounded-md py-2 hover:bg-blue-600 transition-colors duration-200 w-full"
+            className="bg-blue-500 text-white font-medium rounded-md py-2 hover:bg-blue-600 transition-colors duration-200 w-[200px]"
           >
             {t("add_button")}
           </button>
