@@ -161,7 +161,7 @@ export const DASHBOARD_LIST_MOCK = [
         id: "2.2",
         label: {
           uz: "Adminni boshqarish",
-          ru: "Управление администратором",
+          ru: "Управление админом",
           en: "Manage admin",
           kr: "Админни бошқариш",
         },
