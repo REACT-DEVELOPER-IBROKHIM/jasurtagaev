@@ -34,7 +34,10 @@ const AddAdmin = () => {
   };
 
   return (
-    <form onSubmit={handleCreateNewAdmin} className="flex flex-col items-start gap-4">
+    <form
+      onSubmit={handleCreateNewAdmin}
+      className="flex flex-col items-start gap-4"
+    >
       <div className="flex w-full gap-4">
         <input
           className="border-grey border-[1px] flex-1 outline-0 h-[30px] indent-2"
@@ -50,10 +53,15 @@ const AddAdmin = () => {
           required
           placeholder="New Password"
           value={newAdmin.password}
-          onChange={(e) => setNewAdmin({ ...newAdmin, password: e.target.value })}
+          onChange={(e) =>
+            setNewAdmin({ ...newAdmin, password: e.target.value })
+          }
         />
       </div>
-      <button className="bg-primary text-white p-2 cursor-pointer" disabled={loading}>
+      <button
+        className="bg-primary text-white p-2 cursor-pointer"
+        disabled={loading}
+      >
         {loading ? "Creating..." : "Create new admin"}
       </button>
     </form>

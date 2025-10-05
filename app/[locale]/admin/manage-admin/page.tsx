@@ -38,46 +38,50 @@ const ManageAdmin = () => {
       })
       .catch((err) => {
         console.error(err);
-      }).finally(() => {
+      })
+      .finally(() => {
         setLoading(false);
       });
   };
 
   return (
     <div>
-      {
-        loading ? <div className="fixed inset-0 bg-[rgba(0,0,0,0.2)] backdrop-blur-2xl bg-opacity-50 flex items-center justify-center z-50">
+      {loading ? (
+        <div className="fixed inset-0 bg-[rgba(0,0,0,0.2)] backdrop-blur-2xl bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white p-4 rounded-lg">
             <p>Loading...</p>
           </div>
         </div>
-          :
-          <table className="w-full">
-            <thead>
-              <tr>
-                <th className="text-left bg-primary text-white p-2">No</th>
-                <th className="text-left bg-primary text-white p-2">Email</th>
-                <th className="text-left bg-primary text-white border-l-gray-400 border-l-2 p-2">
-                  Actions
-                </th>
+      ) : (
+        <table className="w-full">
+          <thead>
+            <tr>
+              <th className="text-left bg-primary text-white p-2">No</th>
+              <th className="text-left bg-primary text-white p-2">Email</th>
+              <th className="text-left bg-primary text-white border-l-gray-400 border-l-2 p-2">
+                Actions
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {users.map((user: any, index: number) => (
+              <tr key={user._id}>
+                <td className="p-2 border-b border-gray-200">{index + 1}</td>
+                <td className="p-2 border-b border-gray-200">{user.email}</td>
+                <td className="p-2 border-b border-gray-200">
+                  <button
+                    disabled={loading}
+                    className="bg-[red] text-white p-2"
+                    onClick={() => handleDeleteUser(user._id)}
+                  >
+                    <FiTrash />
+                  </button>
+                </td>
               </tr>
-            </thead>
-            <tbody>
-              {users.map((user: any, index: number) => (
-                <tr key={user._id}>
-                  <td className="p-2 border-b border-gray-200">{index + 1}</td>
-                  <td className="p-2 border-b border-gray-200">{user.email}</td>
-                  <td className="p-2 border-b border-gray-200">
-                    <button disabled={loading} className="bg-[red] text-white p-2" onClick={() => handleDeleteUser(user._id)}>
-                      <FiTrash />
-                    </button>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-      }
-
+            ))}
+          </tbody>
+        </table>
+      )}
     </div>
   );
 };
