@@ -1,7 +1,7 @@
 import { API_URL } from "@/contants/api";
 
 export async function fetchMediaData() {
-  const res = await fetch(`${API_URL}/media`);
+  const res = await fetch(`${API_URL}/video`);
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }

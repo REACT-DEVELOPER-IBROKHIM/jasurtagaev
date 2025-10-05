@@ -24,7 +24,7 @@ export interface IArticle {
 }
 
 export interface IMedia {
-  id: number;
+  _id: string;
   tag: {
     uz: string;
     ru: string;

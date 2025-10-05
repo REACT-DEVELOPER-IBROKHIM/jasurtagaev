@@ -2,10 +2,35 @@
 
 import { IMedia, Locale } from "@/types/article";
 import { useLocale, useTranslations } from "next-intl";
+import { FiTrash } from "react-icons/fi";
 
 const VideosTable = ({ media }: { media: IMedia[] }) => {
   const locale = useLocale() as Locale;
   const t = useTranslations("admin");
+
+  const handleDelete = async (id: string) => {
+    if (!confirm("Are you sure you want to delete this video?")) return;
+
+    try {
+      const response = await fetch(`/api/video`, {
+        method: "DELETE",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ id }),
+      });
+      if (response.ok) {
+        alert("Video deleted successfully!");
+      } else {
+        alert("Failed to delete the video.");
+      }
+    } catch (error) {
+      console.error("Error deleting video:", error);
+      alert("An error occurred while deleting the video.");
+    } finally {
+      location.reload();
+    }
+  };
 
   return (
     <div>
@@ -35,7 +60,7 @@ const VideosTable = ({ media }: { media: IMedia[] }) => {
         </thead>
         <tbody className="text-left">
           {media.map((media, index) => (
-            <tr key={media.id} className="hover:bg-gray-50 transition-colors">
+            <tr key={media._id} className="hover:bg-gray-50 transition-colors">
               <td className="px-4 py-2 border-b border-gray-200">
                 {index + 1}
               </td>
@@ -65,11 +90,11 @@ const VideosTable = ({ media }: { media: IMedia[] }) => {
               </td>
               <td className="px-4 py-2 border-b border-gray-200 whitespace-nowrap">
                 <div className="flex gap-3">
-                  <button className="px-3 py-1 cursor-pointer bg-orange-600 text-white rounded hover:bg-orange-700">
-                    {t("manage_table.edit")}
-                  </button>
-                  <button className="px-3 py-1 cursor-pointer bg-red-600 text-white rounded hover:bg-red-700">
-                    {t("manage_table.delete")}
+                  <button
+                    onClick={() => handleDelete(media._id)}
+                    className="px-3 py-1 cursor-pointer bg-red-600 text-white rounded hover:bg-red-700"
+                  >
+                    <FiTrash />
                   </button>
                 </div>
               </td>

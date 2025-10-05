@@ -40,7 +40,7 @@ const Media = ({
               )
               .map((media: IMedia) => (
                 <MediaCard
-                  key={media.id}
+                  key={media._id}
                   media={media}
                   setSelectedMedia={setSelectedMedia}
                 />
