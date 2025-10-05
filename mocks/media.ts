@@ -101,7 +101,7 @@ export const MEDIA_MOCK = [
       uz: "Uy sharoitida xollarni tekshirish usullari",
       ru: "Методы проверки родинок в домашних условиях",
       en: "Methods for Checking Moles at Home",
-      kr: "Uy sharoitida xollarni tekshirish usullari",
+      kr: "Уй шароитида холларни текшириш усуллари",
     },
     thumbnail: "https://img.youtube.com/vi/8PLBop7qKeE/hqdefault.jpg",
     link: "https://www.youtube.com/embed/8PLBop7qKeE",
