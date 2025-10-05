@@ -5,7 +5,7 @@ import { IUser } from "@/types/common";
 
 connectToDatabase();
 
-export const GET = async (req: NextRequest) => {
+export const GET = async (_: NextRequest) => {
   try {
     const users: IUser[] = await User.find().select("-password");
     return NextResponse.json({
