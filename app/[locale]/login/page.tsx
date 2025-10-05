@@ -18,10 +18,10 @@ const Login = () => {
     try {
       setLoading(true);
       const response = await axios.post("/api/users/auth/login", user);
-      console.log("response", response);
-      router.push("/");
+      if (response.data.success) {
+        router.push("/admin");
+      }
     } catch (error: any) {
-      console.log("Login failed", error.message);
     } finally {
       setLoading(false);
     }

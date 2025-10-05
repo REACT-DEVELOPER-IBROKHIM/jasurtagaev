@@ -8,7 +8,7 @@ connectToDatabase();
 export const POST = async (req: NextRequest) => {
   try {
     const body = await req.json();
-    const { username, email, password } = body;
+    const { email, password } = body;
 
     const user = await User.findOne({ email });
 
@@ -22,7 +22,6 @@ export const POST = async (req: NextRequest) => {
     const hashedPassword = await bcrypt.hash(password, salt);
 
     const newUser = new User({
-      username,
       email,
       password: hashedPassword,
     });
