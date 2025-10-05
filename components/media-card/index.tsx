@@ -15,7 +15,7 @@ const MediaCard = ({
   const locale = useLocale() as Locale;
   return (
     <div
-      key={media.id}
+      key={media._id}
       className="flex-1 bg-gradient-to-r from-white/60 to-[#082D4F]/70 bg-[#1e73be] text-white text-center"
     >
       {
