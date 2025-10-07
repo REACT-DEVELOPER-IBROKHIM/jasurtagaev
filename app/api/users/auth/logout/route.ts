@@ -1,4 +1,7 @@
+import { connectToDatabase } from "@/config/database-config";
 import { NextResponse } from "next/server";
+
+connectToDatabase();
 
 export const GET = async () => {
   try {

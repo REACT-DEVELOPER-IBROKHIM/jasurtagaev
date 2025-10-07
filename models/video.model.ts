@@ -21,6 +21,10 @@ const VideoSchema = new mongoose.Schema({
     type: String,
     required: [true, "Please enter a thumbnail URL"],
   },
+  isFeatured: {
+    type: Boolean,
+    default: false,
+  },
 });
 
 const Video = mongoose.models.videos || mongoose.model("videos", VideoSchema);
