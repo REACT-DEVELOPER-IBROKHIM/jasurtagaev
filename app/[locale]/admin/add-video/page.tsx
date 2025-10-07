@@ -56,7 +56,6 @@ const AddVideo = () => {
   const handleCreateVideo = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      console.log(video);
       if (
         video.title.uz &&
         video.title.ru &&

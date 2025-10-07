@@ -19,7 +19,6 @@ export async function fetchServiceBySlug(slug: string) {
 
 export async function fetchSubservicesByType(type: string) {
   const res = await fetch(`${API_URL}/services?type=${type}`);
-  console.log(res, "response");
   if (!res.ok) {
     throw new Error("Failed to fetch subservices");
   }
