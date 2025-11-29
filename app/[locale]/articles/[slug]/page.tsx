@@ -12,7 +12,7 @@ const page = async ({ params }: Props) => {
   return (
     <>
       <Header pinned={true} />
-      <Parser structure={post.structure} />
+      <Parser structure={post.structure} postid={post.id} />
       <ContactCard />
       <Footer />
       <BackToTop />

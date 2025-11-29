@@ -5,11 +5,12 @@ import { useEffect, useState } from "react";
 
 const AddVideo = () => {
   const t = useTranslations("admin.add_video");
-  const [videos, setVideos] = useState<IArticle[]>([]);
+  const [articles, setArticles] = useState<IArticle[]>([]);
   const [selectedLanguage, setSelectedLanguage] = useState<
     "uz" | "ru" | "en" | "kr"
   >("uz"); // Track selected language
   const [video, setVideo] = useState({
+    postid: 0,
     tag: {
       uz: "",
       ru: "",
@@ -26,11 +27,12 @@ const AddVideo = () => {
     link: "",
     isFeatured: false,
   });
+  const [isRequiredFieldsFilled, setIsRequiredFieldsFilled] = useState(false);
 
   useEffect(() => {
     fetch("/api/articles")
       .then((res) => res.json())
-      .then((data) => setVideos(data))
+      .then((data) => setArticles(data))
       .catch((err) => console.error("Error fetching videos:", err));
   }, []);
 
@@ -40,7 +42,7 @@ const AddVideo = () => {
   };
 
   const handleInputChange = (
-    e: React.ChangeEvent<HTMLInputElement>,
+    e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>,
     field: "tag" | "title",
   ) => {
     const value = e.target.value;
@@ -51,21 +53,21 @@ const AddVideo = () => {
         [selectedLanguage]: value,
       },
     }));
+
+    setIsRequiredFieldsFilled(() => {
+      const updatedField = {
+        ...video[field],
+        [selectedLanguage]: value,
+      };
+      return Object.values(updatedField).every((val) => val.trim() !== "");
+    });
   };
 
   const handleCreateVideo = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      if (
-        video.title.uz &&
-        video.title.ru &&
-        video.title.en &&
-        video.title.kr &&
-        video.tag.uz &&
-        video.tag.ru &&
-        video.tag.en &&
-        video.tag.kr
-      ) {
+      if (isRequiredFieldsFilled) {
+        console.log("video to create", video);
         const response = await fetch("/api/video", {
           method: "POST",
           headers: {
@@ -85,6 +87,7 @@ const AddVideo = () => {
             thumbnail: "",
             link: "",
             isFeatured: false,
+            postid: 0,
           });
         } else {
           const errorData = await response.json();
@@ -165,13 +168,21 @@ const AddVideo = () => {
               <label className="text-sm font-medium text-gray-600">
                 {t("search")}
               </label>
-              <select className="border border-gray-300 rounded-md px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-400">
-                <option value="" disabled>
+              <select
+                className="border border-gray-300 rounded-md px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-400"
+                onChange={(e) =>
+                  setVideo((prev) => ({
+                    ...prev,
+                    postid: Number(e.target.value),
+                  }))
+                }
+              >
+                <option value="" disabled selected>
                   Select an article to attach
                 </option>
-                {videos.map((video: IArticle) => (
-                  <option key={video.id} value={video.id}>
-                    {video.title?.uz}
+                {articles.map((article: IArticle) => (
+                  <option key={article.id} value={article.id}>
+                    {article.title?.[selectedLanguage] || article.title?.uz}
                   </option>
                 ))}
               </select>
@@ -194,8 +205,9 @@ const AddVideo = () => {
             </div>
           </div>
           <button
+            disabled={!isRequiredFieldsFilled}
             type="submit"
-            className="bg-blue-500 text-white font-medium rounded-md py-2 hover:bg-blue-600 transition-colors duration-200 w-[200px]"
+            className="bg-blue-500 text-white font-medium rounded-md py-2 disabled:opacity-[0.6] disabled:cursor-not-allowed hover:bg-blue-600 transition-colors duration-200 w-[200px]"
           >
             {t("add_button")}
           </button>

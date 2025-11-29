@@ -1,12 +1,33 @@
+"use client";
 import { transformTextToStrong } from "@/helpers/transform";
 import { translateContent } from "@/helpers/translation/translate-content";
+import { IMedia } from "@/types/article";
 import { useLocale } from "next-intl";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useMemo, useState } from "react";
 
-const Parser = ({ structure }: any) => {
+const Parser = ({ structure, postid }: any) => {
+  const [videos, setVideos] = useState<IMedia[]>([]);
+
+  useEffect(() => {
+    fetch("/api/video")
+      .then((res) => res.json())
+      .then((data) => setVideos(data))
+      .catch((err) => console.error("Error fetching videos:", err));
+  }, []);
+
+  const postVideo: IMedia | undefined = useMemo(() => {
+    return videos.find((video: any) => video.postid === postid);
+  }, [videos, postid]);
+
   const locale = useLocale();
-  function renderElement(item: any, type: any, content: any, index: number) {
+  function renderElement(
+    item: any,
+    type: any,
+    content: any,
+    index: number,
+    postVideo?: IMedia,
+  ) {
     switch (type) {
       case "list":
         return (
@@ -42,12 +63,25 @@ const Parser = ({ structure }: any) => {
         );
       case "paragraph":
         return (
-          <p
-            className="py-[20px] text-[16px] md:py-[30px] md:text-[18px] lg:py-[50px] text-xl"
-            key={index}
-          >
-            {translateContent(content, locale)}
-          </p>
+          <>
+            <p
+              className="py-[20px] text-[16px] md:py-[30px] md:text-[18px] lg:py-[50px] text-xl"
+              key={index}
+            >
+              {translateContent(content, locale)}
+            </p>
+            {index === 2 && postVideo && (
+              <iframe
+                loading="lazy"
+                width={"100%"}
+                className="mb-8 flex-1 aspect-video"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                src={`${postVideo?.link}?rel=0`}
+              ></iframe>
+            )}
+          </>
         );
       case "heading":
         switch (item.level) {
@@ -138,7 +172,7 @@ const Parser = ({ structure }: any) => {
           Array.isArray(structure) &&
           structure.map((item: any, index) => {
             const { elementType, content } = item;
-            return renderElement(item, elementType, content, index);
+            return renderElement(item, elementType, content, index, postVideo);
           })}
       </div>
     </>

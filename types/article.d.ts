@@ -4,11 +4,13 @@ export interface IArticle {
     uz: string;
     ru: string;
     en: string;
+    kr: string;
   };
   description: {
     uz: string;
     ru: string;
     en: string;
+    kr: string;
   };
   image: string;
   slug: string;
@@ -17,6 +19,7 @@ export interface IArticle {
     uz: string;
     ru: string;
     en: string;
+    kr: string;
   };
   elements: any[];
   isFeatured: boolean;
@@ -24,6 +27,7 @@ export interface IArticle {
 }
 
 export interface IMedia {
+  postid: number;
   _id: string;
   tag: {
     uz: string;

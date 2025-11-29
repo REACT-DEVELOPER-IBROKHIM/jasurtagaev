@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { FiTrash } from "react-icons/fi";
+import Loading from "../loading";
 
 const ManageAdmin = () => {
   const [loading, setLoading] = useState(false);
@@ -47,11 +48,7 @@ const ManageAdmin = () => {
   return (
     <div>
       {loading ? (
-        <div className="fixed inset-0 bg-[rgba(0,0,0,0.2)] backdrop-blur-2xl bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white p-4 rounded-lg">
-            <p>Loading...</p>
-          </div>
-        </div>
+        <Loading />
       ) : (
         <table className="w-full">
           <thead>
