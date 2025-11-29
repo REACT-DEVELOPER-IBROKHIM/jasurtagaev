@@ -6,6 +6,14 @@ import { useEffect, useState } from "react";
 const Manage = () => {
   const [videos, setVideos] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [articles, setArticles] = useState([]);
+
+  useEffect(() => {
+    fetch("/api/articles")
+      .then((res) => res.json())
+      .then((data) => setArticles(data))
+      .catch((err) => console.error("Error fetching articles:", err));
+  }, []);
 
   useEffect(() => {
     const fetchVideos = async () => {
@@ -29,7 +37,7 @@ const Manage = () => {
 
   return (
     <>
-      <VideosTable media={videos} />
+      <VideosTable media={videos} articles={articles} />
     </>
   );
 };

@@ -1,6 +1,10 @@
 import mongoose from "mongoose";
 
 const VideoSchema = new mongoose.Schema({
+  postid: {
+    type: Number,
+    required: [true, "Please enter an article ID to attach"],
+  },
   tag: {
     uz: { type: String, required: [true, "Please enter a tag in Uzbek"] },
     ru: { type: String, required: [true, "Please enter a tag in Russian"] },

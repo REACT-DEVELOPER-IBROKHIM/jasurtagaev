@@ -58,7 +58,9 @@
       "tag": "Teg",
       "actions": "Amallar",
       "edit": "Tahrirlash",
-      "delete": "O‘chirish"
+      "delete": "O‘chirish",
+      "article": "Bog'langan maqola",
+      "no_article": "Maqola topilmadi"
     },
     "add_video": {
       "add_title": "Yangi video qo‘shish",

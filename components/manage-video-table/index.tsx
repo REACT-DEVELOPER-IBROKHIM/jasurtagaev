@@ -1,10 +1,16 @@
 "use client";
 
-import { IMedia, Locale } from "@/types/article";
+import { IArticle, IMedia, Locale } from "@/types/article";
 import { useLocale, useTranslations } from "next-intl";
 import { FiTrash } from "react-icons/fi";
 
-const VideosTable = ({ media }: { media: IMedia[] }) => {
+const VideosTable = ({
+  media,
+  articles,
+}: {
+  media: IMedia[];
+  articles: IArticle[];
+}) => {
   const locale = useLocale() as Locale;
   const t = useTranslations("admin");
 
@@ -31,6 +37,7 @@ const VideosTable = ({ media }: { media: IMedia[] }) => {
       location.reload();
     }
   };
+  console.log("articles in table", articles, media);
 
   return (
     <div>
@@ -52,6 +59,9 @@ const VideosTable = ({ media }: { media: IMedia[] }) => {
             </th>
             <th className="p-4 border-b border-gray-300">
               {t("manage_table.tag")}
+            </th>
+            <th className="p-4 border-b border-gray-300">
+              {t("manage_table.article")}
             </th>
             <th className="p-4 border-b border-gray-300 w-[180px]">
               {t("manage_table.actions")}
@@ -87,6 +97,15 @@ const VideosTable = ({ media }: { media: IMedia[] }) => {
                 <span className="px-2 py-1 bg-blue-100 text-blue-800 text-sm rounded">
                   {media.tag?.[locale]}
                 </span>
+              </td>
+              <td className="px-4 py-2 border-b border-gray-200">
+                <a
+                  href={`/${locale}/articles/${articles.find((article) => article.id === media.postid)?.slug}`}
+                  className="text-blue-600 hover:underline"
+                >
+                  {articles.find((article) => article.id === media.postid)
+                    ?.title?.[locale] || t("manage_table.no_article")}
+                </a>
               </td>
               <td className="px-4 py-2 border-b border-gray-200 whitespace-nowrap">
                 <div className="flex gap-3">

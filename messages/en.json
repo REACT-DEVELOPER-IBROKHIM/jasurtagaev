@@ -58,7 +58,9 @@
       "tag": "Tag",
       "actions": "Actions",
       "edit": "Edit",
-      "delete": "Delete"
+      "delete": "Delete",
+      "article": "Linked Article",
+      "no_article": "Article not found"
     },
     "add_video": {
       "add_title": "Add New Video",
