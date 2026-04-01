@@ -7,10 +7,15 @@ connectToDatabase();
 
 export const GET = async (_: NextRequest) => {
   try {
-    const users: IUser[] = await User.find().select("-password");
+    // const users: IUser[] = await User.find().select("-password");
+    // return NextResponse.json({
+    //   message: "Users fetched successfully",
+    //   data: users,
+    //   success: true,
+    // });
     return NextResponse.json({
       message: "Users fetched successfully",
-      data: users,
+      data: [],
       success: true,
     });
   } catch (error: any) {
