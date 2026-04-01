@@ -4,7 +4,7 @@ import { translateContent } from "@/helpers/translation/translate-content";
 import { IMedia } from "@/types/article";
 import { useLocale } from "next-intl";
 import Image from "next/image";
-import React, { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 const Parser = ({ structure, postid }: any) => {
   const [videos, setVideos] = useState<IMedia[]>([]);

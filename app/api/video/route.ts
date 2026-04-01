@@ -1,7 +1,8 @@
 import { connectToDatabase } from "@/config/database-config";
 import Video from "@/models/video.model";
+import { MEDIA_MOCK } from "@/mocks/media";
 
-connectToDatabase();
+// connectToDatabase();
 
 export const POST = async (request: Request) => {
   const body = await request.json();
@@ -17,8 +18,8 @@ export const POST = async (request: Request) => {
 };
 
 export const GET = async () => {
-  const videos = await Video.find();
-  return new Response(JSON.stringify(videos), {
+  // const videos = await Video.find();
+  return new Response(JSON.stringify(MEDIA_MOCK), {
     status: 200,
     headers: { "Content-Type": "application/json" },
   });
